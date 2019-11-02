@@ -53,3 +53,24 @@ The collections of solutions obtained by Quality Diversity algorithms open many 
 </details>
 
 
+<details><summary> 
+**Evolving a diversity of virtual creatures through novelty search and local competition**
+</summary> 
+
+> #### Abstract:
+>>An ambitious challenge in artificial life is to craft an evolutionary process that discovers a wide diversity of welladapted virtual creatures within a single run. Unlike in nature, evolving creatures in virtual worlds tend to converge to a single morphology because selection therein greedily rewards the morphology that is easiest to exploit. However, novelty search, a technique that explicitly rewards diverging, can potentially mitigate such convergence. Thus in this paper an existing creature evolution platform is extended with multi-objective search that balances drives for both novelty and performance. However, there are different ways to combine performance-driven search and novelty search. The suggested approach is to provide evolution with both a novelty objective that encourages diverse morphologies and a local competition objective that rewards individuals outperforming those most similar in morphology. The results in an experiment evolving locomoting virtual creatures show that novelty search with local competition discovers more functional morphological diversity within a single run than models with global competition, which are more predisposed to converge. The conclusions are that novelty search with local competition may complement recent advances in evolving virtual creatures and may in general be a principled approach to combining novelty search with pressure to achieve.
+
+>
+> #### Links
+> [Paper](https://pdfs.semanticscholar.org/6d45/9da1ff73ec7225e92842341605e2b90d0da2.pdf)
+> #### Bibtex
+> ```		
+> @inproceedings{lehman2011evolving,
+>   title={Evolving a diversity of virtual creatures through novelty search and local competition},
+>   author={Lehman, Joel and Stanley, Kenneth O},
+>   booktitle={Proceedings of the 13th annual conference on Genetic and evolutionary computation},
+>   pages={211--218},
+>   year={2011},
+>   organization={ACM}
+> }
+> ```
