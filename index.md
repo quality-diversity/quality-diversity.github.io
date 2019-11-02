@@ -7,7 +7,7 @@ The collections of solutions obtained by Quality Diversity algorithms open many 
 
 # List of papers
 
-*2011*
+- 2011
 <details><summary><h3> Abandoning objectives: Evolution through the search for novelty alone</h3></summary>
 
   
@@ -32,12 +32,12 @@ title={Abandoning objectives: Evolution through the search for novelty alone},
 </details>
 
 
-## 2012
-## 2013
-## 2014
-## 2015
-## 2016
-## 2017
-## 2018
-## 2019
-## 2020
+- 2012
+- 2013
+- 2014
+- 2015
+- 2016
+- 2017
+- 2018
+- 2019
+- 2020
