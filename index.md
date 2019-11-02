@@ -11,7 +11,7 @@ The collections of solutions obtained by Quality Diversity algorithms open many 
 
 <details>
   <summary> 
-    **Abandoning objectives: Evolution through the search for novelty alone**
+    <b>Abandoning objectives: Evolution through the search for novelty alone</b>
   </summary> 
   
 <div>
