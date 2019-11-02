@@ -6,6 +6,9 @@ plugins:
 relative_links:
   enabled: true
   collections: true
+markdown: kramdown
+kramdown:
+  parse_block_html: true
 include:
   - CONTRIBUTING.md
   - index.md
