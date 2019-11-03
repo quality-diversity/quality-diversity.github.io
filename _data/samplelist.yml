@@ -3,8 +3,8 @@ docs:
 - title: Introduction
   url: index
 
-- title: Tutorial
-  url: tutorial
+- title: Tutorials
+  url: tutorials
 
 - title: Libraries
   url: libraries
