@@ -3,8 +3,8 @@
 
 <ul>
 	{% for item in site.data.paperlist.papers %}
-		<b>{{ item.title }}**</b>
-		
+		<details><summary><b>{{ item.title }} </b> </summary>
+		<h2>Abstract:</h2>
 		{{ item.abstract }}
 		
 		{{ item.bibtext }}
