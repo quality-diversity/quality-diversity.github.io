@@ -37,32 +37,1042 @@ papers:
           organization={ACM} }"
 
 
-- title: "test1"
-  year: 2019
-  abstract: " blablabla"
+- title: "Quality Diversity: A New Frontier for Evolutionary Computation"
+  authors:
+   - "Justin  PughK" 
+   - "Lisa Soros"
+   - "Kenneth Stanley"
+  year: 2016
+  bibtex: |
+          "@article{pugh2016quality,
+          title={Quality Diversity: A New Frontier for Evolutionary Computation},
+          author={Pugh, Justin K and Soros, Lisa B and Stanley, Kenneth O},
+          journal={Frontiers in Robotics and AI},
+          volume={3},
+	  pages={40},
+	  year={2016},
+	  publisher={Frontiers} }"
 
-- title: "test2"
+- title: "Illuminating search spaces by mapping elites"
+  authors:
+   - "Jean-Baptiste Mouret"
+   - "Jeff Clune"
+  year: 2015
+  bibtex: |
+          "@article{mouret2015illuminating,
+          title={Illuminating search spaces by mapping elites},
+          author={Mouret, Jean-Baptiste and Clune, Jeff},
+          journal={arXiv preprint arXiv:1504.04909},
+          year={2015} }"
+
+- title: "Robots that can adapt like animals"
+  authors:
+   - "Antoine Cully"
+   - "Jeff Clune"
+   - "Danesh Tarapore"
+   - "Jean-Baptiste Mouret"
+  year: 2015
+  bibtex: |
+          "@article{cully2015robots,
+          title={Robots that can adapt like animals},
+          author={Cully, Antoine and Clune, Jeff and Tarapore, Danesh and Mouret, Jean-Baptiste},
+          journal={Nature},
+          volume={521},
+          number={7553},
+          pages={503--507},
+          year={2015},
+          publisher={Nature Publishing Group} }"
+
+- title: "How Do Different Encodings Influence the Performance of the MAP-Elites Algorithm?"
+  authors:
+   - "Danesh Tarapore"
+   - "Jeff Clune"
+   - "Antoine Cully"
+   - "Jean-Baptiste Mouret"
+  year: 2016
+  bibtex: |
+          "@inproceedings{tarapore2016different,
+          title={How Do Different Encodings Influence the Performance of the MAP-Elites Algorithm?},
+          author={Tarapore, Danesh and Clune, Jeff and Cully, Antoine and Mouret, Jean-Baptiste},
+          booktitle={Genetic and Evolutionary Computation Conference},
+          year={2016} }"
+
+- title: "Confronting the challenge of quality diversity"
+  authors:
+   - "Justin Pugh"
+   - "Lisa Soros"
+   - "Paul Szerlip"
+   - "Kenneth Stanley"
+  year: 2015
+  bibtex: |
+          "@inproceedings{pugh2015confronting,
+          title={Confronting the challenge of quality diversity},
+          author={Pugh, Justin K and Soros, LB and Szerlip, Paul A and Stanley, Kenneth O},
+          booktitle={Proceedings of the 2015 on Genetic and Evolutionary Computation Conference},
+          pages={967--974},
+          year={2015},
+          organization={ACM} }"
+
+- title: "Behavioral repertoire learning in robotics"
+  authors:
+   - "Antoine Cully"
+   - "Jean-Baptiste Mouret"
+  year: 2013
+  bibtex: |
+          "@inproceedings{cully2013behavioral,
+          title={Behavioral repertoire learning in robotics},
+          author={Cully, Antoine and Mouret, Jean-Baptiste},
+          booktitle={Proceedings of the 15th annual conference on Genetic and Evolutionary Computation},
+          pages={175--182},
+          year={2013},
+          organization={ACM} }"
+
+- title: "Evolving a behavioral repertoire for a walking robot"
+  authors:
+   - "Antoine Cully"
+   - "Jean-Baptiste Mouret"
+  year: 2015
+  bibtex: |
+          "@article{cully2015evolving,
+          title={Evolving a behavioral repertoire for a walking robot},
+          author={Cully, Antoine and Mouret, Jean-Baptiste},
+          journal={Evolutionary Computation},
+          year={2015},
+          publisher={MIT Press} }"
+
+- title: "Using Centroidal Voronoi Tessellations to Scale Up the Multidimensional Archive of Phenotypic Elites Algorithm"
+  authors:
+   - "Vassilis Vassiliades"
+   - "Konstantinos Chatzilygeroudis"
+   - "Jean-Baptiste Mouret"
+  year: 2018
+  bibtex: |
+          "@article{vassiliades2018using,
+          title={Using Centroidal Voronoi Tessellations to Scale Up the Multidimensional Archive of Phenotypic Elites Algorithm},
+          author={Vassiliades, Vassilis and Chatzilygeroudis, Konstantinos and Mouret, Jean-Baptiste},
+          journal={IEEE Transactions on Evolutionary Computation},
+          volume={22},
+          number={4},
+          pages={623--630},
+          year={2018},
+          publisher={IEEE} }"
+
+- title: "Data-Efficient Design Exploration through Surrogate-Assisted Illumination"
+  authors:
+   - "Adam Gaier"
+   - "Alexander Asteroth"
+   - "Jean-Baptiste Mouret"
+  year: 2018
+  bibtex: |
+          "@article{gaier2018data,
+          title={Data-Efficient Design Exploration through Surrogate-Assisted Illumination},
+          author={Gaier, Adam and Asteroth, Alexander and Mouret, Jean-Baptiste},
+          journal={Evolutionary computation},
+          pages={1--30},
+          year={2018},
+          publisher={MIT Press} }"
+
+- title: "Discovering the Elite Hypervolume by Leveraging Interspecies Correlation"
+  authors:
+   - "Vassilis Vassiliades"
+   - "Jean-Baptiste Mouret"
+  year: 2018
+  bibtex: |
+          "@article{vassiliades2018discovering,
+          title={Discovering the Elite Hypervolume by Leveraging Interspecies Correlation},
+          author={Vassiliades, Vassilis and Mouret, Jean-Baptiste},
+          journal={Proceedings of the Genetic and Evolutionary Computation Conference },
+          year={2018},
+          organization={ACM} }"
+
+- title: "The surprising creativity of digital evolution: A collection of anecdotes from the evolutionary computation and artificial life research communities"
+  authors:
+   - "Joel Lehman"
+   - "Jeff Clune"
+   - "Dusan Misevic"
+   - "and many others"
+  year: 2018
+  bibtex: |
+          "@article{lehman2018surprising,
+          title={The surprising creativity of digital evolution: A collection of anecdotes from the evolutionary computation and artificial life research communities},
+          author={Lehman, Joel and Clune, Jeff and Misevic, Dusan and others},
+          journal={arXiv preprint arXiv:1803.03453},
+          year={2018} }"
+
+- title: "Comparing multimodal optimization and illumination"
+  authors:
+   - "Vassilis Vassiliades"
+   - "Konstantinos Chatzilygeroudis"
+   - "Jean-Baptiste Mouret"
+  year: 2017
+  bibtex: |
+          "@inproceedings{vassiliades2017comparing,
+          title={Comparing multimodal optimization and illumination},
+          author={Vassiliades, Vassilis and Chatzilygeroudis, Konstantinos and Mouret, Jean-Baptiste},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+          pages={97--98},
+          year={2017},
+          organization={ACM} }"
+
+- title: "A comparison of illumination algorithms in unbounded spaces"
+  authors:
+   - "Vassilis Vassiliades"
+   - "Konstantinos Chatzilygeroudis"
+   - "Jean-Baptiste Mouret"
+  year: 2017
+  bibtex: |
+          "@inproceedings{vassiliades2017comparison,
+          title={A comparison of illumination algorithms in unbounded spaces},
+          author={Vassiliades, Vassilis and Chatzilygeroudis, Konstantinos and Mouret, Jean-Baptiste},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+          pages={1578--1581},
+          year={2017},
+          organization={ACM} }"
+
+- title: "Data-efficient exploration, optimization, and modeling of diverse designs through surrogate-assisted illumination"
+  authors:
+   - "Adam Gaier"
+   - "Alexander Asteroth"
+   - "Jean-Baptiste Mouret"
+  year: 2017
+  bibtex: |
+          "@inproceedings{gaier2017data,
+          title={Data-efficient exploration, optimization, and modeling of diverse designs through surrogate-assisted illumination},
+          author={Gaier, Adam and Asteroth, Alexander and Mouret, Jean-Baptiste},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+          pages={99--106},
+          year={2017},
+          organization={ACM} }"
+
+- title: "Aerodynamic design exploration through surrogate-assisted illumination"
+  authors:
+   - "Adam Gaier"
+   - "Alexander Asteroth"
+   - "Jean-Baptiste Mouret"
+  year: 2017
+  bibtex: |
+          "@inproceedings{gaier2017aerodynamic,
+          title={Aerodynamic design exploration through surrogate-assisted illumination},
+          author={Gaier, Adam and Asteroth, Alexander and Mouret, Jean-Baptiste},
+          booktitle={18th AIAA/ISSMO Multidisciplinary Analysis and Optimization Conference},
+          pages={3330},
+          year={2017} }"
+
+- title: "Towards semi-episodic learning for robot damage recovery"
+  authors:
+   - "Konstantinos Chatzilygeroudis"
+   - "Antoine Cully"
+   - "Jean-Baptiste Mouret"
+  year: 2016
+  bibtex: |
+          "@inproceedings{chatzilygeroudis2016towards,
+          title={Towards semi-episodic learning for robot damage recovery},
+          author={Chatzilygeroudis, Konstantinos and Cully, Antoine and Mouret, Jean-Baptiste},
+          booktitle={IEEE International Conference on Robotics and Automation (ICRA) Workshop on AI for Long-Term Autonomy},
+          year={2016} }"
+
+- title: "Safety-aware robot damage recovery using constrained bayesian optimization and simulated priors"
+  authors:
+   - "Vaios Papaspyros"
+   - "Konstantinos Chatzilygeroudis"
+   - "Vassilis Vassiliades"
+   - "Jean-Baptiste Mouret"
+  year: 2016
+  bibtex: |
+          "@inproceedings{papaspyros2016safety,
+          title={Safety-aware robot damage recovery using constrained bayesian optimization and simulated priors},
+          author={Papaspyros, Vaios and Chatzilygeroudis, Konstantinos and Vassiliades, Vassilis and Mouret, Jean-Baptiste},
+          booktitle={
+          Bayesian Optimization: Black-box Optimization and Beyond (workshop at NIPS), 2016, Barcelone, Spain.},
+          year={2016} }"
+
+
+- title: "Learning highly diverse robot throwing movements through quality diversity search"
+  authors:
+   - "Seungsu Kim"
+   - "St{\'e}phane Doncieux"
+  year: 2017
+  bibtex: |
+          "@inproceedings{kim2017learning,
+          title={Learning highly diverse robot throwing movements through quality diversity search},
+          author={Kim, Seungsu and Doncieux, St{\'e}phane},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+          pages={1177--1178},
+          year={2017},
+          organization={ACM} }"
+
+- title: "Open-ended evolution with multi-containers QD"
+  authors:
+   - "Stephane Doncieux"
+   - "Alexandre Coninx"
+  year: 2018
+  bibtex: |
+          "@inproceedings{doncieux2018open,
+          title={Open-ended evolution with multi-containers QD},
+          author={Doncieux, Stephane and Coninx, Alexandre},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+          pages={107--108},
+          year={2018},
+          organization={ACM} }"
+
+- title: "Quality and diversity optimization: A unifying modular framework"
+  authors:
+   - "Antoine Cully"
+   - "Yiannis Demiris"
+  year: 2018
+  bibtex: |
+          "@article{cully2018quality,
+          title={Quality and diversity optimization: A unifying modular framework},
+          author={Cully, Antoine and Demiris, Yiannis},
+          journal={IEEE Transactions on Evolutionary Computation},
+          volume={22},
+          number={2},
+          pages={245--259},
+          year={2018},
+          publisher={IEEE} }"
+
+- title: "Hierarchical Behavioral Repertoires with Unsupervised Descriptors"
+  authors: 
+   - "Antoine Cully"
+   - "Yiannis Demiris"
+  year: 2018
+  bibtex: |
+          "@article{cully2018hierarchical,
+          title={Hierarchical Behavioral Repertoires with Unsupervised Descriptors},
+          author={Cully, Antoine and Demiris, Yiannis},
+          journal={Proceedings of the Genetic and Evolutionary Computation Conference },
+          year={2018},
+          organization={ACM} }"
+
+- title: "Evolution of a Functionally Diverse Swarm via a Novel Decentralised Quality-Diversity Algorithm"
+  authors:
+   - "Emma Hart"
+   - "Andreas Steyven"
+   - "Ben Paechter"
+  year: 2018
+  bibtex: |
+          "@article{hart2018evolution,
+          title={Evolution of a Functionally Diverse Swarm via a Novel Decentralised Quality-Diversity Algorithm},
+          author={Hart, Emma and Steyven, Andreas SW and Paechter, Ben},
+          journal={Proceedings of the Genetic and Evolutionary Computation Conference },
+          year={2018},
+          organization={ACM} }"
+
+- title: "An Extended Study of Quality Diversity Algorithms"
+  authors:
+   - "Justin Pugh"
+   - "Lisa Soros"
+   - "Kenneth Stanley"
+  year: 2016
+  bibtex: |
+          "@inproceedings{pugh2016extended,
+          title={An Extended Study of Quality Diversity Algorithms},
+          author={Pugh, Justin K and Soros, Lisa B and Stanley, Kenneth O},
+          booktitle={Proceedings of the 2016 on Genetic and Evolutionary Computation Conference Companion},
+          pages={19--20},
+          year={2016},
+          organization={ACM} }"
+
+- title: "Evolving Multimodal Robot Behavior via Many Stepping Stones with the Combinatorial Multi-Objective Evolutionary Algorithm"
+  authors:
+   - "Joost Huizinga"
+   - "Jeff Clune"
+  year: 2018
+  bibtex: |
+          "@article{huizinga2018evolving,
+          title={Evolving Multimodal Robot Behavior via Many Stepping Stones with the Combinatorial Multi-Objective Evolutionary Algorithm},
+          author={Huizinga, Joost and Clune, Jeff},
+          journal={arXiv preprint arXiv:1807.03392},
+          year={2018} }"
+
+- title: "Innovation engines: Automated creativity and improved stochastic optimization via deep learning"
+  authors:
+   - "Anh Nguyen"
+   - "Jason Yosinski"
+   - "Jeff Clune"
+  year: 2015
+  bibtex: |
+          "@inproceedings{nguyen2015innovation,
+          title={Innovation engines: Automated creativity and improved stochastic optimization via deep learning},
+          author={Nguyen, Anh Mai and Yosinski, Jason and Clune, Jeff},
+          booktitle={Proceedings of the 2015 Annual Conference on Genetic and Evolutionary Computation},
+          pages={959--966},
+          year={2015},
+          organization={ACM} }"
+
+- title: "Understanding innovation engines: Automated creativity and improved stochastic optimization via deep learning"
+  authors:
+   - "Anh Nguyen"
+   - "Jason Yosinski"
+   - "Jeff Clune"
+  year: 2016
+  bibtex: |
+          "@article{nguyen2016understanding,
+          title={Understanding innovation engines: Automated creativity and improved stochastic optimization via deep learning},
+          author={Nguyen, Anh and Yosinski, Jason and Clune, Jeff},
+          journal={Evolutionary computation},
+          volume={24},
+          number={3},
+          pages={545--572},
+          year={2016},
+          publisher={MIT Press} }"
+
+- title: "Extinction events can accelerate evolution"
+  authors:
+   - "Joel Lehman"
+   - "Risto Miikkulainen"
+  year: 2015
+  bibtex: |
+          "@article{lehman2015extinction,
+          title={Extinction events can accelerate evolution},
+          author={Lehman, Joel and Miikkulainen, Risto},
+          journal={PloS one},
+          volume={10},
+          number={8},
+          pages={e0132886},
+          year={2015},
+          publisher={Public Library of Science} }"
+
+- title: "EvoRBC: evolutionary repertoire-based control for robots with arbitrary locomotion complexity"
+  authors:
+   - "Miguel Duarte"
+   - "Jorge Gomes"
+   - "Sancho Moura Oliveira"
+   - "Anders Lyhne Christensen"
+  year: 2016
+  bibtex: |
+          "@inproceedings{duarte2016evorbc,
+          title={EvoRBC: evolutionary repertoire-based control for robots with arbitrary locomotion complexity},
+          author={Duarte, Miguel and Gomes, Jorge and Oliveira, Sancho Moura and Christensen, Anders Lyhne},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference 2016},
+          pages={93--100},
+          year={2016},
+          organization={ACM} }"
+
+- title: "On the critical role of divergent selection in evolvability"
+  authors:
+   - "Joel Lehman"
+   - "Bryan Wilder"
+   - "Kenneth Stanley"
+  year: 2016
+  bibtex: |
+          "@article{lehman2016critical,
+          title={On the critical role of divergent selection in evolvability},
+          author={Lehman, Joel and Wilder, Bryan and Stanley, Kenneth O},
+          journal={Frontiers in Robotics and AI},
+          volume={3},
+          pages={45},
+          year={2016},
+          publisher={Frontiers} }"
+
+- title: "Gaining insight into quality diversity"
+  authors:
+   - "Joshua Auerbach"
+   - "Giovanni Iacca"
+   - "Dario Floreano"
+  year: 2016
+  bibtex: |
+          "@inproceedings{auerbach2016gaining,
+          title={Gaining insight into quality diversity},
+          author={Auerbach, Joshua E and Iacca, Giovanni and Floreano, Dario},
+          booktitle={Proceedings of the 2016 on Genetic and Evolutionary Computation Conference Companion},
+          pages={1061--1064},
+          year={2016},
+          organization={ACM} }"
+
+- title: "Searching for quality diversity when diversity is unaligned with quality"
+  authors:
+   - "Justin Pugh"
+   - "Lisa Soros"
+   - "Kenneth Stanley"
+  year: 2016
+  bibtex: |
+          "@inproceedings{pugh2016searching,
+          title={Searching for quality diversity when diversity is unaligned with quality},
+          author={Pugh, Justin K and Soros, Lisa B and Stanley, Kenneth O},
+          booktitle={International Conference on Parallel Problem Solving from Nature},
+          pages={880--889},
+          year={2016},
+          organization={Springer} }"
+
+- title: "Exploring genetic programming systems with MAP-Elites"
+  authors:
+   - "Emily Dolson"
+   - "Alexander Lalejini"
+   - "Charles Ofria"
+  year: 2018
+  bibtex: |
+          "@article{dolson2018exploring,
+          title={Exploring genetic programming systems with MAP-Elites},
+          author={Dolson, Emily and Lalejini, Alexander and Ofria, Charles},
+          journal={PeerJ Preprints},
+          volume={6},
+          pages={e27154v1},
+          year={2018},
+          publisher={PeerJ Inc. San Francisco, USA} }"
+
+- title: "Quality Diversity Through Surprise"
+  authors:
+   - "Daniele Gravina"
+   - "Antonios Liapis"
+   - "Georgios Yannakakis"
+  year: 2018
+  bibtex: |
+          "@article{gravina2018quality,
+          title={Quality Diversity Through Surprise},
+          author={Gravina, Daniele and Liapis, Antonios and Yannakakis, Georgios N},
+          journal={arXiv preprint arXiv:1807.02397},
+          year={2018} }"
+
+- title: "Evolution of repertoire-based control for robots with complex locomotor systems"
+  authors:
+   - "Miguel Duarte"
+   - "Jorge Gomes"
+   - "Sancho Moura Oliveira"
+   - "Anders Lyhne Christensen"
+  year: 2018
+  bibtex: |
+          "@article{duarte2018evolution,
+          title={Evolution of repertoire-based control for robots with complex locomotor systems},
+          author={Duarte, Miguel and Gomes, Jorge and Oliveira, Sancho Moura and Christensen, Anders Lyhne},
+          journal={IEEE Transactions on Evolutionary Computation},
+          volume={22},
+          number={2},
+          pages={314--328},
+          year={2018},
+          publisher={IEEE} }"
+
+- title: "Bayesian optimization with automatic prior selection for data-efficient direct policy search"
+  authors:
+   - "R{\'e}mi Pautrat"
+   - "Konstantinos Konstantinos"
+   - "Jean-Baptiste Mouret"
+  year: 2018
+  bibtex: |
+          "@inproceedings{pautrat2018bayesian,
+          title={Bayesian optimization with automatic prior selection for data-efficient direct policy search},
+          author={Pautrat, R{\'e}mi and Chatzilygeroudis, Konstantinos and Mouret, Jean-Baptiste},
+          booktitle={2018 IEEE International Conference on Robotics and Automation (ICRA)},
+          pages={7571--7578},
+          year={2018},
+          organization={IEEE} }"
+
+- title: "Feature space modeling through surrogate illumination"
+  authors:
+   - "Adam Gaier"
+   - "Alexander Asteroth"
+   - "Jean-Baptiste Mouret"
+  year: 2017
+  bibtex: |
+          "@inproceedings{gaier2017feature,
+          title={Feature space modeling through surrogate illumination},
+          author={Gaier, Adam and Asteroth, Alexander and Mouret, Jean-Baptiste},
+          booktitle={Proc. of GECCO},
+          year={2017} }"
+
+- title: "Combining map-elites and incremental evolution to generate gaits for a mammalian quadruped robot"
+  authors:
+   - "J{\o}rgen Nordmoen"
+   - "Kai Olav Ellefsen"
+   - "Kyrre Glette"
+  year: 2018
+  bibtex: |
+          "@inproceedings{nordmoen2018combining,
+          title={Combining map-elites and incremental evolution to generate gaits for a mammalian quadruped robot},
+          author={Nordmoen, J{\o}rgen and Ellefsen, Kai Olav and Glette, Kyrre},
+          booktitle={International Conference on the Applications of Evolutionary Computation},
+          pages={719--733},
+          year={2018},
+          organization={Springer} }"
+
+- title: "Comparing Approaches for Evolving High-Level Robot Control Based on Behaviour Repertoires"
+  authors:
+   - "Jorge Gomes"
+   - "Anders Lyhne Christensen"
+  year: 2018
+  bibtex: |
+          "@inproceedings{gomes2018comparing,
+          title={Comparing Approaches for Evolving High-Level Robot Control Based on Behaviour Repertoires},
+          author={Gomes, Jorge and Christensen, Anders Lyhne},
+          booktitle={2018 IEEE Congress on Evolutionary Computation (CEC)},
+          pages={1--6},
+          year={2018},
+          organization={IEEE} }"
+
+- title: "Dynamic mutation in MAP-Elites for robotic repertoire generation"
+  authors:
+   - "J{\o}rgen Nordmoen"
+   - "Eivind Samuelsen"
+   - "Kai Olav Ellefsen"
+   - "Kyrre Glette"
+  year: 2018
+  bibtex: |
+          "@inproceedings{nordmoen2018dynamic,
+          title={Dynamic mutation in MAP-Elites for robotic repertoire generation},
+          author={Nordmoen, J{\o}rgen and Samuelsen, Eivind and Ellefsen, Kai Olav and Glette, Kyrre},
+          booktitle={Artificial Life Conference Proceedings},
+          pages={598--605},
+          year={2018},
+          organization={MIT Press} }"
+
+- title: "Prototype discovery using quality-diversity"
+  authors:
+   - "Alexander Hagg"
+   - "Alexander Asteroth"
+   - "Thomas B{\"a}ck"
+  year: 2018
+  bibtex: |
+          "@inproceedings{hagg2018prototype,
+          title={Prototype discovery using quality-diversity},
+          author={Hagg, Alexander and Asteroth, Alexander and B{\"a}ck, Thomas},
+          booktitle={International Conference on Parallel Problem Solving from Nature},
+          pages={500--511},
+          year={2018},
+          organization={Springer} }"
+
+- title: "An approach to evolve and exploit repertoires of general robot behaviours"
+  authors:
+   - "Jorge Gomes"
+   - "Sancho Moura Oliveira"
+   - "Anders Lyhne Christensen"
+  year: 2018
+  bibtex: |
+          "@article{gomes2018approach,
+          title={An approach to evolve and exploit repertoires of general robot behaviours},
+          author={Gomes, Jorge and Oliveira, Sancho Moura and Christensen, Anders Lyhne},
+          journal={Swarm and Evolutionary Computation},
+          year={2018},
+          publisher={Elsevier} }"
+
+- title: "Mapping structural diversity in networks sharing a given degree distribution and global clustering: Adaptive resolution grid search evolution with Diophantine equation-based mutations"
+  authors:
+   - "Peter Overbury"
+   - "Istv{\'a}n Kiss"
+   - "Luc Berthouze"
+  year: 2018
+  bibtex: |
+          "@article{overbury2018mapping,
+          title={Mapping structural diversity in networks sharing a given degree distribution and global clustering: Adaptive resolution grid search evolution with Diophantine equation-based mutations},
+          author={Overbury, Peter and Kiss, Istv{\'a}n Z and Berthouze, Luc},
+          journal={arXiv preprint arXiv:1809.06293},
+          year={2018} }"
+
+- title: "Multi-objective Analysis of MAP-Elites Performance"
+  authors:
+   - "Eivind Samuelsen"
+   - "Kyrre Glette"
+  year: 2018
+  bibtex: |
+          "@article{samuelsen2018multi,
+          title={Multi-objective Analysis of MAP-Elites Performance},
+          author={Samuelsen, Eivind and Glette, Kyrre},
+          journal={arXiv preprint arXiv:1803.05174},
+          year={2018} }"
+
+- title: "Optimisation and Illumination of a Real-World Workforce Scheduling and Routing Application (WSRP) via Map-Elites"
+  authors:
+   - "Neil Urquhart"
+   - "Emma Hart"
+  year: 2018
+  bibtex: |
+          "@inproceedings{urquhart2018optimisation,
+          title={Optimisation and Illumination of a Real-World Workforce Scheduling and Routing Application (WSRP) via Map-Elites},
+          author={Urquhart, Neil and Hart, Emma},
+          booktitle={International Conference on Parallel Problem Solving from Nature},
+          pages={488--499},
+          year={2018},
+          organization={Springer} }"
+
+- title: "Enhancing divergent search through extinction events"
+  authors:
+   - "Joel Lehman"
+   - "Risto Miikkulainen"
+  year: 2015
+  bibtex: |
+          "@inproceedings{lehman2015enhancing,
+          title={Enhancing divergent search through extinction events},
+          author={Lehman, Joel and Miikkulainen, Risto},
+          booktitle={Proceedings of the 2015 Annual Conference on Genetic and Evolutionary Computation},
+          pages={951--958},
+          year={2015},
+          organization={ACM} }"
+
+- title: "Talakat: Bullet Hell Generation through Constrained Map-Elites"
+  authors:
+   - "Ahmed Khalifa"
+   - "Scott Lee"
+   - "Andy Nealen"
+   - "Julian Togelius"
+  year: 2018
+  bibtex: |
+          "@article{khalifa2018talakat,
+          title={Talakat: Bullet Hell Generation through Constrained Map-Elites},
+          author={Khalifa, Ahmed and Lee, Scott and Nealen, Andy and Togelius, Julian},
+          journal={Proceedings of the Genetic and Evolutionary Computation Conference },
+          year={2018},
+          organization={ACM} }"
+
+- title: "Discovering evolutionary stepping stones through behavior domination"
+  authors:
+   - "Elliot Meyerson"
+   - "Risto Miikkulainen"
+  year: 2017
+  bibtex: |
+          "@inproceedings{meyerson2017discovering,
+          title={Discovering evolutionary stepping stones through behavior domination},
+          author={Meyerson, Elliot and Miikkulainen, Risto},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+          pages={139--146},
+          year={2017},
+          organization={ACM} }"
+
+- title: "Evolving a Repertoire of Controllers for a Multi-function Swarm"
+  authors:
+   - "Sondre Engebr{\aa}ten"
+   - "Jonas Moen"
+   - "Oleg Yakimenko"
+   - "Kyrre Glette"
+  year: 2018
+  bibtex: |
+          "@inproceedings{engebraaten2018evolving,
+          title={Evolving a Repertoire of Controllers for a Multi-function Swarm},
+          author={Engebr{\aa}ten, Sondre A and Moen, Jonas and Yakimenko, Oleg and Glette, Kyrre},
+          booktitle={International Conference on the Applications of Evolutionary Computation},
+          pages={734--749},
+          year={2018},
+          organization={Springer} }"
+
+- title: "Combining map-elites and incremental evolution to generate gaits for a mammalian quadruped robot"
+  authors:
+   - "J{\o}rgen Nordmoen"
+   - "Kai Olav Ellefsen"
+   - "Kyrre Glette"
+  year: 2018
+  bibtex: |
+          "@inproceedings{nordmoen2018combining,
+          title={Combining map-elites and incremental evolution to generate gaits for a mammalian quadruped robot},
+          author={Nordmoen, J{\o}rgen and Ellefsen, Kai Olav and Glette, Kyrre},
+          booktitle={International Conference on the Applications of Evolutionary Computation},
+          pages={719--733},
+          year={2018},
+          organization={Springer} }"
+
+- title: "Unsupervised Learning and Exploration of Reachable Outcome Space"
+  authors:
+   - "Giuseppe Paolo"
+   - "Alban Laflaquiere"
+   - "Alexandre Coninx"
+   - "Stephane Doncieux"
+  year: 2019
+  bibtex: |
+          "@article{paolo2019unsupervised,
+          title={Unsupervised Learning and Exploration of Reachable Outcome Space},
+          author={Paolo, Giuseppe and Laflaquiere, Alban and Coninx, Alexandre and Doncieux, Stephane},
+          journal={algorithms},
+          volume={24},
+          pages={25},
+          year={2019} }"
+
+- title: "Automatic Calibration of Artificial Neural Networks for Zebrafish Collective Behaviours Using a Quality Diversity Algorithm"
+  authors:
+   - "Leo Cazenille"
+   - "Nicolas Bredeche"
+   - "Jos{\'e} Halloy"
+  year: 2019
+  bibtex: |
+          "@inproceedings{cazenille2019automatic,
+          title={Automatic Calibration of Artificial Neural Networks for Zebrafish Collective Behaviours Using a Quality Diversity Algorithm},
+          author={Cazenille, Leo and Bredeche, Nicolas and Halloy, Jos{\'e}},
+          booktitle={Conference on Biomimetic and Biohybrid Systems},
+          pages={38--50},
+          year={2019},
+          organization={Springer} }"
+
+- title: "Modeling user selection in quality diversity"
+  authors:
+   - "Alexander Hagg"
+   - "Alexander Alexander"
+   - "Thomas B{\"a}ck"
+  year: 2019
+  bibtex: |
+          "@inproceedings{hagg2019modeling,
+          title={Modeling user selection in quality diversity},
+          author={Hagg, Alexander and Asteroth, Alexander and B{\"a}ck, Thomas},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+          pages={116--124},
+          year={2019},
+          organization={ACM} }"
+
+- title: "Exploring genetic programming systems with MAP-Elites"
+  authors:
+   - "Emily Dolson"
+   - "Alexander Lalejini"
+   - "Charles Ofria"
+  year: 2019
+  bibtex: |
+          "@incollection{dolson2019exploring,
+          title={Exploring genetic programming systems with MAP-Elites},
+          author={Dolson, Emily and Lalejini, Alexander and Ofria, Charles},
+          booktitle={Genetic Programming Theory and Practice XVI},
+          pages={1--16},
+          year={2019},
+          publisher={Springer} }"
+
+- title: "Are quality diversity algorithms better at generating stepping stones than objective-based search?"
+  authors:
+   - "Adam Gaier"
+   - "Alexander Asteroth"
+   - "Jean-Baptiste Mouret"
+  year: 2019
+  bibtex: |
+          "@inproceedings{gaier2019quality,
+          title={Are quality diversity algorithms better at generating stepping stones than objective-based search?},
+          author={Gaier, Adam and Asteroth, Alexander and Mouret, Jean-Baptiste},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+          pages={115--116},
+          year={2019},
+          organization={ACM} }"
+
+- title: "Evaluating MAP-Elites on Constrained Optimization Problems"
+  authors:
+   - "Stefano Fioravanzo"
+   - "Giovanni Iacca"
+  year: 2019
+  bibtex: |
+          "@article{fioravanzo2019evaluating,
+          title={Evaluating MAP-Elites on Constrained Optimization Problems},
+          author={Fioravanzo, Stefano and Iacca, Giovanni},
+          journal={arXiv preprint arXiv:1902.00703},
+          year={2019} }"
+
+- title: "Comparing reliability of grid-based Quality-Diversity algorithms using artificial landscapes"
+  authors:
+   - "Leo Cazenille"
+  year: 2019
+  bibtex: |
+          "@inproceedings{cazenille2019comparing,
+          title={Comparing reliability of grid-based Quality-Diversity algorithms using artificial landscapes},
+          author={Cazenille, Leo},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+          pages={249--250},
+          year={2019},
+          organization={ACM} }"
+
+- title: "Autonomous Skill Discovery with Quality-diversity and Unsupervised Descriptors"
   authors:
    - "Antoine Cully"
   year: 2019
+  bibtex: |
+          "@inproceedings{cully2019Autonomous,
+          author = {Cully, Antoine},
+          title = {Autonomous Skill Discovery with Quality-diversity and Unsupervised Descriptors},
+          booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+          year = {2019},
+          location = {Prague, Czech Republic},
+          pages = {81--89},
+          doi = {10.1145/3321707.3321804},
+          publisher = {ACM} }"
 
-- title: "test3"
+- title: "Exploration and Exploitation in Symbolic Regression using Quality-Diversity and Evolutionary Strategies Algorithms"
   authors:
-   - "Antoine Cully"
-  abstract: " blablabla"
-
-- authors:
-   - "Antoine Cully"
+   - "J.-P. Bruneton"
+   - "L. Cazenille"
+   - "A. Douin"
+   - "V. Reverdy"
   year: 2019
-  abstract: " blablabla"
+  bibtex: |
+          "@article{bruneton2019exploration,
+          title={Exploration and Exploitation in Symbolic Regression using Quality-Diversity and Evolutionary Strategies Algorithms},
+          author={Bruneton, J-P and Cazenille, L and Douin, A and Reverdy, V},
+          journal={arXiv preprint arXiv:1906.03959},
+          year={2019 }"
 
-- authors:
+- title: "Behavioral Repertoire via Generative Adversarial Policy Networks"
+  authors:
+   - "Marija Jegorova"
+   - "St{\'e}phane Doncieux"
+   - "Timothy Hospedales"
+  pdfurl: "http://homepages.inf.ed.ac.uk/thospeda/papers/jegorova2019gpn.pdf" 
+  year: 2019
+  bibtex: |
+          "@article{jegorovabehavioral,
+          title={Behavioral Repertoire via Generative Adversarial Policy Networks},
+          author={Jegorova, Marija and Doncieux, St{\'e}phane and Hospedales, Timothy M} }"
+
+- title: "Alphastar: An evolutionary computation perspective"
+  authors:
+   - "Kai Arulkumaran"
    - "Antoine Cully"
-  year: 1919
-  abstract: " blablabla"
+   - "Cully Togelius"
+  year: 2019
+  bibtex: |
+          "@article{arulkumaran2019alphastar,
+          title={Alphastar: An evolutionary computation perspective},
+          author={Arulkumaran, Kai and Cully, Antoine and Togelius, Julian},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+          year={2019},
+          organization={ACM} }"
 
-- authors:
-   - "Antoine Cully"
-  year: 1999
-  abstract: " blablabla"
+- title: "Procedural content generation through quality diversity"
+  authors:
+   - "Daniele Gravina"
+   - "Ahmed Khalifa"
+   - "Antonios Liapis"
+   - "Julian Togelius"
+   - "Georgios Yannakakis"
+  year: 2019
+  bibtex: |
+          "@article{gravina2019procedural,
+          title={Procedural content generation through quality diversity},
+          author={Gravina, Daniele and Khalifa, Ahmed and Liapis, Antonios and Togelius, Julian and Yannakakis, Georgios N},
+          journal={arXiv preprint arXiv:1907.04053},
+          year={2019} }"
 
+- title: "Quantifying the Effects of Increasing User Choice in MAP-Elites Applied to a Workforce Scheduling and Routing Problem"
+  authors:
+   - "Neil Urquhart"
+   - "Emma Hart"
+   - "William Hutcheson"
+  year: 2019
+  bibtex: |
+          "@inproceedings{urquhart2019quantifying,
+          title={Quantifying the Effects of Increasing User Choice in MAP-Elites Applied to a Workforce Scheduling and Routing Problem},
+          author={Urquhart, Neil and Hart, Emma and Hutcheson, William},
+          booktitle={International Conference on the Applications of Evolutionary Computation (Part of EvoStar)},
+          pages={49--63},
+          year={2019},
+          organization={Springer} }"
+
+- title: "Novelty Search for Deep Reinforcement Learning Policy Network Weights by Action Sequence Edit Metric Distance"
+  authors:
+   - "Ethan Jackson"
+   - "Mark Daley"
+  year: 2019
+  bibtex: |
+          "@article{jackson2019novelty,
+          title={Novelty Search for Deep Reinforcement Learning Policy Network Weights by Action Sequence Edit Metric Distance},
+          author={Jackson, Ethan C and Daley, Mark},
+          journal={arXiv preprint arXiv:1902.03142},
+          year={2019} }"
+
+- title: "An illumination algorithm approach to solving the micro-depot routing problem"
+  authors:
+   - "Neil Urquhart"
+   - "Silke H{\"o}hl"
+   - "Emma Hart"
+  year: 2019
+  bibtex: |
+          "@inproceedings{urquhart2019illumination,
+          title={An illumination algorithm approach to solving the micro-depot routing problem},
+          author={Urquhart, Neil and H{\"o}hl, Silke and Hart, Emma},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+          pages={1347--1355},
+          year={2019},
+          organization={ACM} }"
+
+- title: "Evaluating MAP-Elites on Constrained Optimization Problems"
+  authors:
+   - "Stefano Fioravanzo"
+   - "Giovanni Iacca"
+  year: 2019
+  bibtex: |
+          "@article{fioravanzo2019evaluating,
+          title={Evaluating MAP-Elites on Constrained Optimization Problems},
+          author={Fioravanzo, Stefano and Iacca, Giovanni},
+          journal={arXiv preprint arXiv:1902.00703},
+          year={2019} }"
+
+- title: "Exploring Self-Assembling Behaviors in a Swarm of Bio-micro-robots using Surrogate-Assisted MAP-Elites"
+  authors:
+   - "Leo Cazenille"
+   - "Nicolas Bredeche"
+   - "Nathanael Aubert-Kato"
+  year: 2019
+  bibtex: |
+          "@article{cazenille2019exploring,
+          title={Exploring Self-Assembling Behaviors in a Swarm of Bio-micro-robots using Surrogate-Assisted MAP-Elites},
+          author={Cazenille, Leo and Bredeche, Nicolas and Aubert-Kato, Nathanael},
+          journal={arXiv preprint arXiv:1910.00230},
+          year={2019} }"
+
+- title: "Designing neural networks through neuroevolution"
+  authors:
+   - "Kenneth Stanley"
+   - "Jeff Clune"
+   - "Joel Lehman"
+   - "Risto Miikkulainen"
+  year: 2019
+  bibtex: |
+          "@article{stanley2019designing,
+          title={Designing neural networks through neuroevolution},
+          author={Stanley, Kenneth O and Clune, Jeff and Lehman, Joel and Miikkulainen, Risto},
+          journal={Nature Machine Intelligence},
+          volume={1},
+          number={1},
+          pages={24--35},
+          year={2019} }"
+
+- title: "Evolving embodied intelligence from materials to machines"
+  authors:
+   - "David Howard"
+   - "Agoston Eiben"
+   - "Danielle Frances Kennedy"
+   - "Jean-Baptiste Mouret"
+   - "Philip Valencia"
+   - "Dave Winkler"
+  year: 2019
+  bibtex: |
+          "@article{howard2019evolving,
+          title={Evolving embodied intelligence from materials to machines},
+          author={Howard, David and Eiben, Agoston E and Kennedy, Danielle Frances and Mouret, Jean-Baptiste and Valencia, Philip and Winkler, Dave},
+          journal={Nature Machine Intelligence},
+          volume={1},
+          number={1},
+          pages={12--19},
+          year={2019},
+          publisher={Nature Publishing Group} }"
+
+- title: "Empowering Quality Diversity in Dungeon Design with Interactive Constrained MAP-Elites"
+  authors:
+   - "Alberto Alvarez"
+   - "Steve Dahlskog"
+   - "Jose Font"
+   - "Julian Togelius"
+  year: 2019
+  bibtex: |
+          "@article{alvarez2019empowering,
+          title={Empowering Quality Diversity in Dungeon Design with Interactive Constrained MAP-Elites},
+          author={Alvarez, Alberto and Dahlskog, Steve and Font, Jose and Togelius, Julian},
+          journal={arXiv preprint arXiv:1906.05175},
+          year={2019} }"
+
+- title: "POET: open-ended coevolution of environments and their optimized solutions"
+  authors:
+   - "Rui Wang"
+   - "Joel Lehman"
+   - "Jeff Clune"
+   - "Kenneth Stanley"
+  year: 2019
+  bibtex: |
+          "@inproceedings{wang2019poet,
+          title={POET: open-ended coevolution of environments and their optimized solutions},
+          author={Wang, Rui and Lehman, Joel and Clune, Jeff and Stanley, Kenneth O},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+          pages={142--151},
+          year={2019},
+          organization={ACM} }"
+
+- title: "Novelty search: a theoretical perspective"
+  authors:
+   - "Stephane Doncieux"
+   - "Alban Laflaqui{\`e}re"
+   - "Alexandre Coninx"
+  year: 2019
+  bibtex: |
+          "@inproceedings{doncieux2019novelty,
+          title={Novelty search: a theoretical perspective},
+          author={Doncieux, Stephane and Laflaqui{\`e}re, Alban and Coninx, Alexandre},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+          pages={99--106},
+          year={2019},
+          organization={ACM} }"
