@@ -290,7 +290,7 @@ papers:
 - title: "Learning highly diverse robot throwing movements through quality diversity search"
   authors:
    - "Seungsu Kim"
-   - "St{\'e}phane Doncieux"
+   - "Stephane Doncieux"
   year: 2017
   bibtex: |
           "@inproceedings{kim2017learning,
@@ -544,7 +544,7 @@ papers:
 
 - title: "Bayesian optimization with automatic prior selection for data-efficient direct policy search"
   authors:
-   - "R{\'e}mi Pautrat"
+   - "Remi Pautrat"
    - "Konstantinos Konstantinos"
    - "Jean-Baptiste Mouret"
   year: 2018
@@ -619,7 +619,7 @@ papers:
   authors:
    - "Alexander Hagg"
    - "Alexander Asteroth"
-   - "Thomas B{\"a}ck"
+   - "Thomas Back"
   year: 2018
   bibtex: |
           "@inproceedings{hagg2018prototype,
@@ -647,7 +647,7 @@ papers:
 - title: "Mapping structural diversity in networks sharing a given degree distribution and global clustering: Adaptive resolution grid search evolution with Diophantine equation-based mutations"
   authors:
    - "Peter Overbury"
-   - "Istv{\'a}n Kiss"
+   - "Istvan Kiss"
    - "Luc Berthouze"
   year: 2018
   bibtex: |
@@ -728,7 +728,7 @@ papers:
 
 - title: "Evolving a Repertoire of Controllers for a Multi-function Swarm"
   authors:
-   - "Sondre Engebr{\aa}ten"
+   - "Sondre Engebraten"
    - "Jonas Moen"
    - "Oleg Yakimenko"
    - "Kyrre Glette"
@@ -777,7 +777,7 @@ papers:
   authors:
    - "Leo Cazenille"
    - "Nicolas Bredeche"
-   - "Jos{\'e} Halloy"
+   - "Jose Halloy"
   year: 2019
   bibtex: |
           "@inproceedings{cazenille2019automatic,
@@ -792,7 +792,7 @@ papers:
   authors:
    - "Alexander Hagg"
    - "Alexander Alexander"
-   - "Thomas B{\"a}ck"
+   - "Thomas Back"
   year: 2019
   bibtex: |
           "@inproceedings{hagg2019modeling,
@@ -890,7 +890,7 @@ papers:
 - title: "Behavioral Repertoire via Generative Adversarial Policy Networks"
   authors:
    - "Marija Jegorova"
-   - "St{\'e}phane Doncieux"
+   - "Stephane Doncieux"
    - "Timothy Hospedales"
   pdfurl: "http://homepages.inf.ed.ac.uk/thospeda/papers/jegorova2019gpn.pdf" 
   year: 2019
@@ -958,7 +958,7 @@ papers:
 - title: "An illumination algorithm approach to solving the micro-depot routing problem"
   authors:
    - "Neil Urquhart"
-   - "Silke H{\"o}hl"
+   - "Silke Hohl"
    - "Emma Hart"
   year: 2019
   bibtex: |
