@@ -49,11 +49,20 @@ papers:
 - title: "test3"
   authors:
    - "Antoine Cully"
-  year: 2019
   abstract: " blablabla"
 
 - authors:
    - "Antoine Cully"
   year: 2019
+  abstract: " blablabla"
+
+- authors:
+   - "Antoine Cully"
+  year: 1919
+  abstract: " blablabla"
+
+- authors:
+   - "Antoine Cully"
+  year: 1999
   abstract: " blablabla"
 
