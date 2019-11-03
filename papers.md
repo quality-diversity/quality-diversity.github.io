@@ -7,7 +7,8 @@
    <h3>{{ yeargroup.name }}</h3>
 {% endif %}
 <ul>
-	{% for item in yeargroup.items  | sort:"title" %}
+	{% assign sortedgroup = yeargroup.items | sort:"title"  %}
+	{% for item in sortedgroup %}
 	{% if item.title %}
 	<li>
 		<details><summary><b>{{ item.title }} </b> </summary>
