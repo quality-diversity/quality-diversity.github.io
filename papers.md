@@ -4,7 +4,7 @@
 <ul>
 	{% for item in site.data.paperlist.papers %}
 		<details><summary><b>{{ item.title }} </b> </summary>
-		<blockquote
+		<blockquote>
 		<h4>Authors:</h4>
 		todo
 		<h4>Abstract:</h4>
