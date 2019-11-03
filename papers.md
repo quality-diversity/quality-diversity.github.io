@@ -1,10 +1,11 @@
 # List of papers
 {% assign paperlist = site.data.paperlist.papers | group_by: 'year' | sort:"name"  %}
 {% for yeargroup in paperlist reversed %}
-{% if item.title %}
-   <h3>{{ yeargroup.name }}</h3>
-{% else %}
+{% if item.title =="" %}
    <h3>Undated</h3>
+{% else %}
+   <h3>{{ yeargroup.name }}</h3>
+
 {% endif %}
 
 <ul>
