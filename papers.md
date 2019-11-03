@@ -6,7 +6,11 @@
 		<details><summary><b>{{ item.title }} </b> </summary>
 		<blockquote>
 		<h4>Authors:</h4>
-		todo
+		<ul>
+		{% for author in item.authors %}
+		   {{ author }}
+		{% endfor %}
+		</ul>
 		<h4>Abstract:</h4>
 		{{ item.abstract }}
 

@@ -1,6 +1,9 @@
 papers:
 
 - title: "Abandoning objectives: Evolution through the search for novelty alone"
+  authors:
+   - "Joel Lehman"
+   - "Kenneth Stanley"
   year: 2011
   pdfurl: "http://eplex.cs.ucf.edu/papers/lehman_ecj11.pdf"
   codeurl: "http://eplex.cs.ucf.edu/software/NoveltySearchC++.zip"
@@ -17,6 +20,9 @@ papers:
           publisher={MIT Press} }"
 
 - title: "Evolving a diversity of virtual creatures through novelty search and local competition"
+  authors:
+   - "Joel Lehman"
+   - "Kenneth Stanley"
   year: 2011
   pdfurl: "https://pdfs.semanticscholar.org/6d45/9da1ff73ec7225e92842341605e2b90d0da2.pdf"
   codeurl: "/"
