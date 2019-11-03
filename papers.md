@@ -3,17 +3,23 @@
 
 <ul>
 	{% for item in site.data.paperlist.papers %}
+	{% if item.title %}
 	<li>
 		<details><summary><b>{{ item.title }} </b> </summary>
 		<blockquote>
-		<h4>Authors:</h4>
-		<ul>
-		{% for author in item.authors %}
-		   <li>{{ author }}</li>
-		{% endfor %}
-		</ul>
-		<h4>Abstract:</h4>
-		{{ item.abstract }}
+		{% if item.authors %}
+		   <h4>Authors:</h4>
+		   <ul>
+		   {% for author in item.authors %}
+		      <li>{{ author }}</li>
+		   {% endfor %}
+		   </ul>
+		{% endif %}
+
+		{% if item.abstract %}
+		   <h4>Abstract:</h4>
+		   {{ item.abstract }}
+		{% endif %}
 
 		{% if item.pdfurl or item.codeurl or item.webpageurl %}
 		   <h4>Links:</h4>
@@ -29,13 +35,18 @@
 		   {% endif %}
 		   </ul>
 		{% endif %}
-		
-		<h4>Bibtex:</h4>
-		<pre><code>{{ item.bibtex }}</code></pre>
+
+		{% if item.bibtex %}	 
+		   <h4>Bibtex:</h4>
+		   <pre><code>{{ item.bibtex }}</code></pre>
+		{% endif %}
+
 		<hr>
+		
 		 </blockquote>
 		</details>
-	</li>	
+	</li>
+	{% endif %}
 	{% endfor %}
 </ul>
 
