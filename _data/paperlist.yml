@@ -1065,13 +1065,13 @@ papers:
 - title: "Novelty search: a theoretical perspective"
   authors:
    - "Stephane Doncieux"
-   - "Alban Laflaqui{\`e}re"
+   - "Alban Laflaquiere"
    - "Alexandre Coninx"
   year: 2019
   bibtex: |
           "@inproceedings{doncieux2019novelty,
           title={Novelty search: a theoretical perspective},
-          author={Doncieux, Stephane and Laflaqui{\`e}re, Alban and Coninx, Alexandre},
+          author={Doncieux, Stephane and Laflaquiere, Alban and Coninx, Alexandre},
           booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
           pages={99--106},
           year={2019},
