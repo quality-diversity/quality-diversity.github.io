@@ -1,10 +1,10 @@
 docs:
 
-- title: Introduction
+- pagetitle: Introduction
   url: index
 
-- title: Tutorials
+- pagetitle: Tutorials
   url: tutorials
 
-- title: Libraries
+- pagetitle: Libraries
   url: libraries  
