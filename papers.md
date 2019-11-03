@@ -1,4 +1,7 @@
 # List of papers
+
+You can click on each title to display more information, including authors, url to pdf, abstract and bibtex. 
+
 {% assign paperlist = site.data.paperlist.papers | group_by: 'year' | sort:"name"  %}
 {% for yeargroup in paperlist reversed %}
 {% if yeargroup.name == "" %}
