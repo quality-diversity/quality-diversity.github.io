@@ -31,9 +31,9 @@
 		{% endif %}
 		
 		<h4>Bibtex:</h4>
-		<code>
+		```
 		{{ item.bibtex }}
-		</code>
+		```
 		<hr>
 		 </blockquote>
 		</details>
