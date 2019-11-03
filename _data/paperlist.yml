@@ -1137,3 +1137,95 @@ papers:
           pages={99--106},
           year={2019},
           organization={ACM} }"
+
+- title: "Novelty-based multiobjectivization"
+  authors:
+   - "Jean-Baptiste Mouret"
+  year: 2011
+  abstract: "Novelty search is a recent and promising approach to evolve neurocontrollers, especially to drive robots. The main idea is to maximize the novelty of behaviors instead of the efficiency. However, abandoning the efficiency objective(s) may be too radical in many contexts. In this paper, a Pareto-based multi-objective evolutionary algorithmis employed to reconcile novelty search with objective-based optimization by following a multiobjectivization process. Several multiobjectivizations based on behavioral novelty and on behavioral diversity are compared on a maze navigation task. Results show that the bi-objective variant “Novelty + Fitness” is better at fine-tuning behaviors than basic novelty search, while keeping a comparable number of iterations to converge."
+  pdfurl: "https://hal.archives-ouvertes.fr/hal-01300711/file/2011COS1944.pdf"
+  bibtex: |
+          "@incollection{mouret2011novelty,
+          title={Novelty-based multiobjectivization},
+          author={Mouret, Jean-Baptiste},
+          booktitle={New horizons in evolutionary robotics},
+          pages={139--154},
+          year={2011},
+          publisher={Springer} }"
+ 
+- title: "Constrained novelty search: A study on game content generation"
+  authors:
+   - "Antonios Liapis"
+   - "Georgios Yannakakis"
+   - "Julian Togelius"
+  year: 2015
+  abstract: "Novelty search is a recent algorithm geared towards exploring search spaces without regard to objectives. When the presence of constraints divides a search space into feasible
+space and infeasible space, interesting implications arise regarding how novelty search explores such spaces. This paper elaborates on the problem of constrained novelty search and proposes two novelty search algorithms which search within both the feasible and the infeasible space. Inspired by the FI-2pop genetic algorithm, both algorithms maintain and evolve two separate populations, one with feasible and one with infeasible individuals, while each population can use its own selection method. The proposed algorithms are applied to the problem of generating diverse but playable game levels, which is representative of the larger problem of procedural game content generation. Results show that the two-population constrained novelty search methods can create, under certain conditions, larger and more diverse sets of feasible game levels than current methods of novelty search, whether constrained or unconstrained. However, the best algorithm is contingent on the particularities of the search space and the genetic operators used. Additionally, the proposed enhancement of offspring boosting is shown to enhance performance in all cases of two-population novelty search."
+  pdfurl: "http://antoniosliapis.com/papers/constrained_novelty_search.pdf"
+  bibtex: |
+          "@article{liapis2015constrained,
+          title={Constrained novelty search: A study on game content generation},
+          author={Liapis, Antonios and Yannakakis, Georgios N and Togelius, Julian},
+          journal={Evolutionary computation},
+          volume={23},
+          number={1},
+          pages={101--129},
+          year={2015},
+          publisher={MIT Press} }"
+
+- title: "Transforming exploratory creativity with DeLeNoX"
+  authors:
+   - "Antonios Liapis"
+   - "Hector Martinez"
+   - "Julian Togelius"
+   - "Georgios Yannakakis"
+  year: 2013
+  abstract: "We introduce DeLeNoX (Deep Learning Novelty Explorer), a system that autonomously creates artifacts in constrained spaces according to its own evolving interestingness criterion. DeLeNoX proceeds in alternating phases of exploration and transformation. In the exploration phases, a version of novelty search augmented with constraint handling searches for maximally diverse artifacts using a given distance function. In the transformation phases, a deep learning autoencoder learns to compress the variation between the found artifacts into a lower-dimensional space. The newly trained encoder is then used as the basis for a new distance function, transforming the criteria for the next exploration phase. In the current paper, we apply DeLeNoX to the creation of spaceships suitable for use in two-dimensional arcade-style computer games, a representative problem in procedural content generation in games. We also situate DeLeNoX in relation to the distinction between exploratory and transformational creativity, and in relation to Schmidhuber’s theory of creativity through the drive for compression progress."
+  pdfurl: "http://julian.togelius.com/Liapis2013Transforming.pdf"
+  bibtex: |
+          "@inproceedings{liapis2013transforming,
+          title={Transforming exploratory creativity with DeLeNoX},
+          author={Liapis, Antonios and Mart{\i}nez, H{\'e}ctor P and Togelius, Julian and Yannakakis, Georgios N},
+          booktitle={Proceedings of the Fourth International Conference on Computational Creativity},
+          pages={56--63},
+          year={2013},
+          organization={AAAI Press} }"
+
+- title: "Go-Explore: a New Approach for Hard-Exploration Problems"
+  authors:
+   - "Adrien Ecoffet"
+   - "Joost Huizinga"
+   - "Joel Lehman"
+   - "Kenneth Stanley"
+   - "Jeff Clune"
+  year: 2019
+  abstract: "A grand challenge in reinforcement learning is intelligent exploration, especially when rewards are sparse or deceptive. Two Atari games serve as benchmarks for such hard-exploration domains: Montezuma's Revenge and Pitfall. On both games, current RL algorithms perform poorly, even those with intrinsic motivation, which is the dominant method to improve performance on hard-exploration domains. To address this shortfall, we introduce a new algorithm called Go-Explore. It exploits the following principles: (1) remember previously visited states, (2) first return to a promising state (without exploration), then explore from it, and (3) solve simulated environments through any available means (including by introducing determinism), then robustify via imitation learning. The combined effect of these principles is a dramatic performance improvement on hard-exploration problems. On Montezuma's Revenge, Go-Explore scores a mean of over 43k points, almost 4 times the previous state of the art. Go-Explore can also harness human-provided domain knowledge and, when augmented with it, scores a mean of over 650k points on Montezuma's Revenge. Its max performance of nearly 18 million surpasses the human world record, meeting even the strictest definition of "superhuman" performance. On Pitfall, Go-Explore with domain knowledge is the first algorithm to score above zero. Its mean score of almost 60k points exceeds expert human performance. Because Go-Explore produces high-performing demonstrations automatically and cheaply, it also outperforms imitation learning work where humans provide solution demonstrations. Go-Explore opens up many new research directions into improving it and weaving its insights into current RL algorithms. It may also enable progress on previously unsolvable hard-exploration problems in many domains, especially those that harness a simulator during training (e.g. robotics)."
+  pdfurl: "https://arxiv.org/pdf/1901.10995"
+  codeurl: "https://github.com/uber-research/go-explore" 
+  bibtex: |
+          "@article{ecoffet2019go,
+          title={Go-Explore: a New Approach for Hard-Exploration Problems},
+          author={Ecoffet, Adrien and Huizinga, Joost and Lehman, Joel and Stanley, Kenneth O and Clune, Jeff},
+          journal={arXiv preprint arXiv:1901.10995},
+          year={2019} }"
+
+- title: "Mapping Hearthstone Deck Spaces with Map-Elites with Sliding Boundaries"
+  authors:
+   - "Matthew Fontaine"
+   - "Lee Scott"
+   - "Lisa Soros"
+   - "Fernando De Mesentier Silva"
+   - "Julian Togelius"
+   - "Amy Hoover"
+  year: 2019
+  abstract: "Quality diversity (QD) algorithms such as MAP-Elites have emerged as a powerful alternative to traditional single-objective optimization methods. They were initially applied to evolutionary robotics problems such as locomotion and maze navigation, but have yet to see widespread application. We argue that these algorithms are perfectly suited to the rich domain of video games, which contains many relevant problems with a multitude of successful strategies and often also multiple dimensions along which solutions can vary. This paper introduces a novel modification of the MAP-Elites algorithm called MAP-Elites with Sliding Boundaries (MESB) and applies it to the design and rebalancing of Hearthstone, a popular collectible card game chosen for its number of multidimensional behavior features relevant to particular styles of play. To avoid overpopulating cells with conflated behaviors, MESB slides the boundaries of cells based on the distribution of evolved individuals. Experiments in this paper demonstrate the performance of MESB in Hearthstone. Results suggest MESB finds diverse ways of playing the game well along the selected behavioral dimensions. Further analysis of the evolved strategies reveals common patterns that recur across behavioral dimensions and explores how MESB can help rebalance the game."
+  pdfurl: "https://arxiv.org/pdf/1904.10656.pdf"
+  bibtex: |
+          "@inproceedings{fontaine2019,
+          title={Mapping Hearthstone Deck Spaces with Map-Elites with Sliding Boundaries},
+          author={Matthew C. Fontaine and Scott Lee and L. B. Soros and Fernando De Mesentier Silva and Julian Togelius and Amy K. Hoover},
+          booktitle={Proceedings of The Genetic and Evolutionary Computation Conference},
+          year={2019},
+          organization={ACM} }"
+
+
