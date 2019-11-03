@@ -7,8 +7,4 @@ docs:
   url: tutorials
 
 - title: Libraries
-  url: libraries
-
-- title: Contributing
-  url: contributing
-  
+  url: libraries  
