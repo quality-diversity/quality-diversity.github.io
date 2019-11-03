@@ -16,15 +16,18 @@
 		{{ item.abstract }}
 
 		<h4>Links:</h4>
+		<ul>
 		{% if item.pdfurl %}
-		<a href="{{ item.pdfurl }}">Paper</a>
+		<li><a href="{{ item.pdfurl }}">Paper</a></li>
 		{% endif %}
 		{% if item.codeurl %}
-		<a href="{{ item.codeurl }}">Source-code</a>
+		<li><a href="{{ item.codeurl }}">Source-code</a></li>
 		{% endif %}
 		{% if item.webpageurl %}
-		<a href="{{ item.webpageurl }}">Webpage</a>
-		{% endif %}	
+		<li><a href="{{ item.webpageurl }}">Webpage</a></li>
+		{% endif %}
+		</ul>
+
 		<h4>Bibtex:</h4>	
 		{{ item.bibtext }}
 		<hr>
