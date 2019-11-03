@@ -246,6 +246,7 @@ papers:
    - "Alexander Asteroth"
    - "Jean-Baptiste Mouret"
   year: 2017
+  pdfurl: "https://hal.inria.fr/hal-01518698/file/sail2017.pdf"
   bibtex: |
           "@inproceedings{gaier2017data,
           title={Data-efficient exploration, optimization, and modeling of diverse designs through surrogate-assisted illumination},
@@ -261,6 +262,7 @@ papers:
    - "Alexander Asteroth"
    - "Jean-Baptiste Mouret"
   year: 2017
+  pdfurl: "https://hal.inria.fr/hal-01518786/file/aiaa_sail.pdf"
   bibtex: |
           "@inproceedings{gaier2017aerodynamic,
           title={Aerodynamic design exploration through surrogate-assisted illumination},
@@ -275,6 +277,7 @@ papers:
    - "Antoine Cully"
    - "Jean-Baptiste Mouret"
   year: 2016
+  pdfurl: "https://arxiv.org/pdf/1610.01407.pdf"
   bibtex: |
           "@inproceedings{chatzilygeroudis2016towards,
           title={Towards semi-episodic learning for robot damage recovery},
@@ -289,6 +292,7 @@ papers:
    - "Vassilis Vassiliades"
    - "Jean-Baptiste Mouret"
   year: 2016
+  pdfurl: "https://arxiv.org/pdf/1611.09419.pdf"
   bibtex: |
           "@inproceedings{papaspyros2016safety,
           title={Safety-aware robot damage recovery using constrained bayesian optimization and simulated priors},
@@ -303,6 +307,7 @@ papers:
    - "Seungsu Kim"
    - "Stephane Doncieux"
   year: 2017
+  pdfurl: "http://www.isir.upmc.fr/files/2017ACTI4514.pdf"
   bibtex: |
           "@inproceedings{kim2017learning,
           title={Learning highly diverse robot throwing movements through quality diversity search},
@@ -331,6 +336,7 @@ papers:
    - "Antoine Cully"
    - "Yiannis Demiris"
   year: 2018
+  pdfurl: "https://arxiv.org/pdf/1708.09251.pdf"
   bibtex: |
           "@article{cully2018quality,
           title={Quality and diversity optimization: A unifying modular framework},
@@ -347,6 +353,7 @@ papers:
    - "Antoine Cully"
    - "Yiannis Demiris"
   year: 2018
+  pdfurl: "https://arxiv.org/pdf/1804.07127.pdf"
   bibtex: |
           "@article{cully2018hierarchical,
           title={Hierarchical Behavioral Repertoires with Unsupervised Descriptors},
@@ -361,6 +368,7 @@ papers:
    - "Andreas Steyven"
    - "Ben Paechter"
   year: 2018
+  pdfurl: "https://arxiv.org/pdf/1804.07655.pdf"
   bibtex: |
           "@article{hart2018evolution,
           title={Evolution of a Functionally Diverse Swarm via a Novel Decentralised Quality-Diversity Algorithm},
@@ -375,6 +383,7 @@ papers:
    - "Lisa Soros"
    - "Kenneth Stanley"
   year: 2016
+  pdfurl: "http://delivery.acm.org/10.1145/2910000/2909000/p19-pugh.pdf?ip=129.31.142.189&id=2909000&acc=CHORUS&key=BF07A2EE685417C5%2EF5014A9D3D5CC2D9%2E4D4702B0C3E38B35%2E6D218144511F3437&__acm__=1572805067_7b82b5509b1bbc9081c7a3dd591b28b7"
   bibtex: |
           "@inproceedings{pugh2016extended,
           title={An Extended Study of Quality Diversity Algorithms},
@@ -403,6 +412,7 @@ papers:
    - "Jason Yosinski"
    - "Jeff Clune"
   year: 2015
+  pdfurl: "http://www.evolvingai.org/files/InnovationEngine_gecco15_0.pdf"
   bibtex: |
           "@inproceedings{nguyen2015innovation,
           title={Innovation engines: Automated creativity and improved stochastic optimization via deep learning},
@@ -418,6 +428,7 @@ papers:
    - "Jason Yosinski"
    - "Jeff Clune"
   year: 2016
+  pdfurl: "http://www.evolvingai.org/files/2016_NguyenEtAl_UnderstandingInnovationEngines.pdf"
   bibtex: |
           "@article{nguyen2016understanding,
           title={Understanding innovation engines: Automated creativity and improved stochastic optimization via deep learning},
@@ -434,6 +445,7 @@ papers:
    - "Joel Lehman"
    - "Risto Miikkulainen"
   year: 2015
+  pdfurl: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1014.7014&rep=rep1&type=pdf"
   bibtex: |
           "@article{lehman2015extinction,
           title={Extinction events can accelerate evolution},
@@ -467,6 +479,7 @@ papers:
    - "Bryan Wilder"
    - "Kenneth Stanley"
   year: 2016
+  pdfurl: "https://www.frontiersin.org/research-topics/4233/pdf?utm_source=G-BLO&utm_medium=WEXT&utm_campaign=ECO_FRTOP_20181000_eBook#page=45"
   bibtex: |
           "@article{lehman2016critical,
           title={On the critical role of divergent selection in evolvability},
@@ -483,6 +496,7 @@ papers:
    - "Giovanni Iacca"
    - "Dario Floreano"
   year: 2016
+  pdfurl: "https://infoscience.epfl.ch/record/220676/files/p1061-auerbach.pdf"
   bibtex: |
           "@inproceedings{auerbach2016gaining,
           title={Gaining insight into quality diversity},
@@ -498,6 +512,7 @@ papers:
    - "Lisa Soros"
    - "Kenneth Stanley"
   year: 2016
+  pdfurl: "https://eplex.cs.ucf.edu/papers/pugh_ppsn16.pdf"
   bibtex: |
           "@inproceedings{pugh2016searching,
           title={Searching for quality diversity when diversity is unaligned with quality},
@@ -513,6 +528,7 @@ papers:
    - "Alexander Lalejini"
    - "Charles Ofria"
   year: 2018
+  pdfurl: "https://lalejini.com/pubs/Dolson_et_al_2019_Exploring_Genetic_Programming_Systems_with_MAP-Elites.pdf"
   bibtex: |
           "@article{dolson2018exploring,
           title={Exploring genetic programming systems with MAP-Elites},
@@ -544,6 +560,7 @@ papers:
    - "Sancho Moura Oliveira"
    - "Anders Lyhne Christensen"
   year: 2018
+  
   bibtex: |
           "@article{duarte2018evolution,
           title={Evolution of repertoire-based control for robots with complex locomotor systems},
@@ -561,6 +578,7 @@ papers:
    - "Konstantinos Konstantinos"
    - "Jean-Baptiste Mouret"
   year: 2018
+  pdfurl: "https://arxiv.org/pdf/1709.06919.pdf"
   bibtex: |
           "@inproceedings{pautrat2018bayesian,
           title={Bayesian optimization with automatic prior selection for data-efficient direct policy search},
@@ -576,6 +594,7 @@ papers:
    - "Alexander Asteroth"
    - "Jean-Baptiste Mouret"
   year: 2017
+  pdfurl: "https://www.researchgate.net/profile/Adam_Gaier/publication/313671108_Data-Efficient_Exploration_Optimization_and_Modeling_of_Diverse_Designs_through_Surrogate-Assisted_Illumination/links/58a48a45a6fdcc0e0759f01f/Data-Efficient-Exploration-Optimization-and-Modeling-of-Diverse-Designs-through-Surrogate-Assisted-Illumination.pdf"
   bibtex: |
           "@inproceedings{gaier2017feature,
           title={Feature space modeling through surrogate illumination},
@@ -589,6 +608,7 @@ papers:
    - "Kai Olav Ellefsen"
    - "Kyrre Glette"
   year: 2018
+  pdfurl: "http://folk.uio.no/kyrrehg/pubs/nordmoen-evorobot2018.pdf"
   bibtex: |
           "@inproceedings{nordmoen2018combining,
           title={Combining map-elites and incremental evolution to generate gaits for a mammalian quadruped robot},
@@ -619,6 +639,7 @@ papers:
    - "Kai Olav Ellefsen"
    - "Kyrre Glette"
   year: 2018
+  pdfurl: "http://heim.ifi.uio.no/~kyrrehg/pubs/nordmoen-alife2018.pdf"
   bibtex: |
           "@inproceedings{nordmoen2018dynamic,
           title={Dynamic mutation in MAP-Elites for robotic repertoire generation},
@@ -634,6 +655,7 @@ papers:
    - "Alexander Asteroth"
    - "Thomas Back"
   year: 2018
+  urlpdf: "https://arxiv.org/pdf/1807.09488.pdf"
   bibtex: |
           "@inproceedings{hagg2018prototype,
           title={Prototype discovery using quality-diversity},
@@ -649,6 +671,7 @@ papers:
    - "Sancho Moura Oliveira"
    - "Anders Lyhne Christensen"
   year: 2018
+  pdfurl: "https://repositorio.iscte-iul.pt/bitstream/10071/16255/5/1-s2.0-S2210650217308556-main.pdf"
   bibtex: |
           "@article{gomes2018approach,
           title={An approach to evolve and exploit repertoires of general robot behaviours},
@@ -689,6 +712,7 @@ papers:
    - "Neil Urquhart"
    - "Emma Hart"
   year: 2018
+  pdfurl: "https://arxiv.org/pdf/1805.11555.pdf"
   bibtex: |
           "@inproceedings{urquhart2018optimisation,
           title={Optimisation and Illumination of a Real-World Workforce Scheduling and Routing Application (WSRP) via Map-Elites},
@@ -703,6 +727,7 @@ papers:
    - "Joel Lehman"
    - "Risto Miikkulainen"
   year: 2015
+  pdfurl: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.697.5168&rep=rep1&type=pdf"
   bibtex: |
           "@inproceedings{lehman2015enhancing,
           title={Enhancing divergent search through extinction events},
@@ -719,6 +744,7 @@ papers:
    - "Andy Nealen"
    - "Julian Togelius"
   year: 2018
+  pdfurl: "https://arxiv.org/pdf/1806.04718.pdf"
   bibtex: |
           "@article{khalifa2018talakat,
           title={Talakat: Bullet Hell Generation through Constrained Map-Elites},
@@ -732,6 +758,7 @@ papers:
    - "Elliot Meyerson"
    - "Risto Miikkulainen"
   year: 2017
+  pdfurl: "https://arxiv.org/pdf/1704.05554.pdf"
   bibtex: |
           "@inproceedings{meyerson2017discovering,
           title={Discovering evolutionary stepping stones through behavior domination},
@@ -748,6 +775,7 @@ papers:
    - "Oleg Yakimenko"
    - "Kyrre Glette"
   year: 2018
+  pdfurl: "http://folk.uio.no/kyrrehg/pubs/engebraaten-evorobot2018.pdf"
   bibtex: |
           "@inproceedings{engebraaten2018evolving,
           title={Evolving a Repertoire of Controllers for a Multi-function Swarm},
@@ -763,6 +791,7 @@ papers:
    - "Kai Olav Ellefsen"
    - "Kyrre Glette"
   year: 2018
+  pdfurl: "http://home.ifi.uio.no/kyrrehg/pubs/nordmoen-evorobot2018.pdf"
   bibtex: |
           "@inproceedings{nordmoen2018combining,
           title={Combining map-elites and incremental evolution to generate gaits for a mammalian quadruped robot},
@@ -779,6 +808,7 @@ papers:
    - "Alexandre Coninx"
    - "Stephane Doncieux"
   year: 2019
+  pdfurl: "https://arxiv.org/pdf/1909.05508.pdf"
   bibtex: |
           "@article{paolo2019unsupervised,
           title={Unsupervised Learning and Exploration of Reachable Outcome Space},
@@ -794,6 +824,7 @@ papers:
    - "Nicolas Bredeche"
    - "Jose Halloy"
   year: 2019
+  pdfurl: "https://arxiv.org/pdf/1907.09209.pdf"
   bibtex: |
           "@inproceedings{cazenille2019automatic,
           title={Automatic Calibration of Artificial Neural Networks for Zebrafish Collective Behaviours Using a Quality Diversity Algorithm},
@@ -809,6 +840,7 @@ papers:
    - "Alexander Alexander"
    - "Thomas Back"
   year: 2019
+  pdfurl: "https://arxiv.org/pdf/1907.06912.pdf"
   bibtex: |
           "@inproceedings{hagg2019modeling,
           title={Modeling user selection in quality diversity},
@@ -824,6 +856,7 @@ papers:
    - "Alexander Lalejini"
    - "Charles Ofria"
   year: 2019
+  pdfurl: "https://lalejini.com/pubs/Dolson_et_al_2019_Exploring_Genetic_Programming_Systems_with_MAP-Elites.pdf"
   bibtex: |
           "@incollection{dolson2019exploring,
           title={Exploring genetic programming systems with MAP-Elites},
@@ -839,6 +872,7 @@ papers:
    - "Alexander Asteroth"
    - "Jean-Baptiste Mouret"
   year: 2019
+  
   bibtex: |
           "@inproceedings{gaier2019quality,
           title={Are quality diversity algorithms better at generating stepping stones than objective-based search?},
@@ -865,6 +899,7 @@ papers:
   authors:
    - "Leo Cazenille"
   year: 2019
+  pdfurl: "https://arxiv.org/pdf/1908.08020.pdf"
   bibtex: |
           "@inproceedings{cazenille2019comparing,
           title={Comparing reliability of grid-based Quality-Diversity algorithms using artificial landscapes},
@@ -878,6 +913,7 @@ papers:
   authors:
    - "Antoine Cully"
   year: 2019
+  pdfurl: "https://arxiv.org/pdf/1905.11874.pdf"
   bibtex: |
           "@inproceedings{cully2019Autonomous,
           author = {Cully, Antoine},
@@ -922,6 +958,7 @@ papers:
    - "Antoine Cully"
    - "Cully Togelius"
   year: 2019
+  pdfurl: "https://arxiv.org/pdf/1902.01724.pdf"
   bibtex: |
           "@article{arulkumaran2019alphastar,
           title={Alphastar: An evolutionary computation perspective},
@@ -1023,6 +1060,7 @@ papers:
    - "Joel Lehman"
    - "Risto Miikkulainen"
   year: 2019
+  pdfurl: "http://www.evolvingai.org/files/s42256-018-0006-z.pdf"
   bibtex: |
           "@article{stanley2019designing,
           title={Designing neural networks through neuroevolution},
@@ -1042,6 +1080,7 @@ papers:
    - "Philip Valencia"
    - "Dave Winkler"
   year: 2019
+  pdfurl: "https://arxiv.org/pdf/1901.05704.pdf"
   bibtex: |
           "@article{howard2019evolving,
           title={Evolving embodied intelligence from materials to machines},
