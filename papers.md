@@ -1,5 +1,5 @@
 # List of papers
-{% assign paperlist = site.data.paperlist.papers | group_by: 'year' %}
+{% assign paperlist = site.data.paperlist.papers | group_by: 'year' | sort:"name"  %}
 {% for yeargroup in paperlist reversed %}
 <h3>{{ yeargroup.name }}</h3>
 <ul>
