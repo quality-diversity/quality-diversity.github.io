@@ -15,21 +15,23 @@
 		<h4>Abstract:</h4>
 		{{ item.abstract }}
 
-		<h4>Links:</h4>
-		<ul>
-		{% if item.pdfurl %}
-		<li><a href="{{ item.pdfurl }}">Paper</a></li>
+		{% if item.pdfurl or item.codeurl or item.webpageurl %}
+		   <h4>Links:</h4>
+		   <ul>
+		   {% if item.pdfurl %}
+		   <li><a href="{{ item.pdfurl }}">Paper</a></li>
+		   {% endif %}
+		   {% if item.codeurl %}
+		   <li><a href="{{ item.codeurl }}">Source-code</a></li>
+		   {% endif %}
+		   {% if item.webpageurl %}
+		   <li><a href="{{ item.webpageurl }}">Webpage</a></li>
+		   {% endif %}
+		   </ul>
 		{% endif %}
-		{% if item.codeurl %}
-		<li><a href="{{ item.codeurl }}">Source-code</a></li>
-		{% endif %}
-		{% if item.webpageurl %}
-		<li><a href="{{ item.webpageurl }}">Webpage</a></li>
-		{% endif %}
-		</ul>
-
+		
 		<h4>Bibtex:</h4>	
-		{{ item.bibtext }}
+		{{ item.bibtex }}
 		<hr>
 		 </blockquote>
 		</details>
