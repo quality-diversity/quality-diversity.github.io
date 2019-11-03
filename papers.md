@@ -3,6 +3,7 @@
 
 <ul>
 	{% for item in site.data.paperlist.papers %}
+	<li>
 		<details><summary><b>{{ item.title }} </b> </summary>
 		<blockquote>
 		<h4>Authors:</h4>
@@ -15,16 +16,21 @@
 		{{ item.abstract }}
 
 		<h4>Links:</h4>
+		{% if item.pdfurl %}
 		<a href="{{ item.pdfurl }}">Paper</a>
+		{% endif %}
+		{% if item.codeurl %}
 		<a href="{{ item.codeurl }}">Source-code</a>
+		{% endif %}
+		{% if item.webpageurl %}
 		<a href="{{ item.webpageurl }}">Webpage</a>
-
+		{% endif %}	
 		<h4>Bibtex:</h4>	
 		{{ item.bibtext }}
 		<hr>
 		 </blockquote>
 		</details>
-		
+	</li>	
 	{% endfor %}
 </ul>
 
