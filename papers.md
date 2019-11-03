@@ -4,15 +4,18 @@
 <ul>
 	{% for item in site.data.paperlist.papers %}
 		<details><summary><b>{{ item.title }} </b> </summary>
+
 		<h2>Abstract:</h2>
 		{{ item.abstract }}
 		
 		{{ item.bibtext }}
 		
-		<hr>
 		</details>
+		
 	{% endfor %}
 </ul>
+
+
 
 ### 2020
 
