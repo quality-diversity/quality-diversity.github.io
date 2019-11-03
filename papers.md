@@ -1,4 +1,13 @@
 # List of papers
+
+<ul>
+	{% for item in site.papers.paperlist.papers %}
+		{{ item.title }}
+		{{ item.abstract }}
+		{{ item.bibtext }}
+	{% endfor %}
+</ul>
+
 ### 2020
 
 ### 2019
