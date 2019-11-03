@@ -7,7 +7,7 @@
 		<blockquote>
 		<h4>Authors:</h4>
 		{% for author in item.authors %}
-		   <li>{{ author }}</il>
+		   <li>{{ author }}</li>
 		{% endfor %}
 		<h4>Abstract:</h4>
 		{{ item.abstract }}
