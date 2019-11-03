@@ -123,6 +123,7 @@ papers:
    - "Antoine Cully"
    - "Jean-Baptiste Mouret"
   year: 2013
+  pdfurl: "https://hal.archives-ouvertes.fr/file/index/docid/841958/filename/t02pap489-cully.pdf"
   bibtex: |
           "@inproceedings{cully2013behavioral,
           title={Behavioral repertoire learning in robotics},
@@ -137,6 +138,7 @@ papers:
    - "Antoine Cully"
    - "Jean-Baptiste Mouret"
   year: 2015
+  pdfurl: "https://arxiv.org/pdf/1308.3689.pdf"
   bibtex: |
           "@article{cully2015evolving,
           title={Evolving a behavioral repertoire for a walking robot},
@@ -151,6 +153,7 @@ papers:
    - "Konstantinos Chatzilygeroudis"
    - "Jean-Baptiste Mouret"
   year: 2018
+  pdfurl: "https://hal.inria.fr/hal-01630627/file/ieee_tec_voronoi_map_elites.pdf"
   bibtex: |
           "@article{vassiliades2018using,
           title={Using Centroidal Voronoi Tessellations to Scale Up the Multidimensional Archive of Phenotypic Elites Algorithm},
@@ -168,6 +171,7 @@ papers:
    - "Alexander Asteroth"
    - "Jean-Baptiste Mouret"
   year: 2018
+  pdfurl: "https://arxiv.org/pdf/1806.05865.pdf"
   bibtex: |
           "@article{gaier2018data,
           title={Data-Efficient Design Exploration through Surrogate-Assisted Illumination},
@@ -182,6 +186,7 @@ papers:
    - "Vassilis Vassiliades"
    - "Jean-Baptiste Mouret"
   year: 2018
+  pdfurl: "https://arxiv.org/pdf/1804.03906.pdf"
   bibtex: |
           "@article{vassiliades2018discovering,
           title={Discovering the Elite Hypervolume by Leveraging Interspecies Correlation},
@@ -197,6 +202,7 @@ papers:
    - "Dusan Misevic"
    - "and many others"
   year: 2018
+  pdfurl: "https://arxiv.org/pdf/1803.03453.pdf"
   bibtex: |
           "@article{lehman2018surprising,
           title={The surprising creativity of digital evolution: A collection of anecdotes from the evolutionary computation and artificial life research communities},
@@ -383,6 +389,7 @@ papers:
    - "Joost Huizinga"
    - "Jeff Clune"
   year: 2018
+  pdfurl: "https://arxiv.org/pdf/1807.03392.pdf"
   bibtex: |
           "@article{huizinga2018evolving,
           title={Evolving Multimodal Robot Behavior via Many Stepping Stones with the Combinatorial Multi-Objective Evolutionary Algorithm},
@@ -522,6 +529,7 @@ papers:
    - "Antonios Liapis"
    - "Georgios Yannakakis"
   year: 2018
+  pdfurl: "https://arxiv.org/pdf/1807.02397.pdf"
   bibtex: |
           "@article{gravina2018quality,
           title={Quality Diversity Through Surprise},
@@ -655,6 +663,7 @@ papers:
    - "Istvan Kiss"
    - "Luc Berthouze"
   year: 2018
+  pdfurl: "https://arxiv.org/pdf/1809.06293.pdf"
   bibtex: |
           "@article{overbury2018mapping,
           title={Mapping structural diversity in networks sharing a given degree distribution and global clustering: Adaptive resolution grid search evolution with Diophantine equation-based mutations},
@@ -667,6 +676,7 @@ papers:
    - "Eivind Samuelsen"
    - "Kyrre Glette"
   year: 2018
+  pdfurl: "https://arxiv.org/pdf/1803.05174.pdf"
   bibtex: |
           "@article{samuelsen2018multi,
           title={Multi-objective Analysis of MAP-Elites Performance},
@@ -843,6 +853,7 @@ papers:
    - "Stefano Fioravanzo"
    - "Giovanni Iacca"
   year: 2019
+  pdfurl: "https://arxiv.org/pdf/1902.00703.pdf"
   bibtex: |
           "@article{fioravanzo2019evaluating,
           title={Evaluating MAP-Elites on Constrained Optimization Problems},
@@ -885,6 +896,7 @@ papers:
    - "A. Douin"
    - "V. Reverdy"
   year: 2019
+  pdfurl: "https://arxiv.org/pdf/1906.03959.pdf"
   bibtex: |
           "@article{bruneton2019exploration,
           title={Exploration and Exploitation in Symbolic Regression using Quality-Diversity and Evolutionary Strategies Algorithms},
@@ -926,6 +938,7 @@ papers:
    - "Julian Togelius"
    - "Georgios Yannakakis"
   year: 2019
+  pdfurl: "https://arxiv.org/pdf/1907.04053.pdf"
   bibtex: |
           "@article{gravina2019procedural,
           title={Procedural content generation through quality diversity},
@@ -953,6 +966,7 @@ papers:
    - "Ethan Jackson"
    - "Mark Daley"
   year: 2019
+  pdfurl: "https://arxiv.org/pdf/1902.03142.pdf"
   bibtex: |
           "@article{jackson2019novelty,
           title={Novelty Search for Deep Reinforcement Learning Policy Network Weights by Action Sequence Edit Metric Distance},
@@ -980,6 +994,7 @@ papers:
    - "Stefano Fioravanzo"
    - "Giovanni Iacca"
   year: 2019
+  pdfurl: "https://arxiv.org/pdf/1902.00703.pdf"
   bibtex: |
           "@article{fioravanzo2019evaluating,
           title={Evaluating MAP-Elites on Constrained Optimization Problems},
@@ -993,6 +1008,7 @@ papers:
    - "Nicolas Bredeche"
    - "Nathanael Aubert-Kato"
   year: 2019
+  pdfurl: "https://arxiv.org/pdf/1910.00230.pdf"
   bibtex: |
           "@article{cazenille2019exploring,
           title={Exploring Self-Assembling Behaviors in a Swarm of Bio-micro-robots using Surrogate-Assisted MAP-Elites},
@@ -1044,6 +1060,7 @@ papers:
    - "Jose Font"
    - "Julian Togelius"
   year: 2019
+  pdfurl: "https://arxiv.org/pdf/1906.05175.pdf"
   bibtex: |
           "@article{alvarez2019empowering,
           title={Empowering Quality Diversity in Dungeon Design with Interactive Constrained MAP-Elites},
