@@ -4,10 +4,17 @@
 <ul>
 	{% for item in site.data.paperlist.papers %}
 		<details><summary><b>{{ item.title }} </b> </summary>
-
-		<h2>Abstract:</h2>
+		<h4>Authors:</h4>
+		todo
+		<h4>Abstract:</h4>
 		{{ item.abstract }}
-		
+
+		<h4>Links:</h4>
+		<a href="{{ item.pdfurl }}">Paper</a>
+		<a href="{{ item.codeurl }}">Source-code</a>
+		<a href="{{ item.webpageurl }}">Webpage</a>
+
+		<h4>Bibtex:</h4>	
 		{{ item.bibtext }}
 		
 		</details>
