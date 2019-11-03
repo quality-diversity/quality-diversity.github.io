@@ -572,14 +572,14 @@ papers:
 
 - title: "Combining map-elites and incremental evolution to generate gaits for a mammalian quadruped robot"
   authors:
-   - "J{\o}rgen Nordmoen"
+   - "Jorgen Nordmoen"
    - "Kai Olav Ellefsen"
    - "Kyrre Glette"
   year: 2018
   bibtex: |
           "@inproceedings{nordmoen2018combining,
           title={Combining map-elites and incremental evolution to generate gaits for a mammalian quadruped robot},
-          author={Nordmoen, J{\o}rgen and Ellefsen, Kai Olav and Glette, Kyrre},
+          author={Nordmoen, Jorgen and Ellefsen, Kai Olav and Glette, Kyrre},
           booktitle={International Conference on the Applications of Evolutionary Computation},
           pages={719--733},
           year={2018},
@@ -601,7 +601,7 @@ papers:
 
 - title: "Dynamic mutation in MAP-Elites for robotic repertoire generation"
   authors:
-   - "J{\o}rgen Nordmoen"
+   - "Jorgen Nordmoen"
    - "Eivind Samuelsen"
    - "Kai Olav Ellefsen"
    - "Kyrre Glette"
@@ -609,7 +609,7 @@ papers:
   bibtex: |
           "@inproceedings{nordmoen2018dynamic,
           title={Dynamic mutation in MAP-Elites for robotic repertoire generation},
-          author={Nordmoen, J{\o}rgen and Samuelsen, Eivind and Ellefsen, Kai Olav and Glette, Kyrre},
+          author={Nordmoen, Jorgen and Samuelsen, Eivind and Ellefsen, Kai Olav and Glette, Kyrre},
           booktitle={Artificial Life Conference Proceedings},
           pages={598--605},
           year={2018},
@@ -744,14 +744,14 @@ papers:
 
 - title: "Combining map-elites and incremental evolution to generate gaits for a mammalian quadruped robot"
   authors:
-   - "J{\o}rgen Nordmoen"
+   - "Jorgen Nordmoen"
    - "Kai Olav Ellefsen"
    - "Kyrre Glette"
   year: 2018
   bibtex: |
           "@inproceedings{nordmoen2018combining,
           title={Combining map-elites and incremental evolution to generate gaits for a mammalian quadruped robot},
-          author={Nordmoen, J{\o}rgen and Ellefsen, Kai Olav and Glette, Kyrre},
+          author={Nordmoen, Jorgen and Ellefsen, Kai Olav and Glette, Kyrre},
           booktitle={International Conference on the Applications of Evolutionary Computation},
           pages={719--733},
           year={2018},
