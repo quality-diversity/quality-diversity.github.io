@@ -9,7 +9,7 @@
       </ul>
 
 <ul>
-	{% for item in site.papers.paperlist.papers %}
+	{% for item in site.data.paperlist.papers %}
 		{{ item.title }}
 		{{ item.abstract }}
 		{{ item.bibtext }}
