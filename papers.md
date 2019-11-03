@@ -8,7 +8,9 @@
 		{{ item.abstract }}
 		
 		{{ item.bibtext }}
+		
 		<hr>
+		</details>
 	{% endfor %}
 </ul>
 
