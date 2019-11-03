@@ -9,6 +9,8 @@ The collections of solutions obtained by Quality Diversity algorithms open many 
 - Jean-Baptiste Mouret, INRIA.
 - Stephane Doncieux, Sorbonne University. 
 
+The list of papers has been completed with references from the [list](https://github.com/DanieleGravina/divergence-and-quality-diversity) made by Daniele Gravina
+
 # Contributing
 
 This website is maintained by the research community. If you wish to add or change something on the website, please feel free to create a pull request that implements the changes.
