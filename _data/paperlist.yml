@@ -33,3 +33,18 @@ papers:
           pages={211--218},
           year={2011},
           organization={ACM} }"
+
+
+- title: "test"
+  authors:
+   - "Antoine Cully"
+  year: 2019
+  abstract: " blablabla"
+  bibtex: "@inproceedings{lehman2011evolving,
+          title={Evolving a diversity of virtual creatures through novelty search and local competition},
+          author={Lehman, Joel and Stanley, Kenneth O},
+          booktitle={Proceedings of the 13th annual conference on Genetic and evolutionary computation},
+          pages={211--218},
+          year={2011},
+          organization={ACM} }"
+
