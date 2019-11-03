@@ -1,8 +1,10 @@
 # List of papers
 
-
+{% assign papers = site.data.paperlist.papers | group_by: 'year' %}
+{% for year in papers %}
+<h2>{{ year.name }}</h2>
 <ul>
-	{% for item in site.data.paperlist.papers %}
+	{% for item in year.items %}
 	{% if item.title %}
 	<li>
 		<details><summary><b>{{ item.title }} </b> </summary>
@@ -49,7 +51,7 @@
 	{% endif %}
 	{% endfor %}
 </ul>
-
+{% endfor %}
 
 
 ### 2020
