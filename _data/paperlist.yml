@@ -49,9 +49,9 @@ papers:
           author={Pugh, Justin K and Soros, Lisa B and Stanley, Kenneth O},
           journal={Frontiers in Robotics and AI},
           volume={3},
-	  pages={40},
-	  year={2016},
-	  publisher={Frontiers} }"
+          pages={40},
+          year={2016},
+          publisher={Frontiers} }"
 
 - title: "Illuminating search spaces by mapping elites"
   authors:
