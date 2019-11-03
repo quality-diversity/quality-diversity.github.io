@@ -1,0 +1,13 @@
+docs:
+
+- pagetitle: About
+  url: /
+
+- pagetitle: Papers
+  url: /papers
+
+- pagetitle: Tutorials
+  url: /tutorials
+
+- pagetitle: Libraries
+  url: /libraries  
