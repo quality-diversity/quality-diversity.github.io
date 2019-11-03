@@ -1,14 +1,14 @@
 docs:
 
 - title: Introduction
-  url: index.md
+  url: index
 
 - title: Tutorial
-  url: tutorial.md
+  url: tutorial
 
 - title: Libraries
-  url: libraries.md
+  url: libraries
 
 - title: Contributing
-  url: contributing.md
+  url: contributing
   
