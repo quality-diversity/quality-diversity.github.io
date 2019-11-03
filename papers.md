@@ -16,7 +16,7 @@
 
 		<h4>Bibtex:</h4>	
 		{{ item.bibtext }}
-		
+		<hr>
 		</details>
 		
 	{% endfor %}
