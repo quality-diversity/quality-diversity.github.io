@@ -42,6 +42,7 @@ papers:
    - "Justin  PughK" 
    - "Lisa Soros"
    - "Kenneth Stanley"
+  pdfurl: "http://eplex.cs.ucf.edu/papers/pugh_frontiers16.pdf"
   year: 2016
   bibtex: |
           "@article{pugh2016quality,
@@ -58,6 +59,7 @@ papers:
    - "Jean-Baptiste Mouret"
    - "Jeff Clune"
   year: 2015
+  pdfurl: "https://arxiv.org/pdf/1504.04909.pdf"
   bibtex: |
           "@article{mouret2015illuminating,
           title={Illuminating search spaces by mapping elites},
@@ -72,6 +74,7 @@ papers:
    - "Danesh Tarapore"
    - "Jean-Baptiste Mouret"
   year: 2015
+  pdfurl: "https://arxiv.org/pdf/1407.3501.pdf"
   bibtex: |
           "@article{cully2015robots,
           title={Robots that can adapt like animals},
@@ -90,6 +93,7 @@ papers:
    - "Antoine Cully"
    - "Jean-Baptiste Mouret"
   year: 2016
+  pdfurl: "https://hal.inria.fr/hal-01302658/file/gecco_map_elites.pdf"
   bibtex: |
           "@inproceedings{tarapore2016different,
           title={How Do Different Encodings Influence the Performance of the MAP-Elites Algorithm?},
@@ -104,6 +108,7 @@ papers:
    - "Paul Szerlip"
    - "Kenneth Stanley"
   year: 2015
+  pdfurl: "https://www.cs.ucf.edu/eplex/papers/pugh_gecco15.pdf"
   bibtex: |
           "@inproceedings{pugh2015confronting,
           title={Confronting the challenge of quality diversity},
