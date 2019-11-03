@@ -1,6 +1,14 @@
 # List of papers
 
 <ul>
+	{% for item in site.data.samplelist.docs %}
+	<a href="{{ item.url }}">{{ item.pagetitle }}</a>
+	{{ item.url }}
+	{{ item.pagetitle }}
+	{% endfor %}
+      </ul>
+
+<ul>
 	{% for item in site.papers.paperlist.papers %}
 		{{ item.title }}
 		{{ item.abstract }}
