@@ -483,6 +483,7 @@ papers:
    - "Risto Miikkulainen"
   year: 2015
   pdfurl: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.1014.7014&rep=rep1&type=pdf"
+  abstract: "Extinction events impact the trajectory of biological evolution significantly. They are often viewed as upheavals to the evolutionary process. In contrast, this paper supports the hypothesis that although they are unpredictably destructive, extinction events may in the long term accelerate evolution by increasing evolvability. In particular, if extinction events extinguish indiscriminately many ways of life, indirectly they may select for the ability toe xpand rapidly through vacated niches. Lineages with such an ability are more likely to persist through multiple extinctions. Lending computational support for this hypothesis, this paper shows how increased evolvability will result from simulated extinction events in two computational models of evolved behavior. The conclusion is that although they are destructive in the short term, extinction events may make evolution more prolific in the long term."
   bibtex: |
           "@article{lehman2015extinction,
           title={Extinction events can accelerate evolution},
@@ -516,7 +517,8 @@ papers:
    - "Bryan Wilder"
    - "Kenneth Stanley"
   year: 2016
-  pdfurl: "https://www.frontiersin.org/research-topics/4233/pdf?utm_source=G-BLO&utm_medium=WEXT&utm_campaign=ECO_FRTOP_20181000_eBook#page=45"
+  pdfurl: "https://www.frontiersin.org/articles/10.3389/frobt.2016.00045/full"
+  abstract: "An ambitious goal in evolutionary robotics (ER) is to evolve increasingly complex robotic behaviors with minimal human design effort. Reaching this goal requires evolutionary algorithms that can unlock from genetic encodings their latent potential for evolvability. One issue clouding this goal is conceptual confusion about evolvability that often obscures important or desirable aspects of evolvability. The danger from such confusion is that it may establish unrealistic goals for evolvability that prove unproductive in practice. An important issue separate from conceptual confusion is the common misalignment between selection and evolvability in ER. While more expressive encodings can represent higher-level adaptations (e.g. sexual reproduction or developmental systems) that increase long-term evolutionary potential (i.e. evolvability), realizing such potential requires gradients of fitness and evolvability to align. In other words, selection is often a critical factor limiting increasing evolvability. Thus, drawing from a series of recent papers, this article seeks to both (1) clarify and focus the ways in which the term evolvability is used within artificial evolution and (2) argue for the importance of one type of selection, i.e. divergent selection, for enabling evolvability. The main argument is that there is a fundamental connection between divergent selection and evolvability (on both the individual and population level) that does not hold for typical goal-oriented selection. The conclusion is that selection pressure plays a critical role in realizing the potential for evolvability and that divergent selection in particular provides a principled mechanism for encouraging evolvability in artificial evolution."
   bibtex: |
           "@article{lehman2016critical,
           title={On the critical role of divergent selection in evolvability},
@@ -534,6 +536,7 @@ papers:
    - "Dario Floreano"
   year: 2016
   pdfurl: "https://infoscience.epfl.ch/record/220676/files/p1061-auerbach.pdf"
+  abstract: "Recently there has been a growing movement of researchers that believes innovation and novelty creation, rather than pure optimization, are the true strengths of evolutionary algorithms relative to other forms of machine learning. This idea also provides one possible explanation for why evolutionary processes may exist in nervous systems on top of other forms of learning. One particularly exciting corollary of this, is that evolutionary algorithms may be used to produce what Pugh et al have dubbed Quality Diversity (QD): as many as possible different solutions (according to some characterization), which are all as fit as possible. While the notion of QD implies choosing the dimensions on which to measure diversity and performance, we propose that it may be possible (and desirable) to free the evolutionary process from requiring defining these dimensions. Toward that aim, we seek to understand more about QD in general by investigating how algorithms informed by different measures of diversity (or none at all) create QD, when that QD is mea- sured in a diversity of ways."
   bibtex: |
           "@inproceedings{auerbach2016gaining,
           title={Gaining insight into quality diversity},
@@ -550,6 +553,7 @@ papers:
    - "Kenneth Stanley"
   year: 2016
   pdfurl: "https://eplex.cs.ucf.edu/papers/pugh_ppsn16.pdf"
+  abstract: "Inspired by natural evolution’s affinity for discovering a wide variety of successful organisms, a new evolutionary search paradigm has emerged wherein the goal is not to find the single best solution but rather to collect a diversity of unique phenotypes where each variant is as good as it can be. These quality diversity(QD) algorithms therefore must explore multiple promising niches simultaneously. A QD algorithm’s diversity component, formalized by specifying a behavior characterization (BC), not only generates diversity but also promotes quality by helping to overcome deception in the fitness landscape. However, some BCs (particularly those that are unaligned with the notion of quality) do not adequately mitigate deception, rendering QD algorithms unable to discover the best-performing solutions on difficult problems. This paper introduces a solution that enables QD algorithms to pursue arbitrary notions of diversity without compromising their ability to solve hard problems: driving search with multiple BCs simultaneously"
   bibtex: |
           "@inproceedings{pugh2016searching,
           title={Searching for quality diversity when diversity is unaligned with quality},
@@ -583,6 +587,7 @@ papers:
    - "Georgios Yannakakis"
   year: 2018
   pdfurl: "https://arxiv.org/pdf/1807.02397.pdf"
+  abstract: "Quality diversity is a recent family of evolutionary search algorithms which focus on finding several well-performing (quality) yet different (diversity) solutions with the aim to maintain an appropriate balance between divergence and convergence during search. While quality diversity has already delivered promising results in complex problems, the capacity of divergent search variants for quality diversity remains largely unexplored. Inspired by the notion of surprise as an effective driver of divergent search and its orthogonal nature to novelty this paper investigates the impact of the former to quality diversity performance. For that purpose we introduce three new quality diversity algorithms which employ surprise as a diversity measure, either on its own or combined with novelty, and compare their performance against novelty search with local competition, the state of the art quality diversity algorithm. The algorithms are tested in a robot navigation task across 60 highly deceptive mazes. Our findings suggest that allowing surprise and novelty to operate synergistically for divergence and in combination with local competition leads to quality diversity algorithms of significantly higher efficiency, speed and robustness."
   bibtex: |
           "@article{gravina2018quality,
           title={Quality Diversity Through Surprise},
@@ -597,7 +602,6 @@ papers:
    - "Sancho Moura Oliveira"
    - "Anders Lyhne Christensen"
   year: 2018
-  
   bibtex: |
           "@article{duarte2018evolution,
           title={Evolution of repertoire-based control for robots with complex locomotor systems},
@@ -616,6 +620,7 @@ papers:
    - "Jean-Baptiste Mouret"
   year: 2018
   pdfurl: "https://arxiv.org/pdf/1709.06919.pdf"
+  abstract: "One of the most interesting features of Bayesian optimization for direct policy search is that it can leverage priors (e.g., from simulation or from previous tasks) to accelerate learning on a robot. In this paper, we are interested in situations for which several priors exist but we do not know in advance which one fits best the current situation. We tackle this problem by introducing a novel acquisition function, called Most Likely Expected Improvement (MLEI), that combines the likelihood of the priors and the expected improvement. We evaluate this new acquisition function on a transfer learning task for a 5-DOF planar arm and on a possibly damaged, 6-legged robot that has to learn to walk on flat ground and on stairs, with priors corresponding to different stairs and different kinds of damages. Our results show that MLEI effectively identifies and exploits the priors, even when there is no obvious match between the current situations and the priors. "
   bibtex: |
           "@inproceedings{pautrat2018bayesian,
           title={Bayesian optimization with automatic prior selection for data-efficient direct policy search},
@@ -631,15 +636,14 @@ papers:
    - "Alexander Asteroth"
    - "Jean-Baptiste Mouret"
   year: 2017
-  pdfurl: "https://www.researchgate.net/profile/Adam_Gaier/publication/313671108_Data-Efficient_Exploration_Optimization_and_Modeling_of_Diverse_Designs_through_Surrogate-Assisted_Illumination/links/58a48a45a6fdcc0e0759f01f/Data-Efficient-Exploration-Optimization-and-Modeling-of-Diverse-Designs-through-Surrogate-Assisted-Illumination.pdf"
+  pdfurl: "https://pdfs.semanticscholar.org/d305/ba9a5ee3089de3f2e03d6fa53c90aba89d9c.pdf"
+  abstract: "The MAP-Elites algorithm produces a set of high-performing solutions that vary according to features defined by the user.This technique has the potential to be a powerful tool for design space exploration, but is limited by the need for numerous evaluations. The Surrogate-Assisted Illumination algorithm (SAIL),introduced here, integrates approximative models and intelligent sampling of the objective function to minimize the number of evaluations required by MAP-Elites.The ability of SAIL to efficiently produce both accurate models and diverse high performing solutions is illustrated on a 2D air-foil design problem. The search space is divided into bins, each holding a design with a different combination of features. In each bin SAIL produces a better performing solution than MAP-Elites, and requires several orders of magnitude fewer evaluations. TheCMA-ES algorithm was used to produce an optimal design in each bin: with the same number of evaluations required by CMA-ES to find a near-optimal solution in a single bin, SAIL finds solutions of similar quality in every bin."
   bibtex: |
           "@inproceedings{gaier2017feature,
           title={Feature space modeling through surrogate illumination},
           author={Gaier, Adam and Asteroth, Alexander and Mouret, Jean-Baptiste},
           booktitle={Proc. of GECCO},
           year={2017} }"
-
-
 
 - title: "Comparing Approaches for Evolving High-Level Robot Control Based on Behaviour Repertoires"
   authors:
