@@ -287,6 +287,7 @@ papers:
    - "Jean-Baptiste Mouret"
   year: 2017
   pdfurl: "https://hal.inria.fr/hal-01518786/file/aiaa_sail.pdf"
+  abstract: "A new method for design space exploration and optimization, Surrogate-Assisted Illumination (SAIL), is presented. Inspired by robotics techniques designed to produce diverse repertoires of behaviors for use in damage recovery, SAIL produces diverse designs that vary according to features specified by the designer. By producing high-performing designs with varied combinations of user-defined features a map of the design space is created. This map illuminates the relationship between the chosen features and performance, and can aid designers in identifying promising design concepts. SAIL is designed for use with compu-tationally expensive design problems, such as fluid or structural dynamics, and integrates approximative models and intelligent sampling of the objective function to minimize the number of function evaluations required. On a 2D airfoil optimization problem SAIL is shown to produce hundreds of diverse designs which perform competitively with those found by state-of-the-art black box optimization. Its capabilities are further illustrated in a more expensive 3D aerodynamic optimization task."
   bibtex: |
           "@inproceedings{gaier2017aerodynamic,
           title={Aerodynamic design exploration through surrogate-assisted illumination},
@@ -302,6 +303,7 @@ papers:
    - "Jean-Baptiste Mouret"
   year: 2016
   pdfurl: "https://arxiv.org/pdf/1610.01407.pdf"
+  abstract: "The recently introduced Intelligent Trial and Error algorithm (IT\&E) enables robots to creatively adapt to damage in a matter of minutes by combining an off-line evolutionary algorithm and an on-line learning algorithm based on Bayesian Optimization. We extend the IT\&E algorithm to allow for robots to learn to compensate for damages while executing their task(s). This leads to a semi-episodic learning scheme that increases the robot's lifetime autonomy and adaptivity. Preliminary experiments on a toy simulation and a 6-legged robot locomotion task show promising results."
   bibtex: |
           "@inproceedings{chatzilygeroudis2016towards,
           title={Towards semi-episodic learning for robot damage recovery},
@@ -317,6 +319,7 @@ papers:
    - "Jean-Baptiste Mouret"
   year: 2016
   pdfurl: "https://arxiv.org/pdf/1611.09419.pdf"
+  abstract: "The recently introduced Intelligent Trial-and-Error (IT&E) algorithm showed that robots can adapt to damage in a matter of a few trials. The success of this algorithm relies on two components: prior knowledge acquired through simulation with an intact robot, and Bayesian optimization (BO) that operates on-line, on the damaged robot. While IT&E leads to fast damage recovery, it does not incorporate any safety constraints that prevent the robot from attempting harmful behaviors. In this work, we address this limitation by replacing the BO component with a constrained BO procedure. We evaluate our approach on a simulated damaged humanoid robot that needs to crawl as fast as possible, while performing as few unsafe trials as possible. We compare our new \"safety-aware IT&E\" algorithm to IT&E and a multi-objective version of IT&E in which the safety constraints are dealt as separate objectives. Our results show that our algorithm outperforms the other approaches, both in crawling speed within the safe regions and number of unsafe trials."
   bibtex: |
           "@inproceedings{papaspyros2016safety,
           title={Safety-aware robot damage recovery using constrained bayesian optimization and simulated priors},
@@ -364,6 +367,7 @@ papers:
    - algo
   year: 2018
   pdfurl: "https://arxiv.org/pdf/1708.09251.pdf"
+  abstract: "The optimization of functions to find the best solution according to one or several objectives has a central role in many engineering and research fields. Recently, a new family of optimization algorithms, named Quality-Diversity optimization, has been introduced, and contrasts with classic algorithms. Instead of searching for a single solution, Quality-Diversity algorithms are searching for a large collection of both diverse and high-performing solutions. The role of this collection is to cover the range of possible solution types as much as possible, and to contain the best solution for each type. The contribution of this paper is threefold. Firstly, we present a unifying framework of Quality-Diversity optimization algorithms that covers the two main algorithms of this family (Multi-dimensional Archive of Phenotypic Elites and the Novelty Search with Local Competition), and that highlights the large variety of variants that can be investigated within this family. Secondly, we propose algorithms with a new selection mechanism for Quality-Diversity algorithms that outperforms all the algorithms tested in this paper. Lastly, we present a new collection management that overcomes the erosion issues observed when using unstructured collections. These three contributions are supported by extensive experimental comparisons of Quality-Diversity algorithms on three different experimental scenarios."
   bibtex: |
           "@article{cully2018quality,
           title={Quality and diversity optimization: A unifying modular framework},
@@ -381,6 +385,7 @@ papers:
    - "Yiannis Demiris"
   year: 2018
   pdfurl: "https://arxiv.org/pdf/1804.07127.pdf"
+  abstract: "Enabling artificial agents to automatically learn complex, versatile and high-performing behaviors is a long-lasting challenge. This paper presents a step in this direction with hierarchical behavioral repertoires that stack several behavioral repertoires to generate sophisticated behaviors. Each repertoire of this architecture uses the lower repertoires to create complex behaviors as sequences of simpler ones, while only the lowest repertoire directly controls the agent's movements. This paper also introduces a novel approach to automatically define behavioral descriptors thanks to an unsupervised neural network that organizes the produced high-level behaviors. The experiments show that the proposed architecture enables a robot to learn how to draw digits in an unsupervised manner after having learned to draw lines and arcs. Compared to traditional behavioral repertoires, the proposed architecture reduces the dimensionality of the optimization problems by orders of magnitude and provides behaviors with a twice better fitness. More importantly, it enables the transfer of knowledge between robots: a hierarchical repertoire evolved for a robotic arm to draw digits can be transferred to a humanoid robot by simply changing the lowest layer of the hierarchy. This enables the humanoid to draw digits although it has never been trained for this task."
   bibtex: |
           "@article{cully2018hierarchical,
           title={Hierarchical Behavioral Repertoires with Unsupervised Descriptors},
@@ -396,6 +401,7 @@ papers:
    - "Ben Paechter"
   year: 2018
   pdfurl: "https://arxiv.org/pdf/1804.07655.pdf"
+  abstract: "The presence of functional diversity within a group has been demonstrated to lead to greater robustness, higher performance and increased problem-solving ability in a broad range of studies that includes insect groups, human groups and swarm robotics. Evolving group diversity however has proved challenging within Evolutionary Robotics, requiring reproductive isolation and careful attention to population size and selection mechanisms. To tackle this issue, we introduce a novel, decentralised, variant of the MAP-Elites illumination algorithm which is hybridised with a well-known distributed evolutionary algorithm (mEDEA). The algorithm simultaneously evolves multiple diverse behaviours for multiple robots, with respect to a simple token-gathering task. Each robot in the swarm maintains a local archive defined by two pre-specified functional traits which is shared with robots it come into contact with. We investigate four different strategies for sharing, exploiting and combining local archives and compare results to mEDEA. Experimental results show that in contrast to previous claims, it is possible to evolve a functionally diverse swarm without geographical isolation, and that the new method outperforms mEDEA in terms of the diversity, coverage and precision of the evolved swarm."
   bibtex: |
           "@article{hart2018evolution,
           title={Evolution of a Functionally Diverse Swarm via a Novel Decentralised Quality-Diversity Algorithm},
