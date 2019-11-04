@@ -2,7 +2,11 @@
 
 You can click on each title to display more information, including authors, url to pdf, abstract and bibtex. 
 
-Test tag: <span class="w3-tag w3-red">New!</span>
+Test tags:
+<span class="label review">Review</span>
+<span class="label newalgo">Algo</span>
+<span class="label application">Appli</span>
+<span class="label all">All</span>
 
 {% assign paperlist = site.data.paperlist.papers | group_by: 'year' | sort:"name"  %}
 {% for yeargroup in paperlist reversed %}
