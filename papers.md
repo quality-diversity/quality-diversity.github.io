@@ -2,11 +2,11 @@
 
 You can click on each title to display more information, including authors, url to pdf, abstract and bibtex. 
 
-Test2 tags:
+<!–– Test2 tags:
 <span class="badge review">Review</span>
 <span class="badge newalgo">Algo</span>
 <span class="badge application">Appli</span>
-<span class="badge all">All</span>
+<span class="badge all">All</span> ––>
 
 {% assign paperlist = site.data.paperlist.papers | group_by: 'year' | sort:"name"  %}
 {% for yeargroup in paperlist reversed %}
