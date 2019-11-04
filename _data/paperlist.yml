@@ -602,21 +602,7 @@ papers:
           booktitle={Proc. of GECCO},
           year={2017} }"
 
-- title: "Combining map-elites and incremental evolution to generate gaits for a mammalian quadruped robot"
-  authors:
-   - "Jorgen Nordmoen"
-   - "Kai Olav Ellefsen"
-   - "Kyrre Glette"
-  year: 2018
-  pdfurl: "http://folk.uio.no/kyrrehg/pubs/nordmoen-evorobot2018.pdf"
-  bibtex: |
-          "@inproceedings{nordmoen2018combining,
-          title={Combining map-elites and incremental evolution to generate gaits for a mammalian quadruped robot},
-          author={Nordmoen, Jorgen and Ellefsen, Kai Olav and Glette, Kyrre},
-          booktitle={International Conference on the Applications of Evolutionary Computation},
-          pages={719--733},
-          year={2018},
-          organization={Springer} }"
+
 
 - title: "Comparing Approaches for Evolving High-Level Robot Control Based on Behaviour Repertoires"
   authors:
@@ -1025,19 +1011,6 @@ papers:
           pages={1347--1355},
           year={2019},
           organization={ACM} }"
-
-- title: "Evaluating MAP-Elites on Constrained Optimization Problems"
-  authors:
-   - "Stefano Fioravanzo"
-   - "Giovanni Iacca"
-  year: 2019
-  pdfurl: "https://arxiv.org/pdf/1902.00703.pdf"
-  bibtex: |
-          "@article{fioravanzo2019evaluating,
-          title={Evaluating MAP-Elites on Constrained Optimization Problems},
-          author={Fioravanzo, Stefano and Iacca, Giovanni},
-          journal={arXiv preprint arXiv:1902.00703},
-          year={2019} }"
 
 - title: "Exploring Self-Assembling Behaviors in a Swarm of Bio-micro-robots using Surrogate-Assisted MAP-Elites"
   authors:
