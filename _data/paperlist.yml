@@ -1201,3 +1201,43 @@ papers:
           organization={ACM} }"
 
 
+
+- title: "Adaptive Prior Selection for Repertoire-based Online Adaptation in Robotics"
+  authors:
+   - "Rituraj Kaushik"
+   - "Pierre Desreumaux"
+   - "Jean-Baptiste Mouret"
+  year: 2019
+  abstract: "Repertoire-based learning is a data-efficient adaptation approach based on a two-step process in which (1) a large and diverse set of policies is learned in simulation, and (2) a planning or learning algorithm chooses the most appropriate policies according to the current situation (e.g., a damaged robot, a new object, etc.). In this paper, we relax the assumption of previous works that a single repertoire is enough for adaptation. Instead, we generate repertoires for many different situations (e.g., with a missing leg, on different floors, etc.) and let our algorithm selects the most useful prior. Our main contribution is an algorithm, APROL (Adaptive Prior selection for Repertoire-based Online Learning) to plan the next action by incorporating these priors when the robot has no information about the current situation. We evaluate APROL on two simulated tasks: (1) pushing unknown objects of various shapes and sizes with a robotic arm and (2) a goal reaching task with a damaged hexapod robot. We compare with "Reset-free Trial and Error" (RTE) and various single repertoire-based baselines. The results show that APROL solves both the tasks in less interaction time than the baselines. Additionally, we demonstrate APROL on a real, damaged hexapod that quickly learns to pick compensatory policies to reach a goal by avoiding obstacles in the path."
+  pdfurl: "https://arxiv.org/pdf/1907.07029"
+  bibtex: |
+          "@article{kaushik2019,
+          author = {Rituraj Kaushik and Pierre Desreumaux and Jean-Baptiste Mouret},
+          title     = {Adaptive Prior Selection for Repertoire-based Online Learning in Robotics},
+          journal   = {arXiV},
+          volume    = {abs/1907.07029},
+          year      = {2019},
+          url       = {http://arxiv.org/abs/1907.07029}}"
+
+
+
+
+- title: "Reset-free trial-and-error learning for robot damage recovery"
+  authors:
+   - "Konstantinos Chatzilygeroudis"
+   - "Vassilis Vassiliades"
+   - "Jean-Baptiste Mouret"
+  year: 2018
+  abstract: "The high probability of hardware failures prevents many advanced robots (e.g., legged robots) from being confidently deployed in real-world situations (e.g., post-disaster rescue). Instead of attempting to diagnose the failures, robots could adapt by trial-and-error in order to be able to complete their tasks. In this situation, damage recovery can be seen as a Reinforcement Learning (RL) problem. However, the best RL algorithms for robotics require the robot and the environment to be reset to an initial state after each episode, that is, the robot is not learning autonomously. In addition, most of the RL methods for robotics do not scale well with complex robots (e.g., walking robots) and either cannot be used at all or take too long to converge to a solution (e.g., hours of learning). In this paper, we introduce a novel learning algorithm called “Reset-free Trial-and-Error” (RTE) that (1) breaks the complexity by pre-generating hundreds of possible behaviors with a dynamics simulator of the intact robot, and (2) allows complex robots to quickly recover from damage while completing their tasks and taking the environment into account. We evaluate our algorithm on a simulated wheeled robot, a simulated six-legged robot, and a real six-legged walking robot that are damaged in several ways (e.g., a missing leg, a shortened leg, faulty motor, etc.) and whose objective is to reach a sequence of targets in an arena. Our experiments show that the robots can recover most of their locomotion abilities in an environment with obstacles, and without any human intervention."
+  pdfurl: "https://arxiv.org/pdf/1610.04213"
+  bibtex: |
+          "@article{chatzilygeroudis2018reset,
+            title={Reset-free trial-and-error learning for robot damage recovery},
+            author={Chatzilygeroudis, Konstantinos and Vassiliades, Vassilis and Mouret, Jean-Baptiste},
+            journal={Robotics and Autonomous Systems},
+            volume={100},
+            pages={236--250},
+            year={2018},
+            publisher={Elsevier}}"
+
+
