@@ -153,6 +153,7 @@ papers:
    - "Jean-Baptiste Mouret"
   year: 2015
   pdfurl: "https://arxiv.org/pdf/1308.3689.pdf"
+  abstract: "Numerous algorithms have been proposed to allow legged robots to learn to walk. However, the vast majority of these algorithms is devised to learn to walk in a straight line, which is not sufficient to accomplish any real-world mission. Here we introduce the Transferability-based Behavioral Repertoire Evolution algorithm (TBR-Evolution), a novel evolutionary algorithm that simultaneously discovers several hundreds of simple walking controllers, one for each possible direction. By taking advantage of solutions that are usually discarded by evolutionary processes, TBR-Evolution is substantially faster than independently evolving each controller. Our technique relies on two methods: (1) novelty search with local competition, which searches for both high-performing and diverse solutions, and (2) the transferability approach, which com-bines simulations and real tests to evolve controllers for a physical robot. We evaluate this new technique on a hexapod robot. Results show that with only a few dozen short experiments performed on the robot, the algorithm learns a repertoire of con-trollers that allows the robot to reach every point in its reachable space. Overall, TBR-Evolution opens a new kind of learning algorithm that simultaneously optimizes all the achievable behaviors of a robot."
   bibtex: |
           "@article{cully2015evolving,
           title={Evolving a behavioral repertoire for a walking robot},
@@ -168,6 +169,7 @@ papers:
    - "Jean-Baptiste Mouret"
   year: 2018
   pdfurl: "https://hal.inria.fr/hal-01630627/file/ieee_tec_voronoi_map_elites.pdf"
+  abstract: "The recently introduced Multi-dimensional Archive of Phenotypic Elites (MAP-Elites) is an evolutionary algorithm capable of producing a large archive of diverse, high-performing solutions in a single run. It works by discretizing a continuous feature space into unique regions according to the desired discretization per dimension. While simple, this algorithm has a main drawback: it cannot scale to high-dimensional feature spaces since the number of regions increase exponentially with the number of dimensions. In this paper, we address this limitation by introducing a simple extension of MAP-Elites that has a constant, pre-defined number of regions irrespective of the dimensionality of the feature space. Our main insight is that methods from computational geometry could partition a high-dimensional space into well-spread geometric regions. In particular, our algorithm uses a centroidal Voronoi tessellation (CVT) to divide the feature space into a desired number of regions; it then places every generated individual in its closest region, replacing a less fit one if the region is already occupied. We demonstrate the effectiveness of the new \" CVT-MAP-Elites \" algorithm in high-dimensional feature spaces through comparisons against MAP-Elites in maze navigation and hexapod locomotion tasks."
   bibtex: |
           "@article{vassiliades2018using,
           title={Using Centroidal Voronoi Tessellations to Scale Up the Multidimensional Archive of Phenotypic Elites Algorithm},
@@ -186,6 +188,7 @@ papers:
    - "Jean-Baptiste Mouret"
   year: 2018
   pdfurl: "https://arxiv.org/pdf/1806.05865.pdf"
+  abstract: "Design optimization techniques are often used at the beginning of the design process to explore the space of possible designs. In these domains illumination algorithms, such as MAP-Elites, are promising alternatives to classic optimization algorithms because they produce diverse, high-quality solutions in a single run, instead of only a single near-optimal solution. Unfortunately, these algorithms currently require a large number of function evaluations, limiting their applicability. In this article we introduce a new illumination algorithm, Surrogate-Assisted Illumination (SAIL), that leverages surrogate modeling techniques to create a map of the design space according to user-defined features while minimizing the number of fitness evaluations. On a 2-dimensional airfoil optimization problem SAIL produces hundreds of diverse but high-performing designs with several orders of magnitude fewer evaluations than MAP-Elites or CMA-ES. We demonstrate that SAIL is also capable of producing maps of high-performing designs in realistic 3-dimensional aerodynamic tasks with an accurate flow simulation. Data-efficient design exploration with SAIL can help designers understand what is possible, beyond what is optimal, by considering more than pure objective-based optimization."
   bibtex: |
           "@article{gaier2018data,
           title={Data-Efficient Design Exploration through Surrogate-Assisted Illumination},
@@ -201,6 +204,7 @@ papers:
    - "Jean-Baptiste Mouret"
   year: 2018
   pdfurl: "https://arxiv.org/pdf/1804.03906.pdf"
+  abstract: "Evolution has produced an astonishing diversity of species, each filling a different niche. Algorithms like MAP-Elites mimic this divergent evolutionary process to find a set of behaviorally diverse but high-performing solutions, called the elites. Our key insight is that species in nature often share a surprisingly large part of their genome, in spite of occupying very different niches; similarly, the elites are likely to be concentrated in a specific "elite hypervolume" whose shape is defined by their common features. In this paper, we first introduce the elite hypervolume concept and propose two metrics to characterize it: the genotypic spread and the genotypic similarity. We then introduce a new variation operator, called "directional variation", that exploits interspecies (or inter-elites) correlations to accelerate the MAP-Elites algorithm. We demonstrate the effectiveness of this operator in three problems (a toy function, a redundant robotic arm, and a hexapod robot)"
   bibtex: |
           "@article{vassiliades2018discovering,
           title={Discovering the Elite Hypervolume by Leveraging Interspecies Correlation},
@@ -217,6 +221,7 @@ papers:
    - "and many others"
   year: 2018
   pdfurl: "https://arxiv.org/pdf/1803.03453.pdf"
+  abstract: "Biological evolution provides a creative fount of complex and subtle adaptations, often surprising the scientists who discover them. However, because evolution is an algorithmic process that transcends the substrate in which it occurs, evolution's creativity is not limited to nature. Indeed, many researchers in the field of digital evolution have observed their evolving algorithms and organisms subverting their intentions, exposing unrecognized bugs in their code, producing unexpected adaptations, or exhibiting outcomes uncannily convergent with ones in nature. Such stories routinely reveal creativity by evolution in these digital worlds, but they rarely fit into the standard scientific narrative. Instead they are often treated as mere obstacles to be overcome, rather than results that warrant study in their own right. The stories themselves are traded among researchers through oral tradition, but that mode of information transmission is inefficient and prone to error and outright loss. Moreover, the fact that these stories tend to be shared only among practitioners means that many natural scientists do not realize how interesting and lifelike digital organisms are and how natural their evolution can be. To our knowledge, no collection of such anecdotes has been published before. This paper is the crowd-sourced product of researchers in the fields of artificial life and evolutionary computation who have provided first-hand accounts of such cases. It thus serves as a written, fact-checked collection of scientifically important and even entertaining stories. In doing so we also present here substantial evidence that the existence and importance of evolutionary surprises extends beyond the natural world, and may indeed be a universal property of all complex evolving systems."
   bibtex: |
           "@article{lehman2018surprising,
           title={The surprising creativity of digital evolution: A collection of anecdotes from the evolutionary computation and artificial life research communities},
@@ -230,6 +235,8 @@ papers:
    - "Konstantinos Chatzilygeroudis"
    - "Jean-Baptiste Mouret"
   year: 2017
+  pdfurl: "https://hal.inria.fr/hal-01518802/document"
+  abstract: "Illumination algorithms are a recent addition to the evolutionary computation toolbox that allows the generation of many diverse and high-performing solutions in a single run. Nevertheless, traditional multimodal optimization algorithms also search for diverse and high-performing solutions: could some multimodal optimization algorithms be beeer at illumination than illumination algorithms? In this study, we compare two illumination algorithms (Novelty Search with Local Competition (NSLC), MAP-Elites) with two multimodal optimization ones (Clearing, Restricted Tournament Selection) in a maze navigation task. e results show that Clearing can have comparable performance to MAP-Elites and NSLC. "
   bibtex: |
           "@inproceedings{vassiliades2017comparing,
           title={Comparing multimodal optimization and illumination},
@@ -245,6 +252,8 @@ papers:
    - "Konstantinos Chatzilygeroudis"
    - "Jean-Baptiste Mouret"
   year: 2017
+  pdfurl: "https://hal.inria.fr/hal-01518814/document"
+  abstract: "Illumination algorithms are a new class of evolutionary algorithms capable of producing large archives of diverse and high-performing solutions. Examples of such algorithms include Novelty Search with Local Competition (NSLC), the Multi-dimensional Archive of Phenotypic Elites (MAP-Elites) and the newly introduced Cen-troidal Voronoi Tessellation (CVT) MAP-Elites. While NSLC can be used in unbounded behavioral spaces, MAP-Elites and CVT-MAP-Elites require the user to manually specify the bounds. In this study, we introduce variants of these algorithms that expand their bounds based on the discovered solutions. In addition, we introduce a novel algorithm called \"Cluster-Elites\" that can adapt its bounds to non-convex spaces. We compare all algorithms in a maze navigation problem and illustrate that Cluster-Elites and the expansive variants of MAP-Elites and CVT-MAP-Elites have comparable or better performance than NSLC, MAP-Elites and CVT-MAP-Elites."
   bibtex: |
           "@inproceedings{vassiliades2017comparison,
           title={A comparison of illumination algorithms in unbounded spaces},
@@ -261,6 +270,7 @@ papers:
    - "Jean-Baptiste Mouret"
   year: 2017
   pdfurl: "https://hal.inria.fr/hal-01518698/file/sail2017.pdf"
+  abstract: "The MAP-Elites algorithm produces a set of high-performing solutions that vary according to features deened by the user. This technique to 'illuminate' the problem space through the lens of chosen features has the potential to be a powerful tool for exploring design spaces, but is limited by the need for numerous evaluations. The Surrogate-Assisted Illumination (SAIL) algorithm, introduced here, integrates approximative models and intelligent sampling of the objective function to minimize the number of evaluations required by MAP-Elites. The ability of SAIL to efficiently produce both accurate models and diverse high-performing solutions is illustrated on a 2D airfoil design problem. The search space is divided into bins, each holding a design with a diierent combination of features. In each bin SAIL produces a better performing solution than MAP-Elites, and requires several orders of magnitude fewer evaluations. The CMA-ES algorithm was used to produce an optimal design in each bin: with the same number of evaluations required by CMA-ES to find a near-optimal solution in a single bin, SAIL finds solutions of similar quality in every bin."
   bibtex: |
           "@inproceedings{gaier2017data,
           title={Data-efficient exploration, optimization, and modeling of diverse designs through surrogate-assisted illumination},
