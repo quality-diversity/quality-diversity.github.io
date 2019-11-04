@@ -14,9 +14,9 @@ You can click on each title to display more information, including authors, url 
 {% assign paperlist = site.data.paperlist.papers | group_by: 'year' | sort:"name"  %}
 {% for yeargroup in paperlist reversed %}
 {% if yeargroup.name == "" %}
-   <h3>Undated</h3>
+   <h3>Undated</h3>: {{ yeargroup.size }} Papers
 {% else %}
-   <h3>{{ yeargroup.name }}</h3>
+   <h3>{{ yeargroup.name }</h3>}: {{ yeargroup.size }} Papers
 {% endif %}
 <ul>
 	{% assign sortedgroup = yeargroup.items | sort:"title"  %}
