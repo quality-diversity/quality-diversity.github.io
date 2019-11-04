@@ -1,0 +1,13 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+.label {
+  color: white;
+  padding: 8px;
+}
+.review {background-color: #159957;} /* full Green */
+.newalgo {background-color: #157878;} /* mix Blue-Green */
+.application {background-color: #155799;} /* full Blue */
+.all {background-color: #dce6f0; color: #606c71;} /* Gray */
