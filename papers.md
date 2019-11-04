@@ -2,7 +2,7 @@
 
 You can click on each title to display more information, including authors, url to pdf, abstract and bibtex. 
 
-Test tags:
+Test2 tags:
 <span class="label review">Review</span>
 <span class="label newalgo">Algo</span>
 <span class="label application">Appli</span>
