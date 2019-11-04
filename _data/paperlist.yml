@@ -812,6 +812,7 @@ papers:
    - "Kyrre Glette"
   year: 2018
   pdfurl: "http://folk.uio.no/kyrrehg/pubs/engebraaten-evorobot2018.pdf"
+  abstract: "Automated design of swarm behaviors with a top-down approach is a challenging research question that has not yet been fully addressed in the robotic swarm literature. This paper seeks to explore the possibility of using an evolutionary algorithm to evolve, rather than hand code, a wide repertoire of behavior primitives enabling more effective control of a large group or swarm of unmanned systems. We use the MAP-elites algorithm to generate a repertoire of controllers with varying abilities and behaviors allowing the swarm to adapt to user-defined preferences by selection of a new appropriate controller. To test the proposed method we examine two example applications: perimeter surveillance and network creation. Perimeter surveillance require agents to explore, while network creation requires them to disperse without los-ing connectivity. These are distinct application that have drastically different requirements on agent behavior, and are a good benchmark for our swarm controller optimization framework. We show a performance com-parison between a simple weighted controller and a parametric controller.Evolving controllers allows for specifying desired behaviors top-down, in terms of objectives to solve, rather than bottom-up."
   bibtex: |
           "@inproceedings{engebraaten2018evolving,
           title={Evolving a Repertoire of Controllers for a Multi-function Swarm},
@@ -828,6 +829,7 @@ papers:
    - "Kyrre Glette"
   year: 2018
   pdfurl: "http://home.ifi.uio.no/kyrrehg/pubs/nordmoen-evorobot2018.pdf"
+  abstract: "Four-legged mammals are capable of showing a great variety of movement patterns, ranging from a simple walk to more complex movement such as trots and gallops. Imbuing this diversity to quadruped robots is of interest in order to improve both mobility and reach. Within the field of Evolutionary Robotics, Quality Diversity techniques have shown a remarkable ability to produce not only effective, but also highly diverse solutions. When applying this approach to four-legged robots an initial problem is to create viable movement patterns that do not fall. This difficulty stems from the challenging fitness gradient due to the mammalian morphology. In this paper we propose a solution to overcome this problem by implementing incremental evolution within the QualityDiversity framework. This allows us to evolve controllers that become more complex while at the same time utilizing the diversity produced byQuality Diversity. We show that our approach is able to generate high fitness solutions early in the search process, keep these solutions and perform a more open-ended search towards the end of evolution."
   bibtex: |
           "@inproceedings{nordmoen2018combining,
           title={Combining map-elites and incremental evolution to generate gaits for a mammalian quadruped robot},
@@ -845,6 +847,7 @@ papers:
    - "Stephane Doncieux"
   year: 2019
   pdfurl: "https://arxiv.org/pdf/1909.05508.pdf"
+  abstract: "Performing Reinforcement Learning in sparse rewards settings, with very little prior knowledge, is a challenging problem since there is no signal to properly guide the learning process. In such situations, a good search strategy is fundamental. At the same time, not having to adapt the algorithm to every single problem is very desirable. Here we introduce TAXONS, a Task Agnostic eXploration of Outcome spaces through Novelty and Surprise algorithm. Based on a population-based divergent-search approach, it learns a set of diverse policies directly from high-dimensional observations, without any task-specific information. TAXONS builds a repertoire of policies while training an autoencoder on the high-dimensional observation of the final state of the system to build a low-dimensional outcome space. The learned outcome space, combined with the reconstruction error, is used to drive the search for new policies. Results show that TAXONS can find a diverse set of controllers, covering a good part of the ground-truth outcome space, while having no information about such space."
   bibtex: |
           "@article{paolo2019unsupervised,
           title={Unsupervised Learning and Exploration of Reachable Outcome Space},
@@ -861,6 +864,7 @@ papers:
    - "Jose Halloy"
   year: 2019
   pdfurl: "https://arxiv.org/pdf/1907.09209.pdf"
+  abstract: "During the last two decades, various models have been proposed for fish collective motion. These models are mainly developed to decipher the biological mechanisms of social interaction between animals. They consider very simple homogeneous unbounded environments and it is not clear that they can simulate accurately the collective trajectories. Moreover when the models are more accurate, the question of their scalability to either larger groups or more elaborate environments remains open. This study deals with learning how to simulate realistic collective motion of collective of zebrafish, using real-world tracking data. The objective is to devise an agent-based model that can be implemented on an artificial robotic fish that can blend into a collective of real fish. We present a novel approach that uses Quality Diversity algorithms, a class of algorithms that emphasise exploration over pure optimisation. In particular, we use CVT-MAP-Elites, a variant of the state-of-the-art MAP-Elites algorithm for high dimensional search space. Results show that Quality Diversity algorithms not only outperform classic evolutionary reinforcement learning methods at the macroscopic level (i.e. group behaviour), but are also able to generate more realistic biomimetic behaviours at the microscopic level (i.e. individual behaviour)."
   bibtex: |
           "@inproceedings{cazenille2019automatic,
           title={Automatic Calibration of Artificial Neural Networks for Zebrafish Collective Behaviours Using a Quality Diversity Algorithm},
@@ -877,6 +881,7 @@ papers:
    - "Thomas Back"
   year: 2019
   pdfurl: "https://arxiv.org/pdf/1907.06912.pdf"
+  abstract: "The initial phase in real world engineering optimization and design is a process of discovery in which not all requirements can be made in advance, or are hard to formalize. Quality diversity algorithms, which produce a variety of high performing solutions, provide a unique chance to support engineers and designers in the search for what is possible and high performing. In this work we begin to answer the question how a user can interact with quality diversity and turn it into an interactive innovation aid. By modeling a user's selection it can be determined whether the optimization is drifting away from the user's preferences. The optimization is then constrained by adding a penalty to the objective function. We present an interactive quality diversity algorithm that can take into account the user's selection. The approach is evaluated in a new multimodal optimization benchmark that allows various optimization tasks to be performed. The user selection drift of the approach is compared to a state of the art alternative on both a planning and a neuroevolution control task, thereby showing its limits and possibilities."
   bibtex: |
           "@inproceedings{hagg2019modeling,
           title={Modeling user selection in quality diversity},
@@ -908,7 +913,6 @@ papers:
    - "Alexander Asteroth"
    - "Jean-Baptiste Mouret"
   year: 2019
-  
   bibtex: |
           "@inproceedings{gaier2019quality,
           title={Are quality diversity algorithms better at generating stepping stones than objective-based search?},
@@ -924,6 +928,7 @@ papers:
    - "Giovanni Iacca"
   year: 2019
   pdfurl: "https://arxiv.org/pdf/1902.00703.pdf"
+  abstract: "Constrained optimization problems are often characterized by multiple constraints that, in the practice, must be satisfied with different tolerance levels. While some constraints are hard and as such must be satisfied with zero-tolerance, others may be soft, such that non-zero violations are acceptable. Here, we evaluate the applicability of MAP-Elites to \"illuminate\" constrained search spaces by mapping them into feature spaces where each feature corresponds to a different constraint. On the one hand, MAP-Elites implicitly preserves diversity, thus allowing a good exploration of the search space. On the other hand, it provides an effective visualization that facilitates a better understanding of how constraint violations correlate with the objective function. We demonstrate the feasibility of this approach on a large set of benchmark problems, in various dimensionalities, and with different algorithmic configurations. As expected, numerical results show that a basic version of MAP-Elites cannot compete on all problems (especially those with equality constraints) with state-of-the-art algorithms that use gradient information or advanced constraint handling techniques. Nevertheless, it has a higher potential at finding constraint violations vs. objectives trade-offs and providing new problem information. As such, it could be used in the future as an effective building-block for designing new constrained optimization algorithms."
   bibtex: |
           "@article{fioravanzo2019evaluating,
           title={Evaluating MAP-Elites on Constrained Optimization Problems},
@@ -936,6 +941,7 @@ papers:
    - "Leo Cazenille"
   year: 2019
   pdfurl: "https://arxiv.org/pdf/1908.08020.pdf"
+  abstract: "Quality-Diversity (QD) algorithms are a recent type of optimisation methods that search for a collection of both diverse and high performing solutions. They can be used to effectively explore a target problem according to features defined by the user. However, the field of QD still does not possess extensive methodologies and reference benchmarks to compare these algorithms. We propose a simple benchmark to compare the reliability of QD algorithms by optimising the Rastrigin function, an artificial landscape function often used to test global optimisation methods."
   bibtex: |
           "@inproceedings{cazenille2019comparing,
           title={Comparing reliability of grid-based Quality-Diversity algorithms using artificial landscapes},
@@ -950,6 +956,7 @@ papers:
    - "Antoine Cully"
   year: 2019
   pdfurl: "https://arxiv.org/pdf/1905.11874.pdf"
+  abstract: "Quality-Diversity optimization is a new family of optimization algorithms that, instead of searching for a single optimal solution to solving a task, searches for a large collection of solutions that all solve the task in a different way. This approach is particularly promising for learning behavioral repertoires in robotics, as such a diversity of behaviors enables robots to be more versatile and resilient. However, these algorithms require the user to manually define behavioral descriptors, which is used to determine whether two solutions are different or similar. The choice of a behavioral descriptor is crucial, as it completely changes the solution types that the algorithm derives. In this paper, we introduce a new method to automatically define this descriptor by combining Quality-Diversity algorithms with unsupervised dimensionality reduction algorithms. This approach enables robots to autonomously discover the range of their capabilities while interacting with their environment. The results from two experimental scenarios demonstrate that robot can autonomously discover a large range of possible behaviors, without any prior knowledge about their morphology and environment. Furthermore, these behaviors are deemed to be similar to handcrafted solutions that uses domain knowledge and significantly more diverse than when using existing unsupervised methods."
   bibtex: |
           "@inproceedings{cully2019Autonomous,
           author = {Cully, Antoine},
@@ -969,6 +976,7 @@ papers:
    - "V. Reverdy"
   year: 2019
   pdfurl: "https://arxiv.org/pdf/1906.03959.pdf"
+  abstract: "By combining Genetic Programming, MAP-Elites and Covariance Matrix Adaptation Evolution Strategy, we demonstrate very high success rates in Symbolic Regression problems. MAP-Elites is used to improve exploration while preserving diversity and avoiding premature convergence and bloat. Then, a Covariance Matrix Adaptation-Evolution Strategy is used to evaluate free scalars through a non-gradient-based black-box optimizer. Although this evaluation approach is not computationally scalable to high dimensional problems, our algorithm is able to find exactly most of the 31 targets extracted from the literature on which we evaluate it."
   bibtex: |
           "@article{bruneton2019exploration,
           title={Exploration and Exploitation in Symbolic Regression using Quality-Diversity and Evolutionary Strategies Algorithms},
@@ -981,7 +989,8 @@ papers:
    - "Marija Jegorova"
    - "Stephane Doncieux"
    - "Timothy Hospedales"
-  pdfurl: "http://homepages.inf.ed.ac.uk/thospeda/papers/jegorova2019gpn.pdf" 
+  pdfurl: "http://homepages.inf.ed.ac.uk/thospeda/papers/jegorova2019gpn.pdf"
+  abstract: "Learning algorithms are enabling robots to solve increasingly challenging real-world tasks. These approaches often rely on demonstrations and reproduce the behavior shown. Unexpected changes in the environment may require using different behaviors to achieve the same effect, for instance to reach and grasp an object in changing clutter. An emerging paradigm addressing this robustness issue is to learn a diverse set of successful behaviors for a given task, from which a robot can select the most suitable policy when faced with a new environment. In this paper, we explore a novel realization of this vision by learning a generative model over policies. Rather than learning a single policy, or a small fixed repertoire, our generative model for policies compactly encodes an unbounded number of policies and allows novel controller variants to be sampled. Leveraging our generative policy network, a robot can sample novel behaviors until it finds one that works for a new environment. We demonstrate this idea with an application of robust ball-throwing in the presence of obstacles. We show that this approach achieves a greater diversity of behaviors than an existing evolutionary approach, while maintaining good efficacy of sampled behaviors, allowing a Baxter robot to hit targets more often when ball throwing in the presence of obstacles."
   year: 2019
   bibtex: |
           "@article{jegorovabehavioral,
@@ -995,6 +1004,7 @@ papers:
    - "Julian Togelius"
   year: 2019
   pdfurl: "https://arxiv.org/pdf/1902.01724.pdf"
+  abstract: "In January 2019, DeepMind revealed AlphaStar to the world-the first artificial intelligence (AI) system to beat a professional player at the game of StarCraft II-representing a milestone in the progress of AI. AlphaStar draws on many areas of AI research, including deep learning, reinforcement learning, game theory, and evolutionary computation (EC). In this paper we analyze AlphaStar primarily through the lens of EC, presenting a new look at the system and relating it to many concepts in the field. We highlight some of its most interesting aspects-the use of Lamarckian evolution, competitive co-evolution, and quality diversity. In doing so, we hope to provide a bridge between the wider EC community and one of the most significant AI systems developed in recent times."
   bibtex: |
           "@article{arulkumaran2019alphastar,
           title={Alphastar: An evolutionary computation perspective},
@@ -1012,6 +1022,7 @@ papers:
    - "Georgios Yannakakis"
   year: 2019
   pdfurl: "https://arxiv.org/pdf/1907.04053.pdf"
+  abstract: "Quality-diversity (QD) algorithms search for a set of good solutions which cover a space as defined by behavior metrics. This simultaneous focus on quality and diversity with explicit metrics sets QD algorithms apart from standard single- and multi-objective evolutionary algorithms, as well as from diversity preservation approaches such as niching. These properties open up new avenues for artificial intelligence in games, in particular for procedural content generation. Creating multiple systematically varying solutions allows new approaches to creative human-AI interaction as well as adaptivity. In the last few years, a handful of applications of QD to procedural content generation and game playing have been proposed; we discuss these and propose challenges for future work."
   bibtex: |
           "@article{gravina2019procedural,
           title={Procedural content generation through quality diversity},
@@ -1040,6 +1051,7 @@ papers:
    - "Mark Daley"
   year: 2019
   pdfurl: "https://arxiv.org/pdf/1902.03142.pdf"
+  abstract: "Reinforcement learning (RL) problems often feature deceptive local optima, and learning methods that optimize purely for reward signal often fail to learn strategies for overcoming them. Deep neuroevolution and novelty search have been proposed as effective alternatives to gradient-based methods for learning RL policies directly from pixels. In this paper, we introduce and evaluate the use of novelty search over agent action sequences by string edit metric distance as a means for promoting innovation. We also introduce a method for stagnation detection and population resampling inspired by recent developments in the RL community that uses the same mechanisms as novelty search to promote and develop innovative policies. Our methods extend a state-of-the-art method for deep neuroevolution using a simple-yet-effective genetic algorithm (GA) designed to efficiently learn deep RL policy network weights. Experiments using four games from the Atari 2600 benchmark were conducted. Results provide further evidence that GAs are competitive with gradient-based algorithms for deep RL. Results also demonstrate that novelty search over action sequences is an effective source of selection pressure that can be integrated into existing evolutionary algorithms for deep RL."
   bibtex: |
           "@article{jackson2019novelty,
           title={Novelty Search for Deep Reinforcement Learning Policy Network Weights by Action Sequence Edit Metric Distance},
@@ -1069,6 +1081,7 @@ papers:
    - "Nathanael Aubert-Kato"
   year: 2019
   pdfurl: "https://arxiv.org/pdf/1910.00230.pdf"
+  abstract: "Swarms of molecular robots are a promising approach to create specific shapes at the microscopic scale through self-assembly. However, controlling their behavior is a challenging problem as it involves complex non-linear dynamics and high experimental variability. Hand-crafting a molecular controller will often be time-consuming and give sub-optimal results. Optimization methods, like the bioNEAT algorithm, were previously employed to partially overcome these difficulties, but they still had to cope with deceptive high-dimensional search spaces and computationally expensive simulations. Here, we describe a novel approach to solve this problem by using MAP-Elites, an algorithm that searches for both high-performing and diverse solutions. We then apply it to a molecular robotic framework we recently introduced that allows sensing, signaling and self-assembly at the micro-scale and show that MAP-Elites outperforms previous approaches. Additionally, we propose a surrogate model of micro-robots physics and chemical reaction dynamics to reduce the computational costs of simulation. We show that the resulting methodology is capable of optimizing controllers with similar accuracy as when using only a full-fledged realistic model, with half the computational budget."
   bibtex: |
           "@article{cazenille2019exploring,
           title={Exploring Self-Assembling Behaviors in a Swarm of Bio-micro-robots using Surrogate-Assisted MAP-Elites},
@@ -1084,6 +1097,7 @@ papers:
    - "Risto Miikkulainen"
   year: 2019
   pdfurl: "http://www.evolvingai.org/files/s42256-018-0006-z.pdf"
+  abstract: "Much of recent machine learning has focused on deep learning, in which neural network weights are trained through variants of stochastic gradient descent. An alternative approach comes from the field of neuroevolution, which harnesses evolutionary algorithms to optimize neural networks, inspired by the fact that natural brains themselves are the products of an evolutionary process. Neuroevolution enables important capabilities that are typically unavailable to gradient-based approaches, including learning neural network building blocks (for example activation functions), hyperparameters, architectures and even the algorithms for learning themselves. Neuroevolution also differs from deep learning (and deep reinforcement learning) by maintaining a population of solutions during search, enabling extreme exploration and massive parallelization. Finally, because neuroevolution research has (until recently) developed largely in isolation from gradient-based neural network research, it has developed many unique and effective techniques that should be effective in other machine learning areas too. This Review looks at several key aspects of modern neuroevolution, including large-scale computing, the benefits of novelty and diversity, the power of indirect encoding, and the field’s contributions to meta-learning and architecture search. Our hope is to inspire renewed interest in the field as it meets the potential of the increasing computation available today, to highlight how many of its ideas can provide an exciting resource for inspiration and hybridization to the deep learning, deep reinforcement learning and machine learning communities, and to explain how neuroevolution could prove to be a critical tool in the long-term pursuit of artificial general intelligence."
   bibtex: |
           "@article{stanley2019designing,
           title={Designing neural networks through neuroevolution},
@@ -1104,6 +1118,7 @@ papers:
    - "Dave Winkler"
   year: 2019
   pdfurl: "https://arxiv.org/pdf/1901.05704.pdf"
+  abtract: "Natural lifeforms specialise to their environmental niches across many levels; from low-level features such as DNA and proteins, through to higher-level artefacts including eyes, limbs, and overarching body plans. We propose Multi-Level Evolution (MLE), a bottom-up automatic process that designs robots across multiple levels and niches them to tasks and environmental conditions. MLE concurrently explores constituent molecular and material 'building blocks', as well as their possible assemblies into specialised morphological and sensorimotor configurations. MLE provides a route to fully harness a recent explosion in available candidate materials and ongoing advances in rapid manufacturing processes. We outline a feasible MLE architecture that realises this vision, highlight the main roadblocks and how they may be overcome, and show robotic applications to which MLE is particularly suited. By forming a research agenda to stimulate discussion between researchers in related fields, we hope to inspire the pursuit of multi-level robotic design all the way from material to machine."
   bibtex: |
           "@article{howard2019evolving,
           title={Evolving embodied intelligence from materials to machines},
@@ -1123,6 +1138,7 @@ papers:
    - "Julian Togelius"
   year: 2019
   pdfurl: "https://arxiv.org/pdf/1906.05175.pdf"
+  abstract: "We propose the use of quality-diversity algorithms for mixed-initiative game content generation. This idea is implemented as a new feature of the Evolutionary Dungeon Designer, a system for mixed-initiative design of the type of levels you typically find in computer role playing games. The feature uses the MAP-Elites algorithm, an illumination algorithm which divides the population into a number of cells depending on their values along several behavioral dimensions. Users can flexibly and dynamically choose relevant dimensions of variation, and incorporate suggestions produced by the algorithm in their map designs. At the same time, any modifications performed by the human feed back into MAP-Elites, and are used to generate further suggestions."
   bibtex: |
           "@article{alvarez2019empowering,
           title={Empowering Quality Diversity in Dungeon Design with Interactive Constrained MAP-Elites},
