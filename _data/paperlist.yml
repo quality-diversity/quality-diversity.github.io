@@ -667,6 +667,7 @@ papers:
    - "Kyrre Glette"
   year: 2018
   pdfurl: "http://heim.ifi.uio.no/~kyrrehg/pubs/nordmoen-alife2018.pdf"
+  abstract: "One of the core functions in most Evolutionary Algorithms is mutation. In complex search spaces, which are common inEvolutionary Robotics, mutation is often used both for optimizing existing solutions, described as exploitation, and for spanning the search space, called exploration. This presents a difficult challenge for researchers as mutation parameters must be selected with care in order to balance the two, often contradictory, effects. Strategies that vary mutation during the search often try to estimate these effects in order to modify the mutation parameters. In this regard MAP-Elites, aQuality Diversity algorithm, presents an interesting opportunity. Because factors related to exploration and exploitation are readily available during the search, optimization based on these factors could be utilized to improve the search. In this paper we study how online adaptation of mutation rate, dynamic mutation, affects MAP-Elites in order to gain insightinto how the search process is affected by the mutation rate.Our study compares fixed and dynamic mutation parameters for two different complex gait controllers. The results show that dynamic mutation combines favorably with MAP-Elites and that there is a strong relation between mutation parameters and exploration that can be utilized."
   bibtex: |
           "@inproceedings{nordmoen2018dynamic,
           title={Dynamic mutation in MAP-Elites for robotic repertoire generation},
@@ -683,6 +684,7 @@ papers:
    - "Thomas Back"
   year: 2018
   urlpdf: "https://arxiv.org/pdf/1807.09488.pdf"
+  abstract: "An iterative computer-aided ideation procedure is introduced, building on recent quality-diversity algorithms, which search for diverse as well as high-performing solutions. Dimensionality reduction is used to define a similarity space, in which solutions are clustered into classes. These classes are represented by prototypes, which are presented to the user for selection. In the next iteration, quality-diversity focuses on searching within the selected class. A quantitative analysis is performed on a 2D airfoil, and a more complex 3D side view mirror domain shows how computer-aided ideation can help to enhance engineers' intuition while allowing their design decisions to influence the design process."
   bibtex: |
           "@inproceedings{hagg2018prototype,
           title={Prototype discovery using quality-diversity},
@@ -699,6 +701,7 @@ papers:
    - "Anders Lyhne Christensen"
   year: 2018
   pdfurl: "https://repositorio.iscte-iul.pt/bitstream/10071/16255/5/1-s2.0-S2210650217308556-main.pdf"
+  abstract: "Recent works in evolutionary robotics have shown the viability of evolution driven by behavioural novelty and diversity. These evolutionary approaches have been successfully used to generate repertoires of diverse and high-quality behaviours, instead of driving evolution towards a single, task-specific solution.Having repertoires of behaviours can enable new forms of robotic control, in which high-level controllers continually decide which behaviour to execute. To date, however, only the use of repertoires of open-loop locomotion primitives has been studied. We propose EvoRBC-II, an approach that enables the evolution of repertoires composed of general closed-loop behaviours, that can respond to the robot’s sensory inputs. The evolved repertoire is then used as a basis to evolve a transparent higher-level controller that decides when and which behaviours of the repertoire to execute. Relying on experiments in a simulated domain, we show that the evolved repertoires are composed of highly diverse and useful behaviours. The same repertoire contains sufficiently diverse behaviours to solve a wide range of tasks, and the EvoRBC-II approach can yield a performance that is comparable to the standard tabula-rasa evolution. EvoRBC-II enables automatic generation of hierarchical control through a two-step evolutionary process, thus opening doors for the further exploration of the advantages that can be brought by hierarchical control."
   bibtex: |
           "@article{gomes2018approach,
           title={An approach to evolve and exploit repertoires of general robot behaviours},
@@ -714,6 +717,7 @@ papers:
    - "Luc Berthouze"
   year: 2018
   pdfurl: "https://arxiv.org/pdf/1809.06293.pdf"
+  abstract: "Methods that generate networks sharing a given degree distribution and global clustering can induce changes in structural properties other than that controlled for. Diversity in structural properties, in turn, can affect the outcomes of dynamical processes operating on those networks. Since exhaustive sampling is not possible, we propose a novel evolutionary framework for mapping this structural diversity. The three main features of this framework are: (a) subgraph-based encoding of networks, (b) exact mutations based on solving systems of Diophantine equations, and (c) heuristic diversity-driven mechanism to drive resolution changes in the MapElite algorithm. We show that our framework can elicit networks with diversity in their higher-order structure and that this diversity affects the behaviour of the complex contagion model. Through a comparison with state of the art clustered network generation methods, we demonstrate that our approach can uncover a comparably diverse range of networks without needing computationally unfeasible mixing times. Further, we suggest that the subgraph-based encoding provides greater confidence in the diversity of higher-order network structure for low numbers of samples and is the basis for explaining our results with complex contagion model. We believe that this framework could be applied to other complex landscapes that cannot be practically mapped via exhaustive sampling."
   bibtex: |
           "@article{overbury2018mapping,
           title={Mapping structural diversity in networks sharing a given degree distribution and global clustering: Adaptive resolution grid search evolution with Diophantine equation-based mutations},
@@ -727,6 +731,7 @@ papers:
    - "Kyrre Glette"
   year: 2018
   pdfurl: "https://arxiv.org/pdf/1803.05174.pdf"
+  abstract: "In certain complex optimization tasks, it becomes necessary to use multiple measures to characterize the performance of different algorithms. This paper presents a method that combines ordinal effect sizes with Pareto dominance to analyze such cases. Since the method is ordinal, it can also generalize across different optimization tasks even when the performance measurements are differently scaled. Through a case study, we show that this method can discover and quantify relations that would be difficult to deduce using a conventional measure-by-measure analysis. This case study applies the method to the evolution of robot controller repertoires using the MAP-Elites algorithm. Here, we analyze the search performance across a large set of parametrizations; varying mutation size and operator type, as well as map resolution, across four different robot morphologies. We show that the average magnitude of mutations has a bigger effect on outcomes than their precise distributions."
   bibtex: |
           "@article{samuelsen2018multi,
           title={Multi-objective Analysis of MAP-Elites Performance},
@@ -740,6 +745,7 @@ papers:
    - "Emma Hart"
   year: 2018
   pdfurl: "https://arxiv.org/pdf/1805.11555.pdf"
+  abstract: "Workforce Scheduling and Routing Problems (WSRP) are very common in many practical domains, and usually, have a number of objectives. Illumination algorithms such as Map-Elites (ME) have recently gained traction in application to {\em design} problems, in providing multiple diverse solutions as well as illuminating the solution space in terms of user-defined characteristics, but typically require significant computational effort to produce the solution archive. We investigate whether ME can provide an effective approach to solving WSRP, a {\em repetitive} problem in which solutions have to be produced quickly and often. The goals of the paper are two-fold. The first is to evaluate whether ME can provide solutions of competitive quality to an Evolutionary Algorithm (EA) in terms of a single objective function, and the second to examine its ability to provide a repertoire of solutions that maximise user choice. We find that very small computational budgets favour the EA in terms of quality, but ME outperforms the EA at larger budgets, provides a more diverse array of solutions, and lends insight to the end-user."
   bibtex: |
           "@inproceedings{urquhart2018optimisation,
           title={Optimisation and Illumination of a Real-World Workforce Scheduling and Routing Application (WSRP) via Map-Elites},
@@ -755,6 +761,7 @@ papers:
    - "Risto Miikkulainen"
   year: 2015
   pdfurl: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.697.5168&rep=rep1&type=pdf"
+  abstract: "A challenge in evolutionary computation is to create representations as evolvable as those in natural evolution. This paper hypothesizes that extinction events, i.e. mass extinctions, can significantly increase evolvability, but only when combined with a divergent search algorithm, i.e. a search driven towards diversity (instead of optimality). Extinctions amplify diversity-generation by creating unpredictable evolutionary bottlenecks. Persisting through multiple such bottlenecks is more likely for lineages that diversify across many niches, resulting in indirect selection pressure for the capacity to evolve. This hypothesis is tested through experiments in two evolutionary robotics domains. The results show that combining extinction events with divergent search increases evolvability, while combining them with convergent search offers no similar benefit. The conclusion is that extinction events may provide a simple and effective mechanism to enhance performance of divergent search algorithms."
   bibtex: |
           "@inproceedings{lehman2015enhancing,
           title={Enhancing divergent search through extinction events},
@@ -772,6 +779,7 @@ papers:
    - "Julian Togelius"
   year: 2018
   pdfurl: "https://arxiv.org/pdf/1806.04718.pdf"
+  abstract: "We describe a search-based approach to generating new levels for bullet hell games, which are action games characterized by and requiring avoidance of a very large amount of projectiles. Levels are represented using a domain-specific description language, and search in the space defined by this language is performed by a novel variant of the Map-Elites algorithm which incorporates a feasible- infeasible approach to constraint satisfaction. Simulation-based evaluation is used to gauge the fitness of levels, using an agent based on best-first search. The performance of the agent can be tuned according to the two dimensions of strategy and dexterity, making it possible to search for level configurations that require a specific combination of both. As far as we know, this paper describes the first generator for this game genre, and includes several algorithmic innovations."
   bibtex: |
           "@article{khalifa2018talakat,
           title={Talakat: Bullet Hell Generation through Constrained Map-Elites},
@@ -786,6 +794,7 @@ papers:
    - "Risto Miikkulainen"
   year: 2017
   pdfurl: "https://arxiv.org/pdf/1704.05554.pdf"
+  abstract: "Behavior domination is proposed as a tool for understanding and harnessing the power of evolutionary systems to discover and exploit useful stepping stones. Novelty search has shown promise in overcoming deception by collecting diverse stepping stones, and several algorithms have been proposed that combine novelty with a more traditional fitness measure to refocus search and help novelty search scale to more complex domains. However, combinations of novelty and fitness do not necessarily preserve the stepping stone discovery that novelty search affords. In several existing methods, competition between solutions can lead to an unintended loss of diversity. Behavior domination defines a class of algorithms that avoid this problem, while inheriting theoretical guarantees from multiobjective optimization. Several existing algorithms are shown to be in this class, and a new algorithm is introduced based on fast non-dominated sorting. Experimental results show that this algorithm outperforms existing approaches in domains that contain useful stepping stones, and its advantage is sustained with scale. The conclusion is that behavior domination can help illuminate the complex dynamics of behavior-driven search, and can thus lead to the design of more scalable and robust algorithms."
   bibtex: |
           "@inproceedings{meyerson2017discovering,
           title={Discovering evolutionary stepping stones through behavior domination},
