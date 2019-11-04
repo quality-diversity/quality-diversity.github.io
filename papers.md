@@ -20,7 +20,11 @@ You can click on each title to display more information, including authors, url 
 	{% for item in sortedgroup %}
 	{% if item.title %}
 	<li>
-		<details><summary><b>{{ item.title }} </b> </summary>
+		<details><summary><b>{{ item.title }}</b>
+		{% if item.tags contains "review" %}<span class="badge review">Review</span>{% endif %}
+		{% if item.tags contains "algo" %}<span class="badge newalgo">Algo</span>{% endif %}
+		{% if item.tags contains "appli" %}<span class="badge application">Appli</span>{% endif %}
+		</summary>
 		<blockquote>
 		{% if item.authors %}
 		   <h4>Authors:</h4>

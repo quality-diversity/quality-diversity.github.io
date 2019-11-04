@@ -335,6 +335,10 @@ papers:
   authors:
    - "Antoine Cully"
    - "Yiannis Demiris"
+  tags:
+   - review
+   - algo
+   - appli
   year: 2018
   pdfurl: "https://arxiv.org/pdf/1708.09251.pdf"
   bibtex: |
