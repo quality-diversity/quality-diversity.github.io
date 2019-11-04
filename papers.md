@@ -16,7 +16,7 @@ You can click on each title to display more information, including authors, url 
 {% if yeargroup.name == "" %}
    <h3>Undated</h3>: {{ yeargroup.size }} Papers
 {% else %}
-   <h3>{{ yeargroup.name }</h3>}: {{ yeargroup.size }} Papers
+   <h3>{{ yeargroup.name }}</h3>: {{ yeargroup.size }} Papers
 {% endif %}
 <ul>
 	{% assign sortedgroup = yeargroup.items | sort:"title"  %}
