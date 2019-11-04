@@ -1,5 +1,7 @@
 # List of papers
 
+{{ site.data.paperlist.papers.size }} papers are listed. 
+
 You can click on each title to display more information, including authors, url to pdf, abstract and bibtex. 
 
 {% comment %} tags:
