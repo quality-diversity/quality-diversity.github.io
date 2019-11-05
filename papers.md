@@ -1,20 +1,22 @@
 # List of papers
 
+{{ site.data.paperlist.papers.size }} papers are listed. 
+
 You can click on each title to display more information, including authors, url to pdf, abstract and bibtex. 
 
 {% comment %} tags:
 <span class="badge review">Review</span>
-<span class="badge newalgo">Algo</span>
-<span class="badge application">Appli</span>
+<span class="badge robotics">Robotics</span>
+<span class="badge ganes">Games</span>
 <span class="badge all">All</span> ––>
 {% endcomment %}
 
 {% assign paperlist = site.data.paperlist.papers | group_by: 'year' | sort:"name"  %}
 {% for yeargroup in paperlist reversed %}
 {% if yeargroup.name == "" %}
-   <h3>Undated</h3>
+   <h3>Undated: {{ yeargroup.size }} Papers</h3>
 {% else %}
-   <h3>{{ yeargroup.name }}</h3>
+   <h3>{{ yeargroup.name }}: {{ yeargroup.size }} Papers</h3>
 {% endif %}
 <ul>
 	{% assign sortedgroup = yeargroup.items | sort:"title"  %}
@@ -23,8 +25,8 @@ You can click on each title to display more information, including authors, url 
 	<li>
 		<details><summary><b>{{ item.title }}</b>
 		{% if item.tags contains "review" %}<span class="badge review">Review</span>{% endif %}
-		{% if item.tags contains "algo" %}<span class="badge newalgo">Algo</span>{% endif %}
-		{% if item.tags contains "appli" %}<span class="badge application">Appli</span>{% endif %}
+		{% if item.tags contains "robotics" %}<span class="badge robotics">Robotics</span>{% endif %}
+		{% if item.tags contains "games" %}<span class="badge application">Games</span>{% endif %}
 		</summary>
 		<blockquote>
 		{% if item.authors %}
