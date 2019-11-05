@@ -5,8 +5,6 @@ papers:
    - "Joel Lehman"
    - "Kenneth Stanley"
   year: 2011
-  tags:
-   - algo
   pdfurl: "http://eplex.cs.ucf.edu/papers/lehman_ecj11.pdf"
   codeurl: "http://eplex.cs.ucf.edu/software/NoveltySearchC++.zip"
   webpageurl: "http://eplex.cs.ucf.edu/noveltysearch/userspage/"
@@ -48,6 +46,8 @@ papers:
    - "Kenneth Stanley"
   pdfurl: "http://eplex.cs.ucf.edu/papers/pugh_frontiers16.pdf"
   year: 2016
+  tags:
+   - robotics
   abstract: "While evolutionary computation and evolutionary robotics take inspiration from nature, they have long focused mainly on problems of performance optimization. Yet, evolution in nature can be interpreted as more nuanced than a process of simple optimization. In particular, natural evolution is a divergent search that optimizes locally within each niche as it simultaneously diversifies. This tendency to discover both quality and diversity at the same time differs from many of the conventional algorithms of machine learning, and also thereby suggests a different foundation for inferring the approach of greatest potential for evolutionary algorithms. In fact, several recent evolutionary algorithms called quality diversity (QD) algorithms (e.g., novelty search with local competition and MAP-Elites) have drawn inspiration from this more nuanced view, aiming to fill a space of possibilities with the best possible example of each type of achievable behavior. The result is a new class of algorithms that return an archive of diverse, high-quality behaviors in a single run. The aim in this paper is to study the application of QD algorithms in challenging environments (in particular complex mazes) to establish their best practices for ambitious domains in the future. In addition to providing insight into cases when QD succeeds and fails, a new approach is investigated that hybridizes multiple views of behaviors (called behavior characterizations) in the same run, which succeeds in overcoming some of the challenges associated with searching for QD with respect to a behavior characterization that is not necessarily sufficient for generating both quality and diversity at the same time."
   bibtex: |
           "@article{pugh2016quality,
@@ -65,7 +65,7 @@ papers:
    - "Jeff Clune"
   year: 2015
   tags:
-   - algo
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1504.04909.pdf"
   abstract: "Many fields use search algorithms, which automatically explore a search space to find high-performing solutions: chemists search through the space of molecules to discover new drugs; engineers search for stronger, cheaper, safer designs, scientists search for models that best explain data, etc. The goal of search algorithms has traditionally been to return the single highest-performing solution in a search space. Here we describe a new, fundamentally different type of algorithm that is more useful because it provides a holistic view of how high-performing solutions are distributed throughout a search space. It creates a map of high-performing solutions at each point in a space defined by dimensions of variation that a user gets to choose. This Multi-dimensional Archive of Phenotypic Elites (MAP-Elites) algorithm illuminates search spaces, allowing researchers to understand how interesting attributes of solutions combine to affect performance, either positively or, equally of interest, negatively. For example, a drug company may wish to understand how performance changes as the size of molecules and their cost-to-produce vary. MAP-Elites produces a large diversity of high-performing, yet qualitatively different solutions, which can be more helpful than a single, high-performing solution. Interestingly, because MAP-Elites explores more of the search space, it also tends to find a better overall solution than state-of-the-art search algorithms. We demonstrate the benefits of this new algorithm in three different problem domains ranging from producing modular neural networks to designing simulated and real soft robots. Because MAP- Elites (1) illuminates the relationship between performance and dimensions of interest in solutions, (2) returns a set of high-performing, yet diverse solutions, and (3) improves finding a single, best solution, it will advance science and engineering."
   bibtex: |
@@ -83,7 +83,7 @@ papers:
    - "Jean-Baptiste Mouret"
   year: 2015
   tags:
-   - appli
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1407.3501.pdf"
   abstract: "As robots leave the controlled environments of factories to autonomously function in more complex, natural environments, they will have to respond to the inevitable fact that they will become damaged. However, while animals can quickly adapt to a wide variety of injuries, current robots cannot \"think outside the box\" to find a compensatory behavior when damaged: they are limited to their pre-specified self-sensing abilities, can diagnose only anticipated failure modes, and require a pre-programmed contingency plan for every type of potential damage, an impracticality for complex robots. Here we introduce an intelligent trial and error algorithm that allows robots to adapt to damage in less than two minutes, without requiring self-diagnosis or pre-specified contingency plans. Before deployment, a robot exploits a novel algorithm to create a detailed map of the space of high-performing behaviors: This map represents the robot's intuitions about what behaviors it can perform and their value. If the robot is damaged, it uses these intuitions to guide a trial-and-error learning algorithm that conducts intelligent experiments to rapidly discover a compensatory behavior that works in spite of the damage. Experiments reveal successful adaptations for a legged robot injured in five different ways, including damaged, broken, and missing legs, and for a robotic arm with joints broken in 14 different ways. This new technique will enable more robust, effective, autonomous robots, and suggests principles that animals may use to adapt to injury."
   bibtex: |
@@ -104,6 +104,8 @@ papers:
    - "Antoine Cully"
    - "Jean-Baptiste Mouret"
   year: 2016
+  tags:
+   - robotics
   pdfurl: "https://hal.inria.fr/hal-01302658/file/gecco_map_elites.pdf"
   abstract: "The recently introduced Intelligent Trial and Error algorithm (IT&E) both improves the ability to automatically generate controllers that transfer to real robots, and enables robots to creatively adapt to damage in less than 2 minutes. A key component of IT&E is a new evolutionary algorithm called MAP-Elites, which creates a behavior-performance map that is provided as a set of \" creative \" ideas to an online learning algorithm. To date, all experiments with MAP-Elites have been performed with a directly encoded list of parameters: it is therefore unknown how MAP-Elites would behave with more advanced encodings, like HyperNeat and SUPG. In addition, because we ultimately want robots that respond to their environments via sensors, we investigate the ability of MAP-Elites to evolve closed-loop controllers, which are more complicated, but also more powerful. Our results show that the encoding critically impacts the quality of the results of MAP-Elites, and that the differences are likely linked to the locality of the encoding (the likelihood of generating a similar behavior after a single mutation). Overall, these results improve our understanding of both the dynamics of the MAP-Elites algorithm and how to best harness MAP-Elites to evolve effective and adaptable robotic controllers." 
   bibtex: |
@@ -136,6 +138,8 @@ papers:
    - "Antoine Cully"
    - "Jean-Baptiste Mouret"
   year: 2013
+  tags:
+   - robotics
   pdfurl: "https://hal.archives-ouvertes.fr/file/index/docid/841958/filename/t02pap489-cully.pdf"
   abstract: "Learning in robotics typically involves choosing a simple goal(e.g. walking) and assessing the performance of each con-troller with regard to this task (e.g. walking speed). How-ever, learning advanced, input-driven controllers (e.g. walk-ing in each direction) requires testing each controller on a large sample of the possible input signals. This costly pro-cess makes difficult to learn useful low-level controllers in robotics. Here we introduce BR-Evolution, a new evolutionary learn-ing technique that generates a behavioral repertoire by taking advantage of the candidate solutions that are usually discarded. Instead of evolving a single, general controller,BR-evolution thus evolves a collection of simple controllers, one for each variant of the target behavior; to distinguish similar controllers, it uses a performance objective that al-lows it to produce a collection of diverse but high-performing behaviors. We evaluated this new technique by evolving gait controllers for a simulated hexapod robot. Results show that a single run of the EA quickly finds a collection of controllers that allows the robot to reach each point of the reachable space. Overall, BR-Evolution opens a new kind of learning algorithm that simultaneously optimizes all the achievable behaviors of a robot."
   bibtex: |
@@ -153,6 +157,8 @@ papers:
    - "Jean-Baptiste Mouret"
   year: 2015
   pdfurl: "https://arxiv.org/pdf/1308.3689.pdf"
+  tags:
+   - robotics
   abstract: "Numerous algorithms have been proposed to allow legged robots to learn to walk. However, the vast majority of these algorithms is devised to learn to walk in a straight line, which is not sufficient to accomplish any real-world mission. Here we introduce the Transferability-based Behavioral Repertoire Evolution algorithm (TBR-Evolution), a novel evolutionary algorithm that simultaneously discovers several hundreds of simple walking controllers, one for each possible direction. By taking advantage of solutions that are usually discarded by evolutionary processes, TBR-Evolution is substantially faster than independently evolving each controller. Our technique relies on two methods: (1) novelty search with local competition, which searches for both high-performing and diverse solutions, and (2) the transferability approach, which com-bines simulations and real tests to evolve controllers for a physical robot. We evaluate this new technique on a hexapod robot. Results show that with only a few dozen short experiments performed on the robot, the algorithm learns a repertoire of con-trollers that allows the robot to reach every point in its reachable space. Overall, TBR-Evolution opens a new kind of learning algorithm that simultaneously optimizes all the achievable behaviors of a robot."
   bibtex: |
           "@article{cully2015evolving,
@@ -203,6 +209,8 @@ papers:
    - "Vassilis Vassiliades"
    - "Jean-Baptiste Mouret"
   year: 2018
+  tags:
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1804.03906.pdf"
   abstract: "Evolution has produced an astonishing diversity of species, each filling a different niche. Algorithms like MAP-Elites mimic this divergent evolutionary process to find a set of behaviorally diverse but high-performing solutions, called the elites. Our key insight is that species in nature often share a surprisingly large part of their genome, in spite of occupying very different niches; similarly, the elites are likely to be concentrated in a specific \"elite hypervolume\" whose shape is defined by their common features. In this paper, we first introduce the elite hypervolume concept and propose two metrics to characterize it: the genotypic spread and the genotypic similarity. We then introduce a new variation operator, called \"directional variation\", that exploits interspecies (or inter-elites) correlations to accelerate the MAP-Elites algorithm. We demonstrate the effectiveness of this operator in three problems (a toy function, a redundant robotic arm, and a hexapod robot)"
   bibtex: |
@@ -235,6 +243,8 @@ papers:
    - "Konstantinos Chatzilygeroudis"
    - "Jean-Baptiste Mouret"
   year: 2017
+  tags:
+   - robotics
   pdfurl: "https://hal.inria.fr/hal-01518802/document"
   abstract: "Illumination algorithms are a recent addition to the evolutionary computation toolbox that allows the generation of many diverse and high-performing solutions in a single run. Nevertheless, traditional multimodal optimization algorithms also search for diverse and high-performing solutions: could some multimodal optimization algorithms be beeer at illumination than illumination algorithms? In this study, we compare two illumination algorithms (Novelty Search with Local Competition (NSLC), MAP-Elites) with two multimodal optimization ones (Clearing, Restricted Tournament Selection) in a maze navigation task. e results show that Clearing can have comparable performance to MAP-Elites and NSLC. "
   bibtex: |
@@ -302,6 +312,8 @@ papers:
    - "Antoine Cully"
    - "Jean-Baptiste Mouret"
   year: 2016
+  tags:
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1610.01407.pdf"
   abstract: "The recently introduced Intelligent Trial and Error algorithm (IT&E) enables robots to creatively adapt to damage in a matter of minutes by combining an off-line evolutionary algorithm and an on-line learning algorithm based on Bayesian Optimization. We extend the IT&E algorithm to allow for robots to learn to compensate for damages while executing their task(s). This leads to a semi-episodic learning scheme that increases the robot's lifetime autonomy and adaptivity. Preliminary experiments on a toy simulation and a 6-legged robot locomotion task show promising results."
   bibtex: |
@@ -318,6 +330,8 @@ papers:
    - "Vassilis Vassiliades"
    - "Jean-Baptiste Mouret"
   year: 2016
+  tags:
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1611.09419.pdf"
   abstract: "The recently introduced Intelligent Trial-and-Error (IT&E) algorithm showed that robots can adapt to damage in a matter of a few trials. The success of this algorithm relies on two components: prior knowledge acquired through simulation with an intact robot, and Bayesian optimization (BO) that operates on-line, on the damaged robot. While IT&E leads to fast damage recovery, it does not incorporate any safety constraints that prevent the robot from attempting harmful behaviors. In this work, we address this limitation by replacing the BO component with a constrained BO procedure. We evaluate our approach on a simulated damaged humanoid robot that needs to crawl as fast as possible, while performing as few unsafe trials as possible. We compare our new \"safety-aware IT&E\" algorithm to IT&E and a multi-objective version of IT&E in which the safety constraints are dealt as separate objectives. Our results show that our algorithm outperforms the other approaches, both in crawling speed within the safe regions and number of unsafe trials."
   bibtex: |
@@ -335,6 +349,8 @@ papers:
    - "Stephane Doncieux"
   year: 2017
   pdfurl: "http://www.isir.upmc.fr/files/2017ACTI4514.pdf"
+  tags:
+   - robotics
   bibtex: |
           "@inproceedings{kim2017learning,
           title={Learning highly diverse robot throwing movements through quality diversity search},
@@ -349,6 +365,8 @@ papers:
    - "Stephane Doncieux"
    - "Alexandre Coninx"
   year: 2018
+  tags:
+   - robotics
   bibtex: |
           "@inproceedings{doncieux2018open,
           title={Open-ended evolution with multi-containers QD},
@@ -364,7 +382,7 @@ papers:
    - "Yiannis Demiris"
   tags:
    - review
-   - algo
+   - robotics
   year: 2018
   pdfurl: "https://arxiv.org/pdf/1708.09251.pdf"
   abstract: "The optimization of functions to find the best solution according to one or several objectives has a central role in many engineering and research fields. Recently, a new family of optimization algorithms, named Quality-Diversity optimization, has been introduced, and contrasts with classic algorithms. Instead of searching for a single solution, Quality-Diversity algorithms are searching for a large collection of both diverse and high-performing solutions. The role of this collection is to cover the range of possible solution types as much as possible, and to contain the best solution for each type. The contribution of this paper is threefold. Firstly, we present a unifying framework of Quality-Diversity optimization algorithms that covers the two main algorithms of this family (Multi-dimensional Archive of Phenotypic Elites and the Novelty Search with Local Competition), and that highlights the large variety of variants that can be investigated within this family. Secondly, we propose algorithms with a new selection mechanism for Quality-Diversity algorithms that outperforms all the algorithms tested in this paper. Lastly, we present a new collection management that overcomes the erosion issues observed when using unstructured collections. These three contributions are supported by extensive experimental comparisons of Quality-Diversity algorithms on three different experimental scenarios."
@@ -384,6 +402,8 @@ papers:
    - "Antoine Cully"
    - "Yiannis Demiris"
   year: 2018
+  tags:
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1804.07127.pdf"
   abstract: "Enabling artificial agents to automatically learn complex, versatile and high-performing behaviors is a long-lasting challenge. This paper presents a step in this direction with hierarchical behavioral repertoires that stack several behavioral repertoires to generate sophisticated behaviors. Each repertoire of this architecture uses the lower repertoires to create complex behaviors as sequences of simpler ones, while only the lowest repertoire directly controls the agent's movements. This paper also introduces a novel approach to automatically define behavioral descriptors thanks to an unsupervised neural network that organizes the produced high-level behaviors. The experiments show that the proposed architecture enables a robot to learn how to draw digits in an unsupervised manner after having learned to draw lines and arcs. Compared to traditional behavioral repertoires, the proposed architecture reduces the dimensionality of the optimization problems by orders of magnitude and provides behaviors with a twice better fitness. More importantly, it enables the transfer of knowledge between robots: a hierarchical repertoire evolved for a robotic arm to draw digits can be transferred to a humanoid robot by simply changing the lowest layer of the hierarchy. This enables the humanoid to draw digits although it has never been trained for this task."
   bibtex: |
@@ -400,6 +420,8 @@ papers:
    - "Andreas Steyven"
    - "Ben Paechter"
   year: 2018
+  tags:
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1804.07655.pdf"
   abstract: "The presence of functional diversity within a group has been demonstrated to lead to greater robustness, higher performance and increased problem-solving ability in a broad range of studies that includes insect groups, human groups and swarm robotics. Evolving group diversity however has proved challenging within Evolutionary Robotics, requiring reproductive isolation and careful attention to population size and selection mechanisms. To tackle this issue, we introduce a novel, decentralised, variant of the MAP-Elites illumination algorithm which is hybridised with a well-known distributed evolutionary algorithm (mEDEA). The algorithm simultaneously evolves multiple diverse behaviours for multiple robots, with respect to a simple token-gathering task. Each robot in the swarm maintains a local archive defined by two pre-specified functional traits which is shared with robots it come into contact with. We investigate four different strategies for sharing, exploiting and combining local archives and compare results to mEDEA. Experimental results show that in contrast to previous claims, it is possible to evolve a functionally diverse swarm without geographical isolation, and that the new method outperforms mEDEA in terms of the diversity, coverage and precision of the evolved swarm."
   bibtex: |
@@ -432,6 +454,8 @@ papers:
    - "Joost Huizinga"
    - "Jeff Clune"
   year: 2018
+  tags:
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1807.03392.pdf"
   abstract: "An important challenge in reinforcement learning, including evolutionary robotics, is to solve multimodal problems, where agents have to act in qualitatively different ways depending on the circumstances. Because multimodal problems are often too difficult to solve directly, it is helpful to take advantage of staging, where a difficult task is divided into simpler subtasks that can serve as stepping stones for solving the overall problem. Unfortunately, choosing an effective ordering for these subtasks is difficult, and a poor ordering can reduce the speed and performance of the learning process. Here, we provide a thorough introduction and investigation of the Combinatorial Multi-Objective Evolutionary Algorithm (CMOEA), which avoids ordering subtasks by allowing all combinations of subtasks to be explored simultaneously. We compare CMOEA against two algorithms that can similarly optimize on multiple subtasks simultaneously: NSGA-II and Lexicase Selection. The algorithms are tested on a multimodal robotics problem with six subtasks as well as a maze navigation problem with a hundred subtasks. On these problems, CMOEA either outperforms or is competitive with the controls. Separately, we show that adding a linear combination over all objectives can improve the ability of NSGA-II to solve these multimodal problems. Lastly, we show that, in contrast to NSGA-II and Lexicase Selection, CMOEA can effectively leverage secondary objectives to achieve state-of-the-art results on the robotics task. In general, our experiments suggest that CMOEA is a promising, state-of-the-art algorithm for solving multimodal problems."
   bibtex: |
@@ -502,6 +526,8 @@ papers:
    - "Sancho Moura Oliveira"
    - "Anders Lyhne Christensen"
   year: 2016
+  tags:
+   - robotics
   bibtex: |
           "@inproceedings{duarte2016evorbc,
           title={EvoRBC: evolutionary repertoire-based control for robots with arbitrary locomotion complexity},
@@ -517,6 +543,8 @@ papers:
    - "Bryan Wilder"
    - "Kenneth Stanley"
   year: 2016
+  tags:
+   - robotics
   pdfurl: "https://www.frontiersin.org/articles/10.3389/frobt.2016.00045/full"
   abstract: "An ambitious goal in evolutionary robotics (ER) is to evolve increasingly complex robotic behaviors with minimal human design effort. Reaching this goal requires evolutionary algorithms that can unlock from genetic encodings their latent potential for evolvability. One issue clouding this goal is conceptual confusion about evolvability that often obscures important or desirable aspects of evolvability. The danger from such confusion is that it may establish unrealistic goals for evolvability that prove unproductive in practice. An important issue separate from conceptual confusion is the common misalignment between selection and evolvability in ER. While more expressive encodings can represent higher-level adaptations (e.g. sexual reproduction or developmental systems) that increase long-term evolutionary potential (i.e. evolvability), realizing such potential requires gradients of fitness and evolvability to align. In other words, selection is often a critical factor limiting increasing evolvability. Thus, drawing from a series of recent papers, this article seeks to both (1) clarify and focus the ways in which the term evolvability is used within artificial evolution and (2) argue for the importance of one type of selection, i.e. divergent selection, for enabling evolvability. The main argument is that there is a fundamental connection between divergent selection and evolvability (on both the individual and population level) that does not hold for typical goal-oriented selection. The conclusion is that selection pressure plays a critical role in realizing the potential for evolvability and that divergent selection in particular provides a principled mechanism for encouraging evolvability in artificial evolution."
   bibtex: |
@@ -586,6 +614,8 @@ papers:
    - "Antonios Liapis"
    - "Georgios Yannakakis"
   year: 2018
+  tags:
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1807.02397.pdf"
   abstract: "Quality diversity is a recent family of evolutionary search algorithms which focus on finding several well-performing (quality) yet different (diversity) solutions with the aim to maintain an appropriate balance between divergence and convergence during search. While quality diversity has already delivered promising results in complex problems, the capacity of divergent search variants for quality diversity remains largely unexplored. Inspired by the notion of surprise as an effective driver of divergent search and its orthogonal nature to novelty this paper investigates the impact of the former to quality diversity performance. For that purpose we introduce three new quality diversity algorithms which employ surprise as a diversity measure, either on its own or combined with novelty, and compare their performance against novelty search with local competition, the state of the art quality diversity algorithm. The algorithms are tested in a robot navigation task across 60 highly deceptive mazes. Our findings suggest that allowing surprise and novelty to operate synergistically for divergence and in combination with local competition leads to quality diversity algorithms of significantly higher efficiency, speed and robustness."
   bibtex: |
@@ -602,6 +632,8 @@ papers:
    - "Sancho Moura Oliveira"
    - "Anders Lyhne Christensen"
   year: 2018
+  tags:
+   - robotics
   bibtex: |
           "@article{duarte2018evolution,
           title={Evolution of repertoire-based control for robots with complex locomotor systems},
@@ -619,6 +651,8 @@ papers:
    - "Konstantinos Konstantinos"
    - "Jean-Baptiste Mouret"
   year: 2018
+  tags:
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1709.06919.pdf"
   abstract: "One of the most interesting features of Bayesian optimization for direct policy search is that it can leverage priors (e.g., from simulation or from previous tasks) to accelerate learning on a robot. In this paper, we are interested in situations for which several priors exist but we do not know in advance which one fits best the current situation. We tackle this problem by introducing a novel acquisition function, called Most Likely Expected Improvement (MLEI), that combines the likelihood of the priors and the expected improvement. We evaluate this new acquisition function on a transfer learning task for a 5-DOF planar arm and on a possibly damaged, 6-legged robot that has to learn to walk on flat ground and on stairs, with priors corresponding to different stairs and different kinds of damages. Our results show that MLEI effectively identifies and exploits the priors, even when there is no obvious match between the current situations and the priors. "
   bibtex: |
@@ -650,6 +684,8 @@ papers:
    - "Jorge Gomes"
    - "Anders Lyhne Christensen"
   year: 2018
+  tags:
+   - robotics
   bibtex: |
           "@inproceedings{gomes2018comparing,
           title={Comparing Approaches for Evolving High-Level Robot Control Based on Behaviour Repertoires},
@@ -666,8 +702,10 @@ papers:
    - "Kai Olav Ellefsen"
    - "Kyrre Glette"
   year: 2018
+  tags:
+   - robotics
   pdfurl: "http://heim.ifi.uio.no/~kyrrehg/pubs/nordmoen-alife2018.pdf"
-  abstract: "One of the core functions in most Evolutionary Algorithms is mutation. In complex search spaces, which are common inEvolutionary Robotics, mutation is often used both for optimizing existing solutions, described as exploitation, and for spanning the search space, called exploration. This presents a difficult challenge for researchers as mutation parameters must be selected with care in order to balance the two, often contradictory, effects. Strategies that vary mutation during the search often try to estimate these effects in order to modify the mutation parameters. In this regard MAP-Elites, aQuality Diversity algorithm, presents an interesting opportunity. Because factors related to exploration and exploitation are readily available during the search, optimization based on these factors could be utilized to improve the search. In this paper we study how online adaptation of mutation rate, dynamic mutation, affects MAP-Elites in order to gain insightinto how the search process is affected by the mutation rate.Our study compares fixed and dynamic mutation parameters for two different complex gait controllers. The results show that dynamic mutation combines favorably with MAP-Elites and that there is a strong relation between mutation parameters and exploration that can be utilized."
+  abstract: "One of the core functions in most Evolutionary Algorithms is mutation. In complex search spaces, which are common in Evolutionary Robotics, mutation is often used both for optimizing existing solutions, described as exploitation, and for spanning the search space, called exploration. This presents a difficult challenge for researchers as mutation parameters must be selected with care in order to balance the two, often contradictory, effects. Strategies that vary mutation during the search often try to estimate these effects in order to modify the mutation parameters. In this regard MAP-Elites, aQuality Diversity algorithm, presents an interesting opportunity. Because factors related to exploration and exploitation are readily available during the search, optimization based on these factors could be utilized to improve the search. In this paper we study how online adaptation of mutation rate, dynamic mutation, affects MAP-Elites in order to gain insightinto how the search process is affected by the mutation rate.Our study compares fixed and dynamic mutation parameters for two different complex gait controllers. The results show that dynamic mutation combines favorably with MAP-Elites and that there is a strong relation between mutation parameters and exploration that can be utilized."
   bibtex: |
           "@inproceedings{nordmoen2018dynamic,
           title={Dynamic mutation in MAP-Elites for robotic repertoire generation},
@@ -700,6 +738,8 @@ papers:
    - "Sancho Moura Oliveira"
    - "Anders Lyhne Christensen"
   year: 2018
+  tags:
+   - robotics
   pdfurl: "https://repositorio.iscte-iul.pt/bitstream/10071/16255/5/1-s2.0-S2210650217308556-main.pdf"
   abstract: "Recent works in evolutionary robotics have shown the viability of evolution driven by behavioural novelty and diversity. These evolutionary approaches have been successfully used to generate repertoires of diverse and high-quality behaviours, instead of driving evolution towards a single, task-specific solution.Having repertoires of behaviours can enable new forms of robotic control, in which high-level controllers continually decide which behaviour to execute. To date, however, only the use of repertoires of open-loop locomotion primitives has been studied. We propose EvoRBC-II, an approach that enables the evolution of repertoires composed of general closed-loop behaviours, that can respond to the robot’s sensory inputs. The evolved repertoire is then used as a basis to evolve a transparent higher-level controller that decides when and which behaviours of the repertoire to execute. Relying on experiments in a simulated domain, we show that the evolved repertoires are composed of highly diverse and useful behaviours. The same repertoire contains sufficiently diverse behaviours to solve a wide range of tasks, and the EvoRBC-II approach can yield a performance that is comparable to the standard tabula-rasa evolution. EvoRBC-II enables automatic generation of hierarchical control through a two-step evolutionary process, thus opening doors for the further exploration of the advantages that can be brought by hierarchical control."
   bibtex: |
@@ -730,6 +770,8 @@ papers:
    - "Eivind Samuelsen"
    - "Kyrre Glette"
   year: 2018
+  tags:
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1803.05174.pdf"
   abstract: "In certain complex optimization tasks, it becomes necessary to use multiple measures to characterize the performance of different algorithms. This paper presents a method that combines ordinal effect sizes with Pareto dominance to analyze such cases. Since the method is ordinal, it can also generalize across different optimization tasks even when the performance measurements are differently scaled. Through a case study, we show that this method can discover and quantify relations that would be difficult to deduce using a conventional measure-by-measure analysis. This case study applies the method to the evolution of robot controller repertoires using the MAP-Elites algorithm. Here, we analyze the search performance across a large set of parametrizations; varying mutation size and operator type, as well as map resolution, across four different robot morphologies. We show that the average magnitude of mutations has a bigger effect on outcomes than their precise distributions."
   bibtex: |
@@ -760,6 +802,8 @@ papers:
    - "Joel Lehman"
    - "Risto Miikkulainen"
   year: 2015
+  tags:
+   - robotics
   pdfurl: "http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.697.5168&rep=rep1&type=pdf"
   abstract: "A challenge in evolutionary computation is to create representations as evolvable as those in natural evolution. This paper hypothesizes that extinction events, i.e. mass extinctions, can significantly increase evolvability, but only when combined with a divergent search algorithm, i.e. a search driven towards diversity (instead of optimality). Extinctions amplify diversity-generation by creating unpredictable evolutionary bottlenecks. Persisting through multiple such bottlenecks is more likely for lineages that diversify across many niches, resulting in indirect selection pressure for the capacity to evolve. This hypothesis is tested through experiments in two evolutionary robotics domains. The results show that combining extinction events with divergent search increases evolvability, while combining them with convergent search offers no similar benefit. The conclusion is that extinction events may provide a simple and effective mechanism to enhance performance of divergent search algorithms."
   bibtex: |
@@ -778,6 +822,8 @@ papers:
    - "Andy Nealen"
    - "Julian Togelius"
   year: 2018
+  tags:
+   - games
   pdfurl: "https://arxiv.org/pdf/1806.04718.pdf"
   abstract: "We describe a search-based approach to generating new levels for bullet hell games, which are action games characterized by and requiring avoidance of a very large amount of projectiles. Levels are represented using a domain-specific description language, and search in the space defined by this language is performed by a novel variant of the Map-Elites algorithm which incorporates a feasible- infeasible approach to constraint satisfaction. Simulation-based evaluation is used to gauge the fitness of levels, using an agent based on best-first search. The performance of the agent can be tuned according to the two dimensions of strategy and dexterity, making it possible to search for level configurations that require a specific combination of both. As far as we know, this paper describes the first generator for this game genre, and includes several algorithmic innovations."
   bibtex: |
@@ -811,6 +857,8 @@ papers:
    - "Oleg Yakimenko"
    - "Kyrre Glette"
   year: 2018
+  tags:
+   - robotics
   pdfurl: "http://folk.uio.no/kyrrehg/pubs/engebraaten-evorobot2018.pdf"
   abstract: "Automated design of swarm behaviors with a top-down approach is a challenging research question that has not yet been fully addressed in the robotic swarm literature. This paper seeks to explore the possibility of using an evolutionary algorithm to evolve, rather than hand code, a wide repertoire of behavior primitives enabling more effective control of a large group or swarm of unmanned systems. We use the MAP-elites algorithm to generate a repertoire of controllers with varying abilities and behaviors allowing the swarm to adapt to user-defined preferences by selection of a new appropriate controller. To test the proposed method we examine two example applications: perimeter surveillance and network creation. Perimeter surveillance require agents to explore, while network creation requires them to disperse without los-ing connectivity. These are distinct application that have drastically different requirements on agent behavior, and are a good benchmark for our swarm controller optimization framework. We show a performance com-parison between a simple weighted controller and a parametric controller.Evolving controllers allows for specifying desired behaviors top-down, in terms of objectives to solve, rather than bottom-up."
   bibtex: |
@@ -828,6 +876,8 @@ papers:
    - "Kai Olav Ellefsen"
    - "Kyrre Glette"
   year: 2018
+  tags:
+   - robotics
   pdfurl: "http://home.ifi.uio.no/kyrrehg/pubs/nordmoen-evorobot2018.pdf"
   abstract: "Four-legged mammals are capable of showing a great variety of movement patterns, ranging from a simple walk to more complex movement such as trots and gallops. Imbuing this diversity to quadruped robots is of interest in order to improve both mobility and reach. Within the field of Evolutionary Robotics, Quality Diversity techniques have shown a remarkable ability to produce not only effective, but also highly diverse solutions. When applying this approach to four-legged robots an initial problem is to create viable movement patterns that do not fall. This difficulty stems from the challenging fitness gradient due to the mammalian morphology. In this paper we propose a solution to overcome this problem by implementing incremental evolution within the QualityDiversity framework. This allows us to evolve controllers that become more complex while at the same time utilizing the diversity produced byQuality Diversity. We show that our approach is able to generate high fitness solutions early in the search process, keep these solutions and perform a more open-ended search towards the end of evolution."
   bibtex: |
@@ -846,6 +896,8 @@ papers:
    - "Alexandre Coninx"
    - "Stephane Doncieux"
   year: 2019
+  tags:
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1909.05508.pdf"
   abstract: "Performing Reinforcement Learning in sparse rewards settings, with very little prior knowledge, is a challenging problem since there is no signal to properly guide the learning process. In such situations, a good search strategy is fundamental. At the same time, not having to adapt the algorithm to every single problem is very desirable. Here we introduce TAXONS, a Task Agnostic eXploration of Outcome spaces through Novelty and Surprise algorithm. Based on a population-based divergent-search approach, it learns a set of diverse policies directly from high-dimensional observations, without any task-specific information. TAXONS builds a repertoire of policies while training an autoencoder on the high-dimensional observation of the final state of the system to build a low-dimensional outcome space. The learned outcome space, combined with the reconstruction error, is used to drive the search for new policies. Results show that TAXONS can find a diverse set of controllers, covering a good part of the ground-truth outcome space, while having no information about such space."
   bibtex: |
@@ -863,6 +915,8 @@ papers:
    - "Nicolas Bredeche"
    - "Jose Halloy"
   year: 2019
+  tags:
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1907.09209.pdf"
   abstract: "During the last two decades, various models have been proposed for fish collective motion. These models are mainly developed to decipher the biological mechanisms of social interaction between animals. They consider very simple homogeneous unbounded environments and it is not clear that they can simulate accurately the collective trajectories. Moreover when the models are more accurate, the question of their scalability to either larger groups or more elaborate environments remains open. This study deals with learning how to simulate realistic collective motion of collective of zebrafish, using real-world tracking data. The objective is to devise an agent-based model that can be implemented on an artificial robotic fish that can blend into a collective of real fish. We present a novel approach that uses Quality Diversity algorithms, a class of algorithms that emphasise exploration over pure optimisation. In particular, we use CVT-MAP-Elites, a variant of the state-of-the-art MAP-Elites algorithm for high dimensional search space. Results show that Quality Diversity algorithms not only outperform classic evolutionary reinforcement learning methods at the macroscopic level (i.e. group behaviour), but are also able to generate more realistic biomimetic behaviours at the microscopic level (i.e. individual behaviour)."
   bibtex: |
@@ -955,6 +1009,8 @@ papers:
   authors:
    - "Antoine Cully"
   year: 2019
+  tags:
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1905.11874.pdf"
   abstract: "Quality-Diversity optimization is a new family of optimization algorithms that, instead of searching for a single optimal solution to solving a task, searches for a large collection of solutions that all solve the task in a different way. This approach is particularly promising for learning behavioral repertoires in robotics, as such a diversity of behaviors enables robots to be more versatile and resilient. However, these algorithms require the user to manually define behavioral descriptors, which is used to determine whether two solutions are different or similar. The choice of a behavioral descriptor is crucial, as it completely changes the solution types that the algorithm derives. In this paper, we introduce a new method to automatically define this descriptor by combining Quality-Diversity algorithms with unsupervised dimensionality reduction algorithms. This approach enables robots to autonomously discover the range of their capabilities while interacting with their environment. The results from two experimental scenarios demonstrate that robot can autonomously discover a large range of possible behaviors, without any prior knowledge about their morphology and environment. Furthermore, these behaviors are deemed to be similar to handcrafted solutions that uses domain knowledge and significantly more diverse than when using existing unsupervised methods."
   bibtex: |
@@ -990,6 +1046,8 @@ papers:
    - "Stephane Doncieux"
    - "Timothy Hospedales"
   pdfurl: "http://homepages.inf.ed.ac.uk/thospeda/papers/jegorova2019gpn.pdf"
+  tags:
+   - robotics
   abstract: "Learning algorithms are enabling robots to solve increasingly challenging real-world tasks. These approaches often rely on demonstrations and reproduce the behavior shown. Unexpected changes in the environment may require using different behaviors to achieve the same effect, for instance to reach and grasp an object in changing clutter. An emerging paradigm addressing this robustness issue is to learn a diverse set of successful behaviors for a given task, from which a robot can select the most suitable policy when faced with a new environment. In this paper, we explore a novel realization of this vision by learning a generative model over policies. Rather than learning a single policy, or a small fixed repertoire, our generative model for policies compactly encodes an unbounded number of policies and allows novel controller variants to be sampled. Leveraging our generative policy network, a robot can sample novel behaviors until it finds one that works for a new environment. We demonstrate this idea with an application of robust ball-throwing in the presence of obstacles. We show that this approach achieves a greater diversity of behaviors than an existing evolutionary approach, while maintaining good efficacy of sampled behaviors, allowing a Baxter robot to hit targets more often when ball throwing in the presence of obstacles."
   year: 2019
   bibtex: |
@@ -1004,6 +1062,8 @@ papers:
    - "Julian Togelius"
   year: 2019
   pdfurl: "https://arxiv.org/pdf/1902.01724.pdf"
+  tags:
+   - games
   abstract: "In January 2019, DeepMind revealed AlphaStar to the world-the first artificial intelligence (AI) system to beat a professional player at the game of StarCraft II-representing a milestone in the progress of AI. AlphaStar draws on many areas of AI research, including deep learning, reinforcement learning, game theory, and evolutionary computation (EC). In this paper we analyze AlphaStar primarily through the lens of EC, presenting a new look at the system and relating it to many concepts in the field. We highlight some of its most interesting aspects-the use of Lamarckian evolution, competitive co-evolution, and quality diversity. In doing so, we hope to provide a bridge between the wider EC community and one of the most significant AI systems developed in recent times."
   bibtex: |
           "@article{arulkumaran2019alphastar,
@@ -1021,6 +1081,8 @@ papers:
    - "Julian Togelius"
    - "Georgios Yannakakis"
   year: 2019
+  tags:
+   - games
   pdfurl: "https://arxiv.org/pdf/1907.04053.pdf"
   abstract: "Quality-diversity (QD) algorithms search for a set of good solutions which cover a space as defined by behavior metrics. This simultaneous focus on quality and diversity with explicit metrics sets QD algorithms apart from standard single- and multi-objective evolutionary algorithms, as well as from diversity preservation approaches such as niching. These properties open up new avenues for artificial intelligence in games, in particular for procedural content generation. Creating multiple systematically varying solutions allows new approaches to creative human-AI interaction as well as adaptivity. In the last few years, a handful of applications of QD to procedural content generation and game playing have been proposed; we discuss these and propose challenges for future work."
   bibtex: |
@@ -1050,6 +1112,8 @@ papers:
    - "Ethan Jackson"
    - "Mark Daley"
   year: 2019
+  tags:
+   - games
   pdfurl: "https://arxiv.org/pdf/1902.03142.pdf"
   abstract: "Reinforcement learning (RL) problems often feature deceptive local optima, and learning methods that optimize purely for reward signal often fail to learn strategies for overcoming them. Deep neuroevolution and novelty search have been proposed as effective alternatives to gradient-based methods for learning RL policies directly from pixels. In this paper, we introduce and evaluate the use of novelty search over agent action sequences by string edit metric distance as a means for promoting innovation. We also introduce a method for stagnation detection and population resampling inspired by recent developments in the RL community that uses the same mechanisms as novelty search to promote and develop innovative policies. Our methods extend a state-of-the-art method for deep neuroevolution using a simple-yet-effective genetic algorithm (GA) designed to efficiently learn deep RL policy network weights. Experiments using four games from the Atari 2600 benchmark were conducted. Results provide further evidence that GAs are competitive with gradient-based algorithms for deep RL. Results also demonstrate that novelty search over action sequences is an effective source of selection pressure that can be integrated into existing evolutionary algorithms for deep RL."
   bibtex: |
@@ -1080,6 +1144,8 @@ papers:
    - "Nicolas Bredeche"
    - "Nathanael Aubert-Kato"
   year: 2019
+  tags:
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1910.00230.pdf"
   abstract: "Swarms of molecular robots are a promising approach to create specific shapes at the microscopic scale through self-assembly. However, controlling their behavior is a challenging problem as it involves complex non-linear dynamics and high experimental variability. Hand-crafting a molecular controller will often be time-consuming and give sub-optimal results. Optimization methods, like the bioNEAT algorithm, were previously employed to partially overcome these difficulties, but they still had to cope with deceptive high-dimensional search spaces and computationally expensive simulations. Here, we describe a novel approach to solve this problem by using MAP-Elites, an algorithm that searches for both high-performing and diverse solutions. We then apply it to a molecular robotic framework we recently introduced that allows sensing, signaling and self-assembly at the micro-scale and show that MAP-Elites outperforms previous approaches. Additionally, we propose a surrogate model of micro-robots physics and chemical reaction dynamics to reduce the computational costs of simulation. We show that the resulting methodology is capable of optimizing controllers with similar accuracy as when using only a full-fledged realistic model, with half the computational budget."
   bibtex: |
@@ -1117,6 +1183,8 @@ papers:
    - "Philip Valencia"
    - "Dave Winkler"
   year: 2019
+  tags:
+   - robotics
   pdfurl: "https://arxiv.org/pdf/1901.05704.pdf"
   abtract: "Natural lifeforms specialise to their environmental niches across many levels; from low-level features such as DNA and proteins, through to higher-level artefacts including eyes, limbs, and overarching body plans. We propose Multi-Level Evolution (MLE), a bottom-up automatic process that designs robots across multiple levels and niches them to tasks and environmental conditions. MLE concurrently explores constituent molecular and material 'building blocks', as well as their possible assemblies into specialised morphological and sensorimotor configurations. MLE provides a route to fully harness a recent explosion in available candidate materials and ongoing advances in rapid manufacturing processes. We outline a feasible MLE architecture that realises this vision, highlight the main roadblocks and how they may be overcome, and show robotic applications to which MLE is particularly suited. By forming a research agenda to stimulate discussion between researchers in related fields, we hope to inspire the pursuit of multi-level robotic design all the way from material to machine."
   bibtex: |
@@ -1137,6 +1205,8 @@ papers:
    - "Jose Font"
    - "Julian Togelius"
   year: 2019
+  tags:
+   - games
   pdfurl: "https://arxiv.org/pdf/1906.05175.pdf"
   abstract: "We propose the use of quality-diversity algorithms for mixed-initiative game content generation. This idea is implemented as a new feature of the Evolutionary Dungeon Designer, a system for mixed-initiative design of the type of levels you typically find in computer role playing games. The feature uses the MAP-Elites algorithm, an illumination algorithm which divides the population into a number of cells depending on their values along several behavioral dimensions. Users can flexibly and dynamically choose relevant dimensions of variation, and incorporate suggestions produced by the algorithm in their map designs. At the same time, any modifications performed by the human feed back into MAP-Elites, and are used to generate further suggestions."
   bibtex: |
@@ -1181,6 +1251,8 @@ papers:
   authors:
    - "Jean-Baptiste Mouret"
   year: 2011
+  tags:
+   - robotics
   abstract: "Novelty search is a recent and promising approach to evolve neurocontrollers, especially to drive robots. The main idea is to maximize the novelty of behaviors instead of the efficiency. However, abandoning the efficiency objective(s) may be too radical in many contexts. In this paper, a Pareto-based multi-objective evolutionary algorithmis employed to reconcile novelty search with objective-based optimization by following a multiobjectivization process. Several multiobjectivizations based on behavioral novelty and on behavioral diversity are compared on a maze navigation task. Results show that the bi-objective variant “Novelty + Fitness” is better at fine-tuning behaviors than basic novelty search, while keeping a comparable number of iterations to converge."
   pdfurl: "https://hal.archives-ouvertes.fr/hal-01300711/file/2011COS1944.pdf"
   bibtex: |
@@ -1198,6 +1270,8 @@ papers:
    - "Georgios Yannakakis"
    - "Julian Togelius"
   year: 2015
+  tags:
+   - games
   abstract: "Novelty search is a recent algorithm geared towards exploring search spaces without regard to objectives. When the presence of constraints divides a search space into feasible space and infeasible space, interesting implications arise regarding how novelty search explores such spaces. This paper elaborates on the problem of constrained novelty search and proposes two novelty search algorithms which search within both the feasible and the infeasible space. Inspired by the FI-2pop genetic algorithm, both algorithms maintain and evolve two separate populations, one with feasible and one with infeasible individuals, while each population can use its own selection method. The proposed algorithms are applied to the problem of generating diverse but playable game levels, which is representative of the larger problem of procedural game content generation. Results show that the two-population constrained novelty search methods can create, under certain conditions, larger and more diverse sets of feasible game levels than current methods of novelty search, whether constrained or unconstrained. However, the best algorithm is contingent on the particularities of the search space and the genetic operators used. Additionally, the proposed enhancement of offspring boosting is shown to enhance performance in all cases of two-population novelty search."
   pdfurl: "http://antoniosliapis.com/papers/constrained_novelty_search.pdf"
   bibtex: |
@@ -1218,6 +1292,8 @@ papers:
    - "Julian Togelius"
    - "Georgios Yannakakis"
   year: 2013
+  tags:
+   - games
   abstract: "We introduce DeLeNoX (Deep Learning Novelty Explorer), a system that autonomously creates artifacts in constrained spaces according to its own evolving interestingness criterion. DeLeNoX proceeds in alternating phases of exploration and transformation. In the exploration phases, a version of novelty search augmented with constraint handling searches for maximally diverse artifacts using a given distance function. In the transformation phases, a deep learning autoencoder learns to compress the variation between the found artifacts into a lower-dimensional space. The newly trained encoder is then used as the basis for a new distance function, transforming the criteria for the next exploration phase. In the current paper, we apply DeLeNoX to the creation of spaceships suitable for use in two-dimensional arcade-style computer games, a representative problem in procedural content generation in games. We also situate DeLeNoX in relation to the distinction between exploratory and transformational creativity, and in relation to Schmidhuber’s theory of creativity through the drive for compression progress."
   pdfurl: "http://julian.togelius.com/Liapis2013Transforming.pdf"
   bibtex: |
@@ -1237,6 +1313,8 @@ papers:
    - "Kenneth Stanley"
    - "Jeff Clune"
   year: 2019
+  tags:
+   - games
   abstract: "A grand challenge in reinforcement learning is intelligent exploration, especially when rewards are sparse or deceptive. Two Atari games serve as benchmarks for such hard-exploration domains: Montezuma's Revenge and Pitfall. On both games, current RL algorithms perform poorly, even those with intrinsic motivation, which is the dominant method to improve performance on hard-exploration domains. To address this shortfall, we introduce a new algorithm called Go-Explore. It exploits the following principles: (1) remember previously visited states, (2) first return to a promising state (without exploration), then explore from it, and (3) solve simulated environments through any available means (including by introducing determinism), then robustify via imitation learning. The combined effect of these principles is a dramatic performance improvement on hard-exploration problems. On Montezuma's Revenge, Go-Explore scores a mean of over 43k points, almost 4 times the previous state of the art. Go-Explore can also harness human-provided domain knowledge and, when augmented with it, scores a mean of over 650k points on Montezuma's Revenge. Its max performance of nearly 18 million surpasses the human world record, meeting even the strictest definition of \"superhuman\" performance. On Pitfall, Go-Explore with domain knowledge is the first algorithm to score above zero. Its mean score of almost 60k points exceeds expert human performance. Because Go-Explore produces high-performing demonstrations automatically and cheaply, it also outperforms imitation learning work where humans provide solution demonstrations. Go-Explore opens up many new research directions into improving it and weaving its insights into current RL algorithms. It may also enable progress on previously unsolvable hard-exploration problems in many domains, especially those that harness a simulator during training (e.g. robotics)."
   pdfurl: "https://arxiv.org/pdf/1901.10995"
   codeurl: "https://github.com/uber-research/go-explore" 
@@ -1256,6 +1334,8 @@ papers:
    - "Julian Togelius"
    - "Amy Hoover"
   year: 2019
+  tags:
+   - games
   abstract: "Quality diversity (QD) algorithms such as MAP-Elites have emerged as a powerful alternative to traditional single-objective optimization methods. They were initially applied to evolutionary robotics problems such as locomotion and maze navigation, but have yet to see widespread application. We argue that these algorithms are perfectly suited to the rich domain of video games, which contains many relevant problems with a multitude of successful strategies and often also multiple dimensions along which solutions can vary. This paper introduces a novel modification of the MAP-Elites algorithm called MAP-Elites with Sliding Boundaries (MESB) and applies it to the design and rebalancing of Hearthstone, a popular collectible card game chosen for its number of multidimensional behavior features relevant to particular styles of play. To avoid overpopulating cells with conflated behaviors, MESB slides the boundaries of cells based on the distribution of evolved individuals. Experiments in this paper demonstrate the performance of MESB in Hearthstone. Results suggest MESB finds diverse ways of playing the game well along the selected behavioral dimensions. Further analysis of the evolved strategies reveals common patterns that recur across behavioral dimensions and explores how MESB can help rebalance the game."
   pdfurl: "https://arxiv.org/pdf/1904.10656.pdf"
   bibtex: |
@@ -1274,6 +1354,8 @@ papers:
    - "Pierre Desreumaux"
    - "Jean-Baptiste Mouret"
   year: 2019
+  tags:
+   - robotics
   abstract: "Repertoire-based learning is a data-efficient adaptation approach based on a two-step process in which (1) a large and diverse set of policies is learned in simulation, and (2) a planning or learning algorithm chooses the most appropriate policies according to the current situation (e.g., a damaged robot, a new object, etc.). In this paper, we relax the assumption of previous works that a single repertoire is enough for adaptation. Instead, we generate repertoires for many different situations (e.g., with a missing leg, on different floors, etc.) and let our algorithm selects the most useful prior. Our main contribution is an algorithm, APROL (Adaptive Prior selection for Repertoire-based Online Learning) to plan the next action by incorporating these priors when the robot has no information about the current situation. We evaluate APROL on two simulated tasks: (1) pushing unknown objects of various shapes and sizes with a robotic arm and (2) a goal reaching task with a damaged hexapod robot. We compare with \"Reset-free Trial and Error\" (RTE) and various single repertoire-based baselines. The results show that APROL solves both the tasks in less interaction time than the baselines. Additionally, we demonstrate APROL on a real, damaged hexapod that quickly learns to pick compensatory policies to reach a goal by avoiding obstacles in the path."
   pdfurl: "https://arxiv.org/pdf/1907.07029"
   bibtex: |
@@ -1294,6 +1376,8 @@ papers:
    - "Vassilis Vassiliades"
    - "Jean-Baptiste Mouret"
   year: 2018
+  tags:
+   - robotics
   abstract: "The high probability of hardware failures prevents many advanced robots (e.g., legged robots) from being confidently deployed in real-world situations (e.g., post-disaster rescue). Instead of attempting to diagnose the failures, robots could adapt by trial-and-error in order to be able to complete their tasks. In this situation, damage recovery can be seen as a Reinforcement Learning (RL) problem. However, the best RL algorithms for robotics require the robot and the environment to be reset to an initial state after each episode, that is, the robot is not learning autonomously. In addition, most of the RL methods for robotics do not scale well with complex robots (e.g., walking robots) and either cannot be used at all or take too long to converge to a solution (e.g., hours of learning). In this paper, we introduce a novel learning algorithm called “Reset-free Trial-and-Error” (RTE) that (1) breaks the complexity by pre-generating hundreds of possible behaviors with a dynamics simulator of the intact robot, and (2) allows complex robots to quickly recover from damage while completing their tasks and taking the environment into account. We evaluate our algorithm on a simulated wheeled robot, a simulated six-legged robot, and a real six-legged walking robot that are damaged in several ways (e.g., a missing leg, a shortened leg, faulty motor, etc.) and whose objective is to reach a sequence of targets in an arena. Our experiments show that the robots can recover most of their locomotion abilities in an environment with obstacles, and without any human intervention."
   pdfurl: "https://arxiv.org/pdf/1610.04213"
   bibtex: |
