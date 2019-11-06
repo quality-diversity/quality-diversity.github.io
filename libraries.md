@@ -8,4 +8,4 @@
 [https://gitlab.com/leo.cazenille/qdpy](https://gitlab.com/leo.cazenille/qdpy)
 
 ### CVT-Map-Elites (Python)
-[https://github.com/resibots/pymap_elites]{https://github.com/resibots/pymap_elites}
+[https://github.com/resibots/pymap_elites](https://github.com/resibots/pymap_elites)
