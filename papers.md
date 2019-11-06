@@ -7,7 +7,7 @@ You can click on each title to display more information, including authors, url 
 {% comment %} tags:
 <span class="badge review">Review</span>
 <span class="badge robotics">Robotics</span>
-<span class="badge ganes">Games</span>
+<span class="badge games">Games</span>
 <span class="badge all">All</span> ––>
 {% endcomment %}
 
@@ -26,7 +26,7 @@ You can click on each title to display more information, including authors, url 
 		<details><summary><b>{{ item.title }}</b>
 		{% if item.tags contains "review" %}<span class="badge review">Review</span>{% endif %}
 		{% if item.tags contains "robotics" %}<span class="badge robotics">Robotics</span>{% endif %}
-		{% if item.tags contains "games" %}<span class="badge application">Games</span>{% endif %}
+		{% if item.tags contains "games" %}<span class="badge games">Games</span>{% endif %}
 		</summary>
 		<blockquote>
 		{% if item.authors %}
