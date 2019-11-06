@@ -1377,6 +1377,8 @@ papers:
    - "Konstantinos Chatzilygeroudis"
    - "Vassilis Vassiliades"
    - "Jean-Baptiste Mouret"
+  tags:
+   - appli
   year: 2018
   tags:
    - robotics
