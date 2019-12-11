@@ -1394,4 +1394,22 @@ papers:
             year={2018},
             publisher={Elsevier}}"
 
+- title: "Covariance Matrix Adaptation for the Rapid Illumination of Behavior Space"
+  authors:
+   - "Matthew C. Fontaine"
+   - "Julian Togelius"
+   - "Stefanos Nikolaidis"
+   - "Amy K. Hoover"
+  tags:
+   - games
+  year: 2019
+  abstract: "Quality Diversity (QD) algorithms like Novelty Search with LocalCompetition (NSLC) and MAP-Elites are a new class of population-based stochastic algorithms designed to generate a diverse col-lection of quality solutions. Meanwhile, variants of the Covari-ance Matrix Adaptation Evolution Strategy (CMA-ES) are amongthe best-performing derivative-free optimizers in single-objectivecontinuous domains. This paper proposes a new QD algorithmcalled Covariance Matrix Adaptation MAP-Elites (CMA-ME). Ournew algorithm combines the dynamic self-adaptation techniques ofCMA-ES with archiving and mapping techniques for maintainingdiversity in QD. Results from experiments with standard contin-uous optimization benchmarks show that CMA-ME finds better-quality solutions than MAP-Elites; similarly, results on the strategicgame Hearthstone show that CMA-ME finds both a higher overallquality and broader diversity of strategies than both CMA-ES andMAP-Elites. Overall, CMA-ME more than doubles the performanceof MAP-Elites using standard QD performance metrics. These re-sults suggest that QD algorithms augmented by operators fromstate-of-the-art optimization algorithms can yield high-performingmethods for simultaneously exploring and optimizing continuoussearch spaces, with significant applications to design, testing, andreinforcement learning among other domains. Code is availablefor both the continuous optimization benchmark [21] and Hearth-stone [20] domains."
+  pdfurl: "https://arxiv.org/pdf/1912.02400.pdf"
+  bibtex: |
+          "@article{fontaine2019covariance,
+	   title={Covariance Matrix Adaptation for the Rapid Illumination of Behavior Space},
+	   author={Fontaine, Matthew C and Togelius, Julian and Nikolaidis, Stefanos and Hoover, Amy K},
+	   journal={arXiv preprint arXiv:1912.02400},
+	   year={2019}}"
+
 
