@@ -1412,4 +1412,19 @@ papers:
            journal={arXiv preprint arXiv:1912.02400},
            year={2019}}"
 
-
+- title: "MAP-Elites for Noisy Domains by Adaptive Sampling"
+  authors:
+   - "Niels Justesen"
+   - "Sebastian Risi"
+   - "Jean-Baptiste Mouret"
+  year: 2019
+  abstract: "Quality Diversity algorithms (QD) evolve a set of high-performing phenotypes that each behaves as differently as possible. However, current algorithms are all elitist, which make them unable to cope with stochastic fitness functions and behavior evaluations. In fact, many of the promising applications of QD algorithms, for instance, games and robotics, are stochastic. Here we propose two new extensions to the QD-algorithm MAP-Elites adaptive sampling and drifting-elites — and demonstrate empirically that these extensions increase the quality of solutions in a noisy artificial test function and the behavioral diversity in a 2D bipedal walker environment."
+  pdfurl: "http://sebastianrisi.com/wp-content/uploads/justesen_gecco19.pdf"
+  bibtex: |
+          "@inproceedings{justesen2019map,
+           title={MAP-Elites for noisy domains by adaptive sampling},
+           author={Justesen, Niels and Risi, Sebastian and Mouret, Jean-Baptiste},
+           booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+           pages={121--122},
+           year={2019},
+           organization={ACM}}"
