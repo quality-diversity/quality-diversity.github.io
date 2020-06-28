@@ -1661,7 +1661,132 @@ papers:
           title={Fast and stable MAP-Elites in noisy domains using deep grids},
           author={Flageat, Manon and Cully, Antoine},
           booktitle={Proceedings of the 2020 Conference on Artificial Life},
+          year={2020}}"   
+          
+- title: "Mech-Elites: Illuminating the Mechanic Space of GVGAI"
+  authors:
+   - "Megan Charity"
+   - "Michael Cerny Green"
+   - "Ahmed Khalifa" 
+   - "Julian Togelius"
+  year: 2020
+  abstract: "This paper introduces a fully automatic method of mechanic illumination for general video game level generation. Using the Constrained MAP-Elites algorithm and the GVG-AI framework, this system generates the simplest tile based levels that contain specific sets of game mechanics and also satisfy playability constraints. We apply this method to illuminate mechanic space for 4 different games in GVG-AI: Zelda, Solarfox, Plants, and RealPortals. "
+  pdfurl: "https://arxiv.org/pdf/2002.04733.pdf"
+  bibtex: |
+          "@article{charity2020mech,
+          title={Mech-Elites: Illuminating the Mechanic Space of GVGAI},
+          author={Charity, Megan and Green, Michael Cerny and Khalifa, Ahmed and Togelius, Julian},
+          journal={arXiv preprint arXiv:2002.04733},
           year={2020}}"       
           
-          
+- title: "Learning the Designer's Preferences to Drive Evolution"
+  authors:
+   - "Alberto Alvarez"
+   - "Jose Font"
+  year: 2020
+  abstract: "This paper presents the Designer Preference Model, a data-driven solution that pursues to learn from user generated data in a Quality-Diversity Mixed-Initiative Co-Creativity (QD MI-CC) tool, with the aims of modelling the user's design style to better assess the tool's procedurally generated content with respect to that user's preferences. Through this approach, we aim for increasing the user's agency over the generated content in a way that neither stalls the user-tool reciprocal stimuli loop nor fatigues the user with periodical suggestion handpicking. We describe the details of this novel solution, as well as its implementation in the MI-CC tool the Evolutionary Dungeon Designer. We present and discuss our findings out of the initial tests carried out, spotting the open challenges for this combined line of research that integrates MI-CC with Procedural Content Generation through Machine Learning. "
+  pdfurl: "https://arxiv.org/pdf/2003.03268.pdf"
+  bibtex: |
+          "@inproceedings{alvarez2020learning,
+          title={Learning the designer’s preferences to drive evolution},
+          author={Alvarez, Alberto and Font, Jose},
+          booktitle={International Conference on the Applications of Evolutionary Computation (Part of EvoStar)},
+          pages={431--445},
+          year={2020},
+          organization={Springer}}"                 
      
+- title: "EGAD! an Evolved Grasping Analysis Dataset for diversity and reproducibility in robotic manipulation"
+  authors:
+   - "Douglas Morrison"
+   - "Peter Corke"
+   - "Jürgen Leitner"
+  year: 2020
+  abstract: "We present the Evolved Grasping Analysis Dataset (EGAD), comprising over 2000 generated objects aimed at training and evaluating robotic visual grasp detection algorithms. The objects in EGAD are geometrically diverse, filling a space ranging from simple to complex shapes and from easy to difficult to grasp, compared to other datasets for robotic grasping, which may be limited in size or contain only a small number of object classes. Additionally, we specify a set of 49 diverse 3D-printable evaluation objects to encourage reproducible testing of robotic grasping systems across a range of complexity and difficulty. The dataset, code and videos can be found at this URL"
+  pdfurl: "https://arxiv.org/pdf/2003.01314.pdf"
+  bibtex: |
+          "@article{morrison2020egad,
+          title={EGAD! an Evolved Grasping Analysis Dataset for diversity and reproducibility in robotic manipulation},
+          author={Morrison, Douglas and Corke, Peter and Leitner, Jurgen},
+          journal={IEEE Robotics and Automation Letters},
+          year={2020},
+          publisher={IEEE}}"       
+          
+- title: "Interactive Constrained MAP-Elites Analysis and Evaluation of the Expressiveness of the Feature Dimensions"
+  authors:
+   - "Alberto Alvarez"
+   - "Steve Dahlskog"
+   - "Jose Font"
+   - "Julian Togelius"
+  year: 2020
+  abstract: "We propose the Interactive Constrained MAP-Elites, a quality-diversity solution for game content generation, implemented as a new feature of the Evolutionary Dungeon Designer: a mixed-initiative co-creativity tool for designing dungeons. The feature uses the MAP-Elites algorithm, an illumination algorithm that segregates the population among several cells depending on their scores with respect to different behavioral dimensions. Users can flexibly and dynamically alternate between these dimensions anytime, thus guiding the evolutionary process in an intuitive way, and then incorporate suggestions produced by the algorithm in their room designs. At the same time, any modifications performed by the human user will feed back into MAP-Elites, closing a circular workflow of constant mutual inspiration. This paper presents the algorithm followed by an in-depth analysis of its behaviour, with the aims of evaluating the expressive range of all possible dimension combinations in several scenarios, as well as discussing their influence in the fitness landscape and in the overall performance of the mixed-initiative procedural content generation. "
+  pdfurl: "https://arxiv.org/pdf/2003.03377.pdf"
+  bibtex: |
+          "@article{alvarez2020interactive,
+          title={Interactive Constrained MAP-Elites Analysis and Evaluation of the Expressiveness of the Feature Dimensions},
+          author={Alvarez, Alberto and Dahlskog, Steve and Font, Jose and Togelius, Julian},
+          journal={arXiv preprint arXiv:2003.03377},
+          year={2020}}"   
+          
+- title: "Baba is Y'all: Collaborative Mixed-Initiative Level Design"
+  authors:
+   - "Megan Charity"
+   - "Ahmed Khalifa"
+   - "Julian Togelius"
+  year: 2020
+  abstract: "We present a collaborative mixed-initiative system for building levels for the puzzle game "Baba is You". Unlike previous mixed-initiative systems, Baba is Y'all is designed for collaborative asynchronous creation by multiple users over the internet. The system includes several AI-assisted features to help designers, including a level evolver and an automated player for playtesting. The level archives catalogues levels according to which mechanics are implemented and not implemented, allowing the system to ask users to design levels with specific combinations of mechanics. We describe the operation of the system and the results of small-scale informal user test, and discuss future development paths for this system as well as for collaborative mixed-initiative systems in general. "
+  pdfurl: "https://arxiv.org/pdf/2003.14294.pdf"
+  bibtex: |
+          "@article{charity2020baba,
+          title={Baba is Y'all: Collaborative Mixed-Initiative Level Design},
+          author={Charity, Megan and Khalifa, Ahmed and Togelius, Julian},
+          journal={arXiv preprint arXiv:2003.14294},
+          year={2020}}"      
+          
+- title: "Generating and Adapting to Diverse Ad-Hoc Cooperation Agents in Hanabi"
+  authors:
+   - "Rodrigo Canaan"
+   - "Xianbo Gao"
+   - "Julian Togelius"
+   - "Andy Nealen"
+   - "Stefan Menzel"
+  year: 2020
+  abstract: "Hanabi is a cooperative game that brings the problem of modeling other players to the forefront. In this game, coordinated groups of players can leverage pre-established conventions to great effect, but playing in an ad-hoc setting requires agents to adapt to its partner's strategies with no previous coordination. Evaluating an agent in this setting requires a diverse population of potential partners, but so far, the behavioral diversity of agents has not been considered in a systematic way. This paper proposes Quality Diversity algorithms as a promising class of algorithms to generate diverse populations for this purpose, and generates a population of diverse Hanabi agents using MAP-Elites. We also postulate that agents can benefit from a diverse population during training and implement a simple "meta-strategy" for adapting to an agent's perceived behavioral niche. We show this meta-strategy can work better than generalist strategies even outside the population it was trained with if its partner's behavioral niche can be correctly inferred, but in practice a partner's behavior depends and interferes with the meta-agent's own behavior, suggesting an avenue for future research in characterizing another agent's behavior during gameplay. "
+  pdfurl: "https://arxiv.org/pdf/2004.13710.pdf"
+  bibtex: |
+          "@article{canaan2020generating,
+          title={Generating and Adapting to Diverse Ad-Hoc Cooperation Agents in Hanab},
+          author={Canaan, Rodrigo and Gao, Xianbo and Togelius, Julian and Nealen, Andy and Menzel, Stefan},
+          journal={arXiv preprint arXiv:2004.13710},
+          year={2020}}"  
+          
+- title: "Diversity-based Design Assist for Large Legged Robots"
+  authors:
+   - "David Howard"
+   - "Thomas Lowe"
+   - "Wade Geles"
+  year: 2020
+  abstract: " We combine MAP-Elites and highly parallelisable simulation to explore the design space of a class of large legged robots, which stand at around 2m tall and whose design and construction is not well-studied. The simulation is modified to account for factors such as motor torque and weight, and presents a reasonable fidelity search space. A novel robot encoding allows for bio-inspired features such as legs scaling along the length of the body. The impact of three possible control generation schemes are assessed in the context of body-brain co-evolution, showing that even constrained problems benefit strongly from coupling-promoting mechanisms. A two stage process in implemented. In the first stage, a library of possible robots is generated, treating user requirements as constraints. In the second stage, the most promising robot niches are analysed and a suite of human-understandable design rules generated related to the values of their feature variables. These rules, together with the library, are then ready to be used by a (human) robot designer as a Design Assist tool. "
+  pdfurl: "https://arxiv.org/pdf/2004.08057.pdf"
+  bibtex: |
+          "@article{howard2020diversity,
+          title={Diversity-based Design Assist for Large Legged Robots},
+          author={Howard, David and Lowe, Thomas and Geles, Wade},
+          journal={arXiv preprint arXiv:2004.08057},
+          year={2020}}"       
+          
+- title: "Environmental Adaptation of Robot Morphology and Control through Real-world Evolution"
+  authors:
+   - "Tønnes F. Nygaard"
+   - "Charles P. Martin"
+   - "David Howard"
+   - "Jim Torresen"
+   - "Kyrre Glette"
+  year: 2020
+  abstract: "obots operating in the real world will experience a range of different environments and tasks. It is essential for the robot to have the ability to adapt to its surroundings to work efficiently in changing conditions. Evolutionary robotics aims to solve this by optimizing both the control and body (morphology) of a robot, allowing adaptation to internal, as well as external factors. Most work in this field has been done in physics simulators, which are relatively simple and not able to replicate the richness of interactions found in the real world. Solutions that rely on the complex interplay between control, body, and environment are therefore rarely found. In this paper, we rely solely on real-world evaluations and apply evolutionary search to yield combinations of morphology and control for our mechanically self-reconfiguring quadruped robot. We evolve solutions on two very different physical surfaces and analyze the results in terms of both control and morphology. We then transition to two previously unseen surfaces to demonstrate the generality of our method. We find that the evolutionary search adapts both control and body to the different physical environments, yielding significantly different morphology-controller configurations. Moreover, we observe that the solutions found by our method work well on previously unseen terrains. "
+  pdfurl: "https://arxiv.org/pdf/2003.13254.pdf"
+  bibtex: |
+          "@article{nygaard2020environmental,
+          title={Environmental Adaptation of Robot Morphology and Control through Real-world Evolution},
+          author={Nygaard, T{\o}nnes F and Martin, Charles P and Howard, David and Torresen, Jim and Glette, Kyrre},
+          journal={arXiv preprint arXiv:2003.13254},
+          year={2020}}"                 
