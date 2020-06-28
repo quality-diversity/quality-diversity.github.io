@@ -1402,15 +1402,16 @@ papers:
    - "Amy K. Hoover"
   tags:
    - games
-  year: 2019
-  abstract: "Quality Diversity (QD) algorithms like Novelty Search with LocalCompetition (NSLC) and MAP-Elites are a new class of population-based stochastic algorithms designed to generate a diverse col-lection of quality solutions. Meanwhile, variants of the Covari-ance Matrix Adaptation Evolution Strategy (CMA-ES) are amongthe best-performing derivative-free optimizers in single-objectivecontinuous domains. This paper proposes a new QD algorithmcalled Covariance Matrix Adaptation MAP-Elites (CMA-ME). Ournew algorithm combines the dynamic self-adaptation techniques ofCMA-ES with archiving and mapping techniques for maintainingdiversity in QD. Results from experiments with standard contin-uous optimization benchmarks show that CMA-ME finds better-quality solutions than MAP-Elites; similarly, results on the strategicgame Hearthstone show that CMA-ME finds both a higher overallquality and broader diversity of strategies than both CMA-ES andMAP-Elites. Overall, CMA-ME more than doubles the performanceof MAP-Elites using standard QD performance metrics. These re-sults suggest that QD algorithms augmented by operators fromstate-of-the-art optimization algorithms can yield high-performingmethods for simultaneously exploring and optimizing continuoussearch spaces, with significant applications to design, testing, andreinforcement learning among other domains. Code is availablefor both the continuous optimization benchmark [21] and Hearth-stone [20] domains."
+  year: 2020
+  abstract: "We focus on the challenge of finding a diverse collection of quality solutions on complex continuous domains. While quality diver-sity (QD) algorithms like Novelty Search with Local Competition (NSLC) and MAP-Elites are designed to generate a diverse range of solutions, these algorithms require a large number of evaluations for exploration of continuous spaces. Meanwhile, variants of the Covariance Matrix Adaptation Evolution Strategy (CMA-ES) are among the best-performing derivative-free optimizers in single-objective continuous domains. This paper proposes a new QD algorithm called Covariance Matrix Adaptation MAP-Elites (CMA-ME). Our new algorithm combines the self-adaptation techniques of CMA-ES with archiving and mapping techniques for maintaining diversity in QD. Results from experiments based on standard continuous optimization benchmarks show that CMA-ME finds better-quality solutions than MAP-Elites; similarly, results on the strategic game Hearthstone show that CMA-ME finds both a higher overall quality and broader diversity of strategies than both CMA-ES and MAP-Elites. Overall, CMA-ME more than doubles the performance of MAP-Elites using standard QD performance metrics. These results suggest that QD algorithms augmented by operators from state-of-the-art optimization algorithms can yield high-performing methods for simultaneously exploring and optimizing continuous search spaces, with significant applications to design, testing, and reinforcement learning among other domains."
   pdfurl: "https://arxiv.org/pdf/1912.02400.pdf"
   bibtex: |
           "@article{fontaine2019covariance,
            title={Covariance Matrix Adaptation for the Rapid Illumination of Behavior Space},
            author={Fontaine, Matthew C and Togelius, Julian and Nikolaidis, Stefanos and Hoover, Amy K},
-           journal={arXiv preprint arXiv:1912.02400},
-           year={2019}}"
+           booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+           year={2020},
+           organization={ACM}}"
 
 - title: "MAP-Elites for Noisy Domains by Adaptive Sampling"
   authors:
@@ -1428,3 +1429,138 @@ papers:
            pages={121--122},
            year={2019},
            organization={ACM}}"
+         
+- title: "Scaling MAP-Elites to Deep Neuroevolution"
+  authors:
+   - "Cédric Colas"
+   - "Joost Huizinga"
+   - "Vashisht Madhavan"
+   - "Jeff Clune"
+  year: 2020
+  abstract: "Quality-Diversity (QD) algorithms, and MAP-Elites (ME) in particular, have proven very useful for a broad range of applications including enabling real robots to recover quickly from joint damage, solving strongly deceptive maze tasks or evolving robot morphologies to discover new gaits. However, present implementations of MAP-Elites and other QD algorithms seem to be limited to low-dimensional controllers with far fewer parameters than modern deep neural network models. In this paper, we propose to leverage the efficiency of Evolution Strategies (ES) to scale MAP-Elites to high-dimensional controllers parameterized by large neural networks. We design and evaluate a new hybrid algorithm called MAP-Elites with Evolution Strategies (ME-ES) for post-damage recovery in a difficult high-dimensional control task where traditional ME fails. Additionally, we show that ME-ES performs efficient exploration, on par with state-of-the-art exploration algorithms in high-dimensional control tasks with strongly deceptive rewards."
+  pdfurl: "https://arxiv.org/pdf/2003.01825.pdf"
+  bibtex: |
+          "@article{colas2020scaling,
+          title={Scaling MAP-Elites to Deep Neuroevolution},
+          author={Colas, C{\'e}dric and Huizinga, Joost and Madhavan, Vashisht and Clune, Jeff},
+          journal={arXiv preprint arXiv:2003.01825},
+          year={2020}}"
+
+- title: "Exploring the Evolution of GANs through Quality Diversity"
+  authors:
+   - "Victor Costa"
+   - "Nuno Lourenço"
+   - "Joao Correia"
+   - "Penousal Machado"
+  year: 2020
+  bibtex: |
+          "@inproceedings{justesen2019map,
+           title={Exploring the Evolution of GANs through Quality Diversity},
+           author={Costa, Victor and Lourenço, Nuno and Correia, Joao and Machado, Penousal},
+           booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+           year={2020},
+           organization={ACM}}"
+           
+- title: "Learning behaviour-performance maps with meta-evolution "
+  authors:
+   - "David Bossens"
+   - "Jean-Baptiste Mouret"
+   - "Danesh Tarapore"
+  year: 2020
+  abstract: "The MAP-Elites quality-diversity algorithm has been successful in robotics because it can create a behaviorally diverse set of solutions that later can be used for adaptation, for instance to unanticipated damages. In MAP-Elites, the choice of the behaviour space is essential for adaptation, the recovery of performance in unseen environments , since it defines the diversity of the solutions. Current practice is to hand-code a set of behavioural features, however, given the large space of possible behaviour-performance maps, the designer does not know a priori which behavioural features maximise a map's adaptation potential. We introduce a new meta-evolution algorithm that discovers those behavioural features that maximise future adaptations. The proposed method applies Covari-ance Matrix Adaptation Evolution Strategy to evolve a population of behaviour-performance maps to maximise a meta-fitness function that rewards adaptation. The method stores solutions found by MAP-Elites in a database which allows to rapidly construct new behaviour-performance maps on-the-fly. To evaluate this system , we study the gait of the RHex robot as it adapts to a range of damages sustained on its legs. When compared to MAP-Elites with user-defined behaviour spaces, we demonstrate that the meta-evolution system learns high-performing gaits with or without damages injected to the robot. "
+  pdfurl: "https://hal.inria.fr/hal-02555231/document"
+  bibtex: |
+          "@inproceedings{bossens:hal-02555231,
+           TITLE = {{Learning behaviour-performance maps with meta-evolution}},
+           AUTHOR = {Bossens, David M and Mouret, Jean-Baptiste and Tarapore, Danesh},
+           URL = {https://hal.inria.fr/hal-02555231},
+           BOOKTITLE = {{GECCO'20 - Genetic and Evolutionary Computation Conference}},
+           ADDRESS = {Cancun, Mexico},
+           YEAR = {2020},
+           MONTH = Jul,
+           KEYWORDS = {Learning paradigms ; quality-diversity algorithms ; behavioural diversity ; meta-learning ; evolutionary robotics ; damage recovery},
+           PDF = {https://hal.inria.fr/hal-02555231/file/pap349s3-file1.pdf},
+           HAL_ID = {hal-02555231},
+           HAL_VERSION = {v1}}"
+           
+- title: "Quality Diversity for Multi-task Optimization"
+  authors:
+   - "Jean-Baptiste Mouret"
+   - "Glenn Maguire"
+  year: 2020
+  abstract: "Quality Diversity (QD) algorithms are a recent family of optimization algorithms that search for a large set of diverse but high-performing solutions. In some specific situations, they can solve multiple tasks at once. For instance, they can find the joint positions required for a robotic arm to reach a set of points, which can also be solved by running a classic optimizer for each target point. However, they cannot solve multiple tasks when the fitness needs to be evaluated independently for each task (e.g., optimizing policies to grasp many different objects). In this paper, we propose an extension of the MAP-Elites algorithm, called Multi-task MAP-Elites, that solves multiple tasks when the fitness function depends on the task. We evaluate it on a simulated parameterized planar arm (10-dimensional search space; 5000 tasks) and on a simulated 6-legged robot with legs of different lengths (36-dimensional search space; 2000 tasks). The results show that in both cases our algorithm outperforms the optimization of each task separately with the CMA-ES algorithm. "
+  pdfurl: "https://arxiv.org/pdf/2003.04407.pdf"
+  bibtex: |
+          "@article{mouret2020quality,
+          title={Quality Diversity for Multi-task Optimization},
+          author={Mouret, Jean-Baptiste and Maguire, Glenn},
+          journal={arXiv preprint arXiv:2003.04407},
+          year={2020}}"
+
+- title: "Discovering Representations for Black-box Optimization"
+  authors:
+   - "Adam Gaier"
+   - "Alexander Asteroth"
+   - "Jean-Baptiste Mouret"
+  year: 2020
+  abstract: "The encoding of solutions in black-box optimization is a delicate, handcrafted balance between expressiveness and domain knowledge between exploring a wide variety of solutions, and ensuring that those solutions are useful. Our main insight is that this process can be automated by generating a dataset of high-performing solutions with a quality diversity algorithm (here, MAP-Elites), then learning a representation with a generative model (here, a Varia-tional Autoencoder) from that dataset. Our second insight is that this representation can be used to scale quality diversity optimization to higher dimensions-but only if we carefully mix solutions generated with the learned representation and those generated with traditional variation operators. We demonstrate these capabilities by learning an low-dimensional encoding for the inverse kinemat-ics of a thousand joint planar arm. The results show that learned representations make it possible to solve high-dimensional problems with orders of magnitude fewer evaluations than the standard MAP-Elites, and that, once solved, the produced encoding can be used for rapid optimization of novel, but similar, tasks. The presented techniques not only scale up quality diversity algorithms to high dimensions, but show that black-box optimization encodings can be automatically learned, rather than hand designed. "
+  pdfurl: "https://hal.inria.fr/hal-02555221/document"
+  bibtex: |
+          "@inproceedings{gaier:hal-02555221,
+           TITLE = {{Discovering Representations for Black-box Optimization}},
+           AUTHOR = {Gaier, Adam and Asteroth, Alexander and Mouret, Jean-Baptiste},
+           URL = {https://hal.inria.fr/hal-02555221},
+           BOOKTITLE = {{GECCO'20 - Genetic and Evolutionary Computation Conference}},
+           ADDRESS = {Cancun, Mexico},
+           VOLUME = {11},
+           YEAR = {2020},
+           MONTH = Jul,
+           DOI = {10.1145/3377930.3390221},
+           PDF = {https://hal.inria.fr/hal-02555221/file/dde_gecco.pdf},
+           HAL_ID = {hal-02555221},
+           HAL_VERSION = {v1}}"
+
+- title: "CPPN2GAN: Combining Compositional Pattern Producing Networks and GANs for Large-scale Pattern Generation"
+  authors:
+   - "Jacob Schrum"
+   - "Vanessa Volz"
+   - "Sebastian Risi"
+  year: 2020
+  abstract: "Generative Adversarial Networks (GANs) are proving to be a powerful indirect genotype-to-phenotype mapping for evolutionary search, but they have limitations. In particular, GAN output does not scale to arbitrary dimensions, and there is no obvious way of combining multiple GAN outputs into a cohesive whole, which would be useful in many areas, such as the generation of video game levels. Game levels often consist of several segments, sometimes repeated directly or with variation, organized into an engaging pattern. Such patterns can be produced with Compositional Pattern Producing Networks (CPPNs). Specifically, a CPPN can define latent vector GAN inputs as a function of geometry, which provides a way to organize level segments output by a GAN into a complete level. This new CPPN2GAN approach is validated in both Super Mario Bros. and The Legend of Zelda. Specifically, divergent search via MAP-Elites demonstrates that CPPN2GAN can better cover the space of possible levels. The layouts of the resulting levels are also more cohesive and aesthetically consistent. "
+  pdfurl: "https://arxiv.org/pdf/2004.01703.pdf"
+  bibtex: |
+          "@article{schrum2020cppn2gan,
+           title={CPPN2GAN: Combining Compositional Pattern Producing Networks and GANs for Large-scale Pattern Generation},
+           author={Schrum, Jacob and Volz, Vanessa and Risi, Sebastian},
+           journal={arXiv preprint arXiv:2004.01703},
+           year={2020}}"
+          
+- title: "PlayMapper: Illuminating Design Spaces of Platform Games"
+  authors:
+   - "Vivek R. Warriar"
+   - "Carmen Ugarte"
+   - "John R. Woodward"
+   - "Laurissa Tokarchuk"
+  year: 2019
+  abstract: "In this paper, we present PlayMapper, a novel variant of the MAP-Elites algorithm that has been adapted to map the level design space of the Super Mario Bros game. Our approach uses player and level based features to create a map of playable levels. We conduct an experiment to compare the effect of different sets of input features on the range of levels generated using this technique. In this work, we show that existing search-based techniques for PCG can be improved to allow for more control and creative freedom for designers. Current limitations of the system and directions for future work are also discussed."
+  pdfurl: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8848118"
+  bibtex: |
+          "@INPROCEEDINGS{8848118,
+          author={V. R. {Warriar} and C. {Ugarte} and J. R. {Woodward} and L. {Tokarchuk}},
+          booktitle={2019 IEEE Conference on Games (CoG)}, 
+          title={PlayMapper: Illuminating Design Spaces of Platform Games}, 
+          year={2019},
+          volume={},
+          number={},
+          pages={1-4}}"       
+          
+- title: "title"
+  authors:
+   - "author"
+   - "author"
+   - "author"
+  year: 2020
+  abstract: ""
+  pdfurl: "TODO"
+  bibtex: |
+          "@inproceedings"         
