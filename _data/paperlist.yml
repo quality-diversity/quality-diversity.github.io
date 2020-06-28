@@ -1554,13 +1554,3 @@ papers:
           number={},
           pages={1-4}}"       
           
-- title: "title"
-  authors:
-   - "author"
-   - "author"
-   - "author"
-  year: 2020
-  abstract: ""
-  pdfurl: "TODO"
-  bibtex: |
-          "@inproceedings"         
