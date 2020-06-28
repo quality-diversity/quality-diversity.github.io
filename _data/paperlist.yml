@@ -1494,8 +1494,9 @@ papers:
           "@article{mouret2020quality,
           title={Quality Diversity for Multi-task Optimization},
           author={Mouret, Jean-Baptiste and Maguire, Glenn},
-          journal={arXiv preprint arXiv:2003.04407},
-          year={2020}}"
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+          year={2020},
+          organization={ACM}}"
 
 - title: "Discovering Representations for Black-box Optimization"
   authors:
@@ -1532,8 +1533,9 @@ papers:
           "@article{schrum2020cppn2gan,
            title={CPPN2GAN: Combining Compositional Pattern Producing Networks and GANs for Large-scale Pattern Generation},
            author={Schrum, Jacob and Volz, Vanessa and Risi, Sebastian},
-           journal={arXiv preprint arXiv:2004.01703},
-           year={2020}}"
+           booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+           year={2020},
+           organization={ACM}}"
           
 - title: "PlayMapper: Illuminating Design Spaces of Platform Games"
   authors:
@@ -1554,3 +1556,96 @@ papers:
           number={},
           pages={1-4}}"       
           
+- title: "QED: using Quality-Environment-Diversity to evolve resilient robot swarms"
+  authors:
+   - "David M. Bossens"
+   - "Danesh Tarapore"
+  year: 2020
+  abstract: "In swarm robotics, any of the robots in a swarm may be affected by different faults, resulting in significant performance declines. To allow fault recovery from randomly injected faults to different robots in a swarm, a model-free approach may be preferable due to the accumulation of faults in models and the difficulty to predict the behaviour of neighbouring robots. One model-free approach to fault recovery involves two phases: during simulation, a quality-diversity algorithm evolves a behaviourally diverse archive of controllers; during the target application, a search for the best controller is initiated after fault injection. In quality-diversity algorithms, the choice of the behavioural descriptor is a key design choice that determines the quality of the evolved archives, and therefore the fault recovery performance. Although the environment is an important determinant of behaviour, the impact of environmental diversity is often ignored in the choice of a suitable behavioural descriptor. This study compares different behavioural descriptors, including two generic descriptors that work on a wide range of tasks, one hand-coded descriptor which fits the domain of interest, and one novel type of descriptor based on environmental diversity, which we call Quality-Environment-Diversity (QED). Results demonstrate that the above-mentioned model-free approach to fault recovery is feasible in the context of swarm robotics, reducing the fault impact by a factor 2-3. Further, the environmental diversity obtained with QED yields a unique behavioural diversity profile that allows it to recover from high-impact faults. "
+  pdfurl: "https://arxiv.org/pdf/2003.02341.pdf"
+  bibtex: |
+          "@article{bossens2020qed,
+           title={QED: using Quality-Environment-Diversity to evolve resilient robot swarms},
+           author={Bossens, David M and Tarapore, Danesh},
+           journal={arXiv preprint arXiv:2003.02341},
+           year={2020}}"         
+
+
+- title: "From exploration to control: learning object manipulation skills through novelty search and local adaptation"
+  authors:
+   - "Seungsu Kim"
+   - "Alexandre Coninx"
+   - "Stephane Doncieux"
+  year: 2019
+  abstract: "Programming a robot to deal with open-ended tasks remains a challenge, in particular if the robot has to manipulate objects. Launching, grasping, pushing or any other object interaction can be simulated but the corresponding models are not reversible and the robot behavior thus cannot be directly deduced. These behaviors are hard to learn without a demonstration as the search space is large and the reward sparse. We propose a method to autonomously generate a diverse repertoire of simple object interaction behaviors in simulation. Our goal is to bootstrap a robot learning and development process with limited informations about what the robot has to achieve and how. This repertoire can be exploited to solve different tasks in reality thanks to a proposed adaptation method or could be used as a training set for data-hungry algorithms. The proposed approach relies on the definition of a goal space and generates a repertoire of trajectories to reach attainable goals, thus allowing the robot to control this goal space. The repertoire is built with an off-the-shelf simulation thanks to a quality diversity algorithm. The result is a set of solutions tested in simulation only. It may result in two different problems: (1) as the repertoire is discrete and finite, it may not contain the trajectory to deal with a given situation or (2) some trajectories may lead to a behavior in reality that differs from simulation because of a reality gap. We propose an approach to deal with both issues by using a local linearization between the motion parameters and the observed effects. Furthermore, we present an approach to update the existing solution repertoire with the tests done on the real robot. The approach has been validated on two different experiments on the Baxter robot: a ball launching and a joystick manipulation tasks. "
+  pdfurl: "https://arxiv.org/pdf/1901.00811.pdf"
+  bibtex: |
+          "@article{kim2019exploration,
+          title={From exploration to control: learning object manipulation skills through novelty search and local adaptation},
+          author={Kim, Seungsu and Coninx, Alexandre and Doncieux, St{\'e}phane},
+          journal={arXiv preprint arXiv:1901.00811},
+          year={2019}}"         
+
+- title: "Policy search in continuous action domains: An overview"
+  authors:
+   - "Olivier Sigaud"
+   - "Freek Stulp"
+  year: 2019
+  abstract: "Continuous action policy search is currently the focus of intensive research, driven both by the recent success of deep reinforcement learning algorithms and the emergence of competitors based on evolutionary algorithms. In this paper, we present a broad survey of policy search methods, providing a unified perspective on very different approaches, including also Bayesian Optimization and directed exploration methods. The main message of this overview is in the relationship between the families of methods, but we also outline some factors underlying sample efficiency properties of the various approaches. "
+  pdfurl: "https://hal.sorbonne-universite.fr/hal-02182466/document"
+  bibtex: |
+          "@article{SIGAUD201928,
+          title = "Policy search in continuous action domains: An overview",
+          journal = "Neural Networks",
+          volume = "113",
+          pages = "28 - 40",
+          year = "2019",
+          issn = "0893-6080",
+          doi = "https://doi.org/10.1016/j.neunet.2019.01.011",
+          url = "https://hal.sorbonne-universite.fr/hal-02182466/document",
+          author = "Olivier Sigaud and Freek Stulp",
+          keywords = "Policy search, Sample efficiency, Deep reinforcement learning, Deep neuroevolution"}"  
+          
+- title: "Rapid Phenotypic Landscape Exploration Through Hierarchical Spatial Partitioning"
+  authors:
+   - "Davy Smith"
+   - "Laurissa Tokarchuk"
+   - "Geraint Wiggins"
+  year: 2016
+  abstract: "Exploration of the search space through the optimisation of phenotypic diversity is of increasing interest within the field of evolutionary robotics. Novelty search and the more recent MAP-Elites are two state of the art evolutionary algorithms which diversify low dimensional phenotypic traits for divergent exploration. In this paper we introduce a novel alternative for rapid divergent search of the feature space. Unlike previous phenotypic search procedures, our proposed Spatial, Hierarchical, Illuminated Neuro-Evolution (SHINE) algorithm utilises a tree structure for the maintenance and selection of potential candidates. SHINE penalises previous solutions in more crowded areas of the landscape. Our experimental results show that SHINE significantly outperforms novelty search and MAP-Elites in both performance and exploration. We conclude that the SHINE algorithm is a viable method for rapid divergent search of low dimensional, phenotypic landscapes."
+  pdfurl: "https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/14411/Tokarchuk%20Rapid%20Phenotypic%20Landscape%202016%20Accepted.pdf.pdf?sequence=3"
+  bibtex: |
+          "@inproceedings{smith2016rapid,
+           title={Rapid phenotypic landscape exploration through hierarchical spatial partitioning},
+           author={Smith, Davy and Tokarchuk, Laurissa and Wiggins, Geraint},
+           booktitle={International conference on parallel problem solving from nature},
+           pages={911--920},
+           year={2016},
+           organization={Springer}}"  
+          
+- title: "Exploring the BipedalWalker benchmark with MAP-Elites and Curiosity-driven A3C"
+  authors:
+   - "Vikas Gupta"
+   - "Nathanael Aubert-Kato"
+   - "Leo Cazenille"
+  year: 2020
+  bibtex: |
+          "@article{gupta2020exploring,
+          title={Exploring the BipedalWalker benchmark with MAP-Elites and Curiosity-driven A3C},
+          author={Gupta, Vikas and Aubert-Kato, Nathanael and Cazenille, Leo},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+          year={2020},
+          organization={ACM}}"  
+       
+- title: "Illuminating Super Mario Bros - Quality-Diversity Within Platformer Level Generation"
+  authors:
+   - "Oliver Henry Withington"
+  year: 2020
+  bibtex: |
+          "@article{Withington2020illuminating,
+          title={Illuminating Super Mario Bros - Quality-Diversity Within Platformer Level Generation},
+          author={Withington, Oliver Henry},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+          year={2020},
+          organization={ACM}}"  
+
