@@ -1806,3 +1806,19 @@ papers:
           author={Gonz{\'a}lez-Duque, Miguel and Palm, Rasmus Berg and Ha, David and Risi, Sebastian},
           journal={arXiv preprint arXiv:2005.07677},
           year={2020}}"   
+          
+- title: "Illuminating Elite Patches of Chemical Space"
+  authors:
+   - "Jonas Verhellen "
+   - "Jeriek Van den Abeele"
+  year: 2020
+  abstract: "In the past few years, there has been considerable activity in both academic and industrial research to develop innovative machine learning approaches to locate novel, high-performing molecules in chemical space. Here we describe a new and fundamentally different type of approach that provides a holistic overview of how high-performing molecules are distributed throughout a search space. Based on an open-source, graph-based implementation [Jensen, Chem. Sci., 2019, 12, 3567-3572] of a traditional genetic algorithm for molecular optimisation, and influenced by state-of-the-art concepts from soft robot design [Mouret et al., IEEE Trans. Evolut. Comput., 2016, 22, 623-630], we provide an algorithm that (i) produces a large diversity of high-performing, yet qualitatively different molecules, (ii) illuminates the distribution of optimal solutions, and (iii) improves search efficiency compared to both machine learning and traditional genetic algorithm approaches."
+  pdfurl: "https://chemrxiv.org/articles/preprint/Illuminating_Elite_Patches_of_Chemical_Space/12608228"
+  bibtex: |
+          "@article{Verhellen2020,
+          author = "Jonas Verhellen and Jeriek Van den Abeele",
+          title = "{Illuminating Elite Patches of Chemical Space}",
+          year = "2020",
+          month = "7",
+          url = "https://chemrxiv.org/articles/preprint/Illuminating_Elite_Patches_of_Chemical_Space/12608228",
+          doi = "10.26434/chemrxiv.12608228.v1"}"   
