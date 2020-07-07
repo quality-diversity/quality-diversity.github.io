@@ -1782,11 +1782,27 @@ papers:
    - "Jim Torresen"
    - "Kyrre Glette"
   year: 2020
-  abstract: "obots operating in the real world will experience a range of different environments and tasks. It is essential for the robot to have the ability to adapt to its surroundings to work efficiently in changing conditions. Evolutionary robotics aims to solve this by optimizing both the control and body (morphology) of a robot, allowing adaptation to internal, as well as external factors. Most work in this field has been done in physics simulators, which are relatively simple and not able to replicate the richness of interactions found in the real world. Solutions that rely on the complex interplay between control, body, and environment are therefore rarely found. In this paper, we rely solely on real-world evaluations and apply evolutionary search to yield combinations of morphology and control for our mechanically self-reconfiguring quadruped robot. We evolve solutions on two very different physical surfaces and analyze the results in terms of both control and morphology. We then transition to two previously unseen surfaces to demonstrate the generality of our method. We find that the evolutionary search adapts both control and body to the different physical environments, yielding significantly different morphology-controller configurations. Moreover, we observe that the solutions found by our method work well on previously unseen terrains. "
+  abstract: "Robots operating in the real world will experience a range of different environments and tasks. It is essential for the robot to have the ability to adapt to its surroundings to work efficiently in changing conditions. Evolutionary robotics aims to solve this by optimizing both the control and body (morphology) of a robot, allowing adaptation to internal, as well as external factors. Most work in this field has been done in physics simulators, which are relatively simple and not able to replicate the richness of interactions found in the real world. Solutions that rely on the complex interplay between control, body, and environment are therefore rarely found. In this paper, we rely solely on real-world evaluations and apply evolutionary search to yield combinations of morphology and control for our mechanically self-reconfiguring quadruped robot. We evolve solutions on two very different physical surfaces and analyze the results in terms of both control and morphology. We then transition to two previously unseen surfaces to demonstrate the generality of our method. We find that the evolutionary search adapts both control and body to the different physical environments, yielding significantly different morphology-controller configurations. Moreover, we observe that the solutions found by our method work well on previously unseen terrains. "
   pdfurl: "https://arxiv.org/pdf/2003.13254.pdf"
   bibtex: |
           "@article{nygaard2020environmental,
           title={Environmental Adaptation of Robot Morphology and Control through Real-world Evolution},
           author={Nygaard, T{\o}nnes F and Martin, Charles P and Howard, David and Torresen, Jim and Glette, Kyrre},
           journal={arXiv preprint arXiv:2003.13254},
-          year={2020}}"                 
+          year={2020}}"          
+          
+- title: "Finding Game Levels with the Right Difficulty in a Few Trials through Intelligent Trial-and-Error"
+  authors:
+   - "Miguel González-Duque"
+   - "Rasmus Berg Palm"
+   - "David Ha"
+   - "Sebastian Risi"
+  year: 2020
+  abstract: "Methods for dynamic difficulty adjustment allow games to be tailored to particular players to maximize their engagement. However, current methods often only modify a limited set of game features such as the difficulty of the opponents, or the availability of resources. Other approaches, such as experience-driven Procedural Content Generation (PCG), can generate complete levels with desired properties such as levels that are neither too hard nor too easy, but require many iterations. This paper presents a method that can generate and search for complete levels with a specific target difficulty in only a few trials. This advance is enabled by through an Intelligent Trial-and-Error algorithm, originally developed to allow robots to adapt quickly. Our algorithm first creates a large variety of different levels that vary across predefined dimensions such as leniency or map coverage. The performance of an AI playing agent on these maps gives a proxy for how difficult the level would be for another AI agent (e.g. one that employs Monte Carlo Tree Search instead of Greedy Tree Search); using this information, a Bayesian Optimization procedure is deployed, updating the difficulty of the prior map to reflect the ability of the agent. The approach can reliably find levels with a specific target difficulty for a variety of planning agents in only a few trials, while maintaining an understanding of their skill landscape. "
+  pdfurl: "https://arxiv.org/pdf/2005.07677.pdf"
+  bibtex: |
+          "@article{gonzalez2020finding,
+          title={Finding Game Levels with the Right Difficulty in a Few Trials through Intelligent Trial-and-Error},
+          author={Gonz{\'a}lez-Duque, Miguel and Palm, Rasmus Berg and Ha, David and Risi, Sebastian},
+          journal={arXiv preprint arXiv:2005.07677},
+          year={2020}}"   
