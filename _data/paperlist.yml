@@ -1822,3 +1822,31 @@ papers:
           month = "7",
           url = "https://chemrxiv.org/articles/preprint/Illuminating_Elite_Patches_of_Chemical_Space/12608228",
           doi = "10.26434/chemrxiv.12608228.v1"}"   
+          
+- title: "Effective Diversity in Population Based Reinforcement Learning"
+  authors:
+   - "Jack Parker-Holder"
+   - "Aldo Pacchiano"
+   - "Krzysztof Choromanski"
+   - "Stephen Roberts"
+  year: 2020
+  abstract: "Exploration is a key problem in reinforcement learning, since agents can only learn from data they acquire in the environment. With that in mind, maintaining a population of agents is an attractive method, as it allows data be collected with a diverse set of behaviors. This behavioral diversity is often boosted via multi-objective loss functions. However, those approaches typically leverage mean field updates based on pairwise distances, which makes them susceptible to cycling behaviors and increased redundancy. In addition, explicitly boosting diversity often has a detrimental impact on optimizing already fruitful behaviors for rewards. As such, the reward-diversity trade off typically relies on heuristics. Finally, such methods require behavioral representations, often handcrafted and domain specific. In this paper, we introduce an approach to optimize all members of a population simultaneously. Rather than using pairwise distance, we measure the volume of the entire population in a behavioral manifold, defined by task-agnostic behavioral embeddings. In addition, our algorithm Diversity via Determinants (DvD), adapts the degree of diversity during training using online learning techniques. We introduce both evolutionary and gradient-based instantiations of DvD and show they effectively improve exploration without reducing performance when better exploration is not required."
+  pdfurl: "https://papers.nips.cc/paper/2020/file/d1dc3a8270a6f9394f88847d7f0050cf-Paper.pdf"
+  bibtex: |
+          "@article{2020arXiv200200632P,
+            author = {{Parker-Holder}, Jack and {Pacchiano}, Aldo and
+            {Choromanski}, Krzysztof and {Roberts}, Stephen},
+            title = "{Effective Diversity in Population Based Reinforcement Learning}",
+            journal = {arXiv e-prints},
+            keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+            year = 2020,
+            month = feb,
+            eid = {arXiv:2002.00632},
+            pages = {arXiv:2002.00632},
+            archivePrefix = {arXiv},
+            eprint = {2002.00632},
+            primaryClass = {cs.LG},
+            adsurl = {https://ui.adsabs.harvard.edu/abs/2020arXiv200200632P},
+            adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+            }"   
+
