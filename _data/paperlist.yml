@@ -1872,3 +1872,20 @@ papers:
           primaryClass={cs.AI}
           }"
 
+- title: "Evolving the behavior of machines: from micro to macroevolution"
+  authors:
+   - "Jean-Baptiste Mouret"
+  year: 2020
+  tags:
+   - review
+  abstract: "Evolution gave rise to creatures that are arguably more sophisticated than the greatest human-designed systems. This feat has inspired computer scientists since the advent of computing and led to optimization tools that can evolve complex neural networks for machines—an approach known as “neuroevolution.” After a few successes in designing evolvable representations for high-dimensional artifacts, the field has been recently revitalized by going beyond optimization: to many, the wonder of evolution is less in the perfect optimization of each species than in the creativity of such a simple iterative process, that is, in the diversity of species. This modern view of artificial evolution is moving the field away from microevolution, following a fitness gradient in a niche, to macroevolution, filling many niches with highly different species. It already opened promising applications, like evolving gait repertoires, video game levels for different tastes, and diverse designs for aerodynamic bikes."
+  pdfurl: "https://hal.archives-ouvertes.fr/hal-02982114v2/document"
+  bibtex: |
+          "@article{mouret2020evolving,
+            title={Evolving the behavior of machines: from micro to macroevolution},
+            author={Mouret, Jean-Baptiste},
+            journal={Iscience},
+            pages={101731},
+            year={2020},
+            publisher={Elsevier}
+          }"
