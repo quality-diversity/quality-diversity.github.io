@@ -7,5 +7,11 @@
 ## QDpy (Python)
 [https://gitlab.com/leo.cazenille/qdpy](https://gitlab.com/leo.cazenille/qdpy)
 
-### CVT-Map-Elites (Python)
+## CVT-Map-Elites (Python)
 [https://github.com/resibots/pymap_elites](https://github.com/resibots/pymap_elites)
+
+## pyribs (Python)
+
+- [Website](https://pyribs.org)
+- [GitHub](https://github.com/icaros-usc/pyribs)
+- [Documentation](https://docs.pyribs.org)
