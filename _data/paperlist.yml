@@ -1,5 +1,27 @@
 papers:
 
+- title: "Behavioral Repertoires for Soft Tensegrity Robots"
+  authors:
+   - Kyle Doney
+   - Aikaterini Petridou
+   - Jacob Karaul
+   - Ali Khan
+   -  Geoffrey Liu
+   - John Rieffel
+  year: 2020
+  tags:
+   - robotics
+  pdfurl: "https://arxiv.org/pdf/2009.10864.pdf"
+  abstract: "Mobile soft robots offer compelling applications in fields ranging from urban search and rescue to planetary exploration. A critical challenge of soft robotic control is that the nonlinear dynamics imposed by soft materials often result in complex behaviors that are counter-intuitive and hard to model or predict. As a consequence, most behaviors for mobile soft robots are discovered through empirical trial and error and handtuning. A second challenge is that soft materials are difficult to simulate with high fidelity - leading to a significant reality gap when trying to discover or optimize new behaviors. In this work we employ a Quality Diversity Algorithm running model-free on a physical soft tensegrity robot that autonomously generates a behavioral repertoire with no a priori knowledge of the robot’s dynamics, and minimal human intervention. The resulting behavior repertoire displays a diversity of unique locomotive gaits useful for a variety of tasks. These results help provide a road map for increasing the behavioral capabilities of mobile soft robots through real-world automation."
+  bibtex: 
+          "
+         @article{doney2020behavioral,
+          title={Behavioral Repertoires for Soft Tensegrity Robots},
+          author={Doney, Kyle and Petridou, Aikaterini and Karaul, Jacob and Khan, Ali and Liu, Geoffrey and Rieffel, John},
+          journal={arXiv preprint arXiv:2009.10864},
+          year={2020}} 
+          "
+          
 - title: "Abandoning objectives: Evolution through the search for novelty alone"
   authors:
    - "Joel Lehman"
