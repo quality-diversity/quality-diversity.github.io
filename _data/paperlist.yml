@@ -1,5 +1,27 @@
 papers:
 
+- title: "Behavioral Repertoires for Soft Tensegrity Robots"
+  authors:
+   - Kyle Doney
+   - Aikaterini Petridou
+   - Jacob Karaul
+   - Ali Khan
+   -  Geoffrey Liu
+   - John Rieffel
+  year: 2020
+  tags:
+   - robotics
+  pdfurl: "https://arxiv.org/pdf/2009.10864.pdf"
+  abstract: "Mobile soft robots offer compelling applications in fields ranging from urban search and rescue to planetary exploration. A critical challenge of soft robotic control is that the nonlinear dynamics imposed by soft materials often result in complex behaviors that are counter-intuitive and hard to model or predict. As a consequence, most behaviors for mobile soft robots are discovered through empirical trial and error and handtuning. A second challenge is that soft materials are difficult to simulate with high fidelity - leading to a significant reality gap when trying to discover or optimize new behaviors. In this work we employ a Quality Diversity Algorithm running model-free on a physical soft tensegrity robot that autonomously generates a behavioral repertoire with no a priori knowledge of the robot’s dynamics, and minimal human intervention. The resulting behavior repertoire displays a diversity of unique locomotive gaits useful for a variety of tasks. These results help provide a road map for increasing the behavioral capabilities of mobile soft robots through real-world automation."
+  bibtex: 
+          "
+         @article{doney2020behavioral,
+          title={Behavioral Repertoires for Soft Tensegrity Robots},
+          author={Doney, Kyle and Petridou, Aikaterini and Karaul, Jacob and Khan, Ali and Liu, Geoffrey and Rieffel, John},
+          journal={arXiv preprint arXiv:2009.10864},
+          year={2020}} 
+          "
+          
 - title: "Abandoning objectives: Evolution through the search for novelty alone"
   authors:
    - "Joel Lehman"
@@ -1402,15 +1424,16 @@ papers:
    - "Amy K. Hoover"
   tags:
    - games
-  year: 2019
-  abstract: "Quality Diversity (QD) algorithms like Novelty Search with LocalCompetition (NSLC) and MAP-Elites are a new class of population-based stochastic algorithms designed to generate a diverse col-lection of quality solutions. Meanwhile, variants of the Covari-ance Matrix Adaptation Evolution Strategy (CMA-ES) are amongthe best-performing derivative-free optimizers in single-objectivecontinuous domains. This paper proposes a new QD algorithmcalled Covariance Matrix Adaptation MAP-Elites (CMA-ME). Ournew algorithm combines the dynamic self-adaptation techniques ofCMA-ES with archiving and mapping techniques for maintainingdiversity in QD. Results from experiments with standard contin-uous optimization benchmarks show that CMA-ME finds better-quality solutions than MAP-Elites; similarly, results on the strategicgame Hearthstone show that CMA-ME finds both a higher overallquality and broader diversity of strategies than both CMA-ES andMAP-Elites. Overall, CMA-ME more than doubles the performanceof MAP-Elites using standard QD performance metrics. These re-sults suggest that QD algorithms augmented by operators fromstate-of-the-art optimization algorithms can yield high-performingmethods for simultaneously exploring and optimizing continuoussearch spaces, with significant applications to design, testing, andreinforcement learning among other domains. Code is availablefor both the continuous optimization benchmark [21] and Hearth-stone [20] domains."
+  year: 2020
+  abstract: "We focus on the challenge of finding a diverse collection of quality solutions on complex continuous domains. While quality diver-sity (QD) algorithms like Novelty Search with Local Competition (NSLC) and MAP-Elites are designed to generate a diverse range of solutions, these algorithms require a large number of evaluations for exploration of continuous spaces. Meanwhile, variants of the Covariance Matrix Adaptation Evolution Strategy (CMA-ES) are among the best-performing derivative-free optimizers in single-objective continuous domains. This paper proposes a new QD algorithm called Covariance Matrix Adaptation MAP-Elites (CMA-ME). Our new algorithm combines the self-adaptation techniques of CMA-ES with archiving and mapping techniques for maintaining diversity in QD. Results from experiments based on standard continuous optimization benchmarks show that CMA-ME finds better-quality solutions than MAP-Elites; similarly, results on the strategic game Hearthstone show that CMA-ME finds both a higher overall quality and broader diversity of strategies than both CMA-ES and MAP-Elites. Overall, CMA-ME more than doubles the performance of MAP-Elites using standard QD performance metrics. These results suggest that QD algorithms augmented by operators from state-of-the-art optimization algorithms can yield high-performing methods for simultaneously exploring and optimizing continuous search spaces, with significant applications to design, testing, and reinforcement learning among other domains."
   pdfurl: "https://arxiv.org/pdf/1912.02400.pdf"
   bibtex: |
           "@article{fontaine2019covariance,
            title={Covariance Matrix Adaptation for the Rapid Illumination of Behavior Space},
            author={Fontaine, Matthew C and Togelius, Julian and Nikolaidis, Stefanos and Hoover, Amy K},
-           journal={arXiv preprint arXiv:1912.02400},
-           year={2019}}"
+           booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+           year={2020},
+           organization={ACM}}"
 
 - title: "MAP-Elites for Noisy Domains by Adaptive Sampling"
   authors:
@@ -1428,7 +1451,6 @@ papers:
            pages={121--122},
            year={2019},
            organization={ACM}}"
-
 - title: "Scaling MAP-Elites to Deep Neuroevolution"
   authors:
    - "Cédric Colas"
@@ -1440,7 +1462,451 @@ papers:
   pdfurl: "https://arxiv.org/pdf/2003.01825.pdf"
   bibtex: |
           "@article{colas2020scaling,
-  	  title={Scaling MAP-Elites to Deep Neuroevolution},
-  	  author={Colas, C{\'e}dric and Huizinga, Joost and Madhavan, Vashisht and Clune, Jeff},
-  	  journal={arXiv preprint arXiv:2003.01825},
-  	  year={2020}}"
+          title={Scaling MAP-Elites to Deep Neuroevolution},
+          author={Colas, C{\'e}dric and Huizinga, Joost and Madhavan, Vashisht and Clune, Jeff},
+          journal={arXiv preprint arXiv:2003.01825},
+          year={2020}}"
+
+- title: "Exploring the Evolution of GANs through Quality Diversity"
+  authors:
+   - "Victor Costa"
+   - "Nuno Lourenço"
+   - "Joao Correia"
+   - "Penousal Machado"
+  year: 2020
+  bibtex: |
+          "@inproceedings{justesen2019map,
+           title={Exploring the Evolution of GANs through Quality Diversity},
+           author={Costa, Victor and Lourenço, Nuno and Correia, Joao and Machado, Penousal},
+           booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+           year={2020},
+           organization={ACM}}"
+           
+- title: "Learning behaviour-performance maps with meta-evolution "
+  authors:
+   - "David Bossens"
+   - "Jean-Baptiste Mouret"
+   - "Danesh Tarapore"
+  year: 2020
+  abstract: "The MAP-Elites quality-diversity algorithm has been successful in robotics because it can create a behaviorally diverse set of solutions that later can be used for adaptation, for instance to unanticipated damages. In MAP-Elites, the choice of the behaviour space is essential for adaptation, the recovery of performance in unseen environments , since it defines the diversity of the solutions. Current practice is to hand-code a set of behavioural features, however, given the large space of possible behaviour-performance maps, the designer does not know a priori which behavioural features maximise a map's adaptation potential. We introduce a new meta-evolution algorithm that discovers those behavioural features that maximise future adaptations. The proposed method applies Covari-ance Matrix Adaptation Evolution Strategy to evolve a population of behaviour-performance maps to maximise a meta-fitness function that rewards adaptation. The method stores solutions found by MAP-Elites in a database which allows to rapidly construct new behaviour-performance maps on-the-fly. To evaluate this system , we study the gait of the RHex robot as it adapts to a range of damages sustained on its legs. When compared to MAP-Elites with user-defined behaviour spaces, we demonstrate that the meta-evolution system learns high-performing gaits with or without damages injected to the robot. "
+  pdfurl: "https://hal.inria.fr/hal-02555231/document"
+  bibtex: |
+          "@inproceedings{bossens:hal-02555231,
+           TITLE = {{Learning behaviour-performance maps with meta-evolution}},
+           AUTHOR = {Bossens, David M and Mouret, Jean-Baptiste and Tarapore, Danesh},
+           URL = {https://hal.inria.fr/hal-02555231},
+           BOOKTITLE = {{GECCO'20 - Genetic and Evolutionary Computation Conference}},
+           ADDRESS = {Cancun, Mexico},
+           YEAR = {2020},
+           MONTH = Jul,
+           KEYWORDS = {Learning paradigms ; quality-diversity algorithms ; behavioural diversity ; meta-learning ; evolutionary robotics ; damage recovery},
+           PDF = {https://hal.inria.fr/hal-02555231/file/pap349s3-file1.pdf},
+           HAL_ID = {hal-02555231},
+           HAL_VERSION = {v1}}"
+           
+- title: "Quality Diversity for Multi-task Optimization"
+  authors:
+   - "Jean-Baptiste Mouret"
+   - "Glenn Maguire"
+  year: 2020
+  abstract: "Quality Diversity (QD) algorithms are a recent family of optimization algorithms that search for a large set of diverse but high-performing solutions. In some specific situations, they can solve multiple tasks at once. For instance, they can find the joint positions required for a robotic arm to reach a set of points, which can also be solved by running a classic optimizer for each target point. However, they cannot solve multiple tasks when the fitness needs to be evaluated independently for each task (e.g., optimizing policies to grasp many different objects). In this paper, we propose an extension of the MAP-Elites algorithm, called Multi-task MAP-Elites, that solves multiple tasks when the fitness function depends on the task. We evaluate it on a simulated parameterized planar arm (10-dimensional search space; 5000 tasks) and on a simulated 6-legged robot with legs of different lengths (36-dimensional search space; 2000 tasks). The results show that in both cases our algorithm outperforms the optimization of each task separately with the CMA-ES algorithm. "
+  pdfurl: "https://arxiv.org/pdf/2003.04407.pdf"
+  bibtex: |
+          "@article{mouret2020quality,
+          title={Quality Diversity for Multi-task Optimization},
+          author={Mouret, Jean-Baptiste and Maguire, Glenn},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+          year={2020},
+          organization={ACM}}"
+
+- title: "Discovering Representations for Black-box Optimization"
+  authors:
+   - "Adam Gaier"
+   - "Alexander Asteroth"
+   - "Jean-Baptiste Mouret"
+  year: 2020
+  abstract: "The encoding of solutions in black-box optimization is a delicate, handcrafted balance between expressiveness and domain knowledge between exploring a wide variety of solutions, and ensuring that those solutions are useful. Our main insight is that this process can be automated by generating a dataset of high-performing solutions with a quality diversity algorithm (here, MAP-Elites), then learning a representation with a generative model (here, a Varia-tional Autoencoder) from that dataset. Our second insight is that this representation can be used to scale quality diversity optimization to higher dimensions-but only if we carefully mix solutions generated with the learned representation and those generated with traditional variation operators. We demonstrate these capabilities by learning an low-dimensional encoding for the inverse kinemat-ics of a thousand joint planar arm. The results show that learned representations make it possible to solve high-dimensional problems with orders of magnitude fewer evaluations than the standard MAP-Elites, and that, once solved, the produced encoding can be used for rapid optimization of novel, but similar, tasks. The presented techniques not only scale up quality diversity algorithms to high dimensions, but show that black-box optimization encodings can be automatically learned, rather than hand designed. "
+  pdfurl: "https://hal.inria.fr/hal-02555221/document"
+  bibtex: |
+          "@inproceedings{gaier:hal-02555221,
+           TITLE = {{Discovering Representations for Black-box Optimization}},
+           AUTHOR = {Gaier, Adam and Asteroth, Alexander and Mouret, Jean-Baptiste},
+           URL = {https://hal.inria.fr/hal-02555221},
+           BOOKTITLE = {{GECCO'20 - Genetic and Evolutionary Computation Conference}},
+           ADDRESS = {Cancun, Mexico},
+           VOLUME = {11},
+           YEAR = {2020},
+           MONTH = Jul,
+           DOI = {10.1145/3377930.3390221},
+           PDF = {https://hal.inria.fr/hal-02555221/file/dde_gecco.pdf},
+           HAL_ID = {hal-02555221},
+           HAL_VERSION = {v1}}"
+
+- title: "CPPN2GAN: Combining Compositional Pattern Producing Networks and GANs for Large-scale Pattern Generation"
+  authors:
+   - "Jacob Schrum"
+   - "Vanessa Volz"
+   - "Sebastian Risi"
+  year: 2020
+  abstract: "Generative Adversarial Networks (GANs) are proving to be a powerful indirect genotype-to-phenotype mapping for evolutionary search, but they have limitations. In particular, GAN output does not scale to arbitrary dimensions, and there is no obvious way of combining multiple GAN outputs into a cohesive whole, which would be useful in many areas, such as the generation of video game levels. Game levels often consist of several segments, sometimes repeated directly or with variation, organized into an engaging pattern. Such patterns can be produced with Compositional Pattern Producing Networks (CPPNs). Specifically, a CPPN can define latent vector GAN inputs as a function of geometry, which provides a way to organize level segments output by a GAN into a complete level. This new CPPN2GAN approach is validated in both Super Mario Bros. and The Legend of Zelda. Specifically, divergent search via MAP-Elites demonstrates that CPPN2GAN can better cover the space of possible levels. The layouts of the resulting levels are also more cohesive and aesthetically consistent. "
+  pdfurl: "https://arxiv.org/pdf/2004.01703.pdf"
+  bibtex: |
+          "@article{schrum2020cppn2gan,
+           title={CPPN2GAN: Combining Compositional Pattern Producing Networks and GANs for Large-scale Pattern Generation},
+           author={Schrum, Jacob and Volz, Vanessa and Risi, Sebastian},
+           booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+           year={2020},
+           organization={ACM}}"
+          
+- title: "PlayMapper: Illuminating Design Spaces of Platform Games"
+  authors:
+   - "Vivek R. Warriar"
+   - "Carmen Ugarte"
+   - "John R. Woodward"
+   - "Laurissa Tokarchuk"
+  year: 2019
+  abstract: "In this paper, we present PlayMapper, a novel variant of the MAP-Elites algorithm that has been adapted to map the level design space of the Super Mario Bros game. Our approach uses player and level based features to create a map of playable levels. We conduct an experiment to compare the effect of different sets of input features on the range of levels generated using this technique. In this work, we show that existing search-based techniques for PCG can be improved to allow for more control and creative freedom for designers. Current limitations of the system and directions for future work are also discussed."
+  pdfurl: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8848118"
+  bibtex: |
+          "@INPROCEEDINGS{8848118,
+          author={V. R. {Warriar} and C. {Ugarte} and J. R. {Woodward} and L. {Tokarchuk}},
+          booktitle={2019 IEEE Conference on Games (CoG)}, 
+          title={PlayMapper: Illuminating Design Spaces of Platform Games}, 
+          year={2019},
+          volume={},
+          number={},
+          pages={1-4}}"       
+          
+- title: "QED: using Quality-Environment-Diversity to evolve resilient robot swarms"
+  authors:
+   - "David M. Bossens"
+   - "Danesh Tarapore"
+  year: 2020
+  abstract: "In swarm robotics, any of the robots in a swarm may be affected by different faults, resulting in significant performance declines. To allow fault recovery from randomly injected faults to different robots in a swarm, a model-free approach may be preferable due to the accumulation of faults in models and the difficulty to predict the behaviour of neighbouring robots. One model-free approach to fault recovery involves two phases: during simulation, a quality-diversity algorithm evolves a behaviourally diverse archive of controllers; during the target application, a search for the best controller is initiated after fault injection. In quality-diversity algorithms, the choice of the behavioural descriptor is a key design choice that determines the quality of the evolved archives, and therefore the fault recovery performance. Although the environment is an important determinant of behaviour, the impact of environmental diversity is often ignored in the choice of a suitable behavioural descriptor. This study compares different behavioural descriptors, including two generic descriptors that work on a wide range of tasks, one hand-coded descriptor which fits the domain of interest, and one novel type of descriptor based on environmental diversity, which we call Quality-Environment-Diversity (QED). Results demonstrate that the above-mentioned model-free approach to fault recovery is feasible in the context of swarm robotics, reducing the fault impact by a factor 2-3. Further, the environmental diversity obtained with QED yields a unique behavioural diversity profile that allows it to recover from high-impact faults. "
+  pdfurl: "https://arxiv.org/pdf/2003.02341.pdf"
+  bibtex: |
+          "@article{bossens2020qed,
+           title={QED: using Quality-Environment-Diversity to evolve resilient robot swarms},
+           author={Bossens, David M and Tarapore, Danesh},
+           journal={arXiv preprint arXiv:2003.02341},
+           year={2020}}"         
+
+
+- title: "From exploration to control: learning object manipulation skills through novelty search and local adaptation"
+  authors:
+   - "Seungsu Kim"
+   - "Alexandre Coninx"
+   - "Stephane Doncieux"
+  year: 2019
+  abstract: "Programming a robot to deal with open-ended tasks remains a challenge, in particular if the robot has to manipulate objects. Launching, grasping, pushing or any other object interaction can be simulated but the corresponding models are not reversible and the robot behavior thus cannot be directly deduced. These behaviors are hard to learn without a demonstration as the search space is large and the reward sparse. We propose a method to autonomously generate a diverse repertoire of simple object interaction behaviors in simulation. Our goal is to bootstrap a robot learning and development process with limited informations about what the robot has to achieve and how. This repertoire can be exploited to solve different tasks in reality thanks to a proposed adaptation method or could be used as a training set for data-hungry algorithms. The proposed approach relies on the definition of a goal space and generates a repertoire of trajectories to reach attainable goals, thus allowing the robot to control this goal space. The repertoire is built with an off-the-shelf simulation thanks to a quality diversity algorithm. The result is a set of solutions tested in simulation only. It may result in two different problems: (1) as the repertoire is discrete and finite, it may not contain the trajectory to deal with a given situation or (2) some trajectories may lead to a behavior in reality that differs from simulation because of a reality gap. We propose an approach to deal with both issues by using a local linearization between the motion parameters and the observed effects. Furthermore, we present an approach to update the existing solution repertoire with the tests done on the real robot. The approach has been validated on two different experiments on the Baxter robot: a ball launching and a joystick manipulation tasks. "
+  pdfurl: "https://arxiv.org/pdf/1901.00811.pdf"
+  bibtex: |
+          "@article{kim2019exploration,
+          title={From exploration to control: learning object manipulation skills through novelty search and local adaptation},
+          author={Kim, Seungsu and Coninx, Alexandre and Doncieux, St{\'e}phane},
+          journal={arXiv preprint arXiv:1901.00811},
+          year={2019}}"         
+
+- title: "Policy search in continuous action domains: An overview"
+  authors:
+   - "Olivier Sigaud"
+   - "Freek Stulp"
+  year: 2019
+  abstract: "Continuous action policy search is currently the focus of intensive research, driven both by the recent success of deep reinforcement learning algorithms and the emergence of competitors based on evolutionary algorithms. In this paper, we present a broad survey of policy search methods, providing a unified perspective on very different approaches, including also Bayesian Optimization and directed exploration methods. The main message of this overview is in the relationship between the families of methods, but we also outline some factors underlying sample efficiency properties of the various approaches. "
+  pdfurl: "https://hal.sorbonne-universite.fr/hal-02182466/document"
+  bibtex: |
+          "@article{SIGAUD201928,
+          title = "Policy search in continuous action domains: An overview",
+          journal = "Neural Networks",
+          volume = "113",
+          pages = "28 - 40",
+          year = "2019",
+          issn = "0893-6080",
+          doi = "https://doi.org/10.1016/j.neunet.2019.01.011",
+          url = "https://hal.sorbonne-universite.fr/hal-02182466/document",
+          author = "Olivier Sigaud and Freek Stulp",
+          keywords = "Policy search, Sample efficiency, Deep reinforcement learning, Deep neuroevolution"}"  
+          
+- title: "Rapid Phenotypic Landscape Exploration Through Hierarchical Spatial Partitioning"
+  authors:
+   - "Davy Smith"
+   - "Laurissa Tokarchuk"
+   - "Geraint Wiggins"
+  year: 2016
+  abstract: "Exploration of the search space through the optimisation of phenotypic diversity is of increasing interest within the field of evolutionary robotics. Novelty search and the more recent MAP-Elites are two state of the art evolutionary algorithms which diversify low dimensional phenotypic traits for divergent exploration. In this paper we introduce a novel alternative for rapid divergent search of the feature space. Unlike previous phenotypic search procedures, our proposed Spatial, Hierarchical, Illuminated Neuro-Evolution (SHINE) algorithm utilises a tree structure for the maintenance and selection of potential candidates. SHINE penalises previous solutions in more crowded areas of the landscape. Our experimental results show that SHINE significantly outperforms novelty search and MAP-Elites in both performance and exploration. We conclude that the SHINE algorithm is a viable method for rapid divergent search of low dimensional, phenotypic landscapes."
+  pdfurl: "https://qmro.qmul.ac.uk/xmlui/bitstream/handle/123456789/14411/Tokarchuk%20Rapid%20Phenotypic%20Landscape%202016%20Accepted.pdf.pdf?sequence=3"
+  bibtex: |
+          "@inproceedings{smith2016rapid,
+           title={Rapid phenotypic landscape exploration through hierarchical spatial partitioning},
+           author={Smith, Davy and Tokarchuk, Laurissa and Wiggins, Geraint},
+           booktitle={International conference on parallel problem solving from nature},
+           pages={911--920},
+           year={2016},
+           organization={Springer}}"  
+          
+- title: "Exploring the BipedalWalker benchmark with MAP-Elites and Curiosity-driven A3C"
+  authors:
+   - "Vikas Gupta"
+   - "Nathanael Aubert-Kato"
+   - "Leo Cazenille"
+  year: 2020
+  bibtex: |
+          "@article{gupta2020exploring,
+          title={Exploring the BipedalWalker benchmark with MAP-Elites and Curiosity-driven A3C},
+          author={Gupta, Vikas and Aubert-Kato, Nathanael and Cazenille, Leo},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+          year={2020},
+          organization={ACM}}"  
+       
+- title: "Illuminating Super Mario Bros - Quality-Diversity Within Platformer Level Generation"
+  authors:
+   - "Oliver Henry Withington"
+  year: 2020
+  bibtex: |
+          "@article{Withington2020illuminating,
+          title={Illuminating Super Mario Bros - Quality-Diversity Within Platformer Level Generation},
+          author={Withington, Oliver Henry},
+          booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+          year={2020},
+          organization={ACM}}"  
+
+- title: "Fast and stable MAP-Elites in noisy domains using deep grids"
+  authors:
+   - "Manon Flageat"
+   - "Antoine Cully"
+  year: 2020
+  abstract: "Quality-Diversity optimisation algorithms enable the evolution of collections of both high-performing and diverse solutions. These collections offer the possibility to quickly adapt and switch from one solution to another in case it is not working as expected. It therefore finds many applications in real-world domain problems such as robotic control. However, QD algorithms, like most optimisation algorithms, are very sensitive to uncertainty on the fitness function, but also on the behavioural descriptors. Yet, such uncertainties are frequent in real-world applications. Few works have explored this issue in the specific case of QD algorithms, and inspired by the literature in Evolutionary Computation, mainly focus on using sampling to approximate the true value of the performances of a solution. However, sampling approaches require a high number of evaluations, which in many applications such as robotics, can quickly become impractical. In this work, we propose Deep-Grid MAP-Elites, a variant of the MAP-Elites algorithm that uses an archive of similar previously encountered solutions to approximate the performance of a solution. We compare our approach to previously explored ones on three noisy tasks: a standard optimisation task, the control of a redundant arm and a simulated Hexapod robot. The experimental results show that this simple approach is significantly more resilient to noise on the behavioural descriptors, while achieving competitive performances in terms of fitness optimisation, and being more sample-efficient than other existing approaches."
+  pdfurl: "https://arxiv.org/pdf/2006.14253.pdf"
+  bibtex: |
+          "@article{flageat2020fast,
+          title={Fast and stable MAP-Elites in noisy domains using deep grids},
+          author={Flageat, Manon and Cully, Antoine},
+          booktitle={Proceedings of the 2020 Conference on Artificial Life},
+          year={2020}}"   
+          
+- title: "Mech-Elites: Illuminating the Mechanic Space of GVGAI"
+  authors:
+   - "Megan Charity"
+   - "Michael Cerny Green"
+   - "Ahmed Khalifa" 
+   - "Julian Togelius"
+  year: 2020
+  abstract: "This paper introduces a fully automatic method of mechanic illumination for general video game level generation. Using the Constrained MAP-Elites algorithm and the GVG-AI framework, this system generates the simplest tile based levels that contain specific sets of game mechanics and also satisfy playability constraints. We apply this method to illuminate mechanic space for 4 different games in GVG-AI: Zelda, Solarfox, Plants, and RealPortals. "
+  pdfurl: "https://arxiv.org/pdf/2002.04733.pdf"
+  bibtex: |
+          "@article{charity2020mech,
+          title={Mech-Elites: Illuminating the Mechanic Space of GVGAI},
+          author={Charity, Megan and Green, Michael Cerny and Khalifa, Ahmed and Togelius, Julian},
+          journal={arXiv preprint arXiv:2002.04733},
+          year={2020}}"       
+          
+- title: "Learning the Designer's Preferences to Drive Evolution"
+  authors:
+   - "Alberto Alvarez"
+   - "Jose Font"
+  year: 2020
+  abstract: "This paper presents the Designer Preference Model, a data-driven solution that pursues to learn from user generated data in a Quality-Diversity Mixed-Initiative Co-Creativity (QD MI-CC) tool, with the aims of modelling the user's design style to better assess the tool's procedurally generated content with respect to that user's preferences. Through this approach, we aim for increasing the user's agency over the generated content in a way that neither stalls the user-tool reciprocal stimuli loop nor fatigues the user with periodical suggestion handpicking. We describe the details of this novel solution, as well as its implementation in the MI-CC tool the Evolutionary Dungeon Designer. We present and discuss our findings out of the initial tests carried out, spotting the open challenges for this combined line of research that integrates MI-CC with Procedural Content Generation through Machine Learning. "
+  pdfurl: "https://arxiv.org/pdf/2003.03268.pdf"
+  bibtex: |
+          "@inproceedings{alvarez2020learning,
+          title={Learning the designer’s preferences to drive evolution},
+          author={Alvarez, Alberto and Font, Jose},
+          booktitle={International Conference on the Applications of Evolutionary Computation (Part of EvoStar)},
+          pages={431--445},
+          year={2020},
+          organization={Springer}}"                 
+     
+- title: "EGAD! an Evolved Grasping Analysis Dataset for diversity and reproducibility in robotic manipulation"
+  authors:
+   - "Douglas Morrison"
+   - "Peter Corke"
+   - "Jürgen Leitner"
+  year: 2020
+  abstract: "We present the Evolved Grasping Analysis Dataset (EGAD), comprising over 2000 generated objects aimed at training and evaluating robotic visual grasp detection algorithms. The objects in EGAD are geometrically diverse, filling a space ranging from simple to complex shapes and from easy to difficult to grasp, compared to other datasets for robotic grasping, which may be limited in size or contain only a small number of object classes. Additionally, we specify a set of 49 diverse 3D-printable evaluation objects to encourage reproducible testing of robotic grasping systems across a range of complexity and difficulty. The dataset, code and videos can be found at this URL"
+  pdfurl: "https://arxiv.org/pdf/2003.01314.pdf"
+  bibtex: |
+          "@article{morrison2020egad,
+          title={EGAD! an Evolved Grasping Analysis Dataset for diversity and reproducibility in robotic manipulation},
+          author={Morrison, Douglas and Corke, Peter and Leitner, Jurgen},
+          journal={IEEE Robotics and Automation Letters},
+          year={2020},
+          publisher={IEEE}}"       
+          
+- title: "Interactive Constrained MAP-Elites Analysis and Evaluation of the Expressiveness of the Feature Dimensions"
+  authors:
+   - "Alberto Alvarez"
+   - "Steve Dahlskog"
+   - "Jose Font"
+   - "Julian Togelius"
+  year: 2020
+  abstract: "We propose the Interactive Constrained MAP-Elites, a quality-diversity solution for game content generation, implemented as a new feature of the Evolutionary Dungeon Designer: a mixed-initiative co-creativity tool for designing dungeons. The feature uses the MAP-Elites algorithm, an illumination algorithm that segregates the population among several cells depending on their scores with respect to different behavioral dimensions. Users can flexibly and dynamically alternate between these dimensions anytime, thus guiding the evolutionary process in an intuitive way, and then incorporate suggestions produced by the algorithm in their room designs. At the same time, any modifications performed by the human user will feed back into MAP-Elites, closing a circular workflow of constant mutual inspiration. This paper presents the algorithm followed by an in-depth analysis of its behaviour, with the aims of evaluating the expressive range of all possible dimension combinations in several scenarios, as well as discussing their influence in the fitness landscape and in the overall performance of the mixed-initiative procedural content generation. "
+  pdfurl: "https://arxiv.org/pdf/2003.03377.pdf"
+  bibtex: |
+          "@article{alvarez2020interactive,
+          title={Interactive Constrained MAP-Elites Analysis and Evaluation of the Expressiveness of the Feature Dimensions},
+          author={Alvarez, Alberto and Dahlskog, Steve and Font, Jose and Togelius, Julian},
+          journal={arXiv preprint arXiv:2003.03377},
+          year={2020}}"       
+          
+- title: "Baba is Y'all: Collaborative Mixed-Initiative Level Design"
+  authors:
+   - "Megan Charity"
+   - "Ahmed Khalifa"
+   - "Julian Togelius"
+  year: 2020
+  abstract: "We present a collaborative mixed-initiative system for building levels for the puzzle game 'Baba is You'. Unlike previous mixed-initiative systems, Baba is Y'all is designed for collaborative asynchronous creation by multiple users over the internet. The system includes several AI-assisted features to help designers, including a level evolver and an automated player for playtesting. The level archives catalogues levels according to which mechanics are implemented and not implemented, allowing the system to ask users to design levels with specific combinations of mechanics. We describe the operation of the system and the results of small-scale informal user test, and discuss future development paths for this system as well as for collaborative mixed-initiative systems in general. "
+  pdfurl: "https://arxiv.org/pdf/2003.14294.pdf"
+  bibtex: |
+          "@article{charity2020baba,
+          title={Baba is Y'all: Collaborative Mixed-Initiative Level Design},
+          author={Charity, Megan and Khalifa, Ahmed and Togelius, Julian},
+          journal={arXiv preprint arXiv:2003.14294},
+          year={2020}}"      
+          
+- title: "Generating and Adapting to Diverse Ad-Hoc Cooperation Agents in Hanabi"
+  authors:
+   - "Rodrigo Canaan"
+   - "Xianbo Gao"
+   - "Julian Togelius"
+   - "Andy Nealen"
+   - "Stefan Menzel"
+  year: 2020
+  abstract: "Hanabi is a cooperative game that brings the problem of modeling other players to the forefront. In this game, coordinated groups of players can leverage pre-established conventions to great effect, but playing in an ad-hoc setting requires agents to adapt to its partner's strategies with no previous coordination. Evaluating an agent in this setting requires a diverse population of potential partners, but so far, the behavioral diversity of agents has not been considered in a systematic way. This paper proposes Quality Diversity algorithms as a promising class of algorithms to generate diverse populations for this purpose, and generates a population of diverse Hanabi agents using MAP-Elites. We also postulate that agents can benefit from a diverse population during training and implement a simple 'meta-strategy' for adapting to an agent's perceived behavioral niche. We show this meta-strategy can work better than generalist strategies even outside the population it was trained with if its partner's behavioral niche can be correctly inferred, but in practice a partner's behavior depends and interferes with the meta-agent's own behavior, suggesting an avenue for future research in characterizing another agent's behavior during gameplay. "
+  pdfurl: "https://arxiv.org/pdf/2004.13710.pdf"
+  bibtex: |
+          "@article{canaan2020generating,
+          title={Generating and Adapting to Diverse Ad-Hoc Cooperation Agents in Hanab},
+          author={Canaan, Rodrigo and Gao, Xianbo and Togelius, Julian and Nealen, Andy and Menzel, Stefan},
+          journal={arXiv preprint arXiv:2004.13710},
+          year={2020}}"  
+          
+- title: "Diversity-based Design Assist for Large Legged Robots"
+  authors:
+   - "David Howard"
+   - "Thomas Lowe"
+   - "Wade Geles"
+  year: 2020
+  abstract: " We combine MAP-Elites and highly parallelisable simulation to explore the design space of a class of large legged robots, which stand at around 2m tall and whose design and construction is not well-studied. The simulation is modified to account for factors such as motor torque and weight, and presents a reasonable fidelity search space. A novel robot encoding allows for bio-inspired features such as legs scaling along the length of the body. The impact of three possible control generation schemes are assessed in the context of body-brain co-evolution, showing that even constrained problems benefit strongly from coupling-promoting mechanisms. A two stage process in implemented. In the first stage, a library of possible robots is generated, treating user requirements as constraints. In the second stage, the most promising robot niches are analysed and a suite of human-understandable design rules generated related to the values of their feature variables. These rules, together with the library, are then ready to be used by a (human) robot designer as a Design Assist tool. "
+  pdfurl: "https://arxiv.org/pdf/2004.08057.pdf"
+  bibtex: |
+          "@article{howard2020diversity,
+          title={Diversity-based Design Assist for Large Legged Robots},
+          author={Howard, David and Lowe, Thomas and Geles, Wade},
+          journal={arXiv preprint arXiv:2004.08057},
+          year={2020}}"       
+          
+- title: "Environmental Adaptation of Robot Morphology and Control through Real-world Evolution"
+  authors:
+   - "Tønnes F. Nygaard"
+   - "Charles P. Martin"
+   - "David Howard"
+   - "Jim Torresen"
+   - "Kyrre Glette"
+  year: 2020
+  abstract: "Robots operating in the real world will experience a range of different environments and tasks. It is essential for the robot to have the ability to adapt to its surroundings to work efficiently in changing conditions. Evolutionary robotics aims to solve this by optimizing both the control and body (morphology) of a robot, allowing adaptation to internal, as well as external factors. Most work in this field has been done in physics simulators, which are relatively simple and not able to replicate the richness of interactions found in the real world. Solutions that rely on the complex interplay between control, body, and environment are therefore rarely found. In this paper, we rely solely on real-world evaluations and apply evolutionary search to yield combinations of morphology and control for our mechanically self-reconfiguring quadruped robot. We evolve solutions on two very different physical surfaces and analyze the results in terms of both control and morphology. We then transition to two previously unseen surfaces to demonstrate the generality of our method. We find that the evolutionary search adapts both control and body to the different physical environments, yielding significantly different morphology-controller configurations. Moreover, we observe that the solutions found by our method work well on previously unseen terrains. "
+  pdfurl: "https://arxiv.org/pdf/2003.13254.pdf"
+  bibtex: |
+          "@article{nygaard2020environmental,
+          title={Environmental Adaptation of Robot Morphology and Control through Real-world Evolution},
+          author={Nygaard, T{\o}nnes F and Martin, Charles P and Howard, David and Torresen, Jim and Glette, Kyrre},
+          journal={arXiv preprint arXiv:2003.13254},
+          year={2020}}"          
+          
+- title: "Finding Game Levels with the Right Difficulty in a Few Trials through Intelligent Trial-and-Error"
+  authors:
+   - "Miguel González-Duque"
+   - "Rasmus Berg Palm"
+   - "David Ha"
+   - "Sebastian Risi"
+  year: 2020
+  abstract: "Methods for dynamic difficulty adjustment allow games to be tailored to particular players to maximize their engagement. However, current methods often only modify a limited set of game features such as the difficulty of the opponents, or the availability of resources. Other approaches, such as experience-driven Procedural Content Generation (PCG), can generate complete levels with desired properties such as levels that are neither too hard nor too easy, but require many iterations. This paper presents a method that can generate and search for complete levels with a specific target difficulty in only a few trials. This advance is enabled by through an Intelligent Trial-and-Error algorithm, originally developed to allow robots to adapt quickly. Our algorithm first creates a large variety of different levels that vary across predefined dimensions such as leniency or map coverage. The performance of an AI playing agent on these maps gives a proxy for how difficult the level would be for another AI agent (e.g. one that employs Monte Carlo Tree Search instead of Greedy Tree Search); using this information, a Bayesian Optimization procedure is deployed, updating the difficulty of the prior map to reflect the ability of the agent. The approach can reliably find levels with a specific target difficulty for a variety of planning agents in only a few trials, while maintaining an understanding of their skill landscape. "
+  pdfurl: "https://arxiv.org/pdf/2005.07677.pdf"
+  bibtex: |
+          "@article{gonzalez2020finding,
+          title={Finding Game Levels with the Right Difficulty in a Few Trials through Intelligent Trial-and-Error},
+          author={Gonz{\'a}lez-Duque, Miguel and Palm, Rasmus Berg and Ha, David and Risi, Sebastian},
+          journal={arXiv preprint arXiv:2005.07677},
+          year={2020}}"   
+          
+- title: "Illuminating Elite Patches of Chemical Space"
+  authors:
+   - "Jonas Verhellen "
+   - "Jeriek Van den Abeele"
+  year: 2020
+  abstract: "In the past few years, there has been considerable activity in both academic and industrial research to develop innovative machine learning approaches to locate novel, high-performing molecules in chemical space. Here we describe a new and fundamentally different type of approach that provides a holistic overview of how high-performing molecules are distributed throughout a search space. Based on an open-source, graph-based implementation [Jensen, Chem. Sci., 2019, 12, 3567-3572] of a traditional genetic algorithm for molecular optimisation, and influenced by state-of-the-art concepts from soft robot design [Mouret et al., IEEE Trans. Evolut. Comput., 2016, 22, 623-630], we provide an algorithm that (i) produces a large diversity of high-performing, yet qualitatively different molecules, (ii) illuminates the distribution of optimal solutions, and (iii) improves search efficiency compared to both machine learning and traditional genetic algorithm approaches."
+  pdfurl: "https://chemrxiv.org/articles/preprint/Illuminating_Elite_Patches_of_Chemical_Space/12608228"
+  bibtex: |
+          "@article{Verhellen2020,
+          author = "Jonas Verhellen and Jeriek Van den Abeele",
+          title = "{Illuminating Elite Patches of Chemical Space}",
+          year = "2020",
+          month = "7",
+          url = "https://chemrxiv.org/articles/preprint/Illuminating_Elite_Patches_of_Chemical_Space/12608228",
+          doi = "10.26434/chemrxiv.12608228.v1"}"   
+          
+- title: "Effective Diversity in Population Based Reinforcement Learning"
+  authors:
+   - "Jack Parker-Holder"
+   - "Aldo Pacchiano"
+   - "Krzysztof Choromanski"
+   - "Stephen Roberts"
+  year: 2020
+  abstract: "Exploration is a key problem in reinforcement learning, since agents can only learn from data they acquire in the environment. With that in mind, maintaining a population of agents is an attractive method, as it allows data be collected with a diverse set of behaviors. This behavioral diversity is often boosted via multi-objective loss functions. However, those approaches typically leverage mean field updates based on pairwise distances, which makes them susceptible to cycling behaviors and increased redundancy. In addition, explicitly boosting diversity often has a detrimental impact on optimizing already fruitful behaviors for rewards. As such, the reward-diversity trade off typically relies on heuristics. Finally, such methods require behavioral representations, often handcrafted and domain specific. In this paper, we introduce an approach to optimize all members of a population simultaneously. Rather than using pairwise distance, we measure the volume of the entire population in a behavioral manifold, defined by task-agnostic behavioral embeddings. In addition, our algorithm Diversity via Determinants (DvD), adapts the degree of diversity during training using online learning techniques. We introduce both evolutionary and gradient-based instantiations of DvD and show they effectively improve exploration without reducing performance when better exploration is not required."
+  pdfurl: "https://papers.nips.cc/paper/2020/file/d1dc3a8270a6f9394f88847d7f0050cf-Paper.pdf"
+  bibtex: |
+          "@article{2020arXiv200200632P,
+            author = {{Parker-Holder}, Jack and {Pacchiano}, Aldo and
+            {Choromanski}, Krzysztof and {Roberts}, Stephen},
+            title = "{Effective Diversity in Population Based Reinforcement Learning}",
+            journal = {arXiv e-prints},
+            keywords = {Computer Science - Machine Learning, Statistics - Machine Learning},
+            year = 2020,
+            month = feb,
+            eid = {arXiv:2002.00632},
+            pages = {arXiv:2002.00632},
+            archivePrefix = {arXiv},
+            eprint = {2002.00632},
+            primaryClass = {cs.LG},
+            adsurl = {https://ui.adsabs.harvard.edu/abs/2020arXiv200200632P},
+            adsnote = {Provided by the SAO/NASA Astrophysics Data System}
+            }"
+
+- title: "Illuminating Mario Scenes in the Latent Space of a Generative Adversarial Network"
+  authors:
+   - "Matthew C. Fontaine"
+   - "Ruilin Liu"
+   - "Ahmed Khalifa"
+   - "Jignesh Modi"
+   - "Julian Togelius"
+   - "Amy K. Hoover"
+   - "Stefanos Nikolaidis"
+  year: 2020
+  abstract: "Generative adversarial networks (GANs) are now a ubiquitous approach to procedurally generating video game levels. While GAN generated levels are stylistically similar to human-authored examples, human designers often want to explore the generative design space of GANs to extract interesting levels. However, human designers find latent vectors opaque and would rather explore along dimensions the designer specifies, such as number of enemies or obstacles. We propose using state-of-the-art quality diversity algorithms designed to optimize continuous spaces, i.e. MAP-Elites with a directional variation operator and Covariance Matrix Adaptation MAP-Elites, to efficiently explore the latent space of a GAN to extract levels that vary across a set of specified gameplay measures. In the benchmark domain of Super Mario Bros, we demonstrate how designers may specify gameplay measures to our system and extract high-quality (playable) levels with a diverse range of level mechanics, while still maintaining stylistic similarity to human authored examples. An online user study shows how the different mechanics of the automatically generated levels affect subjective ratings of their perceived difficulty and appearance."
+  pdfurl: "https://arxiv.org/pdf/2007.05674.pdf"
+  bibtex: |
+          "@misc{fontaine2020illuminating,
+          title={Illuminating Mario Scenes in the Latent Space of a Generative Adversarial Network}, 
+          author={Matthew C. Fontaine and Ruilin Liu and Ahmed Khalifa and Jignesh Modi and Julian Togelius and Amy K. Hoover and Stefanos Nikolaidis},
+          year={2020},
+          eprint={2007.05674},
+          archivePrefix={arXiv},
+          primaryClass={cs.AI}
+          }"
+
+- title: "Evolving the behavior of machines: from micro to macroevolution"
+  authors:
+   - "Jean-Baptiste Mouret"
+  year: 2020
+  tags:
+   - review
+  abstract: "Evolution gave rise to creatures that are arguably more sophisticated than the greatest human-designed systems. This feat has inspired computer scientists since the advent of computing and led to optimization tools that can evolve complex neural networks for machines—an approach known as “neuroevolution.” After a few successes in designing evolvable representations for high-dimensional artifacts, the field has been recently revitalized by going beyond optimization: to many, the wonder of evolution is less in the perfect optimization of each species than in the creativity of such a simple iterative process, that is, in the diversity of species. This modern view of artificial evolution is moving the field away from microevolution, following a fitness gradient in a niche, to macroevolution, filling many niches with highly different species. It already opened promising applications, like evolving gait repertoires, video game levels for different tastes, and diverse designs for aerodynamic bikes."
+  pdfurl: "https://hal.archives-ouvertes.fr/hal-02982114v2/document"
+  bibtex: |
+          "@article{mouret2020evolving,
+            title={Evolving the behavior of machines: from micro to macroevolution},
+            author={Mouret, Jean-Baptiste},
+            journal={Iscience},
+            pages={101731},
+            year={2020},
+            publisher={Elsevier}
+          }"
