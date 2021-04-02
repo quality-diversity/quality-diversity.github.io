@@ -1428,3 +1428,19 @@ papers:
            pages={121--122},
            year={2019},
            organization={ACM}}"
+
+- title: "Scaling MAP-Elites to Deep Neuroevolution"
+  authors:
+   - "Cédric Colas"
+   - "Joost Huizinga"
+   - "Vashisht Madhavan"
+   - "Jeff Clune"
+  year: 2020
+  abstract: "Quality-Diversity (QD) algorithms, and MAP-Elites (ME) in particular, have proven very useful for a broad range of applications including enabling real robots to recover quickly from joint damage, solving strongly deceptive maze tasks or evolving robot morphologies to discover new gaits. However, present implementations of MAP-Elites and other QD algorithms seem to be limited to low-dimensional controllers with far fewer parameters than modern deep neural network models. In this paper, we propose to leverage the efficiency of Evolution Strategies (ES) to scale MAP-Elites to high-dimensional controllers parameterized by large neural networks. We design and evaluate a new hybrid algorithm called MAP-Elites with Evolution Strategies (ME-ES) for post-damage recovery in a difficult high-dimensional control task where traditional ME fails. Additionally, we show that ME-ES performs efficient exploration, on par with state-of-the-art exploration algorithms in high-dimensional control tasks with strongly deceptive rewards."
+  pdfurl: "https://arxiv.org/pdf/2003.01825.pdf"
+  bibtex: |
+          "@article{colas2020scaling,
+  	  title={Scaling MAP-Elites to Deep Neuroevolution},
+  	  author={Colas, C{\'e}dric and Huizinga, Joost and Madhavan, Vashisht and Clune, Jeff},
+  	  journal={arXiv preprint arXiv:2003.01825},
+  	  year={2020}}"

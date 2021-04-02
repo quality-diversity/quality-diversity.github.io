@@ -1,0 +1,66 @@
+papers:
+
+- title: "Frequency Fitness Assignment: Making Optimization Algorithms Invariant under Bijective Transformations of the Objective Function Value"
+  authors:
+   - "Thomas Weise"
+   - "Zhize Wu"
+   - "Xinlu Li"
+   - "Yan Chen"
+  year: 2021
+  category: "Frequency Fitness Assignment"
+  pdfurl: "https://arxiv.org/pdf/2001.01416.pdf"
+  abstract: "Under frequency fitness assignment (FFA), the fitness corresponding to an objective value is its encounter frequency in fitness assignment steps and is subject to minimization. FFA renders optimization processes invariant under bijective transformations of the objective function value. On TwoMax, Jump, and Trap functions of dimension s, the classical (1+1)-EA with standard mutation at rate 1/s can have expected runtimes exponential in s. In our experiments, a (1+1)-FEA, the same algorithm but using FFA, exhibits mean runtimes that seem to scale as s² ln s. Since Jump and Trap are bijective transformations of OneMax, it behaves identical on all three. On OneMax, LeadingOnes, and Plateau problems, it seems to be slower than the (1+1)-EA by a factor linear in s. The (1+1)-FEA performs much better than the (1+1)-EA on W-Model and MaxSat instances. We further verify the bijection invariance by applying the Md5 checksum computation as transformation to some of the above problems and yield the same behaviors. Finally, we show that FFA can improve the performance of a memetic algorithm for job shop scheduling."
+  bibtex: |
+          "@article{WWLC2021FFAMOAIUBTOTOFV,
+           author = {Thomas Weise and Zhize Wu and Xinlu Li and Yan Chen},
+           title = {Frequency Fitness Assignment: Making Optimization Algorithms Invariant under Bijective Transformations of the Objective Function Value},
+           journal = {{IEEE} Transactions on Evolutionary Computation},
+           volume = {25},
+           issue = {2},
+           pages = {307--319},
+           month = apr,
+           year = {2021},
+           doi = {10.1109/TEVC.2020.3032090},
+           note = {Preprint available at \mbox{arXiv:2001.01416v5} \mbox{[cs.NE]} \mbox{15 Oct 2020}.}}"
+
+- title: "Memetic Viability Evolution for Constrained Optimization"
+  authors:
+   - "Andrea Maesani"
+   - "Giovanni Iacca"
+   - "Dario Floreano"
+  year: 2015
+  category: "Viability Evolution"
+  pdfurl: "https://iris.unitn.it/retrieve/handle/11572/196399/176129/TEVC2428292-final.pdf"
+  abstract: "The performance of evolutionary algorithms can be heavily undermined when constraints limit the feasible areas of the search space. For instance, while covariance matrix adaptation evolution strategy (CMA-ES) is one of the most efficient algorithms for unconstrained optimization problems, it cannot be readily applied to constrained ones. Here, we used concepts from memetic computing, i.e., the harmonious combination of multiple units of algorithmic information, and viability evolution, an alternative abstraction of artificial evolution, to devise a novel approach for solving optimization problems with inequality constraints. Viability evolution emphasizes the elimination of solutions that do not satisfy viability criteria, which are defined as boundaries on objectives and constraints. These boundaries are adapted during the search to drive a population of local search units, based on CMA-ES, toward feasible regions. These units can be recombined by means of differential evolution operators. Of crucial importance for the performance of our method, an adaptive scheduler toggles between exploitation and exploration by selecting to advance one of the local search units and/or recombine them. The proposed algorithm can outperform several state-of-the-art methods on a diverse set of benchmark and engineering problems, both for quality of solutions and computational resources needed."
+  bibtex: |
+          "@article{maesani2015memetic,
+           title={Memetic viability evolution for constrained optimization},
+           author={Maesani, Andrea and Iacca, Giovanni and Floreano, Dario},
+           journal={IEEE Transactions on Evolutionary Computation},
+           volume={20},
+           number={1},
+           pages={125--144},
+           year={2015},
+           publisher={IEEE}}"
+
+- title: "One Solution is Not All You Need: Few-Shot Extrapolation via Structured MaxEnt RL"
+  authors:
+   - "Saurabh Kumar"
+   - "Aviral Kumar"
+   - "Sergey Levine"
+   - "Chelsea Finn"
+  year: 2020
+  category: "Maximum Entropy"
+  pdfurl: "https://arxiv.org/pdf/2010.14484.pdf"
+  abstract: "While reinforcement learning algorithms can learn effective policies for complex tasks, these policies are often brittle to even minor task variations, especially when variations are not explicitly provided during training. One natural approach to this problem is to train agents with manually specified variation in the training task or environment. However, this may be infeasible in practical situations, either because making perturbations is not possible, or because it is unclear how to choose suitable perturbation strategies without sacrificing performance. The key insight of this work is that learning diverse behaviors for accomplishing a task can directly lead to behavior that generalizes to varying environments, without needing to perform explicit perturbations during training. By identifying multiple solutions for the task in a single environment during training, our approach can generalize to new situations by abandoning solutions that are no longer effective and adopting those that are. We theoretically characterize a robustness set of environments that arises from our algorithm and empirically find that our diversity-driven approach can extrapolate to various changes in the environment and task."
+  bibtex: |
+          "@article{maesani2015memetic,
+           title={Memetic viability evolution for constrained optimization},
+           author={Maesani, Andrea and Iacca, Giovanni and Floreano, Dario},
+           journal={IEEE Transactions on Evolutionary Computation},
+           volume={20},
+           number={1},
+           pages={125--144},
+           year={2015},
+           publisher={IEEE}}"
+

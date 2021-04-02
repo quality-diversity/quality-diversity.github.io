@@ -6,6 +6,9 @@ docs:
 - pagetitle: Papers
   url: /papers
 
+- pagetitle: Related works
+  url: /relatedworks
+
 - pagetitle: Tutorials
   url: /tutorials
 
