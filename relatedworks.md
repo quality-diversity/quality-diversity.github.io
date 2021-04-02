@@ -2,7 +2,7 @@
 
 {{ site.data.relatedworks.papers.size }} papers are listed. 
 
-This page lists some papers that are not using Quality-Diversity algorithms but share similar or related objective.
+This page lists some papers that are not using Quality-Diversity algorithms but share similar or related objectives.
 You can click on each title to display more information, including authors, url to pdf, abstract and bibtex. 
 
 {% comment %} tags:
