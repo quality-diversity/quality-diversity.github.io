@@ -12,10 +12,10 @@ You can click on each title to display more information, including authors, url 
 <span class="badge all">All</span> ––>
 {% endcomment %}
 
-{% assign paperlist = site.data.relatedworks.papers | group_by: 'category' | sort:"category"  %}
+{% assign paperlist = site.data.relatedworks.papers | group_by: 'category' | sort:"name"  %}
 {% for categroup in paperlist %}
 {% if categroup.name == "" %}
-   <h3>Undated: {{ categroup.size }} Papers</h3>
+   <h3>Others: {{ categroup.size }} Papers</h3>
 {% else %}
    <h3>{{ categroup.name }}: {{ categroup.size }} Papers</h3>
 {% endif %}
