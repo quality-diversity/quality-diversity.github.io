@@ -64,3 +64,55 @@ papers:
            year={2015},
            publisher={IEEE}}"
 
+- title: "Integrating Decision Space Diversity intoHypervolume-based Multiobjective Search"
+  authors:
+   - "Tamara Ulrich"
+   - "Johannes Bader"
+   - "Eckart Zitzler"
+  year: 2010
+  category: "Evolutionary Diversity Optimization"
+  pdfurl: "https://tik-old.ee.ethz.ch/file/458cdc2138e9bd4686d8562cdfcb3847/ubz2010a.pdf"
+  abstract: "Multiobjective optimization in general aims at learning aboutthe problem at hand.  Usually the focus lies on objectivespace properties such as the front shape and the distributionof optimal solutions. However, structural characteristics inthe decision space can also provide valuable insights. In cer-tain applications, it may even be more important to find astructurally diverse set of close-to-optimal solutions than toidentify a set of optimal but structurally similar solutions.Accordingly, multiobjective optimizers are required that arecapable of considering both the objective space quality ofa Pareto-set approximation and its diversity in the decisionspace.Although NSGA, one of the first multiobjective evolution-ary algorithms, explicitly considered decision space diversity,only a few other studies address that issue. It therefore isan open research question how modern multiobjective evolu-tionary algorithms can be adapted to search for structurallydiverse high-quality Pareto-set approximations. To this endwe propose an approach to integrate decision space diversityinto hypervolume-based multiobjective search. We presenta modified hypervolume indicator and integrate it into anevolutionary algorithm. The proof-of-principle results showthe potential of the approach and indicate further researchdirections for structure-oriented multiobjective search."
+  bibtex: |
+          "@inproceedings{ulrich2010integrating,
+           title={Integrating decision space diversity into hypervolume-based multiobjective search},
+           author={Ulrich, Tamara and Bader, Johannes and Zitzler, Eckart},
+           booktitle={Proceedings of the 12th annual conference on Genetic and evolutionary computation},
+           pages={455--462},
+           year={2010}}"
+
+- title: "Maximizing Population Diversity inSingle-Objective Optimization"
+  authors:
+   - "Tamara Ulrich"
+   - "Lothar Thiele"
+  year: 2011
+  category: "Evolutionary Diversity Optimization"
+  pdfurl: "https://tik-old.ee.ethz.ch/file/c5e6df63fc49fc1ebaa7d69a50134be7/ut2011a.pdf"
+  abstract: "Typically, optimization attempts to find a solution which minimizes the given objective function. But often, it might also be useful to obtain a set of structurally very diverse solutions which all have acceptable objective values. With such a set, a decision maker would be given a choice of solutions to select from. In addition, he can learn about the optimization problem at hand by inspecting the diverse close-to-optimal solutions.This paper proposesNOAH, an evolutionary algorithm which solves a mixed multi-objective problem: Determine a maximally diverse set of solutions whose objective values are below a provided objective barrier. It does so by iteratively switching between objective value and set-diversity optimization while automatically adapting a constraint on the objective value until it reaches the barrier. Tests on an nk-Landscapes problem and a 3-Sat problem as well as on a more realistic bridge construction problem show that the algorithm is able to produce high quality solutions with a significantly higher structural diversity than standard evolutionary algorithms."
+  bibtex: |
+          "@inproceedings{ulrich2011maximizing,
+           title={Maximizing population diversity in single-objective optimization},
+           author={Ulrich, Tamara and Thiele, Lothar},
+           booktitle={Proceedings of the 13th annual conference on Genetic and evolutionary computation},
+           pages={641--648},
+           year={2011}}"
+
+
+- title: "Diverse Motion Variations for Physics-based Character Animation"
+  authors:
+   - "Shailen Agrawal"
+   - "Shuo Shen"
+   - "Michiel van de Panne"
+  year: 2013
+  category: "Explicit Diversity Optimisation"
+  pdfurl: "https://www.cs.ubc.ca/~van/papers/2013-SCA-diverse/2013-SCA-diverse.pdf"
+  webpageurl: "https://www.cs.ubc.ca/~van/papers/2013-SCA-diverse/"
+  abstract: "We present an optimization framework for generating diverse variations of physics-based character motions. This allows for the auto- matic synthesis of rich variations in style for simulated jumps, flips, and walks. While well-posed motion optimization problems result in a single optimal motion, we explore using underconstrained motion descriptions and then optimizing for diversity. As input, the method takes a parameterized controller for a successful motion instance, a set of constraints that should be preserved, and a pairwise distance metric between motions. An offline optimization then produces a highly diverse set of motion styles for the same task. We demonstrate results for a variety of 2D and 3D physics-based motions and show that this approach can generate compelling new motions."
+  bibtex: |
+          "@article{2013-SCA-diverse,
+           title={Diverse Motion Variations for Physics-based Character Animation},
+           author={Shailen Agrawal and Shuo Shen and Michiel van de Panne},
+           journal={Symposium on Computer Animation},
+           year={2013},
+           publisher={ACM SIGGRAPH}}"
+
