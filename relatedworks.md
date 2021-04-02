@@ -11,8 +11,8 @@ You can click on each title to display more information, including authors, url 
 <span class="badge all">All</span> ––>
 {% endcomment %}
 
-{% assign paperlist = site.data.relatedworks.papers | group_by: 'category' | sort:"year"  %}
-{% for categroup in paperlist reversed %}
+{% assign paperlist = site.data.relatedworks.papers | group_by: 'category' | sort:"category"  %}
+{% for categroup in paperlist %}
 {% if categroup.name == "" %}
    <h3>Undated: {{ categroup.size }} Papers</h3>
 {% else %}
