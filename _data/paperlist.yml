@@ -1930,3 +1930,765 @@ papers:
             year={2020},
             publisher={Elsevier}
           }"
+
+- title: "Quality and Diversity in Evolutionary Modular Robotics"
+  authors:
+   - "Jørgen Nordmoen"
+   - "Frank Veenstra"
+   - "Kai Olav Ellefsen"
+   - "Kyrre Glette”
+  year: 2020
+  tags:
+   - robotics
+  abstract: "In Evolutionary Robotics a population of solutions is evolved to optimize robots that solve a given task. However, in traditional Evolutionary Algorithms, the population of solutions tends to converge to local optima when the problem is complex or the search space is large, a problem known as premature convergence. Quality Diversity algorithms try to overcome premature convergence by introducing additional measures that reward solutions for being different while not necessarily performing better. In this paper we compare a single objective Evolutionary Algorithm with two diversity promoting search algorithms; a Multi-Objective Evolutionary Algorithm and MAP-Elites a Quality Diversity algorithm, for the difficult problem of evolving control and morphology in modular robotics. We compare their ability to produce high performing solutions, in addition to analyze the evolved morphological diversity. The results show that all three search algorithms are capable of evolving high performing individuals. However, the Quality Diversity algorithm is better adept at filling all niches with high-performing solutions. This confirms that Quality Diversity algorithms are well suited for evolving modular robots and can be an important means of generating repertoires of high performing solutions that can be exploited both at design- and runtime."
+  pdfurl: "https://arxiv.org/pdf/2008.02116.pdf"
+  bibtex: |
+          "@inproceedings{nordmoen2020quality,
+            title={Quality and Diversity in Evolutionary Modular Robotics},
+            author={Nordmoen, J{\o}rgen and Veenstra, Frank and Ellefsen, Kai Olav and Glette, Kyrre},
+            booktitle={2020 IEEE Symposium Series on Computational Intelligence (SSCI)},
+            pages={2109--2116},
+            year={2020},
+            organization={IEEE}}
+          "
+
+
+- title: "Illuminating Mario Scenes in the Latent Space of a Generative Adversarial Network"
+  authors:
+   - "Matthew C. Fontaine"
+   - "Ruilin Liu"
+   - "Ahmed Khalifa"
+   - "Jignesh Modi"
+   - "Julian Togelius"
+   - "Amy K. Hoover"
+   - "Stefanos Nikolaidis"
+  year: 2021
+  tags:
+   - games
+  abstract: "Generative adversarial networks (GANs) are now a ubiquitous approach to procedurally generating video game levels. While GAN generated levels are stylistically similar to human-authored examples, human designers often want to explore the generative design space of GANs to extract interesting levels. However, human designers find latent vectors opaque and would rather explore along dimensions the designer specifies, such as number of enemies or obstacles. We propose using state-of-the-art quality diversity algorithms designed to optimize continuous spaces, i.e. MAP-Elites with a directional variation operator and Covariance Matrix Adaptation MAP-Elites, to efficiently explore the latent space of a GAN to extract levels that vary across a set of specified gameplay measures. In the benchmark domain of Super Mario Bros, we demonstrate how designers may specify gameplay measures to our system and extract high-quality (playable) levels with a diverse range of level mechanics, while still maintaining stylistic similarity to human authored examples. An online user study shows how the different mechanics of the automatically generated levels affect subjective ratings of their perceived difficulty and appearance."
+  pdfurl: "https://arxiv.org/pdf/2007.05674"
+  bibtex: |
+          "@inproceedings{fontaine2020illuminating,
+           title={Illuminating mario scenes in the latent space of a generative adversarial network},
+           author={Fontaine, Matthew C and Liu, Ruilin and Togelius, Julian and Hoover, Amy K and Nikolaidis, Stefanos},
+           booktitle={AAAI Conference on Artificial Intelligence},
+           year={2021}}
+          "
+
+- title: "BR-NS: an Archive-less Approach to Novelty Search"
+  authors:
+   - "Achkan Salehi"
+   - "Alexandre Coninx"
+   - "Stephane Doncieux"
+  year: 2021
+  tags:
+   - robotics
+  abstract: "As open-ended learning based on divergent search algorithms such as Novelty Search (NS) draws more and more attention from the research community, it is natural to expect that its application to increasingly complex real-world problems will require the exploration to operate in higher dimensional Behavior Spaces which will not necessarily be Euclidean. Novelty Search traditionally relies on k-nearest neighbours search and an archive of previously visited behavior descriptors which are assumed to live in a Euclidean space. This is problematic because of a number of issues. On one hand, Euclidean distance and Nearest-neighbour search are known to behave differently and become less meaningful in high dimensional spaces. On the other hand, the archive has to be bounded since, memory considerations aside, the computational complexity of finding nearest neighbours in that archive grows linearithmically with its size. A sub-optimal bound can result in "cycling" in the behavior space, which inhibits the progress of the exploration. Furthermore, the performance of NS depends on a number of algorithmic choices and hyperparameters, such as the strategies to add or remove elements to the archive and the number of neighbours to use in k-nn search. In this paper, we discuss an alternative approach to novelty estimation, dubbed Behavior Recognition based Novelty Search (BR-NS), which does not require an archive, makes no assumption on the metrics that can be defined in the behavior space and does not rely on nearest neighbours search. We conduct experiments to gain insight into its feasibility and dynamics as well as potential advantages over archive-based NS in terms of time complexity."
+  pdfurl: "https://arxiv.org/pdf/2104.03936.pdf"
+  bibtex: |
+          "@inproceedings{salehi2021br,
+           title={BR-NS: an Archive-less Approach to Novelty Search},
+           author={Salehi, Achkan and Coninx, Alexandre and Doncieux, Stephane},
+           booktitle={Genetic and Evolutionary Computation Conference},
+           year={2021}
+           }
+          "
+
+- title: "Seeking Quality Diversity in Evolutionary Co-design of Morphology and Control of Soft Tensegrity Modular Robots"
+  authors:
+   - "Enrico Zardini"
+   -"Davide Zappetti"
+   -"Davide Zambrano"
+   -"Giovanni Iacca"
+   -"Dario Floreano"
+  year: 2021
+  tags:
+   - robotics
+  abstract: "Designing optimal soft modular robots is difficult, due to non-trivial interactions between morphology and controller. Evolutionary algorithms (EAs), combined with physical simulators, represent a valid tool to overcome this issue. In this work, we investigate algorithmic solutions to improve the Quality Diversity of co-evolved designs of Tensegrity Soft Modular Robots (TSMRs) for two robotic tasks, namely goal reaching and squeezing trough a narrow passage. To this aim, we use three different EAs, i.e., MAP-Elites and two custom algorithms: one based on Viability Evolution (ViE) and NEAT (ViE-NEAT), the other named Double Map MAP-Elites (DM-ME) and devised to seek diversity while co-evolving robot morphologies and neural network (NN)-based controllers. In detail, DM-ME extends MAP-Elites in that it uses two distinct feature maps, referring to morphologies and controllers respectively, and integrates a mechanism to automatically define the NN-related feature descriptor. Considering the fitness, in the goal-reaching task ViE-NEAT outperforms MAP-Elites and results equivalent to DM-ME. Instead, when considering diversity in terms of "illumination" of the feature space, DM-ME outperforms the other two algorithms on both tasks, providing a richer pool of possible robotic designs, whereas ViE-NEAT shows comparable performance to MAP-Elites on goal reaching, although it does not exploit any map."
+  pdfurl: "https://arxiv.org/pdf/2104.12175"
+  bibtex: |
+          "@inproceedings{zardini2021seeking,
+           title={Seeking Quality Diversity in Evolutionary Co-design of Morphology and Control of Soft Tensegrity Modular Robots},
+           author={Zardini, Enrico and Zappetti, Davide and Zambrano, Davide and Iacca, Giovanni and Floreano, Dario},
+           booktitle={Genetic and Evolutionary Computation Conference},
+           year={2021}
+           }
+          "
+
+- title: "Monte Carlo Elites: Quality-Diversity Selection as a Multi-Armed Bandit Problem"
+  authors:
+   - "Konstantinos Sfikas"
+   - "Antonios Liapis"
+   - "Georgios N. Yannakakis"
+  year: 2021
+  tags:
+   - robotics
+  abstract: "A core challenge of evolutionary search is the need to balance between exploration of the search space and exploitation of highly fit regions. Quality-diversity search has explicitly walked this tightrope between a population's diversity and its quality. This paper extends a popular quality-diversity search algorithm, MAP-Elites, by treating the selection of parents as a multi-armed bandit problem. Using variations of the upper-confidence bound to select parents from under-explored but potentially rewarding areas of the search space can accelerate the discovery of new regions as well as improve its archive's total quality. The paper tests an indirect measure of quality for parent selection: the survival rate of a parent's offspring. Results show that maintaining a balance between exploration and exploitation leads to the most diverse and high-quality set of solutions in three different testbeds."
+  pdfurl: "https://arxiv.org/pdf/2104.08781.pdf"
+  bibtex: |
+          "@inproceedings{sfikas2021monte,
+           title={Monte Carlo Elites: Quality-Diversity Selection as a Multi-Armed Bandit Problem},
+           author={Sfikas, Konstantinos and Liapis, Antonios and Yannakakis, Georgios N},
+           booktitle={Genetic and Evolutionary Computation Conference},
+           year={2021}
+           }
+          "
+
+- title: "Multi-Emitter MAP-Elites: Improving quality, diversity and convergence speed with heterogeneous sets of emitters"
+  authors:
+   - "Antoine Cully"
+  year: 2021
+  tags:
+   - robotics
+  abstract: "Quality-Diversity (QD) optimisation is a new family of learning algorithms that aims at generating collections of diverse and high-performing solutions. Among those algorithms, the recently introduced Covariance Matrix Adaptation MAP-Elites (CMA-ME) algorithm proposes the concept of emitters, which uses a predefined heuristic to drive the algorithm’s exploration. This algorithm was shown to outperform MAP-Elites, a popular QD algorithm that has demonstrated promising results in numerous applications. In this paper, we introduce Multi-Emitter MAP-Elites (ME-MAP-Elites), an algorithm that directly extends CMA-ME and improves its quality, diversity and data efficiency. It leverages the diversity of a heterogeneous set of emitters, in which each emitter type improves the optimisation process in different ways. A bandit algorithm dynamically finds the best selection of emitters depending on the current situation. We evaluate the performance of ME-MAP-Elites on six tasks, ranging from standard optimisation problems (in 100 dimensions) to complex locomotion tasks in robotics. Our comparisons against CMA-ME and MAP-Elites show that ME-MAP-Elites is faster at providing collections of solutions that are significantly more diverse and higher performing. Moreover, in cases where no fruitful synergy can be found between the different emitters, ME-MAP-Elites is equivalent to the best of the compared algorithms."
+  pdfurl: "https://arxiv.org/pdf/2007.05352"
+  bibtex: |
+          "@inproceedings{cully2020multi,
+           title={Multi-Emitter MAP-Elites: Improving quality, diversity and convergence speed with heterogeneous sets of emitters},
+           author={Cully, Antoine},
+           booktitle={Genetic and Evolutionary Computation Conference},
+           year={2020}
+           }
+          "
+
+- title: "Ensemble Feature Extraction for Multi-Container Quality-Diversity Algorithms"
+  authors:
+   - "Leo Cazenille"
+  year: 2021
+  abstract: "Quality-Diversity algorithms search for large collections of diverse and high-performing solutions, rather than just for a single solution like typical optimisation methods. They are specially adapted for multi-modal problems that can be solved in many different ways, such as complex reinforcement learning or robotics tasks. However, these approaches are highly dependent on the choice of feature descriptors (FDs) quantifying the similarity in behaviour of the solutions. While FDs usually needs to be hand-designed, recent studies have proposed ways to define them automatically by using feature extraction techniques, such as PCA or Auto-Encoders, to learn a representation of the problem from previously explored solutions. Here, we extend these approaches to more complex problems which cannot be efficiently explored by relying only on a single representation but require instead a set of diverse and complementary representations. We describe MC-AURORA, a Quality-Diversity approach that optimises simultaneously several collections of solutions, each with a different set of FDs, which are, in turn, defined automatically by an ensemble of modular auto-encoders. We show that this approach produces solutions that are more diverse than those produced by single-representation approaches. "
+  pdfurl: "https://arxiv.org/pdf/2105.00682"
+  bibtex: |
+          "@inproceedings{cazenille2021ensemble,
+           title={Ensemble Feature Extraction for Multi-Container Quality-Diversity Algorithms},
+           author={Cazenille, Leo},
+           booktitle={Genetic and Evolutionary Computation Conference},
+           year={2021}
+           }
+          "
+
+- title: "Expressivity of Parameterized and Data-driven Representations in Quality Diversity Search"
+  authors:
+   - "Alexander Hagg"
+   - "Sebastian Berns"
+   - "Alexander Asteroth"
+   - "Simon Colton"
+   - "Thomas Bäck"
+  year: 2021
+  abstract: "We consider multi-solution optimization and generative models for the generation of diverse artifacts and the discovery of novel solutions. In cases where the domain's factors of variation are unknown or too complex to encode manually, generative models can provide a learned latent space to approximate these factors. When used as a search space, however, the range and diversity of possible outputs are limited to the expressivity and generative capabilities of the learned model. We compare the output diversity of a quality diversity evolutionary search performed in two different search spaces: 1) a predefined parameterized space and 2) the latent space of a variational autoencoder model. We find that the search on an explicit parametric encoding creates more diverse artifact sets than searching the latent space. A learned model is better at interpolating between known data points than at extrapolating or expanding towards unseen examples. We recommend using a generative model's latent space primarily to measure similarity between artifacts rather than for search and generation. Whenever a parametric encoding is obtainable, it should be preferred over a learned representation as it produces a higher diversity of solutions."
+  pdfurl: "https://arxiv.org/pdf/2105.04247.pdf"
+  bibtex: |
+          "@inproceedings{hagg2021expressivity,
+           title={Expressivity of Parameterized and Data-driven Representations in Quality Diversity Search},
+           author={Hagg, Alexander and Berns, Sebastian and Asteroth, Alexander and Colton, Simon and B{\"a}ck, Thomas},
+           booktitle={Genetic and Evolutionary Computation Conference},
+           year={2021}
+           }
+          "
+
+
+- title: "Policy Manifold Search: Exploring the Manifold Hypothesis for Diversity-based Neuroevolution"
+  authors:
+   - "Nemanja Rakicevic"
+   - "Antoine Cully"
+   - "Petar Kormushev"
+  year: 2021
+  tags:
+   - robotics
+  abstract: "Neuroevolution is an alternative to gradient-based optimisation that has the potential to avoid local minima and allows parallelisation. The main limiting factor is that usually it does not scale well with parameter space dimensionality. Inspired by recent work examining neural network intrinsic dimension and loss landscapes, we hypothesise that there exists a low-dimensional manifold, embedded in the policy network parameter space, around which a high-density of diverse and useful policies are located. This paper proposes a novel method for diversity-based policy search via Neuroevolution, that leverages learned representations of the policy network parameters, by performing policy search in this learned representation space. Our method relies on the Quality-Diversity (QD) framework which provides a principled approach to policy search, and maintains a collection of diverse policies, used as a dataset for learning policy representations. Further, we use the Jacobian of the inverse-mapping function to guide the search in the representation space. This ensures that the generated samples remain in the high-density regions, after mapping back to the original space. Finally, we evaluate our contributions on four continuous-control tasks in simulated environments, and compare to diversity-based baselines. "
+  pdfurl: "https://arxiv.org/pdf/2104.13424"
+  bibtex: |
+          "@inproceedings{rakicevic2021policy,
+           title={Policy Manifold Search: Exploring the Manifold Hypothesis for Diversity-based Neuroevolution},
+           author={Rakicevic, Nemanja and Cully, Antoine and Kormushev, Petar},
+           booktitle={Genetic and Evolutionary Computation Conference},
+           year={2021}
+           }
+          "
+
+- title: "Policy Manifold Search for Improving Diversity-based Neuroevolution"
+  authors:
+   - "Nemanja Rakicevic"
+   - "Antoine Cully"
+   - "Petar Kormushev"
+  year: 2020
+  tags:
+   - robotics
+  abstract: "Diversity-based approaches have recently gained popularity as an alternative paradigm to performance-based policy search. A popular approach from this family, Quality-Diversity (QD), maintains a collection of high-performing policies separated in the diversity-metric space, defined based on policies' rollout behaviours. When policies are parameterised as neural networks, i.e. Neuroevolution, QD tends to not scale well with parameter space dimensionality. Our hypothesis is that there exists a low-dimensional manifold embedded in the policy parameter space, containing a high density of diverse and feasible policies. We propose a novel approach to diversity-based policy search via Neuroevolution, that leverages learned latent representations of the policy parameters which capture the local structure of the data. Our approach iteratively collects policies according to the QD framework, in order to (i) build a collection of diverse policies, (ii) use it to learn a latent representation of the policy parameters, (iii) perform policy search in the learned latent space. We use the Jacobian of the inverse transformation (i.e.reconstruction function) to guide the search in the latent space. This ensures that the generated samples remain in the high-density regions of the original space, after reconstruction. We evaluate our contributions on three continuous control tasks in simulated environments, and compare to diversity-based baselines. The findings suggest that our approach yields a more efficient and robust policy search process."
+  pdfurl: "https://arxiv.org/pdf/2012.08676"
+  bibtex: |
+          "@article{rakicevic2020policy,
+           title={Policy Manifold Search for Improving Diversity-based Neuroevolution},
+           author={Rakicevic, Nemanja and Cully, Antoine and Kormushev, Petar},
+           journal={Beyond Backpropagation: Novel Ideas for Training Neural Architectures Workshop at NeurIPS 2020},
+           year={2020}
+           }
+          "
+
+- title: "Policy Gradient Assisted MAP-Elites"
+  authors:
+   - "Olle Nilsson"
+   - "Antoine Cully"
+  year: 2021
+  tags:
+   - robotics
+  abstract: "Quality-Diversity optimization algorithms such as MAP-Elites, aimto generate collections of both diverse and high-performing solu-tions to an optimization problem. MAP-Elites has shown promisingresults in a variety of applications. In particular in evolutionaryrobotics tasks targeting the generation of behavioral repertoiresthat highlight the versatility of robots. However, for most robot-ics applications MAP-Elites is limited to using simple open-loopor low-dimensional controllers. Here we present Policy GradientAssisted MAP-Elites (PGA-MAP-Elites), a novel algorithm that en-ables MAP-Elites to efficiently evolve large neural network con-trollers by introducing a gradient-based variation operator inspiredby Deep Reinforcement Learning. This operator leverages gradi-ent estimates obtained from a critic neural network to rapidly findhigher-performing solutions and is paired with a traditional geneticvariation to maintain a divergent search behavior. The synergy ofthese operators makes PGA-MAP-Elites an efficient yet powerfulalgorithm for finding diverse and high-performing behaviors. Weevaluate our method on four different tasks for building behavioralrepertoires that use deep neural network controllers. The resultsshow that PGA-MAP-Elites significantly improves the quality ofthe generated repertoires compared to existing methods."
+  pdfurl: "https://hal.archives-ouvertes.fr/hal-03135723/document"
+  bibtex: |
+          "@inproceedings{nilsson2021policy,
+           title={Policy Gradient Assisted MAP-Elites},
+           author={Nilsson, Olle and Cully, Antoine},
+	   booktitle={Genetic and Evolutionary Computation Conference},
+           year={2021}
+           }
+          "
+
+- title: "MAP-Elites enables Powerful Stepping Stones and Diversity for Modular Robotics"
+  authors:
+   - "Jørgen Nordmoen"
+   - "Frank Veenstra"
+   - "Kai Olav Ellefsen"
+   - "Kyrre Glette"
+  year: 2021
+  tags:
+   - robotics
+  abstract: "In modular robotics, modules can be reconfigured to change the morphology of the robot, making it able to adapt for specific tasks. However, optimizing both the body and control is a difficult challenge due to the intricate relationship between fine-tuning control and morphological changes that can invalidate such optimizations. To solve this challenge we compare three different Evolutionary Algorithms on their capacity to optimize morphologies in modular robotics. We compare two objective-based search algorithms, with MAP-Elites. To understand the benefit of diversity we transition the evolved populations into two difficult environments to see if diversity can have an impact on solving complex environments. In addition, we analyse the genealogical ancestry to shed light on the notion of stepping stones as key to enable high performance. The results show that MAP-Elites is capable of evolving the highest performing solutions in addition to generating the largest morphological diversity. For the transition between environments the results show that MAP-Elites is better at regaining performance by promoting morphological diversity. With the analysis of genealogical ancestry we show that MAP-Elites produces more diverse and higher performing stepping stones than the other objective-based search algorithms. Transitioning the populations to more difficult environments show the utility of morphological diversity, while the analysis of stepping stones show a strong correlation between diversity of ancestry and maximum performance on the locomotion task. The paper shows the advantage of promoting diversity for solving a locomotion task in different environments for modular robotics. By showing that the quality and diversity of stepping stones in Evolutionary Algorithms is an important factor for overall performance we have opened up a new area of analysis and results."
+  pdfurl: "https://arxiv.org/pdf/2012.04375"
+  bibtex: |
+          "@article{nordmoen2021map,
+           title={MAP-Elites enables Powerful Stepping Stones and Diversity for Modular Robotics},
+           author={Nordmoen, J{\o}rgen and Veenstra, Frank and Ellefsen, Kai Olav and Glette, Kyrre},
+           journal={Frontiers in Robotics and AI},
+           volume={8},
+           year={2021},
+           publisher={Frontiers Media SA}
+           }
+          "
+
+- title: "Quality-Diversity Optimization: A Novel Branch of Stochastic Optimization"
+  authors:
+   - "Konstantinos Chatzilygeroudis"
+   - "Antoine Cully"
+   - "Vassilis Vassiliades"
+   - "Jean-Baptiste Mouret"
+  year: 2021
+  tags:
+   - review
+  abstract: "Traditional optimization algorithms search for a single global optimum that maximizes (or minimizes) the objective function. Multimodal optimization algorithms search for the highest peaks in the search space that can be more than one. Quality-Diversity algorithms are a recent addition to the evolutionary computation toolbox that do not only search for a single set of local optima, but instead try to illuminate the search space. In effect, they provide a holistic view of how high-performing solutions are distributed throughout a search space. The main differences with multimodal optimization algorithms are that (1) Quality-Diversity typically works in the behavioral space (or feature space), and not in the genotypic (or parameter) space, and (2) Quality-Diversity attempts to fill the whole behavior space, even if the niche is not a peak in the fitness landscape. In this chapter, we provide a gentle introduction to Quality-Diversity optimization, discuss the main representative algorithms, and the main current topics under consideration in the community. Throughout the chapter, we also discuss several successful applications of Quality-Diversity algorithms, including deep learning, robotics, and reinforcement learning."
+  pdfurl: "https://arxiv.org/pdf/2012.04322.pdf"
+  bibtex: |
+          "@incollection{chatzilygeroudis2021quality,
+           title={Quality-Diversity Optimization: a novel branch of stochastic optimization},
+           author={Chatzilygeroudis, Konstantinos and Cully, Antoine and Vassiliades, Vassilis and Mouret, Jean-Baptiste},
+           booktitle={Black Box Optimization, Machine Learning, and No-Free Lunch Theorems},
+           pages={109--135},
+           year={2021},
+           publisher={Springer}
+           }
+          "
+
+- title: "Unsupervised Behaviour Discovery with Quality-Diversity Optimisation"
+  authors:
+   - "Luca Grillotti"
+   - "Antoine Cully"
+  year: 2021
+  tags:
+   - robotics
+  abstract: "Quality-Diversity algorithms refer to a class of evolutionary algorithms designed to find a collection of diverse and high-performing solutions to a given problem. In robotics, such algorithms can be used for generating a collection of controllers covering most of the possible behaviours of a robot. To do so, these algorithms associate a behavioural descriptor to each of these behaviours. Each behavioural descriptor is used for estimating the novelty of one behaviour compared to the others. In most existing algorithms, the behavioural descriptor needs to be hand-coded, thus requiring prior knowledge about the task to solve. In this paper, we introduce: Autonomous Robots Realising their Abilities, an algorithm that uses a dimensionality reduction technique to automatically learn behavioural descriptors based on raw sensory data. The performance of this algorithm is assessed on three robotic tasks in simulation. The experimental results show that it performs similarly to traditional hand-coded approaches without the requirement to provide any hand-coded behavioural descriptor. In the collection of diverse and high-performing solutions, it also manages to find behaviours that are novel with respect to more features than its hand-coded baselines. Finally, we introduce a variant of the algorithm which is robust to the dimensionality of the behavioural descriptor space."
+  pdfurl: "https://arxiv.org/pdf/2106.05648"
+  bibtex: |
+          "@article{grillotti2021unsupervised,
+           title={Unsupervised Behaviour Discovery with Quality-Diversity Optimisation},
+           author={Grillotti, Luca and Cully, Antoine},
+           journal={arXiv preprint arXiv:2106.05648},
+           year={2021}
+           }
+          "
+
+- title: "Rapidly adapting robot swarms with Swarm Map-based Bayesian Optimisation"
+  authors:
+   - "David M. Bossens"
+   - "Danesh Tarapore"
+  year: 2020
+  tags:
+   - robotics
+  abstract: "Rapid performance recovery from unforeseen environmental perturbations remains a grand challenge in swarm robotics. To solve this challenge, we investigate a behaviour adaptation approach, where one searches an archive of controllers for potential recovery solutions. To apply behaviour adaptation in swarm robotic systems, we propose two algorithms: (i) Swarm Map-based Optimisation (SMBO), which selects and evaluates one controller at a time, for a homogeneous swarm, in a centralised fashion; and (ii) Swarm Map-based Optimisation Decentralised (SMBO-Dec), which performs an asynchronous batch-based Bayesian optimisation to simultaneously explore different controllers for groups of robots in the swarm. We set up foraging experiments with a variety of disturbances: injected faults to proximity sensors, ground sensors, and the actuators of individual robots, with 100 unique combinations for each type. We also investigate disturbances in the operating environment of the swarm, where the swarm has to adapt to drastic changes in the number of resources available in the environment, and to one of the robots behaving disruptively towards the rest of the swarm, with 30 unique conditions for each such perturbation. The viability of SMBO and SMBO-Dec is demonstrated, comparing favourably to variants of random search and gradient descent, and various ablations, and improving performance up to 80% compared to the performance at the time of fault injection within at most 30 evaluations."
+  pdfurl: "https://arxiv.org/pdf/2012.11444"
+  bibtex: |
+          "@article{bossens2020rapidly,
+           title={Rapidly adapting robot swarms with Swarm Map-based Bayesian Optimisation},
+           author={Bossens, David M and Tarapore, Danesh},
+           journal={arXiv preprint arXiv:2012.11444},
+           year={2020}
+           }
+          "
+
+
+
+- title: "AutoAlpha: an Efficient Hierarchical Evolutionary Algorithm for Mining Alpha Factors in Quantitative Investment"
+  authors:
+   - "Tianping Zhang"
+   - "Yuanqi Li"
+   - "Yifei Jin"
+   - "Jian Li"
+  year: 2021
+  abstract: "The multi-factor model is a widely used model in quantitative investment. The success of a multi-factor model is largely determined by the effectiveness of the alpha factors used in the model. This paper proposes a new evolutionary algorithm called AutoAlpha to automatically generate effective formulaic alphas from massive stock datasets. Specifically, first we discover an inherent pattern of the formulaic alphas and propose a hierarchical structure to quickly locate the promising part of space for search. Then we propose a new Quality Diversity search based on the Principal Component Analysis (PCA-QD) to guide the search away from the well-explored space for more desirable results. Next, we utilize the warm start method and the replacement method to prevent the premature convergence problem. Based on the formulaic alphas we discover, we propose an ensemble learning-to-rank model for generating the portfolio. The backtests in the Chinese stock market and the comparisons with several baselines further demonstrate the effectiveness of AutoAlpha in mining formulaic alphas for quantitative trading."
+  pdfurl: "https://arxiv.org/pdf/2002.08245"
+  bibtex: |
+          "@article{zhang2020autoalpha,
+           title={AutoAlpha: an Efficient Hierarchical Evolutionary Algorithm for Mining Alpha Factors in Quantitative Investment},
+           author={Zhang, Tianping and Li, Yuanqi and Jin, Yifei and Li, Jian},
+           journal={arXiv preprint arXiv:2002.08245},
+           year={2020}
+           }
+          "
+
+
+- title: "Generating Diverse and Competitive Play-Styles for Strategy Games"
+  authors:
+   - "Diego Perez-Liebana"
+   - "Cristina Guerrero-Romero"
+   - "Alexander Dockhorn"
+   - "Dominik Jeurissen"
+   - "Linjie Xu"
+  year: 2021
+  tags:
+   - games
+  abstract: "Designing agents that are able to achieve different play-styles while maintaining a competitive level of play is a difficult task, especially for games for which the research community has not found super-human performance yet, like strategy games. These require the AI to deal with large action spaces, long-term planning and partial observability, among other well-known factors that make decision-making a hard problem. On top of this, achieving distinct play-styles using a general algorithm without reducing playing strength is not trivial. In this paper, we propose Portfolio Monte Carlo Tree Search with Progressive Unpruning for playing a turn-based strategy game (Tribes) and show how it can be parameterized so a quality-diversity algorithm (MAP-Elites) is used to achieve different play-styles while keeping a competitive level of play. Our results show that this algorithm is capable of achieving these goals even for an extensive collection of game levels beyond those used for training."
+  pdfurl: "https://arxiv.org/pdf/2104.08641"
+  bibtex: |
+          "@article{perez2021generating,
+           title={Generating Diverse and Competitive Play-Styles for Strategy Games},
+           author={Perez-Liebana, Diego and Guerrero-Romero, Cristina and Dockhorn, Alexander and Jeurissen, Dominik and Xu, Linjie},
+           journal={arXiv preprint arXiv:2104.08641},
+           year={2021}
+           }
+          "
+
+
+- title: "Using MAP-Elites to support policymaking around Workforce Schedulingand Routing"
+  authors:
+   - "Neil Urquhart"
+   - "Emma Hart"
+   - "William Hutcheson"
+  year: 2020
+  abstract: "Algorithms such as MAP-Elites provide a means of allowing users toexplore a solution space by returning an archive of high-performing solutions. Suchan archive, can allow the user an overview of the solution space which may beuseful when formulating policy around the problem itself. The number of solutionsthat can potentially be returned by MAP-Elites is controlled by a parameter𝑑that discretises the user-defined features into ‘bins’. For a fixed evaluation budget,increasing the number of bins increases user-choice, but at the same time, maylead to a reduction in overall quality of solutions. We undertake a study of theapplication of Map-Elites to a Workforce Scheduling and Routing problem, using aset of realistic instances based in London."
+  pdfurl: "https://www.napier.ac.uk/~/media/worktribe/output-2296970/using-map-elites-to-support-policy-making-around-workforce-scheduling-and-routing.pdf"
+  bibtex: |
+          "@article{urquhart2020using,
+           title={Using MAP-Elites to support policy making around Workforce Scheduling and Routing},
+           author={Urquhart, Neil and Hart, Emma and Hutcheson, William},
+           journal={at-Automatisierungstechnik},
+           volume={68},
+           number={2},
+           pages={110--117},
+           year={2020},
+           publisher={De Gruyter Oldenbourg}
+           }
+          "
+
+- title: "Path Towards Multilevel Evolution of Robots"
+  authors:
+   - "Shelvin Chand"
+   - "David Howard"
+  year: 2020
+  tags:
+   - robotics
+  abstract: "Multi-level evolution is a bottom-up robotic design paradigm which decomposes the design problem into layered sub-tasks that involve concurrent search for appropriate materials, component geometry and overall morphology. Each of the three layers operate with the goal of building a library of diverse candidate solutions which will be used either as building blocks for the layer above or provided to the decision maker for final use. In this paper we provide a theoretical discussion on the concepts and technologies that could potentially be used as building blocks for this framework."
+  pdfurl: "https://arxiv.org/pdf/2006.03266"
+  bibtex: |
+          "@inproceedings{chand2020path,
+           title={Path towards multilevel evolution of robots},
+           author={Chand, Shelvin and Howard, David},
+           booktitle={Proceedings of the 2020 Genetic and Evolutionary Computation Conference Companion},
+           pages={1381--1382},
+           year={2020}
+           }
+          "
+
+- title: "A Framework for Automatic Behavior Generation in Multi-Function Swarms"
+  authors:
+   - "Sondre A. Engebraaten"
+   - "Jonas Moen"
+   - "Oleg A. Yakimenko"
+   - "Kyrre Glette"
+  year: 2020
+  tags:
+   - robotics
+  abstract: "Multi-function swarms are swarms that solve multiple tasks at once. For example, a quadcopter swarm could be tasked with exploring an area of interest while simultaneously functioning as ad-hoc relays. With this type of multi-function comes the challenge of handling potentially conflicting requirements simultaneously. Using the Quality-Diversity algorithm MAP-elites in combination with a suitable controller structure, a framework for automatic behavior generation in multi-function swarms is proposed. The framework is tested on a scenario with three simultaneous tasks: exploration, communication network creation and geolocation of RF emitters. A repertoire is evolved, consisting of a wide range of controllers, or behavior primitives, with different characteristics and trade-offs in the different tasks. This repertoire would enable the swarm to transition between behavior trade-offs online, according to the situational requirements. Furthermore, the effect of noise on the behavior characteristics in MAP-elites is investigated. A moderate number of re-evaluations is found to increase the robustness while keeping the computational requirements relatively low. A few selected controllers are examined, and the dynamics of transitioning between these controllers are explored. Finally, the study develops a methodology for analyzing the makeup of the resulting controllers. This is done through a parameter variation study where the importance of individual inputs to the swarm controllers is assessed and analyzed."
+  pdfurl: "https://arxiv.org/pdf/2007.08656"
+  bibtex: |
+          "@article{engebraaten2020framework,
+           title={A Framework for Automatic Behavior Generation in Multi-Function Swarms},
+           author={Engebraaten, Sondre A and Moen, Jonas and Yakimenko, Oleg A and Glette, Kyrre},
+           journal={arXiv preprint arXiv:2007.08656},
+           year={2020}
+           }
+          "
+
+- title: "Harnessing Distribution Ratio Estimators for Learning Agents with Quality and Diversity"
+  authors:
+   - "Tanmay Gangwani"
+   - "Jian Peng"
+   - "Yuan Zhou"
+  year: 2020
+  tags:
+   - robotics
+  abstract: "Quality-Diversity (QD) is a concept from Neuroevolution with some intriguing applications to Reinforcement Learning. It facilitates learning a population of agents where each member is optimized to simultaneously accumulate high task-returns and exhibit behavioral diversity compared to other members. In this paper, we build on a recent kernel-based method for training a QD policy ensemble with Stein variational gradient descent. With kernels based on f-divergence between the stationary distributions of policies, we convert the problem to that of efficient estimation of the ratio of these stationary distributions. We then study various distribution ratio estimators used previously for off-policy evaluation and imitation and re-purpose them to compute the gradients for policies in an ensemble such that the resultant population is diverse and of high-quality. "
+  pdfurl: "https://arxiv.org/pdf/2011.02614.pdf"
+  bibtex: |
+          "@inproceedings{gangwani2020harnessing,
+           title={Harnessing Distribution Ratio Estimators for Learning Agents with Quality and Diversity},
+           author={Gangwani, Tanmay and Peng, Jian and Zhou, Yuan},
+           booktitle={Proceedings of the CoRL 2020},
+           year={2020}
+           }
+          "
+
+
+- title: "Quality Diversity Genetic Programming forLearning Decision Tree Ensembles"
+  authors:
+   - "Stephen Boisvert"
+   - "John W. Sheppard"
+  year: 2021
+  abstract: "Quality Diversity (QD) algorithms are a class of population-based evolutionary algorithms designed to generate sets of solutions thatare both fit and diverse. In this paper, we describe a strategy for apply-ing  QD  concepts  to  the  generation  of  decision  tree  ensembles  by  op-timizing  collections  of  trees  for  both  individually  accurate  and  collec-tively diverse predictive behavior. We compare three variants of this QDstrategy  with  two  existing  ensemble  generation  strategies  over  severalclassification data sets. We then briefly highlight the effect of the evolu-tionary algorithm at the core of the strategy. The examined algorithmsgenerate  ensembles  with  distinct  predictive  behaviors  as  measured  byclassification accuracy and intrinsic diversity. The plotted behaviors hintat highly data-dependent relationships between these metrics. QD-basedstrategies are suggested as a means to optimize classifier ensembles alongthis performance curve along with other suggestions for future work."
+  pdfurl: "https://www.cs.montana.edu/sheppard/pubs/lncs-eurogp-2021.pdf"
+  bibtex: |
+          "@inproceedings{boisvert2021quality,
+           title={Quality Diversity Genetic Programming for Learning Decision Tree Ensembles.},
+           author={Boisvert, Stephen and Sheppard, John W},
+           booktitle={EuroGP},
+           pages={3--18},
+           year={2021}
+           }
+          "
+
+
+
+- title: "MAP-Elites for Constrained Optimization"
+  authors:
+   - "Stefano Fioravanzo"
+   - "Giovanni Iacca"
+  year: 2021
+  abstract: "Constrained optimization problems are often characterized by multiple constraints that, in the practice, must be satisfied with different tolerance levels. While some constraints are hard and as such must be satisfied with zero-tolerance, others may be soft, such that non-zero violations are acceptable. Here, we evaluate the applicability of MAP-Elites to “illuminate” constrained search spaces by mapping them into feature spaces where each feature corresponds to a different constraint. On the one hand, MAP-Elites implicitly preserves diversity, thus allowing a good exploration of the search space. On the other hand, it provides an effective visualization that facilitates a better understanding of how constraint violations correlate with the objective function. We demonstrate the feasibility of this approach on a large set of benchmark problems, in various dimensionalities, and with different algorithmic configurations. As expected, numerical results show that a basic version of MAP-Elites cannot compete on all problems (especially those with equality constraints) with state-of-the-art algorithms that use gradient information or advanced constraint handling techniques. Nevertheless, it has a higher potential at finding constraint violations versus objectives trade-offs and providing new problem information. As such, it could be used in the future as an effective building-block for designing new constrained optimization algorithms."
+  bibtex: |
+          "@article{fioravanzomap,
+           title={MAP-Elites for Constrained Optimization},
+           author={Fioravanzo, Stefano and Iacca, Giovanni},
+           journal={Constraint Handling in Metaheuristics and Applications},
+           pages={151},
+           publisher={Springer}
+           }
+          "
+
+
+- title: "An Analysis of Phenotypic Diversity in Multi-Solution Optimization"
+  authors:
+   - "Alexander Hagg"
+   - "Mike Preuss"
+   - "Alexander Asteroth"
+   - "Thomas Bäck"
+  year: 2020
+  abstract: "More and more, optimization methods are used to find diverse solution sets. We compare solution diversity in multi-objective optimization, multimodal optimization, and quality diversity in a simple domain. We show that multiobjective optimization does not always produce much diversity, multimodal optimization produces higher fitness solutions, and quality diversity is not sensitive to genetic neutrality and creates the most diverse set of solutions. An autoencoder is used to discover phenotypic features automatically, producing an even more diverse solution set with quality diversity. Finally, we make recommendations about when to use which approach."
+  pdfurl: "https://arxiv.org/pdf/2105.04252"
+  bibtex: |
+          "@inproceedings{hagg2020analysis,
+           title={An Analysis of Phenotypic Diversity in Multi-solution Optimization},
+           author={Hagg, Alexander and Preuss, Mike and Asteroth, Alexander and B{\"a}ck, Thomas},
+           booktitle={International Conference on Bioinspired Methods and Their Applications},
+           pages={43--55},
+           year={2020},
+           organization={Springer}
+           }
+          "
+
+- title: "DREAM Architecture: a Developmental Approach to Open-Ended Learning in Robotics"
+  authors:
+   - "Stephane Doncieux"
+   - "Nicolas Bredeche"
+   - "Léni Le Goff"
+   - "Benoît Girard"
+   - "Alexandre Coninx"
+   - "Olivier Sigaud"
+   - "Mehdi Khamassi"
+   - "Natalia Díaz-Rodríguez"
+   - "David Filliat"
+   - "Timothy Hospedales"
+   - "A. Eiben"
+   - "Richard Duro"
+  year: 2020
+  tags:
+   - robotics
+  abstract: "Robots are still limited to controlled conditions, that the robot designer knows with enough details to endow the robot with the appropriate models or behaviors. Learning algorithms add some flexibility with the ability to discover the appropriate behavior given either some demonstrations or a reward to guide its exploration with a reinforcement learning algorithm. Reinforcement learning algorithms rely on the definition of state and action spaces that define reachable behaviors. Their adaptation capability critically depends on the representations of these spaces: small and discrete spaces result in fast learning while large and continuous spaces are challenging and either require a long training period or prevent the robot from converging to an appropriate behavior. Beside the operational cycle of policy execution and the learning cycle, which works at a slower time scale to acquire new policies, we introduce the redescription cycle, a third cycle working at an even slower time scale to generate or adapt the required representations to the robot, its environment and the task. We introduce the challenges raised by this cycle and we present DREAM (Deferred Restructuring of Experience in Autonomous Machines), a developmental cognitive architecture to bootstrap this redescription process stage by stage, build new state representations with appropriate motivations, and transfer the acquired knowledge across domains or tasks or even across robots. We describe results obtained so far with this approach and end up with a discussion of the questions it raises in Neuroscience."
+  pdfurl: "https://arxiv.org/pdf/2005.06223"
+  bibtex: |
+          "@article{doncieux2020dream,
+           title={Dream architecture: a developmental approach to open-ended learning in robotics},
+           author={Doncieux, Stephane and Bredeche, Nicolas and Goff, L{\'e}ni Le and Girard, Beno{\^\i}t and Coninx, Alexandre and Sigaud, Olivier and Khamassi, Mehdi and D{\'\i}az-Rodr{\'\i}guez, Natalia and Filliat, David and Hospedales, Timothy and others},
+           journal={arXiv preprint arXiv:2005.06223},
+           year={2020}
+           }
+          "
+
+- title: "Enhanced POET: Open-Ended Reinforcement Learning through Unbounded Invention of Learning Challenges and their Solutions"
+  authors:
+   - "Rui Wang"
+   - "Joel Lehman"
+   - "Aditya Rawal"
+   - "Jiale Zhi"
+   - "Yulun Li"
+   - "Jeff Clune"
+   - "Kenneth O. Stanley"
+  year: 2020
+  tags:
+   - robotics
+  abstract: "Creating open-ended algorithms, which generate their own never-ending stream of novel and appropriately challenging learning opportunities, could help to automate and accelerate progress in machine learning. A recent step in this direction is the Paired Open-Ended Trailblazer (POET), an algorithm that generates and solves its own challenges, and allows solutions to goal-switch between challenges to avoid local optima. However, the original POET was unable to demonstrate its full creative potential because of limitations of the algorithm itself and because of external issues including a limited problem space and lack of a universal progress measure. Importantly, both limitations pose impediments not only for POET, but for the pursuit of open-endedness in general. Here we introduce and empirically validate two new innovations to the original algorithm, as well as two external innovations designed to help elucidate its full potential. Together, these four advances enable the most open-ended algorithmic demonstration to date. The algorithmic innovations are (1) a domain-general measure of how meaningfully novel new challenges are, enabling the system to potentially create and solve interesting challenges endlessly, and (2) an efficient heuristic for determining when agents should goal-switch from one problem to another (helping open-ended search better scale). Outside the algorithm itself, to enable a more definitive demonstration of open-endedness, we introduce (3) a novel, more flexible way to encode environmental challenges, and (4) a generic measure of the extent to which a system continues to exhibit open-ended innovation. Enhanced POET produces a diverse range of sophisticated behaviors that solve a wide range of environmental challenges, many of which cannot be solved through other means."
+  pdfurl: "https://arxiv.org/pdf/2003.08536"
+  bibtex: |
+          "@inproceedings{wang2020enhanced,
+           title={Enhanced POET: Open-ended reinforcement learning through unbounded invention of learning challenges and their solutions},
+           author={Wang, Rui and Lehman, Joel and Rawal, Aditya and Zhi, Jiale and Li, Yulun and Clune, Jeffrey and Stanley, Kenneth},
+           booktitle={International Conference on Machine Learning},
+           pages={9940--9951},
+           year={2020},
+           organization={PMLR}
+           }
+          "
+
+
+- title: "Interactive Constrained MAP-Elites: Analysis and Evaluation of the Expressiveness of the Feature Dimensions"
+  authors:
+   - "Alberto Alvarez"
+   - "Steve Dahlskog"
+   - "Jose Font"
+   - "Julian Togelius"
+  year: 2020
+  tags:
+   - games
+  abstract: "We propose the Interactive Constrained MAP-Elites, a quality-diversity solution for game content generation, implemented as a new feature of the Evolutionary Dungeon Designer: a mixed-initiative co-creativity tool for designing dungeons. The feature uses the MAP-Elites algorithm, an illumination algorithm that segregates the population among several cells depending on their scores with respect to different behavioral dimensions. Users can flexibly and dynamically alternate between these dimensions anytime, thus guiding the evolutionary process in an intuitive way, and then incorporate suggestions produced by the algorithm in their room designs. At the same time, any modifications performed by the human user will feed back into MAP-Elites, closing a circular workflow of constant mutual inspiration. This paper presents the algorithm followed by an in-depth analysis of its behaviour, with the aims of evaluating the expressive range of all possible dimension combinations in several scenarios, as well as discussing their influence in the fitness landscape and in the overall performance of the mixed-initiative procedural content generation. "
+  pdfurl: "https://arxiv.org/pdf/2003.03377.pdf"
+  bibtex: |
+          "@article{alvarez2020interactive,
+           title={Interactive constrained map-elites: Analysis and evaluation of the expressiveness of the feature dimensions},
+           author={Alvarez, Alberto and Fernandez, Jose Maria Maria Font and Dahlskog, Steve and Togelius, Julian},
+           journal={IEEE Transactions on Games},
+           year={2020},
+           publisher={IEEE}
+           }
+          "
+
+- title: "Mech-Elites: Illuminating the Mechanic Space of GVGAI"
+  authors:
+   - "Megan Charity"
+   - "Michael Cerny Green"
+   - "Ahmed Khalifa"
+   - "Julian Togelius"
+  year: 2020
+  tags:
+   - games
+  abstract: "This paper introduces a fully automatic method of mechanic illumination for general video game level generation. Using the Constrained MAP-Elites algorithm and the GVG-AI framework, this system generates the simplest tile based levels that contain specific sets of game mechanics and also satisfy playability constraints. We apply this method to illuminate mechanic space for 4 different games in GVG-AI: Zelda, Solarfox, Plants, and RealPortals. "
+  pdfurl: "https://arxiv.org/pdf/2002.04733"
+  bibtex: |
+          "@inproceedings{charity2020mech,
+           title={Mech-Elites: Illuminating the Mechanic Space of GVG-AI},
+           author={Charity, Megan and Green, Michael Cerny and Khalifa, Ahmed and Togelius, Julian},
+           booktitle={International Conference on the Foundations of Digital Games},
+           pages={1--10},
+           year={2020}
+           }
+          "
+
+- title: "BOP-Elites, a Bayesian Optimisation algorithm for Quality-Diversity search"
+  authors:
+   - "Paul Kent"
+   - "Juergen Branke"
+  year: 2020
+  abstract: "Quality Diversity (QD) algorithms such as MAP-Elites are a class of optimisation techniques that attempt to find a set of high-performing points from an objective function while enforcing behavioural diversity of the points over one or more interpretable, user chosen, feature functions.
+In this paper we propose the Bayesian Optimisation of Elites (BOP-Elites) algorithm that uses techniques from Bayesian Optimisation to explicitly model both quality and diversity with Gaussian Processes. By considering user defined regions of the feature space as 'niches' our task is to find the optimal solution in each niche. We propose a novel acquisition function to intelligently choose new points that provide the highest expected improvement to the ensemble problem of identifying the best solution in every niche. In this way each function evaluation enriches our modelling and provides insight to the whole problem, naturally balancing exploration and exploitation of the search space. The resulting algorithm is very effective in identifying the parts of the search space that belong to a niche in feature space, and finding the optimal solution in each niche. It is also significantly more sample efficient than simpler benchmark approaches. BOP-Elites goes further than existing QD algorithms by quantifying the uncertainty around our predictions and offering additional illumination of the search space through surrogate models."
+  pdfurl: "https://arxiv.org/pdf/2005.04320"
+  bibtex: |
+          "@article{kent2020bop,
+           title={Bop-elites, a bayesian optimisation algorithm for quality-diversity search},
+           author={Kent, Paul and Branke, Juergen},
+           journal={arXiv preprint arXiv:2005.04320},
+           year={2020}
+           }
+          "
+
+- title: "Generating and Blending Game Levels via Quality-Diversity in the Latent Space of a Variational Autoencoder"
+  authors:
+   - "Anurag Sarkar"
+   - "Seth Cooper"
+  year: 2021
+  tags:
+   - games
+  abstract: "Several recent works have demonstrated the use of variational autoencoders (VAEs) for both generating levels in the style of existing games as well as blending levels across different games. Additionally, quality-diversity (QD) algorithms have also become popular for generating varied game content by using evolution to explore a search space while focusing on both variety and quality. In order to reap the benefits of both these approaches, we present a level generation and game blending approach that combines the use of VAEs and QD algorithms. Specifically, we train VAEs on game levels and then run the MAP-Elites QD algorithm using the learned latent space of the VAE as the search space. The latent space captures the properties of the games whose levels we want to generate and blend, while MAP-Elites searches this latent space to find a diverse set of levels optimizing a given objective such as playability. We test our method using models for 5 different platformer games as well as a blended domain spanning 3 of these games. Our results show that using MAP-Elites in conjunction with VAEs enables the generation of a diverse set of playable levels not just for each individual game but also for the blended domain while illuminating game-specific regions of the blended latent space."
+  pdfurl: "https://arxiv.org/pdf/2102.12463"
+  bibtex: |
+          "@article{sarkar2021generating,
+           title={Generating and Blending Game Levels via Quality-Diversity in the Latent Space of a Variational Autoencoder},
+           author={Sarkar, Anurag and Cooper, Seth},
+           journal={arXiv preprint arXiv:2102.12463},
+           year={2021}
+           }
+          "
+
+
+- title: "A Quality Diversity Approach to Automatically Generating Human-Robot Interaction Scenarios in Shared Autonomy"
+  authors:
+   - "Matthew Fontaine"
+   - "Stefanos Nikolaidis"
+  year: 2021
+  tags:
+   - robotics
+  abstract: "The growth of scale and complexity of interactions between humans and robots highlights the need for new computational methods to automatically evaluate novel algorithms and applications. Exploring the diverse scenarios of interaction between humans and robots in simulation can improve understanding of the system and avoid potentially costly failures in real-world settings. We formulate this as a quality diversity (QD) problem, where the goal is to discover diverse failure scenarios by simultaneously exploring both environments and human actions. We focus on the shared autonomy domain, where the robot attempts to infer the goal of a human operator, and adopt the QD algorithm MAP-Elites to generate scenarios for two published algorithms in this domain: shared autonomy via hindsight optimization and linear policy blending. Some of the generated scenarios confirm previous theoretical findings, while others are surprising and bring about a new understanding of state-of-the-art implementations. Our experiments show that MAP-Elites outperforms Monte-Carlo simulation and optimization based methods in effectively searching the scenario space, highlighting its promise for automatic evaluation of algorithms in shared autonomy."
+  pdfurl: "https://arxiv.org/pdf/2012.04283"
+  bibtex: |
+          "@article{fontaine2020quality,
+           title={A Quality Diversity Approach to Automatically Generating Human-Robot Interaction Scenarios in Shared Autonomy},
+           author={Fontaine, Matthew and Nikolaidis, Stefanos},
+           journal={arXiv preprint arXiv:2012.04283},
+           year={2020}
+           }
+          "
+
+
+- title: "Competitiveness of MAP-Elites against Proximal Policy Optimization on locomotion tasks in deterministic simulations"
+  authors:
+   - "Szymon Brych"
+   - "Antoine Cully"
+  year: 2020
+  tags:
+   - robotics
+  abstract: "The increasing importance of robots and automation creates a demand for learnable controllers which can be obtained through various approaches such as Evolutionary Algorithms (EAs) or Reinforcement Learning (RL). Unfortunately, these two families of algorithms have mainly developed independently and there are only a few works comparing modern EAs with deep RL algorithms. We show that Multidimensional Archive of Phenotypic Elites (MAP-Elites), which is a modern EA, can deliver better-performing solutions than one of the state-of-the-art RL methods, Proximal Policy Optimization (PPO) in the generation of locomotion controllers for a simulated hexapod robot. Additionally, extensive hyper-parameter tuning shows that MAP-Elites displays greater robustness across seeds and hyper-parameter sets. Generally, this paper demonstrates that EAs combined with modern computational resources display promising characteristics and have the potential to contribute to the state-of-the-art in controller learning."
+  pdfurl: "https://arxiv.org/pdf/2009.08438"
+  bibtex: |
+          "@article{brych2020competitiveness,
+           title={Competitiveness of MAP-Elites against Proximal Policy Optimization on locomotion tasks in deterministic simulations},
+           author={Brych, Szymon and Cully, Antoine},
+           journal={arXiv preprint arXiv:2009.08438},
+           year={2020}
+           }
+          "
+
+- title: "Learning a Behavioral Repertoire from Demonstrations"
+  authors:
+   - "Niels Justesen"
+   - "Miguel Gonzalez Duque"
+   - "Daniel Cabarcas Jaramillo"
+   - "Jean-Baptiste Mouret"
+   - "Sebastian Risi"
+  year: 2020
+  tags:
+   - games
+  abstract: "Imitation Learning (IL) is a machine learning approach to learn a policy from a dataset of demonstrations. IL can be useful to kick-start learning before applying reinforcement learning (RL) but it can also be useful on its own, e.g. to learn to imitate human players in video games. However, a major limitation of current IL approaches is that they learn only a single "average" policy based on a dataset that possibly contains demonstrations of numerous different types of behaviors. In this paper, we propose a new approach called Behavioral Repertoire Imitation Learning (BRIL) that instead learns a repertoire of behaviors from a set of demonstrations by augmenting the state-action pairs with behavioral descriptions. The outcome of this approach is a single neural network policy conditioned on a behavior description that can be precisely modulated. We apply this approach to train a policy on 7,777 human replays to perform build-order planning in StarCraft II. Principal Component Analysis (PCA) is applied to construct a low-dimensional behavioral space from the high-dimensional army unit composition of each demonstration. The results demonstrate that the learned policy can be effectively manipulated to express distinct behaviors. Additionally, by applying the UCB1 algorithm, we are able to adapt the behavior of the policy - in-between games - to reach a performance beyond that of the traditional IL baseline approach."
+  pdfurl: "https://arxiv.org/pdf/1907.03046"
+  bibtex: |
+          "@inproceedings{justesen2020learning,
+           title={Learning a Behavioral Repertoire from Demonstrations},
+           author={Justesen, Niels and Gonz{\'a}lez-Duque, Miguel and Cabarcas, Daniel and Mouret, Jean-Baptiste and Risi, Sebastian},
+           booktitle={2020 IEEE Conference on Games (CoG)},
+           pages={383--390},
+           year={2020},
+           organization={IEEE}
+           }
+          "
+
+- title: "Sparse Reward Exploration via Novelty Search and Emitters"
+  authors:
+   - "Giuseppe Paolo"
+   - "Alexandre Coninx"
+   - "Stephane Doncieux"
+   - "Alban Laflaquière"
+  year: 2021
+  tags:
+   - robotics
+  abstract: "Reward-based optimization algorithms require both exploration, to find rewards, and exploitation, to maximize performance. The need for efficient exploration is even more significant in sparse reward settings, in which performance feedback is given sparingly, thus rendering it unsuitable for guiding the search process. In this work, we introduce the SparsE Reward Exploration via Novelty and Emitters (SERENE) algorithm, capable of efficiently exploring a search space, as well as optimizing rewards found in potentially disparate areas. Contrary to existing emitters-based approaches, SERENE separates the search space exploration and reward exploitation into two alternating processes. The first process performs exploration through Novelty Search, a divergent search algorithm. The second one exploits discovered reward areas through emitters, i.e. local instances of population-based optimization algorithms. A meta-scheduler allocates a global computational budget by alternating between the two processes, ensuring the discovery and efficient exploitation of disjoint reward areas. SERENE returns both a collection of diverse solutions covering the search space and a collection of high-performing solutions for each distinct reward area. We evaluate SERENE on various sparse reward environments and show it compares favorably to existing baselines."
+  pdfurl: "https://arxiv.org/pdf/2102.03140"
+  bibtex: |
+          "@inproceedings{paolo2021sparse,
+           title={Sparse Reward Exploration via Novelty Search and Emitters},
+           author={Paolo, Giuseppe and Coninx, Alexandre and Doncieux, St{\'e}phane and Laflaqui{\`e}re, Alban},
+           booktitle={Genetic and Evolutionary Computation Conference},
+           year={2021}
+           }
+          "
+
+
+
+- title: "On the use of feature-maps and parameter control for improved quality-diversity meta-evolution"
+  authors:
+   - "David M. Bossens"
+   - "Danesh Tarapore"
+  year: 2021
+  tags:
+   - robotics
+  abstract: "In Quality-Diversity (QD) algorithms, which evolve a behaviourally diverse archive of high-performing solutions, the behaviour space is a difficult design choice that should be tailored to the target application. In QD meta-evolution, one evolves a population of QD algorithms to optimise the behaviour space based on an archive-level objective, the meta-fitness. This paper proposes an improved meta-evolution system such that (i) the database used to rapidly populate new archives is reformulated to prevent loss of quality-diversity; (ii) the linear transformation of base-features is generalised to a feature-map, a function of the base-features parametrised by the meta-genotype; and (iii) the mutation rate of the QD algorithm and the number of generations per meta-generation are controlled dynamically. Experiments on an 8-joint planar robot arm compare feature-maps (linear, non-linear, and feature-selection), parameter control strategies (static, endogenous, reinforcement learning, and annealing), and traditional MAP-Elites variants, for a total of 49 experimental conditions. Results reveal that non-linear and feature-selection feature-maps yield a 15-fold and 3-fold improvement in meta-fitness, respectively, over linear feature-maps. Reinforcement learning ranks among top parameter control methods. Finally, our approach allows the robot arm to recover a reach of over 80% for most damages and at least 60% for severe damages. "
+  pdfurl: "https://arxiv.org/pdf/2105.10317"
+  bibtex: |
+          "@article{bossens2021use,
+           title={On the use of feature-maps and parameter control for improved quality-diversity meta-evolution},
+           author={Bossens, David M and Tarapore, Danesh},
+           journal={arXiv preprint arXiv:2105.10317},
+           year={2021}
+           }
+          "
+
+- title: "Illuminating the Space of Beatable Lode Runner Levels Produced By Various Generative Adversarial Networks"
+  authors:
+   - "Kirby Steckel"
+   - "Jacob Schrum"
+  year: 2021
+  tags:
+   - games
+  abstract: "Generative Adversarial Networks (GANs) are capable of generating convincing imitations of elements from a training set, but the distribution of elements in the training set affects to difficulty of properly training the GAN and the quality of the outputs it produces. This paper looks at six different GANs trained on different subsets of data from the game Lode Runner. The quality diversity algorithm MAP-Elites was used to explore the set of quality levels that could be produced by each GAN, where quality was defined as being beatable and having the longest solution path possible. Interestingly, a GAN trained on only 20 levels generated the largest set of diverse beatable levels while a GAN trained on 150 levels generated the smallest set of diverse beatable levels, thus challenging the notion that more is always better when training GANs."
+  pdfurl: "https://arxiv.org/pdf/2101.07868"
+  bibtex: |
+          "@article{steckel2021illuminating,
+           title={Illuminating the Space of Beatable Lode Runner Levels Produced By Various Generative Adversarial Networks},
+           author={Steckel, Kirby and Schrum, Jacob},
+           journal={arXiv preprint arXiv:2101.07868},
+           year={2021}
+           }
+          "
+
+
+- title: "ARCH-Elites: Quality-Diversity for Urban Design"
+  authors:
+   - "Theodoros Galanos"
+   - "Antonios Liapis"
+   - "Georgios N. Yannakakis"
+   - "Reinhard Koenig"
+  year: 2021
+  abstract: "This paper introduces ARCH-Elites, a MAP-Elites implementation that can reconfigure large-scale urban layouts at real-world locations via a pre-trained surrogate model instead of costly simulations. In a series of experiments, we generate novel urban designs for two real-world locations in Boston, Massachusetts. Combining the exploration of a possibility space with real-time performance evaluation creates a powerful new paradigm for architectural generative design that can extract and articulate design intelligence. "
+  pdfurl: "https://arxiv.org/pdf/2104.08774"
+  bibtex: |
+          "@article{galanos2021arch,
+           title={ARCH-Elites: Quality-Diversity for Urban Design},
+           author={Galanos, Theodoros and Liapis, Antonios and Yannakakis, Georgios N and Koenig, Reinhard},
+           journal={arXiv preprint arXiv:2104.08774},
+           year={2021}
+           }
+          "
+
+
+- title: "Reality-assisted evolution of soft robots through large-scale physical experimentation: a review"
+  authors:
+   - "Toby Howison"
+   - "Simon Hauser"
+   - "Josie Hughes"
+   - "Fumiya Iida"
+  year: 2020
+  tags:
+   - robotics
+  abstract: "In this review we introduce the framework of reality-assisted evolution to summarize a growing trend towards combining model-based and model-free approaches to improve the design of physically embodied soft robots. In silico, data-driven models build, adapt and improve representations of the target system using real-world experimental data. By simulating huge numbers of virtual robots using these data-driven models, optimization algorithms can illuminate multiple design candidates for transference to the real world. In reality, large-scale physical experimentation facilitates the fabrication, testing and analysis of multiple candidate designs. Automated assembly and reconfigurable modular systems enable significantly higher numbers of real-world design evaluations than previously possible. Large volumes of ground-truth data gathered via physical experimentation can be returned to the virtual environment to improve data-driven models and guide optimization. Grounding the design process in physical experimentation ensures the complexity of virtual robot designs does not outpace the model limitations or available fabrication technologies. We outline key developments in the design of physically embodied soft robots under the framework of reality-assisted evolution."
+  pdfurl: "https://arxiv.org/pdf/2009.13960"
+  bibtex: |
+          "@article{howison2020reality,
+           title={Reality-assisted evolution of soft robots through large-scale physical experimentation: a review},
+           author={Howison, Toby and Hauser, Simon and Hughes, Josie and Iida, Fumuiya},
+           journal={arXiv preprint arXiv:2009.13960},
+           year={2020}
+           }
+          "
+
+
