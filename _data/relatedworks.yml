@@ -116,3 +116,407 @@ papers:
            year={2013},
            publisher={ACM SIGGRAPH}}"
 
+- title: "Feature-Based Diversity Optimization for Problem Instance Classification"
+  authors:
+   - "Wanru Gao"
+   - "Samadhi Nallaperuma"
+   - "Frank Neumann"
+  year: 2021
+  category: "Evolutionary Diversity Optimization"
+  abstract: "Understanding the behaviour of heuristic search methods is a challenge. This even holds for simple local search methods such as 2-OPT for the Traveling Salesperson problem. In this paper, we present a general framework that is able to construct a diverse set of instances that are hard or easy for a given search heuristic. Such a diverse set is obtained by using an evolutionary algorithm for constructing hard or easy instances that are diverse with respect to different features of the underlying problem. Examining the constructed instance sets, we show that many combinations of two or three features give a good classification of the TSP instances in terms of whether they are hard to be solved by 2-OPT."
+  pdfurl: "https://arxiv.org/pdf/1510.08568"
+  bibtex: |
+          "@article{gao2021feature,
+           title={Feature-based diversity optimization for problem instance classification},
+           author={Gao, Wanru and Nallaperuma, Samadhi and Neumann, Frank},
+           journal={Evolutionary computation},
+           volume={29},
+           number={1},
+           pages={107--128},
+           year={2021},
+           publisher={MIT Press One Rogers Street, Cambridge, MA 02142-1209, USA journals-info~…}
+           }
+          "
+
+
+- title: "Computing Diverse Sets of Solutions for Monotone Submodular Optimisation Problems"
+  authors:
+   - "Aneta Neumann"
+   - "Jakob Bossek"
+   - "Frank Neumann"
+  year: 2021
+  category: "Evolutionary Diversity Optimization"
+  abstract: "Submodular functions allow to model many real-world optimisation problems. This paper introduces approaches for computing diverse sets of high quality solutions for submodular optimisation problems. We first present diversifying greedy sampling approaches and analyse them with respect to the diversity measured by entropy and the approximation quality of the obtained solutions. Afterwards, we introduce an evolutionary diversity optimisation approach to further improve diversity of the set of solutions. We carry out experimental investigations on popular submodular benchmark functions that show that the combined approaches achieve high quality solutions of large diversity."
+  pdfurl: "https://arxiv.org/pdf/2010.11486"
+  bibtex: |
+          "@inproceedings{neumann2020computing,
+           title={Computing Diverse Sets of Solutions for Monotone Submodular Optimisation Problems},
+           author={Neumann, Aneta and Bossek, Jakob and Neumann, Frank},
+           booktitle={Genetic and Evolutionary Computation Conference},
+           year={2021}
+           }
+          "
+
+- title: "Entropy-Based Evolutionary Diversity Optimisation for the Traveling Salesperson Problem"
+  authors:
+   - "Adel Nikfarjam"
+   - "Jakob Bossek"
+   - "Aneta Neumann"
+   - "Frank Neumann"
+  year: 2021
+  category: "Evolutionary Diversity Optimization"
+  abstract: "Computing diverse sets of high-quality solutions has gained increasing attention among the evolutionary computation community in recent years. It allows practitioners to choose from a set of high-quality alternatives. In this paper, we employ a population diversity measure, called the high-order entropy measure, in an evolutionary algorithm to compute a diverse set of high-quality solutions for the Traveling Salesperson Problem. In contrast to previous studies, our approach allows diversifying segments of tours containing several edges based on the entropy measure. We examine the resulting evolutionary diversity optimisation approach precisely in terms of the final set of solutions and theoretical properties. Experimental results show significant improvements compared to a recently proposed edge-based diversity optimisation approach when working with a large population of solutions or long segments. "
+  pdfurl: "https://arxiv.org/pdf/2104.13538"
+  bibtex: |
+          "@inproceedings{nikfarjam2021entropy,
+           title={Entropy-Based Evolutionary Diversity Optimisation for the Traveling Salesperson Problem},
+           author={Nikfarjam, Adel and Bossek, Jakob and Neumann, Aneta and Neumann, Frank},
+           booktitle={Genetic and Evolutionary Computation Conference},
+           year={2021}
+           }
+          "
+
+
+- title: "Breeding Diverse Packings for the Knapsack Problem by Means of Diversity-Tailored Evolutionary Algorithms"
+  authors:
+   - "Jakob Bossek"
+   - "Aneta Neumann"
+   - "Frank Neumann"
+  year: 2021
+  category: "Evolutionary Diversity Optimization"
+  abstract: "In practise, it is often desirable to provide the decision-maker with a rich set of diverse solutions of decent quality instead of just a single solution. In this paper we study evolutionary diversity optimization for the knapsack problem (KP). Our goal is to evolve a population of solutions that all have a profit of at least (1−ε)⋅OPT, where OPT is the value of an optimal solution. Furthermore, they should differ in structure with respect to an entropy-based diversity measure. To this end we propose a simple (μ+1)-EA with initial approximate solutions calculated by a well-known FPTAS for the KP. We investigate the effect of different standard mutation operators and introduce biased mutation and crossover which puts strong probability on flipping bits of low and/or high frequency within the population. An experimental study on different instances and settings shows that the proposed mutation operators in most cases perform slightly inferior in the long term, but show strong benefits if the number of function evaluations is severely limited."
+  pdfurl: "https://arxiv.org/pdf/2104.13133"
+  bibtex: |
+          "@inproceedings{bossek2021breeding,
+           title={Breeding Diverse Packings for the Knapsack Problem by Means of Diversity-Tailored Evolutionary Algorithms},
+           author={Bossek, Jakob and Neumann, Aneta and Neumann, Frank},
+           booktitle={Genetic and Evolutionary Computation Conference},
+           year={2021}
+           }
+          "
+
+- title: "Evolutionary Diversity Optimization and the Minimum Spanning Tree Problem"
+  authors:
+   - "Jakob Bossek"
+   - "Frank Neumann"
+  year: 2021
+  category: "Evolutionary Diversity Optimization"
+  abstract: "In the area of evolutionary computation the calculation of diverse sets of high-quality solutions to a given optimization problem has gained momentum in recent years under the term evolutionary diversity optimization. Theoretical insights into the working principles of baseline evolutionary algorithms for diversity optimization are still rare. In this paper we study the well-known Minimum Spanning Tree problem (MST) in the context of diversity optimization where population diversity is measured by the sum of pairwise edge overlaps. Theoretical results provide insights into the fitness landscape of the MST diversity optimization problem pointing out that even for a population of μ=2 fitness plateaus (of constant length) can be reached, but nevertheless diverse sets can be calculated in polynomial time. We supplement our theoretical results with a series of experiments for the unconstrained and constraint case where all solutions need to fulfill a minimal quality threshold. Our results show that a simple (μ+1)-EA can effectively compute a diversified population of spanning trees of high quality."
+  pdfurl: "https://arxiv.org/pdf/2010.10913"
+  bibtex: |
+          "@article{bossek2020evolutionary,
+           title={Evolutionary Diversity Optimization and the Minimum Spanning Tree Problem},
+           author={Bossek, Jakob and Neumann, Frank},
+           journal={arXiv preprint arXiv:2010.10913},
+           year={2020}
+           }
+          "
+
+
+
+- title: "Analysis of Evolutionary Diversity Optimisation for Permutation Problems"
+  authors:
+   - "Anh Viet Do"
+   - "Mingyu Guo"
+   - "Aneta Neumann"
+   - "Frank Neumann"
+  year: 2021
+  category: "Evolutionary Diversity Optimization"
+  abstract: "Generating diverse populations of high quality solutions has gained interest as a promising extension to the traditional optimization tasks. We contribute to this line of research by studying evolutionary diversity optimization for two of the most prominent permutation problems, namely the Traveling Salesperson Problem (TSP) and Quadratic Assignment Problem (QAP). We explore the worst-case performance of a simple mutation-only evolutionary algorithm with different mutation operators, using an established diversity measure. Theoretical results show most mutation operators for both problems ensure production of maximally diverse populations of sufficiently small size within cubic expected run-time. We perform experiments on QAPLIB instances in unconstrained and constrained settings, and reveal much more optimistic practical performances. Our results should serve as a baseline for future studies."
+  pdfurl: "https://arxiv.org/pdf/2102.11469"
+  bibtex: |
+          "@article{do2021analysis,
+           title={Analysis of Evolutionary Diversity Optimisation for Permutation Problems},
+           author={Do, Anh Viet and Guo, Mingyu and Neumann, Aneta and Neumann, Frank},
+           journal={arXiv preprint arXiv:2102.11469},
+           year={2021}
+           }
+          "
+
+
+- title: "Evolving Diverse Sets of Tours for the Travelling Salesperson Problem"
+  authors:
+   - "Anh Viet Do"
+   - "Jakob Bossek"
+   - "Aneta Neumann"
+   - "Frank Neumann"
+  year: 2020
+  category: "Evolutionary Diversity Optimization"
+  abstract: "Evolving diverse sets of high quality solutions has gained increasing interest in the evolutionary computation literature in recent years. With this paper, we contribute to this area of research by examining evolutionary diversity optimisation approaches for the classical Traveling Salesperson Problem (TSP). We study the impact of using different diversity measures for a given set of tours and the ability of evolutionary algorithms to obtain a diverse set of high quality solutions when adopting these measures. Our studies show that a large variety of diverse high quality tours can be achieved by using our approaches. Furthermore, we compare our approaches in terms of theoretical properties and the final set of tours obtained by the evolutionary diversity optimisation algorithm. "
+  pdfurl: "https://arxiv.org/pdf/2004.09188"
+  bibtex: |
+          "@inproceedings{do2020evolving,
+           title={Evolving diverse sets of tours for the travelling salesperson problem},
+           author={Do, Anh Viet and Bossek, Jakob and Neumann, Aneta and Neumann, Frank},
+           booktitle={Proceedings of the 2020 Genetic and Evolutionary Computation Conference},
+           pages={681--689},
+           year={2020}
+           }
+          "
+
+- title: "Evolving diverse TSP instances by means of novel and creative mutation operators."
+  authors:
+   - "Jakob Bossek"
+   - "Pascal Kerschke"
+   - "Aneta Neumann"
+   - "Markus Wagner"
+   - "Frank Neumann"
+   - "Heike Trautmann"
+  year: 2019
+  category: "Evolutionary Diversity Optimization"
+  abstract: "Evolutionary algorithms have successfully been applied to evolveproblem instances that exhibit a significant difference in perfor-mance for a given algorithm or a pair of algorithms inter alia forthe Traveling Salesperson Problem (TSP). Creating a large varietyof instances is crucial for successful applications in the bloomingfield of algorithm selection. In this paper, we introduce new andcreative mutation operators for evolving instances of the TSP. Weshow that adopting those operators in an evolutionary algorithmallows for the generation of benchmark sets with highly desirableproperties: (1) novelty by clear visual distinction to establishedbenchmark sets in the field, (2) visual and quantitative diversity inthe space of TSP problem characteristics, and (3) significant perfor-mance differences with respect to the restart versions of heuristicstate-of-the-art TSP solvers EAX and LKH. The important aspectof diversity is addressed achieved solely by the proposed mutationoperators and not enforced by explicit diversity preservation."
+  pdfurl: "https://cs.adelaide.edu.au/~frank/papers/FOGA19DivTSP.pdf"
+  bibtex: |
+          "@inproceedings{bossek2019evolving,
+           title={Evolving diverse TSP instances by means of novel and creative mutation operators},
+           author={Bossek, Jakob and Kerschke, Pascal and Neumann, Aneta and Wagner, Markus and Neumann, Frank and Trautmann, Heike},
+           booktitle={Proceedings of the 15th ACM/SIGEVO Conference on Foundations of Genetic Algorithms},
+           pages={58--71},
+           year={2019}
+           }
+          "
+
+
+- title: "Fast Re-Optimization via Structural Diversity"
+  authors:
+   - "Benjamin Doerr"
+   - "Carola Doerr"
+   - "Frank Neumann"
+  year: 2019
+  category: "Evolutionary Diversity Optimization"
+  abstract: "When a problem instance is perturbed by a small modification, one would hope to find a good solution for the new instance by building on a known good solution for the previous one. Via a rigorous mathematical analysis, we show that evolutionary algorithms, despite usually being robust problem solvers, can have unexpected difficulties to solve such re-optimization problems. When started with a random Hamming neighbor of the optimum, the (1+1) evolutionary algorithm takes Ω(n2) time to optimize the LeadingOnes benchmark function, which is the same asymptotic optimization time when started in a randomly chosen solution. There is hence no significant advantage from re-optimizing a structurally good solution. We then propose a way to overcome such difficulties. As our mathematical analysis reveals, the reason for this undesired behavior is that during the optimization structurally good solutions can easily be replaced by structurally worse solutions of equal or better fitness. We propose a simple diversity mechanism that prevents this behavior, thereby reducing the re-optimization time for LeadingOnes to O(γδn), where γ is the population size used by the diversity mechanism and δ≤γ the Hamming distance of the new optimum from the previous solution. We show similarly fast re-optimization times for the optimization of linear functions with changing constraints and for the minimum spanning tree problem."
+  pdfurl: "https://arxiv.org/pdf/1902.00304"
+  bibtex: |
+          "@inproceedings{doerr2019fast,
+           title={Fast re-optimization via structural diversity},
+           author={Doerr, Benjamin and Doerr, Carola and Neumann, Frank},
+           booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+           pages={233--241},
+           year={2019}
+           }
+          "
+
+
+- title: "Evolutionary Diversity Optimization Using Multi-Objective Indicators"
+  authors:
+   - "Aneta Neumann"
+   - "Wanru Gao"
+   - "Markus Wagner"
+   - "Frank Neumann"
+  year: 2019
+  category: "Evolutionary Diversity Optimization"
+  abstract: "Evolutionary diversity optimization aims to compute a diverse set of solutions where all solutions meet a given quality criterion. With this paper, we bridge the areas of evolutionary diversity optimization and evolutionary multi-objective optimization. We show how popular indicators frequently used in the area of multi-objective optimization can be used for evolutionary diversity optimization. Our experimental investigations for evolving diverse sets of TSP instances and images according to various features show that two of the most prominent multi-objective indicators, namely the hypervolume indicator and the inverted generational distance, provide excellent results in terms of visualization and various diversity indicators."
+  pdfurl: "https://arxiv.org/pdf/1811.06804"
+  bibtex: |
+          "@inproceedings{neumann2019evolutionary,
+           title={Evolutionary diversity optimization using multi-objective indicators},
+           author={Neumann, Aneta and Gao, Wanru and Wagner, Markus and Neumann, Frank},
+           booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+           pages={837--845},
+           year={2019}
+           }
+          "
+
+- title: "Discrepancy-based Evolutionary Diversity Optimization"
+  authors:
+   - "Aneta Neumann"
+   - "Wanru Gao"
+   - "Carola Doerr"
+   - "Frank Neumann"
+   - "Markus Wagner"
+  year: 2018
+  category: "Evolutionary Diversity Optimization"
+  abstract: "Diversity plays a crucial role in evolutionary computation. While diversity has been mainly used to prevent the population of an evolutionary algorithm from premature convergence, the use of evolutionary algorithms to obtain a diverse set of solutions has gained increasing attention in recent years. Diversity optimization in terms of features on the underlying problem allows to obtain a better understanding of possible solutions to the problem at hand and can be used for algorithm selection when dealing with combinatorial optimization problems such as the Traveling Salesperson Problem. We explore the use of the star-discrepancy measure to guide the diversity optimization process of an evolutionary algorithm.
+In our experimental investigations, we consider our discrepancy-based diversity optimization approaches for evolving diverse sets of images as well as instances of the Traveling Salesperson problem where a local search is not able to find near optimal solutions. Our experimental investigations comparing three diversity optimization approaches show that a discrepancy-based diversity optimization approach using a tie-breaking rule based on weighted differences to surrounding feature points provides the best results in terms of the star discrepancy measure."
+  pdfurl: "https://arxiv.org/pdf/1802.05448"
+  bibtex: |
+          "@inproceedings{neumann2018discrepancy,
+           title={Discrepancy-based evolutionary diversity optimization},
+           author={Neumann, Aneta and Gao, Wanru and Doerr, Carola and Neumann, Frank and Wagner, Markus},
+           booktitle={Proceedings of the Genetic and Evolutionary Computation Conference},
+           pages={991--998},
+           year={2018}
+           }
+          "
+
+
+- title: "Runtime Analysis of Evolutionary Diversity Maximizationfor OneMinMax"
+  authors:
+   - "Benjamin Doerr"
+   - "Wanru Gao"
+   - "Frank Neumann"
+  year: 2016
+  category: "Evolutionary Diversity Optimization"
+  abstract: "Diversity mechanisms are key to the working behaviour ofevolutionary multi-objective algorithms. With this paper, wecontribute to the theoretical understanding of such mecha-nisms by means of rigorous runtime analysis.  We considerthe OneMinMax problem for which it has been shown in [11]that a standard benchmark algorithm called(μ+1)-SIBEA isnot able to obtain a population with optimal hypervolumedistribution  in  expected  polynomial  time  if  the  populationsize is relatively small. We investigate the same setting as in[11] and show that(μ+ 1)-SIBEA is able to achieve a goodapproximation of the optimal hypervolume distribution veryefficiently.  Furthermore, we study OneMinMax in the con-text of search-based diversity optimization and examine thetime until(μ+1)-SIBEA with a search-based diversity mech-anism has obtained a population of maximal diversity cover-ing the whole Pareto front."
+  pdfurl: "https://cs.adelaide.edu.au/~frank/papers/MO-DivGECCO16.pdf"
+  bibtex: |
+          "@inproceedings{doerr2016runtime,
+           title={Runtime analysis of evolutionary diversity maximization for oneminmax},
+           author={Doerr, Benjamin and Gao, Wanru and Neumann, Frank},
+           booktitle={Proceedings of the Genetic and Evolutionary Computation Conference 2016},
+           pages={557--564},
+           year={2016}
+           }
+          "
+
+
+- title: "Runtime Analysis for Maximizing Population Diversity inSingle-Objective Optimization"
+  authors:
+   - "Wanru Gao"
+   - "Frank Neumann"
+  year: 2014
+  category: "Evolutionary Diversity Optimization"
+  abstract: "Recently Ulrich and Thiele [14] have introduced evolution-ary algorithms for the mixed multi-objective problem of max-imizing fitness as well as diversity in the decision space. Suchan approach allows to generate a diverse set of solutions whichare  all  of  good  quality.   With  this  paper,  we  contribute  tothe theoretical understanding of evolutionary algorithms formaximizing the diversity in a population that contains sev-eral solutions of high quality. We study how evolutionary al-gorithms maximize the diversity of a population where eachindividual has to have fitness beyond a given threshold value.We present a first runtime analysis in this area and study theclassical problems calledOneMaxandLeadingOnes.  Our re-sults give first rigorous insights on how evolutionary algo-rithms can be used to produce a maximal diverse set of so-lutions  in  which  all  solutions  have  quality  above  a  certainthreshold value."
+  pdfurl: "https://cs.adelaide.edu.au/~frank/papers/GECCO14-Div.pdf"
+  bibtex: |
+          "@inproceedings{gao2014runtime,
+           title={Runtime analysis for maximizing population diversity in single-objective optimization},
+           author={Gao, Wanru and Neumann, Frank},
+           booktitle={Proceedings of the 2014 Annual Conference on Genetic and Evolutionary Computation},
+           pages={777--784},
+           year={2014}
+           }
+          "
+
+
+- title: "Discovering Diverse Nearly Optimal Policies withSuccessor Features"
+  authors:
+   - "Tom Zahavy"
+   - "Brendan O'Donoghue"
+   - "Andre Barreto"
+   - "Volodymyr Mnih"
+   - "Sebastian Flennerhag"
+   - "Satinder Singh"
+  year: 2021
+  category: "Maximum Entropy"
+  abstract: "Finding different solutions to the same problem is a key aspect of intelligence associated with creativity and adaptation to novel situations. In reinforcement learning, a set of diverse policies can be useful for exploration, transfer, hierarchy, and robustness. We propose Diverse Successive Policies, a method for discovering policies that are diverse in the space of Successor Features, while assuring that they are near optimal. We formalize the problem as a Constrained Markov Decision Process (CMDP) where the goal is to find policies that maximize diversity, characterized by an intrinsic diversity reward, while remaining near-optimal with respect to the extrinsic reward of the MDP. We also analyze how recently proposed robustness and discrimination rewards perform and find that they are sensitive to the initialization of the procedure and may converge to sub-optimal solutions. To alleviate this, we propose new explicit diversity rewards that aim to minimize the correlation between the Successor Features of the policies in the set. We compare the different diversity mechanisms in the DeepMind Control Suite and find that the type of explicit diversity we are proposing is important to discover distinct behavior, like for example different locomotion patterns."
+  pdfurl: "https://arxiv.org/pdf/2106.00669"
+  bibtex: |
+          "@article{zahavy2021discovering,
+           title={Discovering Diverse Nearly Optimal Policies withSuccessor Features},
+           author={Zahavy, Tom and O'Donoghue, Brendan and Barreto, Andre and Mnih, Volodymyr and Flennerhag, Sebastian and Singh, Satinder},
+           journal={arXiv preprint arXiv:2106.00669},
+           year={2021}
+           }
+          "
+
+
+
+- title: "Diversity-Driven Exploration Strategy for Deep Reinforcement Learning"
+  authors:
+   - "Zhang-Wei Hong"
+   - "Tzu-Yun Shann"
+   - "Shih-Yang Su"
+   - "Yi-Hsiang Chang"
+   - "Chun-Yi Lee"
+  year: 2018
+  category: "Maximum Entropy"
+  abstract: "Efficient exploration remains a challenging research problem in reinforcement learning, especially when an environment contains large state spaces, deceptive local optima, or sparse rewards. To tackle this problem, we present a diversity-driven approach for exploration, which can be easily combined with both off- and on-policy reinforcement learning algorithms. We show that by simply adding a distance measure to the loss function, the proposed methodology significantly enhances an agent's exploratory behaviors, and thus preventing the policy from being trapped in local optima. We further propose an adaptive scaling method for stabilizing the learning process. Our experimental results in Atari 2600 show that our method outperforms baseline approaches in several tasks in terms of mean scores and exploration efficiency."
+  pdfurl: "https://arxiv.org/pdf/1802.04564"
+  bibtex: |
+          "@inproceedings{hong2018diversity,
+           title={Diversity-driven exploration strategy for deep reinforcement learning},
+           author={Hong, Zhang-Wei and Shann, Tzu-Yun and Su, Shih-Yang and Chang, Yi-Hsiang and Fu, Tsu-Jui and Lee, Chun-Yi},
+           booktitle={Proceedings of the 32nd International Conference on Neural Information Processing Systems},
+           pages={10510--10521},
+           year={2018}
+           }
+          "
+
+
+- title: "Diversity-Inducing Policy Gradient: Using Maximum Mean Discrepancy to Find a Set of Diverse Policies"
+  authors:
+   - "Muhammad A. Masood"
+   - "Finale Doshi-Velez"
+  year: 2019
+  category: "Maximum Entropy"
+  abstract: "Standard reinforcement learning methods aim to master one way of solving a task whereas there may exist multiple near-optimal policies. Being able to identify this collection of near-optimal policies can allow a domain expert to efficiently explore the space of reasonable solutions. Unfortunately, existing approaches that quantify uncertainty over policies are not ultimately relevant to finding policies with qualitatively distinct behaviors. In this work, we formalize the difference between policies as a difference between the distribution of trajectories induced by each policy, which encourages diversity with respect to both state visitation and action choices. We derive a gradient-based optimization technique that can be combined with existing policy gradient methods to now identify diverse collections of well-performing policies. We demonstrate our approach on benchmarks and a healthcare task. "
+  pdfurl: "https://arxiv.org/pdf/1906.00088"
+  bibtex: |
+          "@article{masood2019diversity,
+           title={Diversity-inducing policy gradient: Using maximum mean discrepancy to find a set of diverse policies},
+           author={Masood, Muhammad A and Doshi-Velez, Finale},
+           journal={arXiv preprint arXiv:1906.00088},
+           year={2019}
+           }
+          "
+
+
+- title: "Effective Diversity in Population Based Reinforcement Learning"
+  authors:
+   - "Jack Parker-Holder"
+   - "Aldo Pacchiano"
+   - "Krzysztof Choromanski"
+   - "Stephen Roberts"
+  year: 2020
+  category: "Maximum Entropy"
+  abstract: "Exploration is a key problem in reinforcement learning, since agents can only learn from data they acquire in the environment. With that in mind, maintaining a population of agents is an attractive method, as it allows data be collected with a diverse set of behaviors. This behavioral diversity is often boosted via multi-objective loss functions. However, those approaches typically leverage mean field updates based on pairwise distances, which makes them susceptible to cycling behaviors and increased redundancy. In addition, explicitly boosting diversity often has a detrimental impact on optimizing already fruitful behaviors for rewards. As such, the reward-diversity trade off typically relies on heuristics. Finally, such methods require behavioral representations, often handcrafted and domain specific. In this paper, we introduce an approach to optimize all members of a population simultaneously. Rather than using pairwise distance, we measure the volume of the entire population in a behavioral manifold, defined by task-agnostic behavioral embeddings. In addition, our algorithm Diversity via Determinants (DvD), adapts the degree of diversity during training using online learning techniques. We introduce both evolutionary and gradient-based instantiations of DvD and show they effectively improve exploration without reducing performance when better exploration is not required."
+  pdfurl: "https://arxiv.org/pdf/2002.00632"
+  bibtex: |
+          "@article{parker2020effective,
+           title={Effective Diversity in Population Based Reinforcement Learning},
+           author={Parker-Holder, Jack and Pacchiano, Aldo and Choromanski, Krzysztof M and Roberts, Stephen J},
+           journal={Advances in Neural Information Processing Systems},
+           volume={33},
+           year={2020}
+           }
+          "
+
+- title: "Harnessing Distribution Ratio Estimators for Learning Agents with Quality and Diversity"
+  authors:
+   - "Tanmay Gangwani"
+   - "Jian Peng"
+   - "Yuan Zhou"
+  year: 2020
+  category: "Maximum Entropy"
+  abstract: "Quality-Diversity (QD) is a concept from Neuroevolution with some intriguing applications to Reinforcement Learning. It facilitates learning a population of agents where each member is optimized to simultaneously accumulate high task-returns and exhibit behavioral diversity compared to other members. In this paper, we build on a recent kernel-based method for training a QD policy ensemble with Stein variational gradient descent. With kernels based on f-divergence between the stationary distributions of policies, we convert the problem to that of efficient estimation of the ratio of these stationary distributions. We then study various distribution ratio estimators used previously for off-policy evaluation and imitation and re-purpose them to compute the gradients for policies in an ensemble such that the resultant population is diverse and of high-quality."
+  pdfurl: "https://arxiv.org/pdf/2011.02614"
+  bibtex: |
+          "@article{gangwani2020harnessing,
+           title={Harnessing Distribution Ratio Estimators for Learning Agents with Quality and Diversity},
+           author={Gangwani, Tanmay and Peng, Jian and Zhou, Yuan},
+           journal={arXiv preprint arXiv:2011.02614},
+           year={2020}
+           }
+          "
+
+
+- title: "Non-local Policy Optimization via Diversity-regularized Collaborative Exploration"
+  authors:
+   - "Zhenghao Peng"
+   - "Hao Sun"
+   - "Bolei Zhou"
+  year: 2020
+  category: "Maximum Entropy"
+  abstract: "Conventional Reinforcement Learning (RL) algorithms usually have one single agent learning to solve the task independently. As a result, the agent can only explore a limited part of the state-action space while the learned behavior is highly correlated to the agent's previous experience, making the training prone to a local minimum. In this work, we empower RL with the capability of teamwork and propose a novel non-local policy optimization framework called Diversity-regularized Collaborative Exploration (DiCE). DiCE utilizes a group of heterogeneous agents to explore the environment simultaneously and share the collected experiences. A regularization mechanism is further designed to maintain the diversity of the team and modulate the exploration. We implement the framework in both on-policy and off-policy settings and the experimental results show that DiCE can achieve substantial improvement over the baselines in the MuJoCo locomotion tasks."
+  pdfurl: "https://arxiv.org/pdf/2006.07781"
+  bibtex: |
+          "@article{peng2020non,
+           title={Non-local Policy Optimization via Diversity-regularized Collaborative Exploration},
+           author={Peng, Zhenghao and Sun, Hao and Zhou, Bolei},
+           journal={arXiv preprint arXiv:2006.07781},
+           year={2020}
+           }
+          "
+
+
+- title: "Learning Novel Policies For Tasks"
+  authors:
+   - "Yunbo Zhang"
+   - "Wenhao Yu"
+   - "Greg Turk"
+  year: 2019
+  category: "Maximum Entropy"
+  abstract: "In this work, we present a reinforcement learning algorithm that can find a variety of policies (novel policies) for a task that is given by a task reward function. Our method does this by creating a second reward function that recognizes previously seen state sequences and rewards those by novelty, which is measured using autoencoders that have been trained on state sequences from previously discovered policies. We present a two-objective update technique for policy gradient algorithms in which each update of the policy is a compromise between improving the task reward and improving the novelty reward. Using this method, we end up with a collection of policies that solves a given task as well as carrying out action sequences that are distinct from one another. We demonstrate this method on maze navigation tasks, a reaching task for a simulated robot arm, and a locomotion task for a hopper. We also demonstrate the effectiveness of our approach on deceptive tasks in which policy gradient methods often get stuck."
+  pdfurl: "https://arxiv.org/pdf/1905.05252"
+  bibtex: |
+          "@inproceedings{zhang2019learning,
+           title={Learning novel policies for tasks},
+           author={Zhang, Yunbo and Yu, Wenhao and Turk, Greg},
+           booktitle={International Conference on Machine Learning},
+           pages={7483--7492},
+           year={2019},
+           organization={PMLR}
+           }
+          "
+
