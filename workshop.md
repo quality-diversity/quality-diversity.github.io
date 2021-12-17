@@ -27,6 +27,7 @@ TBD
 - Antoine Cully
 - Stéphane Doncieux
 - Matthew Fontaine
+- Amy Hoover
 - Jean-Baptiste Mouret
 - Stefanos Nikolaidis
 - John Rieffel
