@@ -2725,7 +2725,8 @@ papers:
   tags:
   pdfurl: "https://arxiv.org/abs/2206.09743"
   abstract: "In the last decade, reinforcement learning successfully solved complex control tasks and decision-making problems, like the Go board game. Yet, there are few success stories when it comes to deploying those algorithms to real-world scenarios. One of the reasons is the lack of guarantees when dealing with and avoiding unsafe states, a fundamental requirement in critical control engineering systems. In this paper, we introduce Guided Safe Shooting (GuSS), a model-based RL approach that can learn to control systems with minimal violations of the safety constraints. The model is learned on the data collected during the operation of the system in an iterated batch fashion, and is then used to plan for the best action to perform at each time step. We propose three different safe planners, one based on a simple random shooting strategy and two based on MAP-Elites, a more advanced divergent-search algorithm. Experiments show that these planners help the learning agent avoid unsafe situations while maximally exploring the state space, a necessary aspect when learning an accurate model of the system. Furthermore, compared to model-free approaches, learning a model allows GuSS reducing the number of interactions with the real-system while still reaching high rewards, a fundamental requirement when handling engineering systems." 
-  bibtex: "@article{paolo2022guided,
+  bibtex: |
+          "@article{paolo2022guided,
           title={Guided Safe Shooting: model based reinforcement learning with safety constraints},
           author={Paolo, Giuseppe and Gonzalez-Billandon, Jonas and Thomas, Albert and K{\'e}gl, Bal{\'a}zs},
           journal={arXiv preprint arXiv:2206.09743},
