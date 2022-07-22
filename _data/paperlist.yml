@@ -2792,6 +2792,104 @@ papers:
     }
     "
 
+
+- title: "Approximating Gradients for Differentiable Quality Diversity in Reinforcement Learning"
+  authors:
+   - "Bryon Tjanaka"
+   - "Matthew Fontaine"
+   - "Julian Togelius"
+   - "Stefanos Nikolaidis"
+  year: 2022
+  tags:
+   - robotics
+  abstract: "Consider a walking agent that must adapt to damage. To approach this task, we can train a collection of policies and have the agent select a suitable policy when damaged. Training this collection may be viewed as a quality diversity (QD) optimization problem, where we search for solutions (policies) which maximize an objective (walking forward) while spanning a set of measures (measurable characteristics). Recent work shows that differentiable quality diversity (DQD) algorithms greatly accelerate QD optimization when exact gradients are available for the objective and measures. However, such gradients are typically unavailable in RL settings due to non-differentiable environments. To apply DQD in RL settings, we propose to approximate objective and measure gradients with evolution strategies and actor-critic methods. We develop two variants of the DQD algorithm CMA-MEGA, each with different gradient approximations, and evaluate them on four simulated walking tasks. One variant achieves comparable performance (QD score) with the state-of-the-art PGA-MAP-Elites in two tasks. The other variant performs comparably in all tasks but is less efficient than PGA-MAP-Elites in two tasks. These results provide insight into the limitations of CMA-MEGA in domains that require rigorous optimization of the objective and where exact gradients are unavailable."
+  pdfurl: "https://dl.acm.org/doi/10.1145/3512290.3528705"
+  webpageurl: "https://dqd-rl.github.io/"
+  bibtex: |
+          "@inproceedings{10.1145/3512290.3528705,
+            author = {Tjanaka, Bryon and Fontaine, Matthew C. and Togelius, Julian and Nikolaidis, Stefanos},
+            title = {Approximating Gradients for Differentiable Quality Diversity in Reinforcement Learning},
+            year = {2022},
+            isbn = {9781450392372},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3512290.3528705},
+            doi = {10.1145/3512290.3528705},
+            abstract = {Consider the problem of training robustly capable agents. One approach is to generate a diverse collection of agent polices. Training can then be viewed as a quality diversity (QD) optimization problem, where we search for a collection of performant policies that are diverse with respect to quantified behavior. Recent work shows that differentiable quality diversity (DQD) algorithms greatly accelerate QD optimization when exact gradients are available. However, agent policies typically assume that the environment is not differentiable. To apply DQD algorithms to training agent policies, we must approximate gradients for performance and behavior. We propose two variants of the current state-of-the-art DQD algorithm that compute gradients via approximation methods common in reinforcement learning (RL). We evaluate our approach on four simulated locomotion tasks. One variant achieves results comparable to the current state-of-the-art in combining QD and RL, while the other performs comparably in two locomotion tasks. These results provide insight into the limitations of current DQD algorithms in domains where gradients must be approximated. Source code is available at https://github.com/icaros-usc/dqd-rl},
+            booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+            pages = {1102–1111},
+            numpages = {10},
+            keywords = {neuroevolution, reinforcement learning, quality diversity},
+            location = {Boston, Massachusetts},
+            series = {GECCO '22}
+          }
+          "
+
+
+- title: "Deep Surrogate Assisted MAP-Elites for Automated Hearthstone Deckbuilding"
+  authors:
+   - "Yulun Zhang"
+   - "Matthew Fontaine"
+   - "Amy Hoover"
+   - "Stefanos Nikolaidis"
+  year: 2022
+  tags:
+   - games
+  abstract: "We study the problem of efficiently generating high-quality and diverse content in games. Previous work on automated deckbuilding in Hearthstone shows that the quality diversity algorithm MAP-Elites can generate a collection of high-performing decks with diverse strategic gameplay. However, MAP-Elites requires a large number of expensive evaluations to discover a diverse collection of decks. We propose assisting MAP-Elites with a deep surrogate model trained online to predict game outcomes with respect to candidate decks. MAP-Elites discovers a diverse dataset to improve the surrogate model accuracy, while the surrogate model helps guide MAP-Elites towards promising new content. In a Hearthstone deckbuilding case study, we show that our approach improves the sample efficiency of MAP-Elites and outperforms a model trained offline with random decks, as well as a linear surrogate model baseline, setting a new state-of-the-art for quality diversity approaches in automated Hearthstone deckbuilding. We include the source code for all the experiments at: https://github.com/icaros-usc/EvoStone2."
+  pdfurl: "https://dl.acm.org/doi/10.1145/3512290.3528718"
+  bibtex: |
+          "@inproceedings{10.1145/3512290.3528718,
+            author = {Zhang, Yulun and Fontaine, Matthew C. and Hoover, Amy K. and Nikolaidis, Stefanos},
+            title = {Deep Surrogate Assisted MAP-Elites for Automated Hearthstone Deckbuilding},
+            year = {2022},
+            isbn = {9781450392372},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3512290.3528718},
+            doi = {10.1145/3512290.3528718},
+            abstract = {We study the problem of efficiently generating high-quality and diverse content in games. Previous work on automated deckbuilding in Hearthstone shows that the quality diversity algorithm MAP-Elites can generate a collection of high-performing decks with diverse strategic gameplay. However, MAP-Elites requires a large number of expensive evaluations to discover a diverse collection of decks. We propose assisting MAP-Elites with a deep surrogate model trained online to predict game outcomes with respect to candidate decks. MAP-Elites discovers a diverse dataset to improve the surrogate model accuracy while the surrogate model helps guide MAP-Elites towards promising new content. In a Hearthstone deck-building case study, we show that our approach improves the sample efficiency of MAP-Elites and outperforms a model trained offline with random decks, as well as a linear surrogate model baseline, setting a new state-of-the-art for quality diversity approaches in automated Hearthstone deckbuilding. We include the source code for all the experiments at: https://github.com/icaros-usc/EvoStone2.},
+            booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+            pages = {158–167},
+            numpages = {10},
+            keywords = {deep neural networks, surrogate modeling, MAP-elites},
+            location = {Boston, Massachusetts},
+            series = {GECCO '22}
+          }
+          "
+ 
+ 
+- title: "Illuminating Diverse Neural Cellular Automata for Level Generation"
+  authors:
+   - "Sam Earle"
+   - "Justin Snider"
+   - "Matthew Fontaine"
+   - "Stefanos Nikolaidis"
+   - "Julian Togelius"
+  year: 2022
+  tags:
+   - games
+  abstract: "We present a method of generating diverse collections of neural cellular automata (NCA) to design video game levels. While NCAs have so far only been trained via supervised learning, we present a quality diversity (QD) approach to generating a collection of NCA level generators. By framing the problem as a QD problem, our approach can train diverse level generators, whose output levels vary based on aesthetic or functional criteria. To efficiently generate NCAs, we train generators via Covariance Matrix Adaptation MAP-Elites (CMA-ME), a quality diversity algorithm which specializes in continuous search spaces. We apply our new method to generate level generators for several 2D tile-based games: a maze game, Sokoban, and Zelda. Our results show that CMA-ME can generate small NCAs that are diverse yet capable, often satisfying complex solvability criteria for deterministic agents. We compare against a Compositional Pattern-Producing Network (CPPN) baseline trained to produce diverse collections of generators and show that the NCA representation yields a better exploration of level-space."
+  pdfurl: "https://dl.acm.org/doi/10.1145/3512290.3528754"
+  bibtex: |
+          "@inproceedings{10.1145/3512290.3528754,
+            author = {Earle, Sam and Snider, Justin and Fontaine, Matthew C. and Nikolaidis, Stefanos and Togelius, Julian},
+            title = {Illuminating Diverse Neural Cellular Automata for Level Generation},
+            year = {2022},
+            isbn = {9781450392372},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3512290.3528754},
+            doi = {10.1145/3512290.3528754},
+            abstract = {We present a method of generating diverse collections of neural cellular automata (NCA) to design video game levels. While NCAs have so far only been trained via supervised learning, we present a quality diversity (QD) approach to generating a collection of NCA level generators. By framing the problem as a QD problem, our approach can train diverse level generators, whose output levels vary based on aesthetic or functional criteria. To efficiently generate NCAs, we train generators via Covariance Matrix Adaptation MAP-Elites (CMA-ME), a quality diversity algorithm which specializes in continuous search spaces. We apply our new method to generate level generators for several 2D tile-based games: a maze game, Sokoban, and Zelda. Our results show that CMA-ME can generate small NCAs that are diverse yet capable, often satisfying complex solvability criteria for deterministic agents. We compare against a Compositional Pattern-Producing Network (CPPN) baseline trained to produce diverse collections of generators and show that the NCA representation yields a better exploration of level-space.},
+            booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+            pages = {68–76},
+            numpages = {9},
+            keywords = {cellular automata, evolutionary strategies, procedural content generation, neural networks},
+            location = {Boston, Massachusetts},
+            series = {GECCO '22}
+          }
+          "
+
 - title: "Automatic Acquisition of a Repertoire of Diverse Grasping Trajectories through Behavior Shaping and Novelty Search"
   authors:
     - Aur{\'e}lien Morel
@@ -2811,3 +2909,4 @@ papers:
     year={2022}
     }
     "
+
