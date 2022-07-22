@@ -2734,6 +2734,64 @@ papers:
             }
           "
 
+- title: "Few-Shot Quality-Diversity Optimization"
+  authors:
+   - Achkan Salehi 
+   - Alexandre Coninx 
+   - Stephane Doncieux 
+  year: 2022
+  tags:
+  pdfurl: "https://arxiv.org/pdf/2109.06826.pdf"
+  abstract: "In the past few years,a considerable amount of research has been dedicated to the exploitation of previous learning experiences and the design of Few-shot and Meta Learning approaches, in problem domains ranging from Computer Vision to Reinforcement Learning based control. A notable exception, where to the best of our knowledge, little to no effort has been made in this direction is Quality-Diversity (QD) optimization. QD methods have been shown to be effective tools in dealing with deceptive minima and sparse rewards in Reinforcement Learning. However, they remain costly due to their reliance on inherently sample inefficient evolutionary processes. We show that, given examples from a task distribution, information about the paths taken by optimization in parameter space can be leveraged to build a prior population, which when used to initialize QD methods in unseen environments, allows for few-shot adaptation. Our proposed method does not require backpropagation. It is simple to implement and scale, and furthermore, it is agnostic to the underlying models that are being trained. Experiments carried in both sparse and dense reward settings using robotic manipulation and navigation benchmarks show that it considerably reduces the number of generations that are required for QD optimization in these environments."
+  bibtex: |
+    "
+    @article{salehi2022few,
+    title={Few-Shot Quality-Diversity Optimization},
+    author={Salehi, Achkan and Coninx, Alexandre and Doncieux, Stephane},
+    journal={IEEE Robotics and Automation Letters},
+    volume={7},
+    number={2},
+    pages={4424--4431},
+    year={2022},
+    publisher={IEEE}
+    }
+    "
+- title: "Geodesics, Non-linearities and the Archive of Novelty Search"
+  authors:
+   - Achkan Salehi 
+   - Alexandre Coninx 
+   - Stephane Doncieux 
+  year: 2022
+  tags:
+  pdfurl: "https://arxiv.org/pdf/2205.03162.pdf"
+  abstract: "The Novelty Search (NS) algorithm was proposed more than a decade ago. However, the mechanisms behind its empirical success are still not well formalized/understood. This short note focuses on the effects of the archive on exploration. Experimental evidence from a few application domains suggests that archive-based NS performs in general better than when Novelty is solely computed with respect to the population. An argument that is often encountered in the literature is that the archive prevents exploration from backtracking or cycling, i.e. from revisiting previously encountered areas in the behavior space. We argue that this is not a complete or accurate explanation as backtracking —beside often being desirable —can actually be enabled by the archive. Through low-dimensional/analytical examples, we show that a key effect of the archive is that it counterbalances the exploration biases that result, among other factors, from the use of inadequate behavior metrics and the non-linearities of the behavior mapping. Our observations seem to hint that attributing a more active role to the archive in sampling can be beneficial."
+  bibtex: |
+    "
+    @article{salehi2022geodesics,
+    title={Geodesics, Non-linearities and the Archive of Novelty Search},
+    author={Salehi, Achkan and Coninx, Alexandre and Doncieux, Stephane},
+    journal={In Genetic and Evolutionary Computation Conference Companion (GECCO’22 Companion), July 9–13, 2022, Boston, MA, USA. ACM, New York, NY, USA},
+    year={2022}
+    }
+    "
+- title: "Towards QD-suite: developing a set of benchmarks for Quality-Diversity algorithms"
+  authors:
+   - Achkan Salehi 
+   - Stephane Doncieux 
+  year: 2022
+  tags:
+  pdfurl: "https://arxiv.org/pdf/2205.03207.pdf"
+  abstract: "While the field of Quality-Diversity (QD) has grown into a distinct branch of stochastic optimization, a few problems, in particular locomotion and navigation tasks, have become de facto standards. Are such benchmarks sufficient? Are they representative of the key challenges faced by QD algorithms? Do they provide the ability to focus on one particular challenge by properly disentangling it from others? Do they have much predictive power in terms of scalability and generalization? Existing benchmarks are not standardized, and there is currently no MNIST equivalent for QD. Inspired by recent works on Reinforcement Learning benchmarks, we argue that the identification of challenges faced by QD methods and the development of targeted, challenging, scalable but affordable benchmarks is an important step. As an initial effort, we identify three problems that are challenging in sparse reward settings, and propose associated benchmarks: (1) Behavior metric bias, which can result from the use of metrics that do not match the structure of the behavior space. (2) Behavioral Plateaus, with varying characteristics, such that escaping them would require adaptive QD algorithms and (3) Evolvability Traps, where small variations in genotype result in large behavioral changes. The environments that we propose satisfy the properties listed above."
+  bibtex: |
+    "
+    @article{salehi2022toward,
+    title={Towards QD-suite: developing a set of benchmarks for Quality-Diversity algorithms},
+    author={Salehi, Achkan and Doncieux, Stephane},
+    journal={arXiv preprint arXiv:2205.03207},
+    year={2022}
+    }
+    "
+
 
 - title: "Approximating Gradients for Differentiable Quality Diversity in Reinforcement Learning"
   authors:
@@ -2831,3 +2889,24 @@ papers:
             series = {GECCO '22}
           }
           "
+
+- title: "Automatic Acquisition of a Repertoire of Diverse Grasping Trajectories through Behavior Shaping and Novelty Search"
+  authors:
+    - Aur{\'e}lien Morel
+    - Yakumo Kunimoto
+    - Alex Coninx
+    - Stephane Doncieux
+  year: 2022
+  tags:
+  pdfurl: "https://arxiv.org/pdf/2205.08189.pdf"
+  abstract: "Grasping a particular object may require a dedicated grasping movement that may also be specific to the robot end-effector. No generic and autonomous method does exist to generate these movements without making hypotheses on the robot or on the object. Learning methods could help to autonomously discover relevant grasping movements, but they face an important issue: grasping movements are so rare that a learning method based on exploration has little chance to ever observe an interesting movement, thus creating a bootstrap issue. We introduce an approach to generate diverse grasping movements in order to solve this problem. The movements are generated in simulation, for particular object positions. We test it on several simulated robots: Baxter, Pepper and a Kuka Iiwa arm. Although we show that generated movements actually work on a real Baxter robot, the aim is to use this method to create a large dataset to bootstrap deep learning methods."
+  bibtex: |
+    "
+    @article{morel2022automatic,
+    title={Automatic Acquisition of a Repertoire of Diverse Grasping Trajectories through Behavior Shaping and Novelty Search},
+    author={Morel, Aur{\'e}lien and Kunimoto, Yakumo and Coninx, Alex and Doncieux, St{\'e}phane},
+    journal={arXiv preprint arXiv:2205.08189},
+    year={2022}
+    }
+    "
+
