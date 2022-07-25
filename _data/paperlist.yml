@@ -2910,3 +2910,32 @@ papers:
     }
     "
 
+- title: "Procedural Content Generation using Neuroevolution and Novelty Search for Diverse Video Game Levels"
+  authors:
+   - "Michael Beukman"
+   - "Christopher Cleghorn"
+   - "Steven James"
+  year: 2022
+  tags:
+   - games
+  abstract: "Procedurally generated video game content has the potential to drastically reduce the content creation budget of game developers and large studios. However, adoption is hindered by limitations such as slow generation, as well as low quality and diversity of content. We introduce an evolutionary search-based approach for evolving level generators using novelty search to procedurally generate diverse levels in real time, without requiring training data or detailed domain-specific knowledge. We test our method on two domains, and our results show an order of magnitude speedup in generation time compared to existing methods while obtaining comparable metric scores. We further demonstrate the ability to generalise to arbitrary-sized levels without retraining."
+  pdfurl: "https://dl.acm.org/doi/10.1145/3512290.3528701"
+  bibtex: |
+          "@inproceedings{beukman2022Procedural,
+            author = {Beukman, Michael and Cleghorn, Christopher W and James, Steven},
+            title = {Procedural Content Generation Using Neuroevolution and Novelty Search for Diverse Video Game Levels},
+            year = {2022},
+            isbn = {9781450392372},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3512290.3528701},
+            doi = {10.1145/3512290.3528701},
+            abstract = {Procedurally generated video game content has the potential to drastically reduce the content creation budget of game developers and large studios. However, adoption is hindered by limitations such as slow generation, as well as low quality and diversity of content. We introduce an evolutionary search-based approach for evolving level generators using novelty search to procedurally generate diverse levels in real time, without requiring training data or detailed domain-specific knowledge. We test our method on two domains, and our results show an order of magnitude speedup in generation time compared to existing methods while obtaining comparable metric scores. We further demonstrate the ability to generalise to arbitrary-sized levels without retraining.},
+            booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+            pages = {1028–1037},
+            numpages = {10},
+            keywords = {neuroevolution, novelty search, procedural content generation},
+            location = {Boston, Massachusetts},
+            series = {GECCO '22}
+            }
+          "
