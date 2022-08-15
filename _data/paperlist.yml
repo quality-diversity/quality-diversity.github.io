@@ -2939,3 +2939,48 @@ papers:
             series = {GECCO '22}
             }
           "
+
+- title: "Evolutionary Diversity Optimization with Clustering-based Selection for Reinforcement Learning"
+  authors:
+   - Yutong Wang 
+   - Ke Xue
+   - Chao Qian
+  year: 2022
+  tags:
+   - robotics
+  pdfurl: "https://openreview.net/pdf?id=74x5BXs4bWD"
+  codeurl: "http://www.lamda.nju.edu.cn/qianc/code-EDOCS.html"
+  abstract: "Reinforcement Learning (RL) has achieved significant successes, which aims to obtain a single policy maximizing the expected cumulative rewards for a given task. However, in many real-world scenarios, e.g., navigating in complex environments and controlling robots, one may need to find a set of policies having both high rewards and diverse behaviors, which can bring better exploration and robust few-shot adaptation. Recently, some methods have been developed by using evolutionary techniques, including iterative reproduction and selection of policies. However, due to the inefficient selection mechanisms, these methods cannot fully guarantee both high quality and diversity. In this paper, we propose EDO-CS, a new Evolutionary Diversity Optimization algorithm with Clustering-based Selection. In each iteration, the policies are divided into several clusters based on their behaviors, and a high-quality policy is selected from each cluster for reproduction. EDO-CS also adaptively balances the importance between quality and diversity in the reproduction process. Experiments on various (i.e., deceptive and multi-modal) continuous control tasks, show the superior performance of EDO-CS over previous methods, i.e., EDO-CS can achieve a set of policies with both high quality and diversity efficiently while previous methods cannot."
+  bibtex: |
+          "
+          @inproceedings{
+          wang2022evolutionary,
+          title={Evolutionary Diversity Optimization with Clustering-based Selection for Reinforcement Learning},
+          author={Yutong Wang and Ke Xue and Chao Qian},
+          booktitle={International Conference on Learning Representations},
+          year={2022},
+          url={https://openreview.net/forum?id=74x5BXs4bWD}}
+          "
+
+- title: "Heterogeneous Multi-agent Zero-Shot Coordination by Coevolution"
+  authors:
+   - Ke Xue
+   - Yutong Wang
+   - Lei Yuan
+   - Cong Guan 
+   - Chao Qian
+   - Yang Yu
+  year: 2022
+  tags:
+   - games
+  pdfurl: "https://arxiv.org/pdf/2208.04957"
+  abstract: "Generating agents that can achieve Zero-Shot Coordination (ZSC) with unseen partners is a new challenge in cooperative Multi-Agent Reinforcement Learning (MARL). Recently, some studies have made progress in ZSC by exposing the agents to diverse partners during the training process. They usually involve self-play when training the partners, implicitly assuming that the tasks are homogeneous. However, many real-world tasks are heterogeneous, and hence previous methods may fail. In this paper, we study the heterogeneous ZSC problem for the first time and propose a general method based on coevolution, which coevolves two populations of agents and partners through three sub-processes: pairing, updating and selection. Experimental results on a collaborative cooking task show the necessity of considering the heterogeneous setting and illustrate that our proposed method is a promising solution for heterogeneous cooperative MARL."
+  bibtex: |
+          "
+          @article{maze,
+            title={Heterogeneous Multi-agent Zero-Shot Coordination by Coevolution},
+            author={Ke Xue and Yutong Wang and Lei Yuan and Cong Guan and Chao Qian and Yang Yu},
+            journal={arXiv preprint arXiv:2208.04957},
+            year={2022}}
+          "
+          
