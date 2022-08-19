@@ -2983,4 +2983,27 @@ papers:
             journal={arXiv preprint arXiv:2208.04957},
             year={2022}}
           "
+ 
+ - title: "Minimize Surprise MAP-Elites: a Task-Independent MAP-Elites Variant for Swarms"
+  authors:
+   - Tanja Katharina Kaiser
+   - Heiko Hamann
+  year: 2022
+  tags:
+   - robotics
+  pdfurl: "https://dl.acm.org/doi/10.1145/3520304.3528773"
+  abstract: "Swarm robotics controllers are often automatically generated using methods of evolutionary computation with a task-specific fitness function to guide the optimization process. By contrast, our minimize surprise approach uses a task-independent fitness function to generate diverse behaviors over several independent evolutionary runs. Alternatives are divergent search algorithms rewarding behavioral novelty, such as novelty search, and quality-diversity algorithms generating diverse high-quality solutions, such as MAP-Elites. These approaches usually rely on task-dependent measures. We propose Minimize Surprise MAP-Elites, a task-independent MAP-Elites variant that combines MAP-Elites with our minimize surprise approach. Our first experiments result in high-quality solutions that lead to behavioral diversity across tasks and within tasks."
+  bibtex: |
+          "
+          @inproceedings{10.1145/3520304.3528773, 
+          author = {Kaiser, Tanja Katharina and Hamann, Heiko}, 
+          title = {Minimize Surprise MAP-Elites: A Task-Independent MAP-Elites Variant for Swarms}, 
+          year = {2022}, 
+          isbn = {9781450392686}, 
+          publisher = {Association for Computing Machinery}, 
+          address = {New York, NY, USA}, 
+          url = {https://doi.org/10.1145/3520304.3528773}, 
+          doi = {10.1145/3520304.3528773}, 
+          series = {GECCO '22}}
+          "
           
