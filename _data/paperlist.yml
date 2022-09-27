@@ -3007,3 +3007,36 @@ papers:
           series = {GECCO '22}}
           "
           
+
+- title: "Hierarchical Quality-Diversity for Online Damage Recovery"
+  authors:
+   -  Maxime Allard
+   -  Simón C. Smith
+   -  Konstantinos Chatzilygeroudis
+   -  Antoine Cully
+  year: 2022
+  tags:
+   - hierarchical learning
+   - robotics
+  pdfurl: "https://dl.acm.org/doi/10.1145/3512290.3528751"
+  abstract: "Adaptation capabilities, like damage recovery, are crucial for the deployment of robots in complex environments. Several works have demonstrated that using repertoires of pre-trained skills can enable robots to adapt to unforeseen mechanical damages in a few minutes. These adaptation capabilities are directly linked to the behavioural diversity in the repertoire. The more alternatives the robot has to execute a skill, the better are the chances that it can adapt to a new situation. However, solving complex tasks, like maze navigation, usually requires multiple different skills. Finding a large behavioural diversity for these multiple skills often leads to an intractable exponential growth of the number of required solutions. In this paper, we introduce the Hierarchical Trial and Error algorithm, which uses a hierarchical behavioural repertoire to learn diverse skills and leverages them to make the robot more adaptive to different situations. We show that the hierarchical decomposition of skills enables the robot to learn more complex behaviours while keeping the learning of the repertoire tractable. The experiments with a hexapod robot show that our method solves maze navigation tasks with 20% less actions in the most challenging scenarios than the best baseline while having 57% less complete failures."
+  bibtex: |
+          "
+          @inproceedings{10.1145/3512290.3528751,
+          author = {Allard, Maxime and Smith, Sim\'{o}n C. and Chatzilygeroudis, Konstantinos and Cully, Antoine},
+          title = {Hierarchical Quality-Diversity for Online Damage Recovery},
+          year = {2022},
+          isbn = {9781450392372},
+          publisher = {Association for Computing Machinery},
+          address = {New York, NY, USA},
+          url = {https://doi.org/10.1145/3512290.3528751},
+          doi = {10.1145/3512290.3528751},
+          abstract = {Adaptation capabilities, like damage recovery, are crucial for the deployment of robots in complex environments. Several works have demonstrated that using repertoires of pre-trained skills can enable robots to adapt to unforeseen mechanical damages in a few minutes. These adaptation capabilities are directly linked to the behavioural diversity in the repertoire. The more alternatives the robot has to execute a skill, the better are the chances that it can adapt to a new situation. However, solving complex tasks, like maze navigation, usually requires multiple different skills. Finding a large behavioural diversity for these multiple skills often leads to an intractable exponential growth of the number of required solutions. In this paper, we introduce the Hierarchical Trial and Error algorithm, which uses a hierarchical behavioural repertoire to learn diverse skills and leverages them to make the robot more adaptive to different situations. We show that the hierarchical decomposition of skills enables the robot to learn more complex behaviours while keeping the learning of the repertoire tractable. The experiments with a hexapod robot show that our method solves maze navigation tasks with 20% less actions in the most challenging scenarios than the best baseline while having 57% less complete failures.},
+          booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+          pages = {58–67},
+          numpages = {10},
+          keywords = {robotics, hierarchical learning, quality-diversity},
+          location = {Boston, Massachusetts},
+          series = {GECCO '22}
+          }
+          "
