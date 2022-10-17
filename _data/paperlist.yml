@@ -2983,6 +2983,30 @@ papers:
             journal={arXiv preprint arXiv:2208.04957},
             year={2022}}
           "
+ 
+ - title: "Minimize Surprise MAP-Elites: a Task-Independent MAP-Elites Variant for Swarms"
+  authors:
+   - Tanja Katharina Kaiser
+   - Heiko Hamann
+  year: 2022
+  tags:
+   - robotics
+  pdfurl: "https://dl.acm.org/doi/10.1145/3520304.3528773"
+  abstract: "Swarm robotics controllers are often automatically generated using methods of evolutionary computation with a task-specific fitness function to guide the optimization process. By contrast, our minimize surprise approach uses a task-independent fitness function to generate diverse behaviors over several independent evolutionary runs. Alternatives are divergent search algorithms rewarding behavioral novelty, such as novelty search, and quality-diversity algorithms generating diverse high-quality solutions, such as MAP-Elites. These approaches usually rely on task-dependent measures. We propose Minimize Surprise MAP-Elites, a task-independent MAP-Elites variant that combines MAP-Elites with our minimize surprise approach. Our first experiments result in high-quality solutions that lead to behavioral diversity across tasks and within tasks."
+  bibtex: |
+          "
+          @inproceedings{10.1145/3520304.3528773, 
+          author = {Kaiser, Tanja Katharina and Hamann, Heiko}, 
+          title = {Minimize Surprise MAP-Elites: A Task-Independent MAP-Elites Variant for Swarms}, 
+          year = {2022}, 
+          isbn = {9781450392686}, 
+          publisher = {Association for Computing Machinery}, 
+          address = {New York, NY, USA}, 
+          url = {https://doi.org/10.1145/3520304.3528773}, 
+          doi = {10.1145/3520304.3528773}, 
+          series = {GECCO '22}}
+          "
+          
 
 - title: "Hierarchical Quality-Diversity for Online Damage Recovery"
   authors:
@@ -3029,3 +3053,4 @@ papers:
   pdfurl: "arxiv.org/abs/2206.04199"
   abstract: "Recent progress in reinforcement learning (RL) has started producing generally capable agents that can solve a distribution of complex environments. These agents are typically tested on fixed, human-authored environments. On the other hand, quality diversity (QD) optimization has been proven to be an effective component of environment generation algorithms, which can generate collections of high-quality environments that are diverse in the resulting agent behaviors. However, these algorithms require potentially expensive simulations of agents on newly generated environments. We propose Deep Surrogate Assisted Generation of Environments (DSAGE), a sample-efficient QD environment generation algorithm that maintains a deep surrogate model for predicting agent behaviors in new environments. Results in two benchmark domains show that DSAGE significantly outperforms existing QD environment generation algorithms in discovering collections of environments that elicit diverse behaviors of a state-of-the-art RL agent and a planning agent. Our source code and videos are available at https://dsagepaper.github.io/"
   bibtex: 
+
