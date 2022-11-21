@@ -3098,3 +3098,17 @@ papers:
   tags:
    - robotics
   pdfurl: "https://arxiv.org/abs/2210.04819"
+
+- title: "Benchmarking Quality-Diversity Algorithms on Neuroevolution for Reinforcement Learning"
+  authors:
+   -  Manon Flageat*
+   -  Bryan Lim*
+   -  Luca Grillotti
+   -  Maxime Allard
+   -  Simón C. Smith 
+   -  Antoine Cully
+  year: 2022
+  tags:
+   - neuroevolution
+   - benchmarks
+  pdfurl: "https://arxiv.org/abs/2210.04819"
