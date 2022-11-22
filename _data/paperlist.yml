@@ -3053,3 +3053,62 @@ papers:
   abstract: "Recent progress in reinforcement learning (RL) has started producing generally capable agents that can solve a distribution of complex environments. These agents are typically tested on fixed, human-authored environments. On the other hand, quality diversity (QD) optimization has been proven to be an effective component of environment generation algorithms, which can generate collections of high-quality environments that are diverse in the resulting agent behaviors. However, these algorithms require potentially expensive simulations of agents on newly generated environments. We propose Deep Surrogate Assisted Generation of Environments (DSAGE), a sample-efficient QD environment generation algorithm that maintains a deep surrogate model for predicting agent behaviors in new environments. Results in two benchmark domains show that DSAGE significantly outperforms existing QD environment generation algorithms in discovering collections of environments that elicit diverse behaviors of a state-of-the-art RL agent and a planning agent. Our source code and videos are available at https://dsagepaper.github.io/"
   bibtex: 
 
+- title: "Dynamics-Aware Quality-Diversity for Efficient Learning of Skill Repertoires"
+  authors:
+   -  Bryan Lim
+   -  Luca Grillotti
+   -  Lorenzo Bernasconi
+   -  Antoine Cully
+  year: 2021
+  tags:
+   - robotics
+   - model based
+   - world models
+  pdfurl: "https://arxiv.org/abs/2109.08522"
+
+- title: "Accelerated Quality-Diversity through Massive Parallelism"
+  authors:
+   -  Bryan Lim
+   -  Maxime Allard
+   -  Luca Grillotti
+   -  Antoine Cully
+  year: 2022
+  tags:
+   - scaling
+   - fast
+  pdfurl: "https://arxiv.org/abs/2202.01258"
+
+- title: "Learning to Walk Autonomously via Reset-Free Quality-Diversity"
+  authors:
+   -  Bryan Lim*
+   -  Alexander Reichenbach*
+   -  Antoine Cully
+  year: 2022
+  tags:
+   - robotics
+   - reset-free learning
+  pdfurl: "https://arxiv.org/abs/2204.03655"
+
+- title: "Efficient Learning of Locomotion Skills through the Discovery of Diverse Environmental Trajectory Generator Priors"
+  authors:
+   -  Shikha Surana*
+   -  Bryan Lim*
+   -  Antoine Cully
+  year: 2022
+  tags:
+   - robotics
+  pdfurl: "https://arxiv.org/abs/2210.04819"
+
+- title: "Benchmarking Quality-Diversity Algorithms on Neuroevolution for Reinforcement Learning"
+  authors:
+   -  Manon Flageat*
+   -  Bryan Lim*
+   -  Luca Grillotti
+   -  Maxime Allard
+   -  Simón C. Smith 
+   -  Antoine Cully
+  year: 2022
+  tags:
+   - neuroevolution
+   - benchmarks
+  pdfurl: "https://arxiv.org/abs/2211.02193"

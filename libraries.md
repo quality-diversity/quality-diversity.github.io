@@ -15,3 +15,8 @@
 - [Website](https://pyribs.org)
 - [GitHub](https://github.com/icaros-usc/pyribs)
 - [Documentation](https://docs.pyribs.org)
+
+## QDax
+- [Website](https://qdax.readthedocs.io/en/latest/)
+- [GitHub](https://github.com/adaptive-intelligent-robotics/QDax)
+- [Documentation](https://qdax.readthedocs.io/en/latest/)
