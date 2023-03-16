@@ -1,8 +1,8 @@
 # Workshop on Benchmarks for Quality-Diversity algorithms
-We would like to invite you to submit papers to, and participate in, our GECCO Workshop on Quality Diversity Algorithm Benchmarks.
+We would like to invite you to submit papers to, and participate in, our GECCO'23 Workshop on Quality Diversity Algorithm Benchmarks.
 
-- When:  Jul 9, 2022 (check dates)
-- Where: Boston, MA (and virtually?)
+- When:  Jul 14-16, 2023 (check dates)
+- Where: Lisbon, Portugal
 
 Contact: qd-gecco-workshop@inria.fr 
 
@@ -10,8 +10,8 @@ Papers should be submitted to the workshop using the GECCO submission system (ht
 
 
 ## Important Dates:
-- Submission deadline: April 11, 2022
-- Notification: April 25, 2022
+- Submission deadline: April 14, 2023
+- Notification: May 3, 2023
 
 ## Contributions: 
 This workshop encourages short papers (a few pages) and invites two types of contributions:
