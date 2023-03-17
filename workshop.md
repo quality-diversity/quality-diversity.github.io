@@ -42,6 +42,7 @@ As a published ACM author, you and your co-authors are subject to all ACM Public
 - Antoine Cully
 - Stéphane Doncieux
 - Matthew Fontaine
+- Adam Gaier
 - Amy Hoover
 - Jean-Baptiste Mouret
 - Stefanos Nikolaidis
