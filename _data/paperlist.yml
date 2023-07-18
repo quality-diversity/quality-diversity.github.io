@@ -1556,6 +1556,27 @@ papers:
            booktitle={Proceedings of the Genetic and Evolutionary Computation Conference Companion},
            year={2020},
            organization={ACM}}"
+
+- title: "Hybrid Encoding For Generating Large Scale Game Level Patterns With Local Variations"
+  authors:
+   - "Jacob Schrum"
+   - "Benjamin Capps"
+   - "Kirby Steckel"
+   - "Vanessa Volz"
+   - "Sebastian Risi"
+  year: 2023
+  abstract: "Generative Adversarial Networks (GANs) are a powerful indirect genotype-to-phenotype mapping for evolutionary search. Much previous work applying GANs to level generation focuses on fixed-size segments combined into a whole level, but individual segments may not fit together cohesively. In contrast, segments in human designed levels are often repeated, directly or with variation, and organized into patterns (the symmetric eagle in Level 1 of The Legend of Zelda, or repeated pipe motifs in Super Mario Bros). Such patterns can be produced with Compositional Pattern Producing Networks (CPPNs). CPPNs define latent vector GAN inputs as a function of geometry, organizing segments output by a GAN into complete levels. However, collections of latent vectors can also be evolved directly, producing more chaotic levels. We propose a hybrid approach that evolves CPPNs first, but allows latent vectors to evolve later, combining the benefits of both approaches. These approaches are evaluated in Super Mario Bros. and The Legend of Zelda. We previously demonstrated via a Quality-Diversity algorithm that CPPNs better cover the space of possible levels than directly evolved levels. Here, we show that the hybrid approach (1) covers areas that neither of the other methods can, and (2) achieves comparable or superior QD scores."
+  pdfurl: "https://arxiv.org/abs/2105.12960"
+  bibtex: |
+          "@article{schrum2023hybridcppn2gan,
+           title={Hybrid Encoding For Generating Large Scale Game Level Patterns With Local Variations},
+           author={Schrum, Jacob and Capps, Benjamin and Steckel, Kirby and Volz, Vanessa and Risi, Sebastian},
+           journal={IEEE Transactions on Games}, 
+           year={2023},
+           volume={15},
+           number={1},
+           pages={46-55},
+           doi={10.1109/TG.2022.3170730}}"
           
 - title: "PlayMapper: Illuminating Design Spaces of Platform Games"
   authors:
