@@ -11,20 +11,21 @@ papers:
   abstract: "Minecraft is a great testbed for human creativity that has inspired the design of various structures and even functioning machines, including flying machines. EvoCraft is an API for programmatically generating structures in Minecraft, but the initial work in this domain was not capable of evolving flying machines. This paper applies fitness-based evolution and quality diversity search in order to evolve flying machines. Although fitness alone can occasionally produce flying machines, thanks in part to a more sophisticated fitness function than was used previously, the quality diversity algorithm MAP-Elites is capable of discovering flying machines much more reliably, at least when an appropriate behavior characterization is used to guide the search for diverse solutions."
   bibtex: |
           "@inproceedings{10.1145/3583131.3590352,
-author = {Medina, Alejandro and Richey, Melanie and Mueller, Mark and Schrum, Jacob},
-title = {Evolving Flying Machines in Minecraft Using Quality Diversity},
-year = {2023},
-isbn = {9798400701191},
-publisher = {Association for Computing Machinery},
-address = {New York, NY, USA},
-url = {https://doi.org/10.1145/3583131.3590352},
-doi = {10.1145/3583131.3590352},
-booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
-pages = {1418–1426},
-numpages = {9},
-keywords = {quality diversity, MAP-elites, minecraft},
-location = {Lisbon, Portugal},
-series = {GECCO '23}}"
+          author = {Medina, Alejandro and Richey, Melanie and Mueller, Mark and Schrum, Jacob},
+          title = {Evolving Flying Machines in Minecraft Using Quality Diversity},
+          year = {2023},
+          isbn = {9798400701191},
+          publisher = {Association for Computing Machinery},
+          address = {New York, NY, USA},
+          url = {https://doi.org/10.1145/3583131.3590352},
+          doi = {10.1145/3583131.3590352},
+          booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference},
+          pages = {1418–1426},
+          numpages = {9},
+          keywords = {quality diversity, MAP-elites, minecraft},
+          location = {Lisbon, Portugal},
+          series = {GECCO '23}}
+          "
 
 
 - title: "Behavioral Repertoires for Soft Tensegrity Robots"
