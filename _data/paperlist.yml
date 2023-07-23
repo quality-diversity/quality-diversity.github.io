@@ -1,5 +1,30 @@
 papers:
 
+- title: "Can the Problem-Solving Benefits of Quality Diversity Be Obtained Without Explicit Diversity Maintenance?"
+  authors:
+  - Ryan Boldi
+  - Lee Spector
+  year: 2023
+  pdfurl: "https://arxiv.org/abs/2305.07767"
+  abstract: "When using Quality Diversity (QD) optimization to solve hard exploration or deceptive search problems, we assume that diversity is extrinsically valuable. This means that diversity is important to help us reach an objective, but is not an objective in itself. Often, in these domains, practitioners benchmark their QD algorithms against single objective optimization frameworks. In this paper, we argue that the correct comparison should be made to \emphmulti-objective optimization frameworks. This is because single objective optimization frameworks rely on the aggregation of sub-objectives, which could result in decreased information that is crucial for maintaining diverse populations automatically. In order to facilitate a fair comparison between quality diversity and multi-objective optimization, we present a method that utilizes dimensionality reduction to automatically determine a set of behavioral descriptors for an individual, as well as a set of objectives for an individual to solve. Using the former, one can generate solutions using standard quality diversity optimization techniques, and using the latter, one can generate solutions using standard multi-objective optimization techniques. This allows for a level comparison between these two classes of algorithms, without requiring domain and algorithm specific modifications to facilitate a comparison."
+  bibtex: |
+         "@inproceedings{boldi2023QDBench,
+          title = {Can the Problem-Solving Benefits of
+          Quality Diversity Be Obtained Without Explicit Diversity Maintenance?},
+          year = {2023},
+          isbn = {9798400701207},
+          author = {Boldi, Ryan and Spector, Lee},
+          booktitle = {Proceedings of the Genetic and Evolutionary Computation Conference Companion},
+          series = {GECCO '23},
+          publisher = {Association for Computing Machinery},
+          address = {New York, NY, USA},
+          url = {https://doi.org/10.1145/3583133.3596336},
+          doi = {10.1145/3583133.3596336},
+          numpages={6},
+          location={Lisbon, Portugal}
+          }
+          "
+
 - title: "Covariance Matrix Adaptation MAP-Annealing"
   authors:
   - Matthew C. Fontaine
