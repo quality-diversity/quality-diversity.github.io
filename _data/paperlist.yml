@@ -1,5 +1,56 @@
 papers:
 
+- abstract: 'Quality Diversity (QD) algorithms have been proposed to search for a
+    large
+
+    collection of both diverse and high-performing solutions instead of a single
+
+    set of local optima. While early QD algorithms view the objective and
+
+    descriptor functions as black-box functions, novel tools have been introduced
+
+    to use gradient information to accelerate the search and improve overall
+
+    performance of those algorithms over continuous input spaces. However a broad
+
+    range of applications involve discrete spaces, such as drug discovery or image
+
+    generation. Exploring those spaces is challenging as they are combinatorially
+
+    large and gradients cannot be used in the same manner as in continuous spaces.
+
+    We introduce map-elites with a Gradient-Informed Discrete Emitter (ME-GIDE),
+
+    which extends QD optimisation with differentiable functions over discrete
+
+    search spaces. ME-GIDE leverages the gradient information of the objective and
+
+    descriptor functions with respect to its discrete inputs to propose
+
+    gradient-informed updates that guide the search towards a diverse set of high
+
+    quality solutions. We evaluate our method on challenging benchmarks including
+
+    protein design and discrete latent space illumination and find that our method
+
+    outperforms state-of-the-art QD algorithms in all benchmarks.'
+  authors:
+  - Raphael Boige
+  - Guillaume Richard
+  - "J\xE9r\xE9mie Dona"
+  - Thomas Pierrot
+  - Antoine Cully
+  bibtex: "@inproceedings{Boige_2023,\n\tdoi = {10.1145/3583131.3590407},\n\turl =\
+    \ {https://doi.org/10.1145%2F3583131.3590407},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Rapha\xEBl Boige and Guillaume Richard and\
+    \ J{\\'{e}}r{\\'{e}}mie Dona and Thomas Pierrot and Antoine Cully},\n\ttitle =\
+    \ {Gradient-Informed Quality Diversity for the Illumination of Discrete Spaces},\n\
+    \tbooktitle = {Proceedings of the Genetic and Evolutionary Computation Conference}\n\
+    }"
+  pdfurl: http://arxiv.org/pdf/2306.05138v1
+  title: Gradient-Informed Quality Diversity for the Illumination of Discrete Spaces
+  year: 2023
+
 - authors:
   - Maxence Faldor
   - "F\xE9lix Chalumeau"
