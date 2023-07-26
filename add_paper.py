@@ -22,7 +22,7 @@ not_added=[]
     
 for i in range(1, len(sys.argv)):
     paper_title = sys.argv[i]
-    print(f"\033[93mprocessing: {paper_title}\033[0m"):
+    print(f"\033[93mprocessing: {paper_title}\033[0m")
     paper_title_nospace = "+".join( paper_title.split())
 
     # URL to get info from arxiv and crossref
