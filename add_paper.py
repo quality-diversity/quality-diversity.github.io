@@ -13,7 +13,7 @@ output = command.read()[:-1]
 if output:
     print("\033[91m WARNING: There are currently either local or remote changes. Please pull/push before adding more papers:\033[0m")
     print(output)
-    #exit()
+    exit()
 
 for i in range(1, len(sys.argv)):
     paper_title = sys.argv[i]
@@ -35,7 +35,7 @@ for i in range(1, len(sys.argv)):
     proceed_answer = input( f'\033[92m\t found and Arxiv and Cross ref (both should be the title you expect): \n\t{arxivdict["title"]} (arxiv)\n\t{crossrefdict["message"]["items"][0]["title"][0]} (crossref).\033[0m\n Correct and proceed?\n y(yes)|anything else to quit: \n')
     if proceed_answer != "y":
         print("\033[91m WARNING: Asked to not proceed. \033[0m")
-
+        continue
 
 
     #get bib from DOI
