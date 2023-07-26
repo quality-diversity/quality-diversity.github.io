@@ -7,7 +7,7 @@ import xmltodict
 
 # check if there are
 os.system("git remote update")
-command = os.popen("git status -uno")
+command = os.popen("git status -uno --porcelain")
 output = command.read()[:-1]
 if output:
     print("\033[91m WARNING: There are currently unpushed changes:\033[0m")
