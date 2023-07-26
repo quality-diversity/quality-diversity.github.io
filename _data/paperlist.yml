@@ -1,5 +1,17 @@
 papers:
 
+- authors:
+  - "Timoth\xE9e Anne"
+  - Jean-Baptiste Mouret
+  bibtex: "@inproceedings{Anne_2023,\n\tdoi = {10.1145/3583133.3590730},\n\turl =\
+    \ {https://doi.org/10.1145%2F3583133.3590730},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Timoth{\\'{e}}e Anne and Jean-Baptiste Mouret},\n\
+    \ttitle = {Multi-Task Multi-Behavior {MAP}-Elites},\n\tbooktitle = {Proceedings\
+    \ of the Companion Conference on Genetic and Evolutionary Computation}\n}"
+  pdfurl: http://dx.doi.org/10.1145/3583133.3590730
+  title: Multi-Task Multi-Behavior MAP-Elites
+  year: 2023
+
 - abstract: 'Quality Diversity (QD) algorithms such as MAP-Elites are a class of
 
     optimisation techniques that attempt to find many high performing points that
