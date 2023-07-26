@@ -28,8 +28,13 @@ for i in range(1, len(sys.argv)):
     # URL to get info from arxiv and crossref
     urlarxiv = f'http://export.arxiv.org/api/query?search_query=ti:{paper_title_nospace}&start=0&max_results=1&sortBy=relevance&sortOrder=ascending'
     urlcrossref = f'http://api.crossref.org/works?query.bibliographic="{paper_title_nospace}"&mailto=QD@imperial.ac.uk&rows=1'
-    dataarxiv = urllib.request.urlopen(urlarxiv)
-    datacrossref = urllib.request.urlopen(urlcrossref)
+    try:
+        dataarxiv = urllib.request.urlopen(urlarxiv)
+        datacrossref = urllib.request.urlopen(urlcrossref)
+    except:
+        print("\033[91m ERROR: retrieving info failed \033[0m")
+        not_added.append(paper_title)
+        continue
 
     #get data from arxiv and crossref
     crossrefdict = json.loads(datacrossref.read().decode("utf-8"))["message"]["items"][0]
