@@ -1,5 +1,486 @@
 papers:
 
+- abstract: 'Quality Diversity (QD) algorithms such as MAP-Elites are a class of
+
+    optimisation techniques that attempt to find many high performing points that
+
+    all behave differently according to a user-defined behavioural metric. In this
+
+    paper we propose the Bayesian Optimisation of Elites (BOP-Elites) algorithm.
+
+    Designed for problems with expensive black-box fitness and behaviour functions,
+
+    it is able to return a QD solution-set with excellent final performance already
+
+    after a relatively small number of samples. BOP-Elites models both fitness and
+
+    behavioural descriptors with Gaussian Process (GP) surrogate models and uses
+
+    Bayesian Optimisation (BO) strategies for choosing points to evaluate in order
+
+    to solve the quality-diversity problem. In addition, BOP-Elites produces high
+
+    quality surrogate models which can be used after convergence to predict
+
+    solutions with any behaviour in a continuous range. An empirical comparison
+
+    shows that BOP-Elites significantly outperforms other state-of-the-art
+
+    algorithms without the need for problem-specific parameter tuning.'
+  authors:
+  - Paul Kent
+  - Adam Gaier
+  - Jean-Baptiste Mouret
+  - Juergen Branke
+  bibtex: "@article{Kent2023BOP-Elites,\n\ttitle={BOP-Elites, a Bayesian Optimisation\
+    \ Approach to Quality Diversity Search with Black-Box descriptor functions},\n\
+    \tauthor={Kent, Paul and Gaier, Adam and Mouret, Jean-Baptiste and Branke, Juergen},\n\
+    \tjournal={arXiv preprint arXiv:2307.09326v2},\n\tyear={2023} }"
+  pdfurl: http://arxiv.org/pdf/2307.09326v2
+  title: BOP-Elites, a Bayesian Optimisation Approach to Quality Diversity Search
+    with Black-Box descriptor functions
+  year: 2023
+
+- authors:
+  - "Sim\xF3n C. Smith"
+  - Bryan Lim
+  - Hannah Janmohamed
+  - Antoine Cully
+  bibtex: "@inproceedings{Smith_2023,\n\tdoi = {10.1145/3583133.3590625},\n\turl =\
+    \ {https://doi.org/10.1145%2F3583133.3590625},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Sim{\\'{o}}n C. Smith and Bryan Lim and Hannah\
+    \ Janmohamed and Antoine Cully},\n\ttitle = {Quality-Diversity Optimisation on\
+    \ a Physical Robot Through Dynamics-Aware and Reset-Free Learning},\n\tbooktitle\
+    \ = {Proceedings of the Companion Conference on Genetic and Evolutionary Computation}\n\
+    }"
+  pdfurl: http://dx.doi.org/10.1145/3583133.3590625
+  title: Quality-Diversity Optimisation on a Physical Robot Through Dynamics-Aware
+    and Reset-Free Learning
+  year: 2023
+
+- abstract: 'A prevalent limitation of optimizing over a single objective is that
+    it can
+
+    be misguided, becoming trapped in local optimum. This can be rectified by
+
+    Quality-Diversity (QD) algorithms, where a population of high-quality and
+
+    diverse solutions to a problem is preferred. Most conventional QD approaches,
+
+    for example, MAP-Elites, explicitly manage a behavioral archive where solutions
+
+    are broken down into predefined niches. In this work, we show that a diverse
+
+    population of solutions can be found without the limitation of needing an
+
+    archive or defining the range of behaviors in advance. Instead, we break down
+
+    solutions into independently evolving species and use unsupervised skill
+
+    discovery to learn diverse, high-performing solutions. We show that this can be
+
+    done through gradient-based mutations that take on an information theoretic
+
+    perspective of jointly maximizing mutual information and performance. We
+
+    propose Diverse Quality Species (DQS) as an alternative to archive-based QD
+
+    algorithms. We evaluate it over several simulated robotic environments and show
+
+    that it can learn a diverse set of solutions from varying species. Furthermore,
+
+    our results show that DQS is more sample-efficient and performant when compared
+
+    to other QD algorithms. Relevant code and hyper-parameters are available at:
+
+    https://github.com/rwickman/NEAT_RL.'
+  authors:
+  - Ryan Wickman
+  - Bibek Poudel
+  - Michael Villarreal
+  - Xiaofei Zhang
+  - Weizi Li
+  bibtex: "@inproceedings{Wickman_2023,\n\tdoi = {10.1145/3583133.3590581},\n\turl\
+    \ = {https://doi.org/10.1145%2F3583133.3590581},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Ryan Wickman and Bibek Poudel and Taylor Michael\
+    \ Villarreal and Xiaofei Zhang and Weizi Li},\n\ttitle = {Efficient Quality-Diversity\
+    \ Optimization through Diverse Quality Species},\n\tbooktitle = {Proceedings of\
+    \ the Companion Conference on Genetic and Evolutionary Computation}\n}"
+  pdfurl: http://arxiv.org/pdf/2304.07425v1
+  title: Efficient Quality-Diversity Optimization through Diverse Quality Species
+  year: 2023
+
+- abstract: 'This paper introduces a user-driven evolutionary algorithm based on Quality
+
+    Diversity (QD) search. During a design session, the user iteratively selects
+
+    among presented alternatives and their selections affect the upcoming results.
+
+    We aim to address two major concerns of interactive evolution: (a) the user
+
+    must be presented with few alternatives, to reduce cognitive load; (b)
+
+    presented alternatives should be diverse but similar to the previous user
+
+    selection, to reduce user fatigue. To address these concerns, we implement a
+
+    variation of the MAP-Elites algorithm where the presented alternatives are
+
+    sampled from a small region (window) of the behavioral space. After a user
+
+    selection, the window is centered on the selected individual''s behavior
+
+    characterization, evolution selects parents from within this window to produce
+
+    offspring, and new alternatives are sampled. Essentially we define an adaptive
+
+    system of local QD, where the user''s selections guide the search towards
+
+    specific regions of the behavioral space. The system is tested on the
+
+    generation of architectural layouts, a constrained optimization task,
+
+    leveraging QD through a two-archive approach. Results show that while global
+
+    exploration is not as pronounced as in MAP-Elites, the system finds more
+
+    appropriate solutions to the user''s taste, based on experiments with
+
+    controllable artificial users.'
+  authors:
+  - Konstantinos Sfikas
+  - Antonios Liapis
+  - Georgios N. Yannakakis
+  bibtex: "@inproceedings{Sfikas_2023,\n\tdoi = {10.1145/3583133.3590616},\n\turl\
+    \ = {https://doi.org/10.1145%2F3583133.3590616},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Konstantinos Sfikas and Antonios Liapis and\
+    \ Georgios N. Yannakakis},\n\ttitle = {Controllable Exploration of a Design Space\
+    \ via Interactive Quality Diversity},\n\tbooktitle = {Proceedings of the Companion\
+    \ Conference on Genetic and Evolutionary Computation}\n}"
+  pdfurl: http://arxiv.org/pdf/2304.01642v2
+  title: Controllable Exploration of a Design Space via Interactive Quality Diversity
+  year: 2023
+
+- authors:
+  - Konstantinos Christou
+  - Chris Christodoulou
+  - Vassilis Vassiliades
+  bibtex: "@inproceedings{Christou_2023,\n\tdoi = {10.1145/3583133.3590737},\n\turl\
+    \ = {https://doi.org/10.1145%2F3583133.3590737},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Konstantinos Christou and Chris Christodoulou\
+    \ and Vassilis Vassiliades},\n\ttitle = {Quality Diversity optimization using\
+    \ the {IsoLineDD} operator: forward and backward directions are equally important},\n\
+    \tbooktitle = {Proceedings of the Companion Conference on Genetic and Evolutionary\
+    \ Computation}\n}"
+  pdfurl: http://dx.doi.org/10.1145/3583133.3590737
+  title: 'Quality Diversity optimization using the IsoLineDD operator: forward and
+    backward directions are equally important'
+  year: 2023
+
+- authors:
+  - Arno Feiden
+  - Jochen Garcke
+  bibtex: "@inproceedings{Feiden_2023,\n\tdoi = {10.1145/3583133.3590741},\n\turl\
+    \ = {https://doi.org/10.1145%2F3583133.3590741},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Arno Feiden and Jochen Garcke},\n\ttitle =\
+    \ {Overcoming Deceptive Rewards with Quality-Diversity},\n\tbooktitle = {Proceedings\
+    \ of the Companion Conference on Genetic and Evolutionary Computation}\n}"
+  pdfurl: http://dx.doi.org/10.1145/3583133.3590741
+  title: Overcoming Deceptive Rewards with Quality-Diversity
+  year: 2023
+
+- authors:
+  - Jean-Baptiste Mouret
+  bibtex: "@inproceedings{Mouret_2023,\n\tdoi = {10.1145/3583133.3590726},\n\turl\
+    \ = {https://doi.org/10.1145%2F3583133.3590726},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Jean-Baptiste Mouret},\n\ttitle = {Fast generation\
+    \ of centroids for {MAP}-Elites},\n\tbooktitle = {Proceedings of the Companion\
+    \ Conference on Genetic and Evolutionary Computation}\n}"
+  pdfurl: http://dx.doi.org/10.1145/3583133.3590726
+  title: Fast generation of centroids for MAP-Elites
+  year: 2023
+
+- abstract: 'Quality diversity~(QD) is a branch of evolutionary computation that gained
+
+    increasing interest in recent years. The Map-Elites QD approach defines a
+
+    feature space, i.e., a partition of the search space, and stores the best
+
+    solution for each cell of this space. We study a simple QD algorithm in the
+
+    context of pseudo-Boolean optimisation on the ``number of ones'''' feature space,
+
+    where the $i$th cell stores the best solution amongst those with a number of
+
+    ones in $[(i-1)k, ik-1]$. Here $k$ is a granularity parameter $1 \leq k \leq
+
+    n+1$. We give a tight bound on the expected time until all cells are covered
+
+    for arbitrary fitness functions and for all $k$ and analyse the expected
+
+    optimisation time of QD on \textsc{OneMax} and other problems whose structure
+
+    aligns favourably with the feature space. On combinatorial problems we show
+
+    that QD finds a ${(1-1/e)}$-approximation when maximising any monotone
+
+    sub-modular function with a single uniform cardinality constraint efficiently.
+
+    Defining the feature space as the number of connected components of a connected
+
+    graph, we show that QD finds a minimum spanning tree in expected polynomial
+
+    time.'
+  authors:
+  - Jakob Bossek
+  - Dirk Sudholt
+  bibtex: "@inproceedings{Bossek_2023,\n\tdoi = {10.1145/3583131.3590383},\n\turl\
+    \ = {https://doi.org/10.1145%2F3583131.3590383},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Jakob Bossek and Dirk Sudholt},\n\ttitle =\
+    \ {Runtime Analysis of Quality Diversity Algorithms},\n\tbooktitle = {Proceedings\
+    \ of the Genetic and Evolutionary Computation Conference}\n}"
+  pdfurl: http://arxiv.org/pdf/2305.18966v2
+  title: Runtime Analysis of Quality Diversity Algorithms
+  year: 2023
+
+- authors:
+  - Paul Kent
+  - Juergen Branke
+  bibtex: "@inproceedings{Kent_2023,\n\tdoi = {10.1145/3583131.3590486},\n\turl =\
+    \ {https://doi.org/10.1145%2F3583131.3590486},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Paul Kent and Juergen Branke},\n\ttitle =\
+    \ {Bayesian Quality Diversity Search with Interactive Illumination},\n\tbooktitle\
+    \ = {Proceedings of the Genetic and Evolutionary Computation Conference}\n}"
+  pdfurl: http://dx.doi.org/10.1145/3583131.3590486
+  title: Bayesian Quality Diversity Search with Interactive Illumination
+  year: 2023
+
+- authors:
+  - Steve Huntsman
+  bibtex: "@inproceedings{Huntsman_2023,\n\tdoi = {10.1145/3583131.3590409},\n\turl\
+    \ = {https://doi.org/10.1145%2F3583131.3590409},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Steve Huntsman},\n\ttitle = {Quality-diversity\
+    \ in dissimilarity spaces},\n\tbooktitle = {Proceedings of the Genetic and Evolutionary\
+    \ Computation Conference}\n}"
+  pdfurl: http://dx.doi.org/10.1145/3583131.3590409
+  title: Quality-diversity in dissimilarity spaces
+  year: 2023
+
+- abstract: 'The representation, or encoding, utilized in evolutionary algorithms
+    has a
+
+    substantial effect on their performance. Examination of the suitability of
+
+    widely used representations for quality diversity optimization (QD) in robotic
+
+    domains has yielded inconsistent results regarding the most appropriate
+
+    encoding method. Given the domain-dependent nature of QD, additional evidence
+
+    from other domains is necessary. This study compares the impact of several
+
+    representations, including direct encoding, a dictionary-based representation,
+
+    parametric encoding, compositional pattern producing networks, and cellular
+
+    automata, on the generation of voxelized meshes in an architecture setting. The
+
+    results reveal that some indirect encodings outperform direct encodings and can
+
+    generate more diverse solution sets, especially when considering full
+
+    phenotypic diversity. The paper introduces a multi-encoding QD approach that
+
+    incorporates all evaluated representations in the same archive. Species of
+
+    encodings compete on the basis of phenotypic features, leading to an approach
+
+    that demonstrates similar performance to the best single-encoding QD approach.
+
+    This is noteworthy, as it does not always require the contribution of the
+
+    best-performing single encoding.'
+  authors:
+  - Ludovico Scarton
+  - Alexander Hagg
+  bibtex: "@inproceedings{Scarton_2023,\n\tdoi = {10.1145/3583131.3590381},\n\turl\
+    \ = {https://doi.org/10.1145%2F3583131.3590381},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Ludovico Scarton and Alexander Hagg},\n\t\
+    title = {On the Suitability of Representations for Quality Diversity Optimization\
+    \ of Shapes},\n\tbooktitle = {Proceedings of the Genetic and Evolutionary Computation\
+    \ Conference}\n}"
+  pdfurl: http://arxiv.org/pdf/2304.03520v1
+  title: On the Suitability of Representations for Quality Diversity Optimization
+    of Shapes
+  year: 2023
+
+- authors:
+  - "Valentin Mac\xE9"
+  - "Rapha\xEBl Boige"
+  - Felix Chalumeau
+  - Thomas Pierrot
+  - Guillaume Richard
+  - Nicolas Perrin-Gilbert
+  bibtex: "@inproceedings{Mac__2023,\n\tdoi = {10.1145/3583131.3590433},\n\turl =\
+    \ {https://doi.org/10.1145%2F3583131.3590433},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Valentin Mac{\\'{e}} and Rapha\xEBl Boige\
+    \ and Felix Chalumeau and Thomas Pierrot and Guillaume Richard and Nicolas Perrin-Gilbert},\n\
+    \ttitle = {The Quality-Diversity Transformer: Generating Behavior-Conditioned\
+    \ Trajectories with Decision Transformers},\n\tbooktitle = {Proceedings of the\
+    \ Genetic and Evolutionary Computation Conference}\n}"
+  pdfurl: http://dx.doi.org/10.1145/3583131.3590433
+  title: 'The Quality-Diversity Transformer: Generating Behavior-Conditioned Trajectories
+    with Decision Transformers'
+  year: 2023
+
+- abstract: 'The synergies between Quality-Diversity (QD) and Deep Reinforcement Learning
+
+    (RL) have led to powerful hybrid QD-RL algorithms that have shown tremendous
+
+    potential, and brings the best of both fields. However, only a single deep RL
+
+    algorithm (TD3) has been used in prior hybrid methods despite notable progress
+
+    made by other RL algorithms. Additionally, there are fundamental differences in
+
+    the optimization procedures between QD and RL which would benefit from a more
+
+    principled approach. We propose Generalized Actor-Critic QD-RL, a unified
+
+    modular framework for actor-critic deep RL methods in the QD-RL setting. This
+
+    framework provides a path to study insights from Deep RL in the QD-RL setting,
+
+    which is an important and efficient way to make progress in QD-RL. We introduce
+
+    two new algorithms, PGA-ME (SAC) and PGA-ME (DroQ) which apply recent
+
+    advancements in Deep RL to the QD-RL setting, and solves the humanoid
+
+    environment which was not possible using existing QD-RL algorithms. However, we
+
+    also find that not all insights from Deep RL can be effectively translated to
+
+    QD-RL. Critically, this work also demonstrates that the actor-critic models in
+
+    QD-RL are generally insufficiently trained and performance gains can be
+
+    achieved without any additional environment evaluations.'
+  authors:
+  - Bryan Lim
+  - Manon Flageat
+  - Antoine Cully
+  bibtex: "@inproceedings{Lim_2023,\n\tdoi = {10.1145/3583131.3590388},\n\turl = {https://doi.org/10.1145%2F3583131.3590388},\n\
+    \tyear = 2023,\n\tmonth = {jul},\n\tpublisher = {{ACM}},\n\tauthor = {Bryan Lim\
+    \ and Manon Flageat and Antoine Cully},\n\ttitle = {Understanding the Synergies\
+    \ between Quality-Diversity and Deep Reinforcement Learning},\n\tbooktitle = {Proceedings\
+    \ of the Genetic and Evolutionary Computation Conference}\n}"
+  pdfurl: http://arxiv.org/pdf/2303.06164v1
+  title: Understanding the Synergies between Quality-Diversity and Deep Reinforcement
+    Learning
+  year: 2023
+
+- abstract: 'Quality-Diversity (QD) algorithms are designed to generate collections
+    of
+
+    high-performing solutions while maximizing their diversity in a given
+
+    descriptor space. However, in the presence of unpredictable noise, the fitness
+
+    and descriptor of the same solution can differ significantly from one
+
+    evaluation to another, leading to uncertainty in the estimation of such values.
+
+    Given the elitist nature of QD algorithms, they commonly end up with many
+
+    degenerate solutions in such noisy settings. In this work, we introduce Archive
+
+    Reproducibility Improvement Algorithm (ARIA); a plug-and-play approach that
+
+    improves the reproducibility of the solutions present in an archive. We propose
+
+    it as a separate optimization module, relying on natural evolution strategies,
+
+    that can be executed on top of any QD algorithm. Our module mutates solutions
+
+    to (1) optimize their probability of belonging to their niche, and (2) maximize
+
+    their fitness. The performance of our method is evaluated on various tasks,
+
+    including a classical optimization problem and two high-dimensional control
+
+    tasks in simulated robotic environments. We show that our algorithm enhances
+
+    the quality and descriptor space coverage of any given archive by at least 50%.'
+  authors:
+  - Luca Grillotti
+  - Manon Flageat
+  - Bryan Lim
+  - Antoine Cully
+  bibtex: "@inproceedings{Grillotti_2023,\n\tdoi = {10.1145/3583131.3590498},\n\t\
+    url = {https://doi.org/10.1145%2F3583131.3590498},\n\tyear = 2023,\n\tmonth =\
+    \ {jul},\n\tpublisher = {{ACM}},\n\tauthor = {Luca Grillotti and Manon Flageat\
+    \ and Bryan Lim and Antoine Cully},\n\ttitle = {Don{\\textquotesingle}t Bet on\
+    \ Luck Alone: Enhancing Behavioral Reproducibility of Quality-Diversity Solutions\
+    \ in Uncertain Domains},\n\tbooktitle = {Proceedings of the Genetic and Evolutionary\
+    \ Computation Conference}\n}"
+  pdfurl: http://arxiv.org/pdf/2304.03672v1
+  title: 'Don''t Bet on Luck Alone: Enhancing Behavioral Reproducibility of Quality-Diversity
+    Solutions in Uncertain Domains'
+  year: 2023
+
+- abstract: 'Quality-Diversity (QD) algorithms have recently gained traction as
+
+    optimisation methods due to their effectiveness at escaping local optima and
+
+    capability of generating wide-ranging and high-performing solutions. Recently,
+
+    Multi-Objective MAP-Elites (MOME) extended the QD paradigm to the
+
+    multi-objective setting by maintaining a Pareto front in each cell of a
+
+    map-elites grid. MOME achieved a global performance that competed with NSGA-II
+
+    and SPEA2, two well-established Multi-Objective Evolutionary Algorithms (MOEA),
+
+    while also acquiring a diverse repertoire of solutions. However, MOME is
+
+    limited by non-directed genetic search mechanisms which struggle in
+
+    high-dimensional search spaces. In this work, we present Multi-Objective
+
+    MAP-Elites with Policy-Gradient Assistance and Crowding-based Exploration
+
+    (MOME-PGX): a new QD algorithm that extends MOME to improve its data efficiency
+
+    and performance. MOME-PGX uses gradient-based optimisation to efficiently drive
+
+    solutions towards higher performance. It also introduces crowding-based
+
+    mechanisms to create an improved exploration strategy and to encourage
+
+    uniformity across Pareto fronts. We evaluate MOME-PGX in four simulated robot
+
+    locomotion tasks and demonstrate that it converges faster and to a higher
+
+    performance than all other baselines. We show that MOME-PGX is between 4.3 and
+
+    42 times more data-efficient than MOME and doubles the performance of MOME,
+
+    NSGA-II and SPEA2 in challenging environments.'
+  authors:
+  - Hannah Janmohamed
+  - Thomas Pierrot
+  - Antoine Cully
+  bibtex: "@article{Janmohamed2023Improving,\n\ttitle={Improving the Data Efficiency\
+    \ of Multi-Objective Quality-Diversity through Gradient Assistance and Crowding\
+    \ Exploration},\n\tauthor={Janmohamed, Hannah and Pierrot, Thomas and Cully, Antoine},\n\
+    \tjournal={arXiv preprint arXiv:2302.12668v2},\n\tyear={2023} }"
+  pdfurl: http://arxiv.org/pdf/2302.12668v2
+  title: Improving the Data Efficiency of Multi-Objective Quality-Diversity through
+    Gradient Assistance and Crowding Exploration
+  year: 2023
+
 - abstract: 'Quality Diversity (QD) algorithms have been proposed to search for a
     large
 
