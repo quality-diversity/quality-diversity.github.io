@@ -48,7 +48,7 @@ for i in range(1, len(sys.argv)):
     arxiv_ok = clean_string(arxivdict["title"]) == paper_title
     crossref_ok = clean_string(crossrefdict["title"][0]) == paper_title
     print(f"references found: arXiv: {arxiv_ok}, Crossref: {crossref_ok}")
-    if !arxiv_ok and !crossref_ok:
+    if not arxiv_ok and not crossref_ok:
         print("\033[91m ERROR: paper not found on both arXiv and Crossref \033[0m")
         not_added.append(paper_title)
         continue
