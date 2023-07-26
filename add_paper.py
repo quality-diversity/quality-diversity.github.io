@@ -16,7 +16,7 @@ output = command.read()[:-1]
 if output:
     print("\033[91m WARNING: There are currently either local or remote changes. Please pull/push before adding more papers:\033[0m")
     print(output)
-    #exit()
+    exit()
 
 not_added=[]
     
@@ -36,8 +36,8 @@ for i in range(1, len(sys.argv)):
     arxivdict = xmltodict.parse(dataarxiv.read().decode("utf-8"))["feed"]["entry"]
 
     # uncomment these prints if you want to see the content of what is obtained from arxiv or crossref
-    print(json.dumps(crossrefdict, indent=4))
-    print(json.dumps(arxivdict, indent=4))
+    #print(json.dumps(crossrefdict, indent=4))
+    #print(json.dumps(arxivdict, indent=4))
     
     # Checking which source is correct, if not both
     arxiv_ok = clean_string(arxivdict["title"]) == paper_title
