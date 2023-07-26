@@ -16,7 +16,7 @@ output = command.read()[:-1]
 if output:
     print("\033[91m WARNING: There are currently either local or remote changes. Please pull/push before adding more papers:\033[0m")
     print(output)
-    exit()
+    #exit()
 
 not_added=[]
     
@@ -65,11 +65,12 @@ for i in range(1, len(sys.argv)):
 
         
     # Construct data structure required for the yml file
-    data ={'paper': {'title':clean_string(arxivdict['title']) if arxiv_ok else clean_string(crossrefdict["title"][0]),
+    data ={'paper': [{'title':clean_string(arxivdict['title']) if arxiv_ok else clean_string(crossrefdict["title"][0]),
                      "authors": [arxivdict['author']["name"]] if isinstance(arxivdict['author'], dict) else [string["name"] for string in arxivdict['author']] if arxiv_ok else [string["given"]+" "+string["family"] for string in crossrefdict['author']],
                      "year": int(arxivdict['published'][0:4]) if arxiv_ok else crossrefdict["published"]["date-parts"][0][0],
                      "pdfurl": next(item['@href'] for item in arxivdict['link'] if item.get('@title') == 'pdf')  if arxiv_ok else crossrefdict["URL"],
                      "bibtex": bib}
+                     ]
            }
 
     if arxiv_ok:
