@@ -1,8 +1,20 @@
 import sys
+import os
 import urllib, urllib.request
 import yaml
 import json
 import xmltodict
+
+# check if there are
+os.system("git remote update")
+command = os.popen("git status -uno")
+output = command.read()[:-1]
+if output:
+    print("\033[91m WARNING: There are currently unpushed changes:\033[0m")
+    print(output)
+    exit()
+
+
 paper_title = sys.argv[1]
 paper_title_nospace = "+".join( paper_title.split())
 
