@@ -1,5 +1,21 @@
 papers:
 
+  authors:
+  - Maxence Faldor
+  - "F\xE9lix Chalumeau"
+  - Manon Flageat
+  - Antoine Cully
+  bibtex: "@inproceedings{Faldor_2023,\n\tdoi = {10.1145/3583131.3590503},\n\turl\
+    \ = {https://doi.org/10.1145%2F3583131.3590503},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Maxence Faldor and F{\\'{e}}lix Chalumeau\
+    \ and Manon Flageat and Antoine Cully},\n\ttitle = {{MAP}-Elites with Descriptor-Conditioned\
+    \ Gradients and Archive Distillation into a Single Policy},\n\tbooktitle = {Proceedings\
+    \ of the Genetic and Evolutionary Computation Conference}\n}"
+  pdfurl: http://dx.doi.org/10.1145/3583131.3590503
+  title: MAP-Elites with Descriptor-Conditioned Gradients and Archive Distillation
+    into a Single Policy
+  year: 2023
+
 - title: "Generative Meta-Learning Robust Quality-Diversity Portfolio"
   authors:
   - Kamer Ali Yuksel
