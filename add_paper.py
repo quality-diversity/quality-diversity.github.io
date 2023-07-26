@@ -37,7 +37,7 @@ for i in range(1, len(sys.argv)):
 
     # uncomment these prints if you want to see the content of what is obtained from arxiv or crossref
     # print(json.dumps(crossrefdict, indent=4))
-    #print(json.dumps(arxivdict, indent=4))
+    print(json.dumps(arxivdict, indent=4))
     
     # Checking which source is correct, if not both
     arxiv_ok = clean_string(arxivdict["title"]) == paper_title
@@ -74,7 +74,7 @@ for i in range(1, len(sys.argv)):
            }
 
     if arxiv_ok:
-        data['paper']["abstract"] = arxivdict['summary']
+        data['paper'][0]["abstract"] = arxivdict['summary']
 
     print(json.dumps(data, indent=4))
     # Asking the user if what we found is correct. 
