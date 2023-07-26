@@ -6,6 +6,9 @@ import json
 import xmltodict
 from builtins import input
 
+def clean_string(string):
+    return string.strip().replace("\n ", "").replace("\n","")
+
 # check if there are any update on the remote and
 os.system("git remote update")
 command = os.popen("git status -uno --porcelain")
@@ -15,6 +18,8 @@ if output:
     print(output)
     exit()
 
+not_added=[]
+    
 for i in range(1, len(sys.argv)):
     paper_title = sys.argv[i]
     print(f"processing: {paper_title}")
@@ -27,31 +32,58 @@ for i in range(1, len(sys.argv)):
     datacrossref = urllib.request.urlopen(urlcrossref)
 
     #get data from arxiv and crossref
-    crossrefdict = json.loads(datacrossref.read().decode("utf-8"))
+    crossrefdict = json.loads(datacrossref.read().decode("utf-8"))["message"]["items"][0]
     arxivdict = xmltodict.parse(dataarxiv.read().decode("utf-8"))["feed"]["entry"]
 
+    # uncomment these prints if you want to see the content of what is obtained from arxiv or crossref
+    # print(json.dumps(crossrefdict, indent=4))
+    #print(json.dumps(arxivdict, indent=4))
+    
+    # Checking which source is correct, if not both
+    arxiv_ok = clean_string(arxivdict["title"]) == paper_title
+    crossref_ok = clean_string(crossrefdict["title"][0]) == paper_title
 
-    # Asking the user if what we found is correct. 
-    proceed_answer = input( f'\033[92m\t found and Arxiv and Cross ref (both should be the title you expect): \n\t{arxivdict["title"]} (arxiv)\n\t{crossrefdict["message"]["items"][0]["title"][0]} (crossref).\033[0m\n Correct and proceed?\n y(yes)|anything else to quit: \n')
-    if proceed_answer != "y":
-        print("\033[91m WARNING: Asked to not proceed. \033[0m")
-        continue
+    
+    
+    if crossref_ok:
+        #get bib from DOI
+        doi = crossrefdict["DOI"]
+        bibaddress = f'http://api.crossref.org/works/{doi}/transform/application/x-bibtex'
+        bib = urllib.request.urlopen(bibaddress).read().decode("utf-8")
+    else: # arxiv_ok
+        authors_str = ""
+        first_lastname = ""
+        for string in arxivdict['author']:
+            names = string['name'].split(" ",1)
+            if authors_str != "":
+                authors_str += " and "
+            if first_lastname == "":
+                first_lastname = names[1]
+            authors_str += names[1] + ", " + names[0]
+            year = arxivdict['published'][0:4]
+        bib = "@article{"+first_lastname+year+arxivdict['title'].split(" ",1)[0].strip(',')+",\ntitle={" + clean_string(arxivdict['title']) + "},\nauthor={" + authors_str +  "},\njournal={arXiv preprint arXiv:"+ arxivdict['id'].split("/")[-1] + "},\nyear={" + year+"} }"
 
-
-    #get bib from DOI
-    doi = crossrefdict["message"]["items"][0]["DOI"]
-    bibaddress = f'http://api.crossref.org/works/{doi}/transform/application/x-bibtex'
-    bib = urllib.request.urlopen(bibaddress).read().decode("utf-8")
-
+        
     # Construct data structure required for the yml file
-    data ={'paper': {'title':arxivdict['title'],
-                     "authors": [arxivdict['author']["name"]] if isinstance(arxivdict['author'], dict) else [string["name"] for string in arxivdict['author']],
-                     "year": int(arxivdict['published'][0:4]),
-                     "pdfurl": next(item['@href'] for item in arxivdict['link'] if item.get('@title') == 'pdf'),
-                     "abstract": arxivdict['summary'],
+    data ={'paper': {'title':clean_string(arxivdict['title']) if arxiv_ok else clean_string(crossrefdict["title"][0]),
+                     "authors": [arxivdict['author']["name"]] if isinstance(arxivdict['author'], dict) else [string["name"] for string in arxivdict['author']] if arxiv_ok else [string["given"]+" "+string["family"] for string in crossrefdict['author']],
+                     "year": int(arxivdict['published'][0:4]) if arxiv_ok else crossrefdict["published"]["date-parts"][0],
+                     "pdfurl": next(item['@href'] for item in arxivdict['link'] if item.get('@title') == 'pdf')  if arxiv_ok else crossrefdict["URL"],
                      "bibtex": bib}
            }
 
+    if arxiv_ok:
+        data['paper']["abstract"] = arxivdict['summary']
+
+    print(json.dumps(data, indent=4))
+    # Asking the user if what we found is correct. 
+    proceed_answer = input( f'\033[92m\t The above information will be added to the file. Is this correct and shall we proceed?\n y(yes)|anything else to quit: \n')
+    if proceed_answer != "y":
+        print("\033[91m WARNING: Asked to not proceed. \033[0m")
+        not_added.append(paper_title)
+        continue
+
+    
     ## Adding the structure to the top of the file
     with open("_data/paperlist.yml", "r") as f:
         contents = f.readlines()
@@ -63,3 +95,4 @@ for i in range(1, len(sys.argv)):
     print(f'\033[92m{paper_title} added to _data/paperlist.yml. use git diff to double check edits before pushing.\033[0m')
 
 
+print(f'not added:\n {not_added}')
