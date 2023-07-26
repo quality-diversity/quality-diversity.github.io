@@ -25,29 +25,32 @@ for i in range(1, len(sys.argv)):
     print(f"\033[93mprocessing: {paper_title}\033[0m")
     paper_title_nospace = "+".join( paper_title.split())
 
-    # URL to get info from arxiv and crossref
+    # URLs to get info from arxiv and crossref
     urlarxiv = f'http://export.arxiv.org/api/query?search_query=ti:{paper_title_nospace}&start=0&max_results=1&sortBy=relevance&sortOrder=ascending'
     urlcrossref = f'http://api.crossref.org/works?query.bibliographic="{paper_title_nospace}"&mailto=QD@imperial.ac.uk&rows=1'
-    try:
-        dataarxiv = urllib.request.urlopen(urlarxiv)
-        datacrossref = urllib.request.urlopen(urlcrossref)
-    except:
-        print("\033[91m ERROR: retrieving info failed \033[0m")
-        not_added.append(paper_title)
-        continue
 
     #get data from arxiv and crossref
-    crossrefdict = json.loads(datacrossref.read().decode("utf-8"))["message"]["items"][0]
-    arxivdict = xmltodict.parse(dataarxiv.read().decode("utf-8"))["feed"]["entry"]
+    try:
+        datacrossref = urllib.request.urlopen(urlcrossref)
+        crossrefdict = json.loads(datacrossref.read().decode("utf-8"))["message"]["items"][0]
+        crossref_ok = clean_string(crossrefdict["title"][0]) == paper_title
+    except:
+        print("\033[91m ERROR: retrieving info from crossref failed \033[0m")
+        crossref_ok = False
 
+    try:
+        dataarxiv = urllib.request.urlopen(urlarxiv)
+        arxivdict = xmltodict.parse(dataarxiv.read().decode("utf-8"))["feed"]["entry"]
+        arxiv_ok = clean_string(arxivdict["title"]) == paper_title
+    except:
+        print("\033[91m ERROR: retrieving info from Arxiv failed \033[0m")
+        arxiv_ok = False
     # uncomment these prints if you want to see the content of what is obtained from arxiv or crossref
     #print(json.dumps(crossrefdict, indent=4))
     #print(json.dumps(arxivdict, indent=4))
     
     # Checking which source is correct, if not both
-    arxiv_ok = clean_string(arxivdict["title"]) == paper_title
-    crossref_ok = clean_string(crossrefdict["title"][0]) == paper_title
-    print(f"references found: arXiv: {arxiv_ok}, Crossref: {crossref_ok}")
+
     if not arxiv_ok and not crossref_ok:
         print("\033[91m ERROR: paper not found on both arXiv and Crossref \033[0m")
         not_added.append(paper_title)
