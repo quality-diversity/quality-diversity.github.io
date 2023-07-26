@@ -16,7 +16,7 @@ output = command.read()[:-1]
 if output:
     print("\033[91m WARNING: There are currently either local or remote changes. Please pull/push before adding more papers:\033[0m")
     print(output)
-    #exit()
+    exit()
 
 not_added=[]
     
