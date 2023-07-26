@@ -61,13 +61,13 @@ for i in range(1, len(sys.argv)):
                 first_lastname = names[1]
             authors_str += names[1] + ", " + names[0]
             year = arxivdict['published'][0:4]
-        bib = "@article{"+first_lastname+year+arxivdict['title'].split(" ",1)[0].strip(',')+",\ntitle={" + clean_string(arxivdict['title']) + "},\nauthor={" + authors_str +  "},\njournal={arXiv preprint arXiv:"+ arxivdict['id'].split("/")[-1] + "},\nyear={" + year+"} }"
+        bib = "@article{"+first_lastname+year+arxivdict['title'].split(" ",1)[0].strip(',')+",\n\ttitle={" + clean_string(arxivdict['title']) + "},\n\tauthor={" + authors_str +  "},\n\tjournal={arXiv preprint arXiv:"+ arxivdict['id'].split("/")[-1] + "},\n\tyear={" + year+"} }"
 
         
     # Construct data structure required for the yml file
     data ={'paper': {'title':clean_string(arxivdict['title']) if arxiv_ok else clean_string(crossrefdict["title"][0]),
                      "authors": [arxivdict['author']["name"]] if isinstance(arxivdict['author'], dict) else [string["name"] for string in arxivdict['author']] if arxiv_ok else [string["given"]+" "+string["family"] for string in crossrefdict['author']],
-                     "year": int(arxivdict['published'][0:4]) if arxiv_ok else crossrefdict["published"]["date-parts"][0],
+                     "year": int(arxivdict['published'][0:4]) if arxiv_ok else crossrefdict["published"]["date-parts"][0][0],
                      "pdfurl": next(item['@href'] for item in arxivdict['link'] if item.get('@title') == 'pdf')  if arxiv_ok else crossrefdict["URL"],
                      "bibtex": bib}
            }
