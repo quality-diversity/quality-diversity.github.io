@@ -1,6 +1,717 @@
 papers:
 
 - authors:
+  - Frank Veenstra
+  - Martin Herring Olsen
+  - Kyrre Glette
+  bibtex: "@inproceedings{Veenstra_2022,\n\tdoi = {10.1145/3520304.3529053},\n\turl\
+    \ = {https://doi.org/10.1145%2F3520304.3529053},\n\tyear = 2022,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Frank Veenstra and Martin Herring Olsen and\
+    \ Kyrre Glette},\n\ttitle = {Effects of encodings and quality-diversity on evolving\
+    \ 2D virtual creatures},\n\tbooktitle = {Proceedings of the Genetic and Evolutionary\
+    \ Computation Conference Companion}\n}"
+  pdfurl: http://dx.doi.org/10.1145/3520304.3529053
+  title: Effects of encodings and quality-diversity on evolving 2D virtual creatures
+  year: 2022
+
+- authors:
+  - Federico Da Rold
+  - Olaf Witkovski
+  - Nathanael Aubert-Kato
+  bibtex: "@inproceedings{Rold_2022,\n\tdoi = {10.1145/3520304.3528813},\n\turl =\
+    \ {https://doi.org/10.1145%2F3520304.3528813},\n\tyear = 2022,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Federico Da Rold and Olaf Witkovski and Nathanael\
+    \ Aubert-Kato},\n\ttitle = {Synaptic pruning with {MAP}-elites},\n\tbooktitle\
+    \ = {Proceedings of the Genetic and Evolutionary Computation Conference Companion}\n\
+    }"
+  pdfurl: http://dx.doi.org/10.1145/3520304.3528813
+  title: Synaptic pruning with MAP-elites
+  year: 2022
+
+- authors:
+  - Paul Kent
+  - Juergen Branke
+  - Adam Gaier
+  - Jean-Baptiste Mouret
+  bibtex: "@inproceedings{Kent_2022,\n\tdoi = {10.1145/3520304.3534018},\n\turl =\
+    \ {https://doi.org/10.1145%2F3520304.3534018},\n\tyear = 2022,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Paul Kent and Juergen Branke and Adam Gaier\
+    \ and Jean-Baptiste Mouret},\n\ttitle = {A discretization-free metric for assessing\
+    \ quality diversity algorithms},\n\tbooktitle = {Proceedings of the Genetic and\
+    \ Evolutionary Computation Conference Companion}\n}"
+  pdfurl: http://dx.doi.org/10.1145/3520304.3534018
+  title: A discretization-free metric for assessing quality diversity algorithms
+  year: 2022
+
+- abstract: 'While standard approaches to optimisation focus on producing a single
+
+    high-performing solution, Quality-Diversity (QD) algorithms allow large diverse
+
+    collections of such solutions to be found. If QD has proven promising across a
+
+    large variety of domains, it still struggles when faced with uncertain domains,
+
+    where quantification of performance and diversity are non-deterministic.
+
+    Previous work in Uncertain Quality-Diversity (UQD) has proposed methods and
+
+    metrics designed for such uncertain domains. In this paper, we propose a first
+
+    set of benchmark tasks to analyse and estimate the performance of UQD
+
+    algorithms. We identify the key uncertainty properties to easily define UQD
+
+    benchmark tasks: the uncertainty location, the type of distribution and its
+
+    parameters. By varying the nature of those key UQD components, we introduce a
+
+    set of 8 easy-to-implement and lightweight tasks, split into 3 main categories.
+
+    All our tasks build on the Redundant Arm: a common QD environment that is
+
+    lightweight and easily replicable. Each one of these tasks highlights one
+
+    specific limitation that arises when considering UQD domains. With this first
+
+    benchmark, we hope to facilitate later advances in UQD.'
+  authors:
+  - Manon Flageat
+  - Luca Grillotti
+  - Antoine Cully
+  bibtex: "@article{Flageat2023Benchmark,\n\ttitle={Benchmark tasks for Quality-Diversity\
+    \ applied to Uncertain domains},\n\tauthor={Flageat, Manon and Grillotti, Luca\
+    \ and Cully, Antoine},\n\tjournal={arXiv preprint arXiv:2304.12454v2},\n\tyear={2023}\
+    \ }"
+  pdfurl: http://arxiv.org/pdf/2304.12454v2
+  title: Benchmark tasks for Quality-Diversity applied to Uncertain domains
+  year: 2023
+
+- authors:
+  - Gaurav Dixit
+  - Kagan Tumer
+  bibtex: "@inproceedings{Dixit_2022,\n\tdoi = {10.1145/3520304.3529062},\n\turl =\
+    \ {https://doi.org/10.1145%2F3520304.3529062},\n\tyear = 2022,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Gaurav Dixit and Kagan Tumer},\n\ttitle =\
+    \ {Balancing teams with quality-diversity for heterogeneous multiagent coordination},\n\
+    \tbooktitle = {Proceedings of the Genetic and Evolutionary Computation Conference\
+    \ Companion}\n}"
+  pdfurl: http://dx.doi.org/10.1145/3520304.3529062
+  title: Balancing teams with quality-diversity for heterogeneous multiagent coordination
+  year: 2022
+
+- authors:
+  - Seth Cooper
+  bibtex: "@article{Cooper_2022,\n\tdoi = {10.15346/hc.v9i1.135},\n\turl = {https://doi.org/10.15346%2Fhc.v9i1.135},\n\
+    \tyear = 2022,\n\tmonth = {sep},\n\tpublisher = {Human Computation Institute},\n\
+    \tvolume = {9},\n\tnumber = {1},\n\tpages = {58--65},\n\tauthor = {Seth Cooper},\n\
+    \ttitle = {A Case Study of Quality-Diversity Search in Human Computation},\n\t\
+    journal = {Human Computation}\n}"
+  pdfurl: http://dx.doi.org/10.15346/hc.v9i1.135
+  title: A Case Study of Quality-Diversity Search in Human Computation
+  year: 2022
+
+- authors:
+  - David M. Bossens
+  - Danesh Tarapore
+  bibtex: "@article{Bossens_2022,\n\tdoi = {10.1109/tevc.2022.3152384},\n\turl = {https://doi.org/10.1109%2Ftevc.2022.3152384},\n\
+    \tyear = 2022,\n\tmonth = {oct},\n\tpublisher = {Institute of Electrical and Electronics\
+    \ Engineers ({IEEE})},\n\tvolume = {26},\n\tnumber = {5},\n\tpages = {1171--1181},\n\
+    \tauthor = {David M. Bossens and Danesh Tarapore},\n\ttitle = {Quality-Diversity\
+    \ Meta-Evolution: Customizing Behavior Spaces to a Meta-Objective},\n\tjournal\
+    \ = {{IEEE} Transactions on Evolutionary Computation}\n}"
+  pdfurl: http://dx.doi.org/10.1109/tevc.2022.3152384
+  title: 'Quality-Diversity Meta-Evolution: Customizing Behavior Spaces to a Meta-Objective'
+  year: 2022
+
+- authors:
+  - Peng Liu
+  - Zheng Guo
+  - Hua Yu
+  - Han Linghu
+  - Yijing Li
+  - Yaqing Hou
+  - Hongwei Ge
+  - Qiang Zhang
+  bibtex: "@inproceedings{Liu_2022,\n\tdoi = {10.1109/cec55065.2022.9870374},\n\t\
+    url = {https://doi.org/10.1109%2Fcec55065.2022.9870374},\n\tyear = 2022,\n\tmonth\
+    \ = {jul},\n\tpublisher = {{IEEE}},\n\tauthor = {Peng Liu and Zheng Guo and Hua\
+    \ Yu and Han Linghu and Yijing Li and Yaqing Hou and Hongwei Ge and Qiang Zhang},\n\
+    \ttitle = {A Preliminary Study of Multi-task {MAP}-Elites with Knowledge Transfer\
+    \ for Robotic Arm Design},\n\tbooktitle = {2022 {IEEE} Congress on Evolutionary\
+    \ Computation ({CEC})}\n}"
+  pdfurl: http://dx.doi.org/10.1109/cec55065.2022.9870374
+  title: A Preliminary Study of Multi-task MAP-Elites with Knowledge Transfer for
+    Robotic Arm Design
+  year: 2022
+
+- abstract: 'Procedural Content Generation (PCG) methods are valuable tools to speed
+    up
+
+    the game development process. Moreover, PCG may also present in games as
+
+    features, such as the procedural dungeon generation (PDG) in Moonlighter
+
+    (Digital Sun, 2018). This paper introduces an extended version of an
+
+    evolutionary dungeon generator by incorporating a MAP-Elites population. Our
+
+    dungeon levels are discretized with rooms that may have locked-door missions
+
+    and enemies within them. We encoded the dungeons through a tree structure to
+
+    ensure the feasibility of missions. We performed computational and user
+
+    feedback experiments to evaluate our PDG approach. They show that our approach
+
+    accurately converges almost the whole MAP-Elite population for most executions.
+
+    Finally, players'' feedback indicates that they enjoyed the generated levels,
+
+    and they could not indicate an algorithm as a level generator.'
+  authors:
+  - Breno M. F. Viana
+  - Leonardo T. Pereira
+  - Claudio F. M. Toledo
+  bibtex: "@article{M. F. Viana2022Illuminating,\n\ttitle={Illuminating the Space\
+    \ of Dungeon Maps, Locked-door Missions and Enemy Placement Through MAP-Elites},\n\
+    \tauthor={M. F. Viana, Breno and T. Pereira, Leonardo and F. M. Toledo, Claudio},\n\
+    \tjournal={arXiv preprint arXiv:2202.09301v2},\n\tyear={2022} }"
+  pdfurl: http://arxiv.org/pdf/2202.09301v2
+  title: Illuminating the Space of Dungeon Maps, Locked-door Missions and Enemy Placement
+    Through MAP-Elites
+  year: 2022
+
+- authors:
+  - Cristina Guerrero-Romero
+  - Simon Lucas
+  - Diego Perez-Liebana
+  bibtex: "@article{Guerrero_Romero_2023,\n\tdoi = {10.1109/tg.2023.3241864},\n\t\
+    url = {https://doi.org/10.1109%2Ftg.2023.3241864},\n\tyear = 2023,\n\tpublisher\
+    \ = {Institute of Electrical and Electronics Engineers ({IEEE})},\n\tpages = {1--14},\n\
+    \tauthor = {Cristina Guerrero-Romero and Simon Lucas and Diego Perez-Liebana},\n\
+    \ttitle = {Beyond Playing to Win: Creating a Team of Agents with Distinct Behaviours\
+    \ for Automated Gameplay},\n\tjournal = {{IEEE} Transactions on Games}\n}"
+  pdfurl: http://dx.doi.org/10.1109/tg.2023.3241864
+  title: 'Beyond Playing to Win: Creating a Team of Agents with Distinct Behaviours
+    for Automated Gameplay'
+  year: 2023
+
+- abstract: 'Evolvability refers to the ability of an individual genotype (solution)
+    to
+
+    produce offspring with mutually diverse phenotypes. Recent research has
+
+    demonstrated that divergent search methods, particularly novelty search,
+
+    promote evolvability by implicitly creating selective pressure for it. The main
+
+    objective of this paper is to provide a novel perspective on the relationship
+
+    between neuroevolutionary divergent search and evolvability. In order to
+
+    achieve this, several types of walks from the literature on fitness landscape
+
+    analysis are first adapted to this context. Subsequently, the interplay between
+
+    neuroevolutionary divergent search and evolvability under varying amounts of
+
+    evolutionary pressure and under different diversity metrics is investigated. To
+
+    this end, experiments are performed on Fetch Pick and Place, a robotic arm
+
+    task. Moreover, the performed study in particular sheds light on the structure
+
+    of the genotype-phenotype mapping (the behavior landscape). Finally, a novel
+
+    definition of evolvability that takes into account the evolvability of
+
+    offspring and is appropriate for use with discretized behavior spaces is
+
+    proposed, together with a Markov-chain-based estimation method for it.'
+  authors:
+  - "Bruno Ga\u0161perov"
+  - "Marko \u0110urasevi\u0107"
+  bibtex: "@inproceedings{Ga_perov_2023,\n\tdoi = {10.1145/3583131.3590427},\n\turl\
+    \ = {https://doi.org/10.1145%2F3583131.3590427},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Bruno Ga{\\v{s}}perov and Marko {\\DJ}urasevi{\\\
+    '{c}}},\n\ttitle = {On Evolvability and Behavior Landscapes in Neuroevolutionary\
+    \ Divergent Search},\n\tbooktitle = {Proceedings of the Genetic and Evolutionary\
+    \ Computation Conference}\n}"
+  pdfurl: http://arxiv.org/pdf/2306.09849v1
+  title: On Evolvability and Behavior Landscapes in Neuroevolutionary Divergent Search
+  year: 2023
+
+- abstract: 'With the development of hardware accelerators and their corresponding
+    tools,
+
+    evaluations have become more affordable through fast and massively parallel
+
+    evaluations in some applications. This advancement has drastically sped up the
+
+    runtime of evolution-inspired algorithms such as Quality-Diversity
+
+    optimization, creating tremendous potential for algorithmic innovation through
+
+    scale. In this work, we propose MAP-Elites-Multi-ES (MEMES), a novel QD
+
+    algorithm based on Evolution Strategies (ES) designed for fast parallel
+
+    evaluations. ME-Multi-ES builds on top of the existing MAP-Elites-ES algorithm,
+
+    scaling it by maintaining multiple independent ES threads with massive
+
+    parallelization. We also introduce a new dynamic reset procedure for the
+
+    lifespan of the independent ES to autonomously maximize the improvement of the
+
+    QD population. We show experimentally that MEMES outperforms existing
+
+    gradient-based and objective-agnostic QD algorithms when compared in terms of
+
+    generations. We perform this comparison on both black-box optimization and
+
+    QD-Reinforcement Learning tasks, demonstrating the benefit of our approach
+
+    across different problems and domains. Finally, we also find that our approach
+
+    intrinsically enables optimization of fitness locally around a niche, a
+
+    phenomenon not observed in other QD algorithms.'
+  authors:
+  - Manon Flageat
+  - Bryan Lim
+  - Antoine Cully
+  bibtex: "@article{Flageat2023Multiple,\n\ttitle={Multiple Hands Make Light Work:\
+    \ Enhancing Quality and Diversity using MAP-Elites with Multiple Parallel Evolution\
+    \ Strategies},\n\tauthor={Flageat, Manon and Lim, Bryan and Cully, Antoine},\n\
+    \tjournal={arXiv preprint arXiv:2303.06137v1},\n\tyear={2023} }"
+  pdfurl: http://arxiv.org/pdf/2303.06137v1
+  title: 'Multiple Hands Make Light Work: Enhancing Quality and Diversity using MAP-Elites
+    with Multiple Parallel Evolution Strategies'
+  year: 2023
+
+- authors:
+  - Alejandro Marrero
+  - Eduardo Segredo
+  - Emma Hart
+  - Jakob Bossek
+  - Aneta Neumann
+  bibtex: "@inproceedings{Marrero_2023,\n\tdoi = {10.1145/3583131.3590504},\n\turl\
+    \ = {https://doi.org/10.1145%2F3583131.3590504},\n\tyear = 2023,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Alejandro Marrero and Eduardo Segredo and\
+    \ Emma Hart and Jakob Bossek and Aneta Neumann},\n\ttitle = {Generating diverse\
+    \ and discriminatory knapsack instances by searching for novelty in variable dimensions\
+    \ of feature-space},\n\tbooktitle = {Proceedings of the Genetic and Evolutionary\
+    \ Computation Conference}\n}"
+  pdfurl: http://dx.doi.org/10.1145/3583131.3590504
+  title: Generating diverse and discriminatory knapsack instances by searching for
+    novelty in variable dimensions of feature-space
+  year: 2023
+
+- abstract: 'As human-robot interaction (HRI) systems advance, so does the difficulty
+    of
+
+    evaluating and understanding the strengths and limitations of these systems in
+
+    different environments and with different users. To this end, previous methods
+
+    have algorithmically generated diverse scenarios that reveal system failures in
+
+    a shared control teleoperation task. However, these methods require directly
+
+    evaluating generated scenarios by simulating robot policies and human actions.
+
+    The computational cost of these evaluations limits their applicability in more
+
+    complex domains. Thus, we propose augmenting scenario generation systems with
+
+    surrogate models that predict both human and robot behaviors. In the shared
+
+    control teleoperation domain and a more complex shared workspace collaboration
+
+    task, we show that surrogate assisted scenario generation efficiently
+
+    synthesizes diverse datasets of challenging scenarios. We demonstrate that
+
+    these failures are reproducible in real-world interactions.'
+  authors:
+  - Varun Bhatt
+  - Heramb Nemlekar
+  - Matthew C. Fontaine
+  - Bryon Tjanaka
+  - Hejia Zhang
+  - Ya-Chuan Hsu
+  - Stefanos Nikolaidis
+  bibtex: "@article{Bhatt2023Surrogate,\n\ttitle={Surrogate Assisted Generation of\
+    \ Human-Robot Interaction Scenarios},\n\tauthor={Bhatt, Varun and Nemlekar, Heramb\
+    \ and C. Fontaine, Matthew and Tjanaka, Bryon and Zhang, Hejia and Hsu, Ya-Chuan\
+    \ and Nikolaidis, Stefanos},\n\tjournal={arXiv preprint arXiv:2304.13787v2},\n\
+    \tyear={2023} }"
+  pdfurl: http://arxiv.org/pdf/2304.13787v2
+  title: Surrogate Assisted Generation of Human-Robot Interaction Scenarios
+  year: 2023
+
+- abstract: 'Quality diversity algorithms can be used to efficiently create a diverse
+    set
+
+    of solutions to inform engineers'' intuition. But quality diversity is not
+
+    efficient in very expensive problems, needing 100.000s of evaluations. Even
+
+    with the assistance of surrogate models, quality diversity needs 100s or even
+
+    1000s of evaluations, which can make it use infeasible. In this study we try to
+
+    tackle this problem by using a pre-optimization strategy on a lower-dimensional
+
+    optimization problem and then map the solutions to a higher-dimensional case.
+
+    For a use case to design buildings that minimize wind nuisance, we show that we
+
+    can predict flow features around 3D buildings from 2D flow features around
+
+    building footprints. For a diverse set of building designs, by sampling the
+
+    space of 2D footprints with a quality diversity algorithm, a predictive model
+
+    can be trained that is more accurate than when trained on a set of footprints
+
+    that were selected with a space-filling algorithm like the Sobol sequence.
+
+    Simulating only 16 buildings in 3D, a set of 1024 building designs with low
+
+    predicted wind nuisance is created. We show that we can produce better machine
+
+    learning models by producing training data with quality diversity instead of
+
+    using common sampling techniques. The method can bootstrap generative design in
+
+    a computationally expensive 3D domain and allow engineers to sweep the design
+
+    space, understanding wind nuisance in early design phases.'
+  authors:
+  - Alexander Hagg
+  - Martin L. Kliemank
+  - Alexander Asteroth
+  - Dominik Wilde
+  - Mario C. Bedrunka
+  - Holger Foysi
+  - Dirk Reith
+  bibtex: "@article{Hagg_2023,\n\tdoi = {10.1162/evco_a_00326},\n\turl = {https://doi.org/10.1162%2Fevco_a_00326},\n\
+    \tyear = 2023,\n\tmonth = {apr},\n\tpublisher = {{MIT} Press},\n\tpages = {1--21},\n\
+    \tauthor = {Alexander Hagg and Martin L. Kliemank and Alexander Asteroth and Dominik\
+    \ Wilde and Mario C. Bedrunka and Holger Foysi and Dirk Reith},\n\ttitle = {Efficient\
+    \ Quality Diversity Optimization of 3D Buildings through 2D Pre-optimization},\n\
+    \tjournal = {Evolutionary Computation}\n}"
+  pdfurl: http://arxiv.org/pdf/2303.15896v1
+  title: Efficient Quality Diversity Optimization of 3D Buildings through 2D Pre-optimization
+  year: 2023
+
+- authors:
+  - Thomas Pierrot
+  - "Valentin Mac\xE9"
+  - Felix Chalumeau
+  - Arthur Flajolet
+  - Geoffrey Cideron
+  - Karim Beguir
+  - Antoine Cully
+  - Olivier Sigaud
+  - Nicolas Perrin-Gilbert
+  bibtex: "@inproceedings{Pierrot_2022,\n\tdoi = {10.1145/3512290.3528845},\n\turl\
+    \ = {https://doi.org/10.1145%2F3512290.3528845},\n\tyear = 2022,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Thomas Pierrot and Valentin Mac{\\'{e}} and\
+    \ Felix Chalumeau and Arthur Flajolet and Geoffrey Cideron and Karim Beguir and\
+    \ Antoine Cully and Olivier Sigaud and Nicolas Perrin-Gilbert},\n\ttitle = {Diversity\
+    \ policy gradient for sample efficient quality-diversity optimization},\n\tbooktitle\
+    \ = {Proceedings of the Genetic and Evolutionary Computation Conference}\n}"
+  pdfurl: http://dx.doi.org/10.1145/3512290.3528845
+  title: Diversity policy gradient for sample efficient quality-diversity optimization
+  year: 2022
+
+- authors:
+  - Lennart Schneider
+  - Florian Pfisterer
+  - Janek Thomas
+  - Bernd Bischl
+  bibtex: "@inproceedings{Schneider_2022,\n\tdoi = {10.1145/3520304.3534003},\n\t\
+    url = {https://doi.org/10.1145%2F3520304.3534003},\n\tyear = 2022,\n\tmonth =\
+    \ {jul},\n\tpublisher = {{ACM}},\n\tauthor = {Lennart Schneider and Florian Pfisterer\
+    \ and Janek Thomas and Bernd Bischl},\n\ttitle = {A collection of quality diversity\
+    \ optimization problems derived from hyperparameter optimization of machine learning\
+    \ models},\n\tbooktitle = {Proceedings of the Genetic and Evolutionary Computation\
+    \ Conference Companion}\n}"
+  pdfurl: http://dx.doi.org/10.1145/3520304.3534003
+  title: A collection of quality diversity optimization problems derived from hyperparameter
+    optimization of machine learning models
+  year: 2022
+
+- abstract: 'Quality Diversity (QD) has emerged as a powerful alternative optimization
+
+    paradigm that aims at generating large and diverse collections of solutions,
+
+    notably with its flagship algorithm MAP-ELITES (ME) which evolves solutions
+
+    through mutations and crossovers. While very effective for some unstructured
+
+    problems, early ME implementations relied exclusively on random search to
+
+    evolve the population of solutions, rendering them notoriously
+
+    sample-inefficient for high-dimensional problems, such as when evolving neural
+
+    networks. Follow-up works considered exploiting gradient information to guide
+
+    the search in order to address these shortcomings through techniques borrowed
+
+    from either Black-Box Optimization (BBO) or Reinforcement Learning (RL). While
+
+    mixing RL techniques with ME unlocked state-of-the-art performance for robotics
+
+    control problems that require a good amount of exploration, it also plagued
+
+    these ME variants with limitations common among RL algorithms that ME was free
+
+    of, such as hyperparameter sensitivity, high stochasticity as well as training
+
+    instability, including when the population size increases as some components
+
+    are shared across the population in recent approaches. Furthermore, existing
+
+    approaches mixing ME with RL tend to be tied to a specific RL algorithm, which
+
+    effectively prevents their use on problems where the corresponding RL algorithm
+
+    fails. To address these shortcomings, we introduce a flexible framework that
+
+    allows the use of any RL algorithm and alleviates the aforementioned
+
+    limitations by evolving populations of agents (whose definition include
+
+    hyperparameters and all learnable parameters) instead of just policies. We
+
+    demonstrate the benefits brought about by our framework through extensive
+
+    numerical experiments on a number of robotics control problems, some of which
+
+    with deceptive rewards, taken from the QD-RL literature.'
+  authors:
+  - Thomas Pierrot
+  - Arthur Flajolet
+  bibtex: "@article{Pierrot2023Evolving,\n\ttitle={Evolving Populations of Diverse\
+    \ RL Agents with MAP-Elites},\n\tauthor={Pierrot, Thomas and Flajolet, Arthur},\n\
+    \tjournal={arXiv preprint arXiv:2303.12803v2},\n\tyear={2023} }"
+  pdfurl: http://arxiv.org/pdf/2303.12803v2
+  title: Evolving Populations of Diverse RL Agents with MAP-Elites
+  year: 2023
+
+- authors:
+  - Luca Grillotti
+  - Antoine Cully
+  bibtex: "@article{Grillotti_2022,\n\tdoi = {10.1109/tevc.2022.3159855},\n\turl =\
+    \ {https://doi.org/10.1109%2Ftevc.2022.3159855},\n\tyear = 2022,\n\tmonth = {dec},\n\
+    \tpublisher = {Institute of Electrical and Electronics Engineers ({IEEE})},\n\t\
+    volume = {26},\n\tnumber = {6},\n\tpages = {1539--1552},\n\tauthor = {Luca Grillotti\
+    \ and Antoine Cully},\n\ttitle = {Unsupervised Behavior Discovery With Quality-Diversity\
+    \ Optimization},\n\tjournal = {{IEEE} Transactions on Evolutionary Computation}\n\
+    }"
+  pdfurl: http://dx.doi.org/10.1109/tevc.2022.3159855
+  title: Unsupervised Behavior Discovery With Quality-Diversity Optimization
+  year: 2022
+
+- authors:
+  - Rituraj Kaushik
+  - Karol Arndt
+  - Ville Kyrki
+  bibtex: "@article{Kaushik_2022,\n\tdoi = {10.1109/lra.2022.3177294},\n\turl = {https://doi.org/10.1109%2Flra.2022.3177294},\n\
+    \tyear = 2022,\n\tmonth = {jul},\n\tpublisher = {Institute of Electrical and Electronics\
+    \ Engineers ({IEEE})},\n\tvolume = {7},\n\tnumber = {3},\n\tpages = {6838--6845},\n\
+    \tauthor = {Rituraj Kaushik and Karol Arndt and Ville Kyrki},\n\ttitle = {{SafeAPT}:\
+    \ Safe Simulation-to-Real Robot Learning Using Diverse Policies Learned in Simulation},\n\
+    \tjournal = {{IEEE} Robotics and Automation Letters}\n}"
+  pdfurl: http://dx.doi.org/10.1109/lra.2022.3177294
+  title: 'SafeAPT: Safe Simulation-to-Real Robot Learning Using Diverse Policies Learned
+    in Simulation'
+  year: 2022
+
+- abstract: 'Pre-training a diverse set of neural network controllers in simulation
+    has
+
+    enabled robots to adapt online to damage in robot locomotion tasks. However,
+
+    finding diverse, high-performing controllers requires expensive network
+
+    training and extensive tuning of a large number of hyperparameters. On the
+
+    other hand, Covariance Matrix Adaptation MAP-Annealing (CMA-MAE), an evolution
+
+    strategies (ES)-based quality diversity algorithm, does not have these
+
+    limitations and has achieved state-of-the-art performance on standard QD
+
+    benchmarks. However, CMA-MAE cannot scale to modern neural network controllers
+
+    due to its quadratic complexity. We leverage efficient approximation methods in
+
+    ES to propose three new CMA-MAE variants that scale to high dimensions. Our
+
+    experiments show that the variants outperform ES-based baselines in benchmark
+
+    robotic locomotion tasks, while being comparable with or exceeding
+
+    state-of-the-art deep reinforcement learning-based quality diversity
+
+    algorithms.'
+  authors:
+  - Bryon Tjanaka
+  - Matthew C. Fontaine
+  - David H. Lee
+  - Aniruddha Kalkar
+  - Stefanos Nikolaidis
+  bibtex: "@article{Tjanaka2022Training,\n\ttitle={Training Diverse High-Dimensional\
+    \ Controllers by Scaling Covariance Matrix Adaptation MAP-Annealing},\n\tauthor={Tjanaka,\
+    \ Bryon and C. Fontaine, Matthew and H. Lee, David and Kalkar, Aniruddha and Nikolaidis,\
+    \ Stefanos},\n\tjournal={arXiv preprint arXiv:2210.02622v2},\n\tyear={2022} }"
+  pdfurl: http://arxiv.org/pdf/2210.02622v2
+  title: Training Diverse High-Dimensional Controllers by Scaling Covariance Matrix
+    Adaptation MAP-Annealing
+  year: 2022
+
+- authors:
+  - Thomas Pierrot
+  - Guillaume Richard
+  - Karim Beguir
+  - Antoine Cully
+  bibtex: "@inproceedings{Pierrot_2022,\n\tdoi = {10.1145/3512290.3528823},\n\turl\
+    \ = {https://doi.org/10.1145%2F3512290.3528823},\n\tyear = 2022,\n\tmonth = {jul},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Thomas Pierrot and Guillaume Richard and Karim\
+    \ Beguir and Antoine Cully},\n\ttitle = {Multi-objective quality diversity optimization},\n\
+    \tbooktitle = {Proceedings of the Genetic and Evolutionary Computation Conference}\n\
+    }"
+  pdfurl: http://dx.doi.org/10.1145/3512290.3528823
+  title: Multi-objective quality diversity optimization
+  year: 2022
+
+- abstract: 'Quality-Diversity optimisation (QD) has proven to yield promising results
+
+    across a broad set of applications. However, QD approaches struggle in the
+
+    presence of uncertainty in the environment, as it impacts their ability to
+
+    quantify the true performance and novelty of solutions. This problem has been
+
+    highlighted multiple times independently in previous literature. In this work,
+
+    we propose to uniformise the view on this problem through four main
+
+    contributions. First, we formalise a common framework for uncertain domains:
+
+    the Uncertain QD setting, a special case of QD in which fitness and descriptors
+
+    for each solution are no longer fixed values but distribution over possible
+
+    values. Second, we propose a new methodology to evaluate Uncertain QD
+
+    approaches, relying on a new per-generation sampling budget and a set of
+
+    existing and new metrics specifically designed for Uncertain QD. Third, we
+
+    propose three new Uncertain QD algorithms: Archive-sampling,
+
+    Parallel-Adaptive-sampling and Deep-Grid-sampling. We propose these approaches
+
+    taking into account recent advances in the QD community toward the use of
+
+    hardware acceleration that enable large numbers of parallel evaluations and
+
+    make sampling an affordable approach to uncertainty. Our final and fourth
+
+    contribution is to use this new framework and the associated comparison methods
+
+    to benchmark existing and novel approaches. We demonstrate once again the
+
+    limitation of MAP-Elites in uncertain domains and highlight the performance of
+
+    the existing Deep-Grid approach, and of our new algorithms. The goal of this
+
+    framework and methods is to become an instrumental benchmark for future works
+
+    considering Uncertain QD.'
+  authors:
+  - Manon Flageat
+  - Antoine Cully
+  bibtex: "@article{Flageat_2023,\n\tdoi = {10.1109/tevc.2023.3273560},\n\turl = {https://doi.org/10.1109%2Ftevc.2023.3273560},\n\
+    \tyear = 2023,\n\tpublisher = {Institute of Electrical and Electronics Engineers\
+    \ ({IEEE})},\n\tpages = {1--1},\n\tauthor = {Manon Flageat and Antoine Cully},\n\
+    \ttitle = {Uncertain Quality-Diversity: Evaluation methodology and new methods\
+    \ for Quality-Diversity in Uncertain Domains},\n\tjournal = {{IEEE} Transactions\
+    \ on Evolutionary Computation}\n}"
+  pdfurl: http://arxiv.org/pdf/2302.00463v2
+  title: 'Uncertain Quality-Diversity: Evaluation methodology and new methods for
+    Quality-Diversity in Uncertain Domains'
+  year: 2023
+
+- abstract: 'Quality-Diversity algorithms, among which MAP-Elites, have emerged as
+
+    powerful alternatives to performance-only optimisation approaches as they
+
+    enable generating collections of diverse and high-performing solutions to an
+
+    optimisation problem. However, they are often limited to low-dimensional search
+
+    spaces and deterministic environments. The recently introduced Policy Gradient
+
+    Assisted MAP-Elites (PGA-MAP-Elites) algorithm overcomes this limitation by
+
+    pairing the traditional Genetic operator of MAP-Elites with a gradient-based
+
+    operator inspired by Deep Reinforcement Learning. This new operator guides
+
+    mutations toward high-performing solutions using policy-gradients. In this
+
+    work, we propose an in-depth study of PGA-MAP-Elites. We demonstrate the
+
+    benefits of policy-gradients on the performance of the algorithm and the
+
+    reproducibility of the generated solutions when considering uncertain domains.
+
+    We first prove that PGA-MAP-Elites is highly performant in both deterministic
+
+    and uncertain high-dimensional environments, decorrelating the two challenges
+
+    it tackles. Secondly, we show that in addition to outperforming all the
+
+    considered baselines, the collections of solutions generated by PGA-MAP-Elites
+
+    are highly reproducible in uncertain environments, approaching the
+
+    reproducibility of solutions found by Quality-Diversity approaches built
+
+    specifically for uncertain applications. Finally, we propose an ablation and
+
+    in-depth analysis of the dynamic of the policy-gradients-based variation. We
+
+    demonstrate that the policy-gradient variation operator is determinant to
+
+    guarantee the performance of PGA-MAP-Elites but is only essential during the
+
+    early stage of the process, where it finds high-performing regions of the
+
+    search space.'
+  authors:
+  - Manon Flageat
+  - Felix Chalumeau
+  - Antoine Cully
+  bibtex: "@article{Flageat_2023,\n\tdoi = {10.1145/3577203},\n\turl = {https://doi.org/10.1145%2F3577203},\n\
+    \tyear = 2023,\n\tmonth = {mar},\n\tpublisher = {Association for Computing Machinery\
+    \ ({ACM})},\n\tvolume = {3},\n\tnumber = {1},\n\tpages = {1--32},\n\tauthor =\
+    \ {Manon Flageat and F{\\'{e}}lix Chalumeau and Antoine Cully},\n\ttitle = {Empirical\
+    \ analysis of {PGA}-{MAP}-Elites for Neuroevolution in Uncertain Domains},\n\t\
+    journal = {{ACM} Transactions on Evolutionary Learning and Optimization}\n}"
+  pdfurl: http://arxiv.org/pdf/2210.13156v1
+  title: Empirical analysis of PGA-MAP-Elites for Neuroevolution in Uncertain Domains
+  year: 2022
+
+- authors:
   - "Timoth\xE9e Anne"
   - Jean-Baptiste Mouret
   bibtex: "@inproceedings{Anne_2023,\n\tdoi = {10.1145/3583133.3590730},\n\turl =\
