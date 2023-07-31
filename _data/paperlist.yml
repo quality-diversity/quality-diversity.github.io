@@ -1,5 +1,106 @@
 papers:
 
+- abstract: 'This paper proposes a novel method for estimating the set of plausible
+    poses
+
+    of a rigid object from a set of points with volumetric information, such as
+
+    whether each point is in free space or on the surface of the object. In
+
+    particular, we study how pose can be estimated from force and tactile data
+
+    arising from contact. Using data derived from contact is challenging because it
+
+    is inherently less information-dense than visual data, and thus the pose
+
+    estimation problem is severely under-constrained when there are few contacts.
+
+    Rather than attempting to estimate the true pose of the object, which is not
+
+    tractable without a large number of contacts, we seek to estimate a plausible
+
+    set of poses which obey the constraints imposed by the sensor data. Existing
+
+    methods struggle to estimate this set because they are either designed for
+
+    single pose estimates or require informative priors to be effective. Our
+
+    approach to this problem, Constrained pose Hypothesis Set Elimination (CHSEL),
+
+    has three key attributes: 1) It considers volumetric information, which allows
+
+    us to account for known free space; 2) It uses a novel differentiable
+
+    volumetric cost function to take advantage of powerful gradient-based
+
+    optimization tools; and 3) It uses methods from the Quality Diversity (QD)
+
+    optimization literature to produce a diverse set of high-quality poses. To our
+
+    knowledge, QD methods have not been used previously for pose registration. We
+
+    also show how to update our plausible pose estimates online as more data is
+
+    gathered by the robot. Our experiments suggest that CHSEL shows large
+
+    performance improvements over several baseline methods for both simulated and
+
+    real-world data.'
+  authors:
+  - Sheng Zhong
+  - Nima Fazeli
+  - Dmitry Berenson
+  bibtex: "@article{Zhong2023CHSEL:,\n\ttitle={CHSEL Producing Diverse Plausible Pose\
+    \ Estimates from Contact and Free Space Data},\n\tauthor={Zhong, Sheng and Fazeli,\
+    \ Nima and Berenson, Dmitry},\n\tjournal={arXiv preprint arXiv:2305.08042v1},\n\
+    \tyear={2023} }"
+  pdfurl: http://arxiv.org/pdf/2305.08042v1
+  title: CHSEL Producing Diverse Plausible Pose Estimates from Contact and Free Space
+    Data
+  year: 2023
+
+- abstract: 'Real-world design problems are a messy combination of constraints,
+
+    objectives, and features. Exploring these problem spaces can be defined as a
+
+    Multi-Criteria Exploration (MCX) problem, whose goals are to produce a set of
+
+    diverse solutions with high performance across many objectives, while avoiding
+
+    low performance across any objectives. Quality-Diversity algorithms produce the
+
+    needed design variation, but typically consider only a single objective. We
+
+    present a new ranking, T-DominO, specifically designed to handle multiple
+
+    objectives in MCX problems. T-DominO ranks individuals relative to other
+
+    solutions in the archive, favoring individuals with balanced performance over
+
+    those which excel at a few objectives at the cost of the others. Keeping only
+    a
+
+    single balanced solution in each MAP-Elites bin maintains the visual
+
+    accessibility of the archive -- a strong asset for design exploration. We
+
+    illustrate our approach on a set of easily understood benchmarks, and showcase
+
+    its potential in a many-objective real-world architecture case study.'
+  authors:
+  - Adam Gaier
+  - James Stoddart
+  - Lorenzo Villaggi
+  - Peter J Bentley
+  bibtex: "@article{Gaier2022T-DominO:,\n\ttitle={T-DominO Exploring Multiple Criteria\
+    \ with Quality-Diversity and the Tournament Dominance Objective},\n\tauthor={Gaier,\
+    \ Adam and Stoddart, James and Villaggi, Lorenzo and J Bentley, Peter},\n\tjournal={arXiv\
+    \ preprint arXiv:2207.01439v1},\n\tyear={2022} }"
+  pdfurl: http://arxiv.org/pdf/2207.01439v1
+  title: T-DominO Exploring Multiple Criteria with Quality-Diversity and the Tournament
+    Dominance Objective
+  year: 2022
+
 - authors:
   - Frank Veenstra
   - Martin Herring Olsen
