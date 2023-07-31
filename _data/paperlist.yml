@@ -1,5 +1,51 @@
 papers:
 
+- authors:
+  - Andrea Ferigo
+  - Leonardo Lucio Custode
+  - Giovanni Iacca
+  bibtex: "@inproceedings{Ferigo_2023,\n\tdoi = {10.1145/3555776.3577591},\n\turl\
+    \ = {https://doi.org/10.1145%2F3555776.3577591},\n\tyear = 2023,\n\tmonth = {mar},\n\
+    \tpublisher = {{ACM}},\n\tauthor = {Andrea Ferigo and Leonardo Lucio Custode and\
+    \ Giovanni Iacca},\n\ttitle = {Quality Diversity Evolutionary Learning of Decision\
+    \ Trees},\n\tbooktitle = {Proceedings of the 38th {ACM}/{SIGAPP} Symposium on\
+    \ Applied Computing}\n}"
+  pdfurl: http://dx.doi.org/10.1145/3555776.3577591
+  title: Quality Diversity Evolutionary Learning of Decision Trees
+  year: 2023
+
+- authors:
+  - Aurelien Morel
+  - Yakumo Kunimoto
+  - Alex Coninx
+  - Stephane Doncieux
+  bibtex: "@inproceedings{Morel_2022,\n\tdoi = {10.1109/icra46639.2022.9811837},\n\
+    \turl = {https://doi.org/10.1109%2Ficra46639.2022.9811837},\n\tyear = 2022,\n\t\
+    month = {may},\n\tpublisher = {{IEEE}},\n\tauthor = {Aurelien Morel and Yakumo\
+    \ Kunimoto and Alex Coninx and Stephane Doncieux},\n\ttitle = {Automatic Acquisition\
+    \ of a Repertoire of Diverse Grasping Trajectories through Behavior Shaping and\
+    \ Novelty Search},\n\tbooktitle = {2022 International Conference on Robotics and\
+    \ Automation ({ICRA})}\n}"
+  pdfurl: http://dx.doi.org/10.1109/icra46639.2022.9811837
+  title: Automatic Acquisition of a Repertoire of Diverse Grasping Trajectories through
+    Behavior Shaping and Novelty Search
+  year: 2022
+
+- authors:
+  - Matthew C. Fontaine
+  - Stefanos Nikolaidis
+  bibtex: "@article{Fontaine_2022,\n\tdoi = {10.1145/3476412},\n\turl = {https://doi.org/10.1145%2F3476412},\n\
+    \tyear = 2022,\n\tmonth = {sep},\n\tpublisher = {Association for Computing Machinery\
+    \ ({ACM})},\n\tvolume = {11},\n\tnumber = {3},\n\tpages = {1--30},\n\tauthor =\
+    \ {Matthew C. Fontaine and Stefanos Nikolaidis},\n\ttitle = {Evaluating Human{\\\
+    textendash}Robot Interaction Algorithms in Shared Autonomy via Quality Diversity\
+    \ Scenario Generation},\n\tjournal = {{ACM} Transactions on Human-Robot Interaction}\n\
+    }"
+  pdfurl: http://dx.doi.org/10.1145/3476412
+  title: "Evaluating Human\u2013Robot Interaction Algorithms in Shared Autonomy via\
+    \ Quality Diversity Scenario Generation"
+  year: 2022
+
 - abstract: 'This paper proposes a novel method for estimating the set of plausible
     poses
 
