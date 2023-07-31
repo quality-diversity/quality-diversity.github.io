@@ -7,7 +7,7 @@ import xmltodict
 from builtins import input
 
 def clean_string(string):
-    return string.strip().replace("\n ", "").replace(":", "")
+    return string.strip().replace("\n ", "").replace(":", "").replace("\u2013","–").replace("-","–")# replace utf-8 symbol (ndash) to ascii (-)
 
 # check if there are any update on the remote and
 os.system("git remote update")
@@ -31,15 +31,17 @@ for i in range(1, len(sys.argv)):
     #get data from arxiv and crossref
     try:
         datacrossref = urllib.request.urlopen(urlcrossref)
-        crossrefdict = json.loads(datacrossref.read().decode("utf-8"))["message"]["items"][0]
-        crossref_ok = clean_string(crossrefdict["title"][0]) == paper_title
-    except:
+        crossrefdict = json.loads(datacrossref.read().decode("utf-8-sig"))["message"]["items"][0]
+        crossref_ok = clean_string(crossrefdict["title"][0]).lower() == paper_title.lower()
+    except Exception as e:
+        print(e)
+        
         print("\033[91m ERROR: retrieving info from crossref failed \033[0m")
         crossref_ok = False
 
     try:
         dataarxiv = urllib.request.urlopen(urlarxiv)
-        arxivdict = xmltodict.parse(dataarxiv.read().decode("utf-8"))["feed"]["entry"]
+        arxivdict = xmltodict.parse(dataarxiv.read().decode("utf-8-sig"))["feed"]["entry"]
         arxiv_ok = clean_string(arxivdict["title"]) == paper_title
     except Exception as e:
         print(e)
@@ -61,7 +63,7 @@ for i in range(1, len(sys.argv)):
         #get bib from DOI
         doi = crossrefdict["DOI"]
         bibaddress = f'http://api.crossref.org/works/{doi}/transform/application/x-bibtex'
-        bib = urllib.request.urlopen(bibaddress).read().decode("utf-8")
+        bib = urllib.request.urlopen(bibaddress).read().decode("utf-8-sig")
     else: # arxiv_ok
         authors_str = ""
         first_lastname = ""
