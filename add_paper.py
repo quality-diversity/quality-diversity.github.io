@@ -7,7 +7,7 @@ import xmltodict
 from builtins import input
 
 def clean_string(string):
-    return string.strip().replace("\n ", "").replace("\n","")
+    return string.strip().replace("\n ", "").replace(":", "")
 
 # check if there are any update on the remote and
 os.system("git remote update")
@@ -21,10 +21,9 @@ if output:
 not_added=[]
     
 for i in range(1, len(sys.argv)):
-    paper_title = sys.argv[i]
+    paper_title = sys.argv[i].replace(":", "")
     print(f"\033[93mprocessing: {paper_title}\033[0m")
-    paper_title_nospace = "+".join( paper_title.split())
-
+    paper_title_nospace = urllib.parse.quote_plus(paper_title)
     # URLs to get info from arxiv and crossref
     urlarxiv = f'http://export.arxiv.org/api/query?search_query=ti:{paper_title_nospace}&start=0&max_results=1&sortBy=relevance&sortOrder=ascending'
     urlcrossref = f'http://api.crossref.org/works?query.bibliographic="{paper_title_nospace}"&mailto=QD@imperial.ac.uk&rows=1'
@@ -42,7 +41,9 @@ for i in range(1, len(sys.argv)):
         dataarxiv = urllib.request.urlopen(urlarxiv)
         arxivdict = xmltodict.parse(dataarxiv.read().decode("utf-8"))["feed"]["entry"]
         arxiv_ok = clean_string(arxivdict["title"]) == paper_title
-    except:
+    except Exception as e:
+        print(e)
+        
         print("\033[91m ERROR: retrieving info from Arxiv failed \033[0m")
         arxiv_ok = False
     # uncomment these prints if you want to see the content of what is obtained from arxiv or crossref
