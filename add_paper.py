@@ -24,15 +24,18 @@ for i in range(1, len(sys.argv)):
     paper_title = sys.argv[i].replace(":", "")
     print(f"\033[93mprocessing: {paper_title}\033[0m")
     paper_title_nospace = urllib.parse.quote_plus(paper_title)
+    #print(paper_title_nospace)
     # URLs to get info from arxiv and crossref
     urlarxiv = f'http://export.arxiv.org/api/query?search_query=ti:{paper_title_nospace}&start=0&max_results=1&sortBy=relevance&sortOrder=ascending'
-    urlcrossref = f'http://api.crossref.org/works?query.bibliographic="{paper_title_nospace}"&mailto=QD@imperial.ac.uk&rows=1'
+    urlcrossref = f'http://api.crossref.org/works?query.title="{paper_title_nospace}"&mailto=QD@imperial.ac.uk&rows=1'
 
     #get data from arxiv and crossref
     try:
         datacrossref = urllib.request.urlopen(urlcrossref)
         crossrefdict = json.loads(datacrossref.read().decode("utf-8-sig"))["message"]["items"][0]
-        crossref_ok = clean_string(crossrefdict["title"][0]).lower() == paper_title.lower()
+        crossref_ok = clean_string(crossrefdict["title"][0]).lower() == clean_string(paper_title).lower()
+        #print(clean_string(crossrefdict["title"][0]).lower())
+        #print(clean_string(paper_title).lower())
     except Exception as e:
         print(e)
         
@@ -42,7 +45,10 @@ for i in range(1, len(sys.argv)):
     try:
         dataarxiv = urllib.request.urlopen(urlarxiv)
         arxivdict = xmltodict.parse(dataarxiv.read().decode("utf-8-sig"))["feed"]["entry"]
-        arxiv_ok = clean_string(arxivdict["title"]) == paper_title
+        arxiv_ok = clean_string(arxivdict["title"]).lower() == clean_string(paper_title).lower()
+        #print(clean_string(arxivdict["title"]).lower())
+        #print(clean_string(paper_title).lower())
+
     except Exception as e:
         print(e)
         
