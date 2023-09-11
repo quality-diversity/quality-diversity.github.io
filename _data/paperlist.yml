@@ -4772,3 +4772,24 @@ papers:
           primaryClass={cs.AI}
           }
           "
+          
+- title: "Multi-Robot Coordination and Layout Design for Automated Warehousing"
+  authors:
+   - "Yulun Zhang"
+   - "Matthew Fontaine"
+   - "Varun Bhatt"
+   - "Stefanos Nikolaidis"
+   - "Jiaoyang Li"
+  year: 2023
+  tags:
+   - robotics
+  abstract: "With the rapid progress in Multi-Agent Path Finding (MAPF), researchers have studied how MAPF algorithms can be deployed to coordinate hundreds of robots in large automated warehouses. While most works try to improve the throughput of such warehouses by developing better MAPF algorithms, we focus on improving the throughput by optimizing the warehouse layout. We show that, even with state-of-the-art MAPF algorithms, commonly used human-designed layouts can lead to congestion for warehouses with large numbers of robots and thus have limited scalability. We extend existing automatic scenario generation methods to optimize warehouse layouts. Results show that our optimized warehouse layouts (1) reduce traffic congestion and thus improve throughput, (2) improve the scalability of the automated warehouses by doubling the number of robots in some cases, and (3) are capable of generating layouts with user-specified diversity measures. We include the source code at: https://github.com/lunjohnzhang/warehouse_env_gen_public."
+  pdfurl: "https://arxiv.org/pdf/2305.06436.pdf"
+  bibtex: |
+          "@article{zhang2023multi,
+            title={Multi-Robot Coordination and Layout Design for Automated Warehousing},
+            author={Zhang, Yulun and Fontaine, Matthew C and Bhatt, Varun and Nikolaidis, Stefanos and Li, Jiaoyang},
+            journal={The International Joint Conference on Artificial Intelligence},
+            year={2023}
+          }
+          "
