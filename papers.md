@@ -8,7 +8,7 @@ You can click on each title to display more information, including authors, url 
 <span class="badge review">Review</span>
 <span class="badge robotics">Robotics</span>
 <span class="badge games">Games</span>
-<span class="badge neural architecture search">Neural Architecture Search</span>
+<span class="badge neural-architecture-search">Neural Architecture Search</span>
 <span class="badge all">All</span> ––>
 {% endcomment %}
 
@@ -28,6 +28,7 @@ You can click on each title to display more information, including authors, url 
 		{% if item.tags contains "review" %}<span class="badge review">Review</span>{% endif %}
 		{% if item.tags contains "robotics" %}<span class="badge robotics">Robotics</span>{% endif %}
 		{% if item.tags contains "games" %}<span class="badge games">Games</span>{% endif %}
+		{% if item.tags contains "neural architecture search" %}<span class="badge neural architecture search">Neural Architecture Search</span>{% endif %}
 		</summary>
 		<blockquote>
 		{% if item.authors %}
