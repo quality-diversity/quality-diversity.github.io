@@ -8,7 +8,7 @@ You can click on each title to display more information, including authors, url 
 <span class="badge review">Review</span>
 <span class="badge robotics">Robotics</span>
 <span class="badge games">Games</span>
-<span class="badge neural architecture search">Neural Architecture Search</span>
+<span class="badge neural-architecture-search">Neural Architecture Search</span>
 <span class="badge all">All</span> ––>
 {% endcomment %}
 
