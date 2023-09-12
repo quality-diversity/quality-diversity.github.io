@@ -4793,3 +4793,24 @@ papers:
             year={2023}
           }
           "
+
+- title: "LLMatic Neural Architecture Search via Large Language Models and Quality Diversity Optimization"
+  authors: 
+    - "Muhammad U. Nasir"
+    - "Sam Earle"
+    - "Julian Togelius"
+    - "Steven James"
+    - "Christopher Cleghorn"  
+    year: 2023
+    tags:
+     - neural architecture search
+    abstract: "Large Language Models (LLMs) have emerged as powerful tools capable of accomplishing a broad spectrum of tasks. Their abilities span numerous areas, and one area where they have made a significant impact is in the domain of code generation. In this context, we view LLMs as mutation and crossover tools. Meanwhile, Quality-Diversity (QD) algorithms are known to discover diverse and\nrobust solutions. By merging the code-generating abilities of LLMs with the diversity and robustness of QD solutions, we introduce LLMatic, a Neural Architecture Search (NAS) algorithm. While LLMs struggle to conduct NAS directly through prompts, LLMatic uses a procedural approach, leveraging QD for prompts and network architecture to create diverse and highly performant networks. We test LLMatic on the CIFAR-10 image classification benchmark, demonstrating that it can produce competitive networks with just $2,000$ searches, even without prior knowledge of the benchmark domain or exposure to any previous top-performing models for the benchmark."
+    pdfurl: "http://arxiv.org/pdf/2306.01102v3"
+    bibtex: |
+            "@article{nasir2023llmatic,
+              ttitle={LLMatic Neural Architecture Search via Large Language Models and Quality Diversity Optimization},
+              author={U. Nasir, Muhammad and Earle, Sam and Togelius, Julian and James, Steven and Cleghorn, Christopher},
+              journal={arXiv preprint arXiv:2306.01102},
+              year={2023}
+            }
+            "
