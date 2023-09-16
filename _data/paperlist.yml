@@ -1,5 +1,27 @@
 papers:
 
+- title: "Training Diverse High-Dimensional Controllers by Scaling Covariance Matrix Adaptation MAP-Annealing"
+  authors:
+  - Bryon Tjanaka
+  - Matthew C. Fontaine
+  - David H. Lee
+  - Aniruddha Kalkar
+  - Stefanos Nikolaidis
+  year: 2023
+  pdfurl: "https://ieeexplore.ieee.org/document/10243102/"
+  abstract: "
+  bibtex: |
+          "@ARTICLE{10243102,
+  author={Tjanaka, Bryon and Fontaine, Matthew C. and Lee, David H. and Kalkar, Aniruddha and Nikolaidis, Stefanos},
+  journal={IEEE Robotics and Automation Letters}, 
+  title={Training Diverse High-Dimensional Controllers by Scaling Covariance Matrix Adaptation MAP-Annealing}, 
+  year={2023},
+  volume={8},
+  number={10},
+  pages={6771-6778},
+  doi={10.1109/LRA.2023.3313012}}
+          "
+
 - abstract: 'This paper proposes a novel method for estimating the set of plausible
     poses
 
