@@ -1,5 +1,42 @@
 papers:
 
+- title:
+    "Training Diverse High-Dimensional Controllers by Scaling Covariance Matrix
+    Adaptation MAP-Annealing"
+  authors:
+    - Bryon Tjanaka
+    - Matthew C. Fontaine
+    - David H. Lee
+    - Aniruddha Kalkar
+    - Stefanos Nikolaidis
+  year: 2023
+  pdfurl: "https://ieeexplore.ieee.org/document/10243102/"
+  abstract:
+    "Pre-training a diverse set of neural network controllers in simulation has
+    enabled robots to adapt online to damage in robot locomotion tasks. However,
+    finding diverse, high-performing controllers requires expensive network
+    training and extensive tuning of a large number of hyperparameters. On the
+    other hand, Covariance Matrix Adaptation MAP-Annealing (CMA-MAE), an
+    evolution strategies (ES)-based quality diversity algorithm, does not have
+    these limitations and has achieved state-of-the-art performance on standard
+    QD benchmarks. However, CMA-MAE cannot scale to modern neural network
+    controllers due to its quadratic complexity. We leverage efficient
+    approximation methods in ES to propose three new CMA-MAE variants that scale
+    to high dimensions. Our experiments show that the variants outperform
+    ES-based baselines in benchmark robotic locomotion tasks, while being
+    comparable with or exceeding state-of-the-art deep reinforcement
+    learning-based quality diversity algorithms."
+  bibtex: |
+    @ARTICLE{10243102,
+             author={Tjanaka, Bryon and Fontaine, Matthew C. and Lee, David H. and Kalkar, Aniruddha and Nikolaidis, Stefanos},
+             journal={IEEE Robotics and Automation Letters},
+             title={Training Diverse High-Dimensional Controllers by Scaling Covariance Matrix Adaptation MAP-Annealing},
+             year={2023},
+             volume={8},
+             number={10},
+             pages={6771-6778},
+             doi={10.1109/LRA.2023.3313012}}
+
 - abstract: 'This paper proposes a novel method for estimating the set of plausible
     poses
 
