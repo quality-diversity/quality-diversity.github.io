@@ -4851,3 +4851,89 @@ papers:
             year={2023}
           }
           "
+
+- title: "Automated Test SuiteGeneration for Software Product Lines based on Quality-Diversity Optimisation"
+  authors:
+    - "Yi Xiang"
+    - "Han Huang"
+    - "Sizhe Li"
+    - "Miqing Li"
+    - "Chuan Luo"
+    - "Xiaowei Yang"
+  year: 2023
+  tags:
+    - software engineering
+  abstract: "A Software Product Line (SPL) is a set of software products that are built from a variability model. Real-world SPLs typically involve a vast number of valid products, making it impossible to individually test each of them. This arises the need for automated test suite generation, which was previously modeled as either a single-objective or a multi-objective optimisation problem considering only objective functions. This article provides a completely diferent mathematical model by exploiting the beneits of Quality-Diversity (QD) optimisation that is composed of not only an objective function (e.g., t-wise coverage or test suite diversity) but also a user-deined behavior space (e.g., the space with test suite size as its dimension). We argue that the new model is more suitable and generic than the two alternatives because it provides at a time a large set of diverse (measured in the behavior space) and high-performing solutions that can ease the decision-making process. We apply MAP-Elites, one of the most popular QD algorithms, to solve the model. The results of the evaluation, on both realistic and artiicial SPLs, are promising, with MAP-Elites signiicantly and substantially outperforming both single- and multi-objective approaches, and also several state-of-the-art SPL testing tools. In summary, this paper provides a new and promising perspective on the test suite generation for SPLs."
+  bibtex: |
+          "@article{10.1145/3628158,
+            author = {Xiang, Yi and Huang, Han and Li, Sizhe and Li, Miqing and Luo, Chuan and Yang, Xiaowei},
+            title = {Automated Test Suite Generation for Software Product Lines Based on Quality-Diversity Optimisation},
+            year = {2023},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            issn = {1049-331X},
+            url = {https://doi.org/10.1145/3628158},
+            doi = {10.1145/3628158},
+            note = {Just Accepted},
+            journal = {ACM Trans. Softw. Eng. Methodol.},
+            month = {oct},
+            keywords = {automated test suite generation, quality-diversity (QD) optimisation, Software product line}
+          }
+          "
+
+- title: "Looking For Novelty in Search-Based Software Product Line Testing"
+  authors:
+    - "Yi Xiang"
+    - "Han Huang"
+    - "Miqing Li"
+    - "Sizhe Li"
+    - "Xiaowei Yang"
+  year: 2022
+  tags:
+    - software engineering
+  abstract: "Testing software product lines (SPLs) is difficult due to a huge number of possible products to be tested. Recently, there has been a growing interest in similarity-based testing of SPLs, where similarity is used as a surrogate metric for the t-wise coverage. In this context, one of the primary goals is to sample, by optimizing similarity metrics using search-based algorithms, a small subset of test cases (i.e., products) as dissimilar as possible, thus potentially making more t-wise combinations covered. Prior work has shown, by means of empirical studies, the great potential of current similarity-based testing approaches. However, the rationale of this testing technique deserves a more rigorous exploration. To this end, we perform correlation analyses to investigate how similarity metrics are correlated with the t-wise coverage. We find that similarity metrics generally have significantly positive correlations with the t-wise coverage. This well explains why similarity-based testing works, as the improvement on similarity metrics will potentially increase the t-wise coverage. Moreover, we explore, for the first time, the use of the novelty search (NS) algorithm for similarity-based SPL testing. The algorithm rewards “novel” individuals, i.e., those being different from individuals discovered previously, and this well matches the goal of similarity-based SPL testing. We find that the novelty score used in NS has (much) stronger positive correlations with the t-wise coverage than previous approaches relying on a genetic algorithm (GA) with a similarity-based fitness function. Experimental results on 31 software product lines validate the superiority of NS over GA, as well as other state-of-the-art approaches, concerning both t-wise coverage and fault detection capacity. Finally, we investigate whether it is useful to combine two satisfiability solvers when generating new individuals in NS, and how the performance of NS is affected by its key parameters. In summary, looking for novelty provides a promising way of sampling diverse test cases for SPLs."
+  bibtex: |
+          "@article{9350184,
+            author={Xiang, Yi and Huang, Han and Li, Miqing and Li, Sizhe and Yang, Xiaowei},
+            journal={IEEE Transactions on Software Engineering}, 
+            title={Looking For Novelty in Search-Based Software Product Line Testing}, 
+            year={2022},
+            volume={48},
+            number={7},
+            pages={2317-2338},
+            doi={10.1109/TSE.2021.3057853}
+          }
+          "
+
+- title: "Search-based Diverse Sampling from Real-world Software Product Lines"
+  authors:
+    - "Yi Xiang"
+    - "Han Huang"
+    - "Yuren Zhou"
+    - "Sizhe Li"
+    - "Chuan Luo"
+    - "Qingwei Lin"
+    - "Miqing Li"
+  year: 2022
+  tags:
+    - software engineering
+  abstract: "Real-world software product lines (SPLs) often encompass enormous valid configurations that are impossible to enumerate. To understand properties of the space formed by all valid configurations, a feasible way is to select a small and valid sample set. Even though a number of sampling strategies have been proposed, they either fail to produce diverse samples with respect to the number of selected features (an important property to characterize behaviors of configurations), or achieve diverse sampling but with limited scalability (the handleable configuration space size is limited to 1013). To resolve this dilemma, we propose a scalable diverse sampling strategy, which uses a distance metric in combination with the novelty search algorithm to produce diverse samples in an incremental way. The distance metric is carefully designed to measure similarities between configurations, and further diversity of a sample set. The novelty search incrementally improves diversity of samples through the search for novel configurations. We evaluate our sampling algorithm on 39 real-world SPLs. It is able to generate the required number of samples for all the SPLs, including those which cannot be counted by sharpSAT, a state-of-the-art model counting solver. Moreover, it performs better than or at least competitively to state-of-the-art samplers regarding diversity of the sample set. Experimental results suggest that only the proposed sampler (among all the tested ones) achieves scalable diverse sampling."
+  pdfurl: "https://dl.acm.org/doi/pdf/10.1145/3510003.3510053"
+  bibtex: |
+          "@inproceedings{10.1145/3510003.3510053,
+            author = {Xiang, Yi and Huang, Han and Zhou, Yuren and Li, Sizhe and Luo, Chuan and Lin, Qingwei and Li, Miqing and Yang, Xiaowei},
+            title = {Search-Based Diverse Sampling from Real-World Software Product Lines},
+            year = {2022},
+            isbn = {9781450392211},
+            publisher = {Association for Computing Machinery},
+            address = {New York, NY, USA},
+            url = {https://doi.org/10.1145/3510003.3510053},
+            doi = {10.1145/3510003.3510053},
+            booktitle = {Proceedings of the 44th International Conference on Software Engineering},
+            pages = {1945-1957},
+            numpages = {13},
+            keywords = {software product lines, distance metric, novelty search, diverse sampling},
+            location = {Pittsburgh, Pennsylvania},
+            series = {ICSE '22}
+          }
+          "
