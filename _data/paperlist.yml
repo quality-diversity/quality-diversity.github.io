@@ -1,5 +1,23 @@
 papers:
 
+- authors:
+  - Jacques Zhong
+  - Vincent Weistroffer
+  - Jean-Baptiste Mouret
+  - Francis Colas
+  - Pauline Maurice
+  bibtex: "@article{Zhong_2023,\n\tdoi = {10.1109/lra.2023.3318191},\n\turl = {https://doi.org/10.1109%2Flra.2023.3318191},\n\
+    \tyear = 2023,\n\tmonth = {nov},\n\tpublisher = {Institute of Electrical and Electronics\
+    \ Engineers ({IEEE})},\n\tvolume = {8},\n\tnumber = {11},\n\tpages = {7384--7391},\n\
+    \tauthor = {Jacques Zhong and Vincent Weistroffer and Jean-Baptiste Mouret and\
+    \ Francis Colas and Pauline Maurice},\n\ttitle = {Workstation Suitability Maps:\
+    \ Generating Ergonomic Behaviors on a Population of Virtual Humans With Multi-Task\
+    \ Optimization},\n\tjournal = {{IEEE} Robotics and Automation Letters}\n}"
+  pdfurl: http://dx.doi.org/10.1109/lra.2023.3318191
+  title: "Workstation Suitability Maps Generating Ergonomic Behaviors on a Population\
+    \ of Virtual Humans With Multi\u2013Task Optimization"
+  year: 2023
+
 - title:
     "Training Diverse High-Dimensional Controllers by Scaling Covariance Matrix
     Adaptation MAP-Annealing"
