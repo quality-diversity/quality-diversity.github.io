@@ -1,5 +1,96 @@
 papers:
 
+- title: "Diversity Preservation in Minimal Criterion Coevolution through Resource Limitation."
+  authors:
+  - Jonathan C. Brant
+  - Kenneth O. Stanley
+  year: 2020
+  pdfurl: "https://drive.google.com/file/d/1DV0PtS-U8R3YpiqUlGN5A9yGLts3LI5k/view"
+  bibtex: |
+          "@inproceedings{Brant2020,
+          author = {Brant, Jonathan C. and Stanley, Kenneth O.},
+          title = {Diversity Preservation in Minimal Criterion Coevolution through Resource Limitation.},
+          year = {2020},
+          publisher = {Association for Computing Machinery},
+          address = {New York, NY, USA},
+          url = {https://drive.google.com/file/d/1DV0PtS-U8R3YpiqUlGN5A9yGLts3LI5k/view},
+          booktitle = {Genetic and Evolutionary Computation Conference (GECCO '19) Companion},
+          series = {GECCO '20}
+          }
+          "
+
+- title: "Benchmarking Open-Endedness in Minimal Criterion Coevolution."
+  authors:
+  - Jonathan C. Brant
+  - Kenneth O. Stanley
+  year: 2019
+  pdfurl: "https://drive.google.com/file/d/1n_YuID1N1jznZ2y35Z_y0lzP0mPdEDMu/view"
+  bibtex: |
+          "@inproceedings{Brant2019,
+          author = {Brant, Jonathan C. and Stanley, Kenneth O.},
+          title = {Benchmarking Open-Endedness in Minimal Criterion Coevolution.},
+          year = {2019},
+          publisher = {Association for Computing Machinery},
+          address = {New York, NY, USA},
+          url = {https://drive.google.com/file/d/1n_YuID1N1jznZ2y35Z_y0lzP0mPdEDMu/view},
+          booktitle = {Genetic and Evolutionary Computation Conference (GECCO '19) Companion},
+          series = {GECCO '19}
+          }
+          "
+
+- title: "Minimal Criterion Coevolution: A New Approach to Open-Ended Search."
+  authors:
+  - Jonathan C. Brant
+  - Kenneth O. Stanley
+  year: 2017
+  pdfurl: "https://drive.google.com/file/d/1qdLWKsOzU7HgnO9hyymkeOp_xcDuWrx9/view"
+  bibtex: |
+          "@inproceedings{Brant2017,
+          author = {Brant, Jonathan C. and Stanley, Kenneth O.},
+          title = {Minimal Criterion Coevolution: A New Approach to Open-Ended Search.},
+          year = {2017},
+          publisher = {Association for Computing Machinery},
+          address = {New York, NY, USA},
+          url = {https://drive.google.com/file/d/1qdLWKsOzU7HgnO9hyymkeOp_xcDuWrx9/view},
+          booktitle = {Genetic and Evolutionary Computation Conference (GECCO '17) Companion},
+          series = {GECCO '17}
+          }
+          "
+
+- title: "Revising the Evolutionary Computation Abstraction: Minimal Criteria Novelty Search."
+  authors:
+  - Joel Lehman
+  - Kenneth O. Stanley
+  year: 2010
+  pdfurl: "https://drive.google.com/file/d/1p7GdqyOwn-beyKoyuA0T5eQxgKoai21M/view"
+  bibtex: |
+          "@inproceedings{lehman2010,
+          author = {Lehman, Joel. and Stanley, Kenneth O.},
+          title = {Revising the Evolutionary Computation Abstraction: Minimal Criteria Novelty Search},
+          year = {2010},
+          publisher = {Association for Computing Machinery},
+          address = {New York, NY, USA},
+          url = {https://drive.google.com/file/d/1p7GdqyOwn-beyKoyuA0T5eQxgKoai21M/view},
+          booktitle = {Genetic and Evolutionary Computation Conference (GECCO '10) Companion},
+          series = {GECCO '10}
+          }
+          "
+
+- authors:
+  - L. B. Soros
+  - Nick Cheney
+  - Kenneth O. Stanley
+  bibtex: ' @inproceedings{Soros_2016, series={ALIFE 2016}, title={How the Strictness
+    of the Minimal Criterion Impacts Open-Ended Evolution}, url={http://dx.doi.org/10.7551/978-0-262-33936-0-ch040},
+    DOI={10.7551/978-0-262-33936-0-ch040}, booktitle={Proceedings of the Artificial
+    Life Conference 2016}, publisher={MIT Press}, author={Soros, L. B. and Cheney,
+    Nick and Stanley, Kenneth O.}, year={2016}, collection={ALIFE 2016} }
+
+    '
+  pdfurl: http://dx.doi.org/10.7551/978-0-262-33936-0-ch040
+  title: "How the Strictness of the Minimal Criterion Impacts Open\u2013Ended Evolution"
+  year: 2016
+
 - authors:
   - Jacques Zhong
   - Vincent Weistroffer
