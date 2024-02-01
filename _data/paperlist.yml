@@ -1,5 +1,25 @@
 papers:
 
+- title: "Mix-ME: Quality-Diversity for Multi-Agent Learning"
+  authors:
+  - Garðar Ingvarsson
+  - Mikayel Samvelyan
+  - Bryan Lim
+  - Manon Flageat
+  - Antoine Cully
+  - Tim Rocktäschel
+  year: 2023
+  pdfurl: "https://arxiv.org/pdf/2311.01829.pdf"
+  bibtex: |
+          "@article{ingvarsson2023mixme,
+          title={Mix-ME: Quality-Diversity for Multi-Agent Learning},
+          author={Gar{\dh}ar Ingvarsson and Mikayel Samvelyan and Bryan Lim and Manon Flageat and Antoine Cully and Tim Rockt{\"a}schel},
+          journal={arXiv preprint arXiv:2311.01829},
+          year={2023} }"
+  tags:
+  - robotics
+  abstract: "In many real-world systems, such as adaptive robotics, achieving a single, optimised solution may be insufficient. Instead, a diverse set of high-performing solutions is often required to adapt to varying contexts and requirements. This is the realm of Quality-Diversity (QD), which aims to discover a collection of high-performing solutions, each with their own unique characteristics. QD methods have recently seen success in many domains, including robotics, where they have been used to discover damage-adaptive locomotion controllers. However, most existing work has focused on single-agent settings, despite many tasks of interest being multi-agent. To this end, we introduce Mix-ME, a novel multi-agent variant of the popular MAP-Elites algorithm that forms new solutions using a crossover-like operator by mixing together agents from different teams. We evaluate the proposed methods on a variety of partially observable continuous control tasks. Our evaluation shows that these multi-agent variants obtained by Mix-ME not only compete with single-agent baselines but also often outperform them in multi-agent settings under partial observability."
+
 - title: "Diversity Preservation in Minimal Criterion Coevolution through Resource Limitation."
   authors:
   - Jonathan C. Brant
