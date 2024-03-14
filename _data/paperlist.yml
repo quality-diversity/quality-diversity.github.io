@@ -46,6 +46,8 @@ papers:
     ois and Kappel, Mathilde and Chelly, Elie and Khoramshahi, Mahdi and Ben Amar,\
     \ Fa\xEFz and Doncieux, St\xE9phane},\n\tjournal={arXiv preprint arXiv:2403.06173v1},\n\
     \tyear={2024} }"
+  tags:
+  - robotics
   pdfurl: http://arxiv.org/pdf/2403.06173v1
   title: "Speeding up 6\u2013DoF Grasp Sampling with Quality\u2013Diversity"
   year: 2024
@@ -95,6 +97,8 @@ papers:
     \ H\xE9l\xE9non, Fran\xE7ois and Watrelot, Hippolyte and Ben Amar, Faiz and Doncieux,\
     \ St\xE9phane},\n\tjournal={arXiv preprint arXiv:2310.04517v1},\n\tyear={2023}\
     \ }"
+  tags:
+  - robotics
   pdfurl: http://arxiv.org/pdf/2310.04517v1
   title: Domain Randomization for Sim2real Transfer of Automatically Generated Grasping
     Datasets
@@ -148,6 +152,8 @@ papers:
     \ and Sparse Interaction Application to Grasping in Robotics},\n\tauthor={Huber,\
     \ J. and H\xE9l\xE9non, F. and Coninx, M. and Ben Amar, F. and Doncieux, S.},\n\
     \tjournal={arXiv preprint arXiv:2308.05483v2},\n\tyear={2023} }"
+  tags:
+  - robotics
   pdfurl: http://arxiv.org/pdf/2308.05483v2
   title: Quality Diversity under Sparse Reward and Sparse Interaction Application
     to Grasping in Robotics
