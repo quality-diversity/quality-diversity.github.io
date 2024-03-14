@@ -1,5 +1,53 @@
 papers:
 
+- abstract: 'Despite recent advancements in AI for robotics, grasping remains a partially
+
+    solved challenge, hindered by the lack of benchmarks and reproducibility
+
+    constraints. This paper introduces a vision-based grasping framework that can
+
+    easily be transferred across multiple manipulators. Leveraging
+
+    Quality-Diversity (QD) algorithms, the framework generates diverse repertoires
+
+    of open-loop grasping trajectories, enhancing adaptability while maintaining a
+
+    diversity of grasps. This framework addresses two main issues: the lack of an
+
+    off-the-shelf vision module for detecting object pose and the generalization of
+
+    QD trajectories to the whole robot operational space. The proposed solution
+
+    combines multiple vision modules for 6DoF object detection and tracking while
+
+    rigidly transforming QD-generated trajectories into the object frame.
+
+    Experiments on a Franka Research 3 arm and a UR5 arm with a SIH Schunk hand
+
+    demonstrate comparable performance when the real scene aligns with the
+
+    simulation used for grasp generation. This work represents a significant stride
+
+    toward building a reliable vision-based grasping module transferable to new
+
+    platforms, while being adaptable to diverse scenarios without further training
+
+    iterations.'
+  authors:
+  - "Fran\xE7ois H\xE9l\xE9non"
+  - Johann Huber
+  - "Fa\xEFz Ben Amar"
+  - "St\xE9phane Doncieux"
+  bibtex: "@article{H\xE9l\xE9non2023Toward,\n\ttitle={Toward a Plug\u2013and\u2013\
+    Play Vision\u2013Based Grasping Module for Robotics},\n\tauthor={H\xE9l\xE9non,\
+    \ Fran\xE7ois and Huber, Johann and Ben Amar, Fa\xEFz and Doncieux, St\xE9phane},\n\
+    \tjournal={arXiv preprint arXiv:2310.04349v2},\n\tyear={2023} }"
+  tags:
+  - robotics
+  pdfurl: http://arxiv.org/pdf/2310.04349v2
+  title: "Toward a Plug\u2013and\u2013Play Vision\u2013Based Grasping Module for Robotics"
+  year: 2023
+
 - abstract: 'Recent advances in AI have led to significant results in robotic learning,
 
     including natural language-conditioned planning and efficient optimization of
