@@ -1,5 +1,164 @@
 papers:
 
+- abstract: 'Recent advances in AI have led to significant results in robotic learning,
+
+    including natural language-conditioned planning and efficient optimization of
+
+    controllers using generative models. However, the interaction data remains the
+
+    bottleneck for generalization. Getting data for grasping is a critical
+
+    challenge, as this skill is required to complete many manipulation tasks.
+
+    Quality-Diversity (QD) algorithms optimize a set of solutions to get diverse,
+
+    high-performing solutions to a given problem. This paper investigates how QD
+
+    can be combined with priors to speed up the generation of diverse grasps poses
+
+    in simulation compared to standard 6-DoF grasp sampling schemes. Experiments
+
+    conducted on 4 grippers with 2-to-5 fingers on standard objects show that QD
+
+    outperforms commonly used methods by a large margin. Further experiments show
+
+    that QD optimization automatically finds some efficient priors that are usually
+
+    hard coded. The deployment of generated grasps on a 2-finger gripper and an
+
+    Allegro hand shows that the diversity produced maintains sim-to-real
+
+    transferability. We believe these results to be a significant step toward the
+
+    generation of large datasets that can lead to robust and generalizing robotic
+
+    grasping policies.'
+  authors:
+  - Johann Huber
+  - "Fran\xE7ois H\xE9l\xE9non"
+  - Mathilde Kappel
+  - Elie Chelly
+  - Mahdi Khoramshahi
+  - "Fa\xEFz Ben Amar"
+  - "St\xE9phane Doncieux"
+  bibtex: "@article{Huber2024Speeding,\n\ttitle={Speeding up 6\u2013DoF Grasp Sampling\
+    \ with Quality\u2013Diversity},\n\tauthor={Huber, Johann and H\xE9l\xE9non, Fran\xE7\
+    ois and Kappel, Mathilde and Chelly, Elie and Khoramshahi, Mahdi and Ben Amar,\
+    \ Fa\xEFz and Doncieux, St\xE9phane},\n\tjournal={arXiv preprint arXiv:2403.06173v1},\n\
+    \tyear={2024} }"
+  tags:
+  - robotics
+  pdfurl: http://arxiv.org/pdf/2403.06173v1
+  title: "Speeding up 6\u2013DoF Grasp Sampling with Quality\u2013Diversity"
+  year: 2024
+
+- abstract: 'Robotic grasping refers to making a robotic system pick an object by
+    applying
+
+    forces and torques on its surface. Many recent studies use data-driven
+
+    approaches to address grasping, but the sparse reward nature of this task made
+
+    the learning process challenging to bootstrap. To avoid constraining the
+
+    operational space, an increasing number of works propose grasping datasets to
+
+    learn from. But most of them are limited to simulations. The present paper
+
+    investigates how automatically generated grasps can be exploited in the real
+
+    world. More than 7000 reach-and-grasp trajectories have been generated with
+
+    Quality-Diversity (QD) methods on 3 different arms and grippers, including
+
+    parallel fingers and a dexterous hand, and tested in the real world. Conducted
+
+    analysis on the collected measure shows correlations between several Domain
+
+    Randomization-based quality criteria and sim-to-real transferability. Key
+
+    challenges regarding the reality gap for grasping have been identified,
+
+    stressing matters on which researchers on grasping should focus in the future.
+
+    A QD approach has finally been proposed for making grasps more robust to domain
+
+    randomization, resulting in a transfer ratio of 84% on the Franka Research 3
+
+    arm.'
+  authors:
+  - Johann Huber
+  - "Fran\xE7ois H\xE9l\xE9non"
+  - Hippolyte Watrelot
+  - Faiz Ben Amar
+  - "St\xE9phane Doncieux"
+  bibtex: "@article{Huber2023Domain,\n\ttitle={Domain Randomization for Sim2real Transfer\
+    \ of Automatically Generated Grasping Datasets},\n\tauthor={Huber, Johann and\
+    \ H\xE9l\xE9non, Fran\xE7ois and Watrelot, Hippolyte and Ben Amar, Faiz and Doncieux,\
+    \ St\xE9phane},\n\tjournal={arXiv preprint arXiv:2310.04517v1},\n\tyear={2023}\
+    \ }"
+  tags:
+  - robotics
+  pdfurl: http://arxiv.org/pdf/2310.04517v1
+  title: Domain Randomization for Sim2real Transfer of Automatically Generated Grasping
+    Datasets
+  year: 2023
+
+- abstract: 'Quality-Diversity (QD) methods are algorithms that aim to generate a
+    set of
+
+    diverse and high-performing solutions to a given problem. Originally developed
+
+    for evolutionary robotics, most QD studies are conducted on a limited set of
+
+    domains - mainly applied to locomotion, where the fitness and the behavior
+
+    signal are dense. Grasping is a crucial task for manipulation in robotics.
+
+    Despite the efforts of many research communities, this task is yet to be
+
+    solved. Grasping cumulates unprecedented challenges in QD literature: it
+
+    suffers from reward sparsity, behavioral sparsity, and behavior space
+
+    misalignment. The present work studies how QD can address grasping. Experiments
+
+    have been conducted on 15 different methods on 10 grasping domains,
+
+    corresponding to 2 different robot-gripper setups and 5 standard objects. An
+
+    evaluation framework that distinguishes the evaluation of an algorithm from its
+
+    internal components has also been proposed for a fair comparison. The obtained
+
+    results show that MAP-Elites variants that select successful solutions in
+
+    priority outperform all the compared methods on the studied metrics by a large
+
+    margin. We also found experimental evidence that sparse interaction can lead to
+
+    deceptive novelty. To our knowledge, the ability to efficiently produce
+
+    examples of grasping trajectories demonstrated in this work has no precedent in
+
+    the literature.'
+  authors:
+  - Johann Huber
+  - "Fran\xE7ois H\xE9l\xE9non"
+  - Miranda Coninx
+  - Faiz Ben Amar
+  - "St\xE9phane Doncieux"
+  bibtex: "@article{Huber2023Quality,\n\ttitle={Quality Diversity under Sparse Reward\
+    \ and Sparse Interaction Application to Grasping in Robotics},\n\tauthor={Huber,\
+    \ J. and H\xE9l\xE9non, F. and Coninx, M. and Ben Amar, F. and Doncieux, S.},\n\
+    \tjournal={arXiv preprint arXiv:2308.05483v2},\n\tyear={2023} }"
+  tags:
+  - robotics
+  pdfurl: http://arxiv.org/pdf/2308.05483v2
+  title: Quality Diversity under Sparse Reward and Sparse Interaction Application
+    to Grasping in Robotics
+  year: 2023
+
 - title: "Mix-ME: Quality-Diversity for Multi-Agent Learning"
   authors:
   - Garðar Ingvarsson
