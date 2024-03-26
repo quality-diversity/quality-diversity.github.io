@@ -46,7 +46,6 @@ papers:
   - robotics
   pdfurl: http://arxiv.org/pdf/2310.04349v2
   title: "Toward a Plug\u2013and\u2013Play Vision\u2013Based Grasping Module for Robotics"
-=======
 - abstract: 'Complex system design problems, such as those involved in aerospace
 
     engineering, require the use of numerically costly simulation codes in order to
