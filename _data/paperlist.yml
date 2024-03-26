@@ -1,5 +1,66 @@
 papers:
 
+- abstract: 'Complex system design problems, such as those involved in aerospace
+
+    engineering, require the use of numerically costly simulation codes in order to
+
+    predict the performance of the system to be designed. In this context, these
+
+    codes are often embedded into an optimization process to provide the best
+
+    design while satisfying the design constraints. Recently, new approaches,
+
+    called Quality-Diversity, have been proposed in order to enhance the
+
+    exploration of the design space and to provide a set of optimal diversified
+
+    solutions with respect to some feature functions. These functions are
+
+    interesting to assess trade-offs. Furthermore, complex design problems often
+
+    involve mixed continuous, discrete, and categorical design variables allowing
+
+    to take into account technological choices in the optimization problem.
+
+    Existing Bayesian Quality-Diversity approaches suited for intensive
+
+    high-fidelity simulations are not adapted to mixed variables constrained
+
+    optimization problems. In order to overcome these limitations, a new
+
+    Quality-Diversity methodology based on mixed variables Bayesian optimization
+
+    strategy is proposed in the context of limited simulation budget. Using adapted
+
+    covariance models and dedicated enrichment strategy for the Gaussian processes
+
+    in Bayesian optimization, this approach allows to reduce the computational cost
+
+    up to two orders of magnitude, with respect to classical Quality-Diversity
+
+    approaches while dealing with discrete choices and the presence of constraints.
+
+    The performance of the proposed method is assessed on a benchmark of analytical
+
+    problems as well as on two aerospace system design problems highlighting its
+
+    efficiency in terms of speed of convergence. The proposed approach provides
+
+    valuable trade-offs for decision-markers for complex system design.'
+  authors:
+  - Loic Brevault
+  - Mathieu Balesdent
+  bibtex: " @article{Brevault_2024, title={Bayesian Quality-Diversity approaches for\
+    \ constrained optimization problems with mixed continuous, discrete and categorical\
+    \ variables}, volume={133}, ISSN={0952-1976}, url={http://dx.doi.org/10.1016/j.engappai.2024.108118},\
+    \ DOI={10.1016/j.engappai.2024.108118}, journal={Engineering Applications of Artificial\
+    \ Intelligence}, publisher={Elsevier BV}, author={Brevault, Lo\xEFc and Balesdent,\
+    \ Mathieu}, year={2024}, month=jul, pages={108118} }\n"
+  pdfurl: http://arxiv.org/pdf/2310.05955v3
+  title: "Bayesian Quality\u2013Diversity approaches for constrained optimization\
+    \ problems with mixed continuous, discrete and categorical variables"
+  year: 2023
+
 - abstract: 'Recent advances in AI have led to significant results in robotic learning,
 
     including natural language-conditioned planning and efficient optimization of
