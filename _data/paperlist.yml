@@ -1,5 +1,120 @@
 papers:
 
+- abstract: 'As large language models (LLMs) become increasingly prevalent across
+    many
+
+    real-world applications, understanding and enhancing their robustness to user
+
+    inputs is of paramount importance. Existing methods for identifying adversarial
+
+    prompts tend to focus on specific domains, lack diversity, or require extensive
+
+    human annotations. To address these limitations, we present Rainbow Teaming, a
+
+    novel approach for producing a diverse collection of adversarial prompts.
+
+    Rainbow Teaming casts adversarial prompt generation as a quality-diversity
+
+    problem, and uses open-ended search to generate prompts that are both effective
+
+    and diverse. It can uncover a model''s vulnerabilities across a broad range of
+
+    domains including, in this paper, safety, question answering, and
+
+    cybersecurity. We also demonstrate that fine-tuning on synthetic data generated
+
+    by Rainbow Teaming improves the safety of state-of-the-art LLMs without hurting
+
+    their general capabilities and helpfulness, paving the path to open-ended
+
+    self-improvement.'
+  authors:
+  - Mikayel Samvelyan
+  - Sharath Chandra Raparthy
+  - Andrei Lupu
+  - Eric Hambro
+  - Aram H. Markosyan
+  - Manish Bhatt
+  - Yuning Mao
+  - Minqi Jiang
+  - Jack Parker-Holder
+  - Jakob Foerster
+  - "Tim Rockt\xE4schel"
+  - Roberta Raileanu
+  bibtex: "@article{Samvelyan2024Rainbow,\n\ttitle={Rainbow Teaming Open-Ended\
+    \ Generation of Diverse Adversarial Prompts},\n\tauthor={Samvelyan, Mikayel and\
+    \ Chandra Raparthy, Sharath and Lupu, Andrei and Hambro, Eric and H. Markosyan,\
+    \ Aram and Bhatt, Manish and Mao, Yuning and Jiang, Minqi and Parker-Holder, Jack\
+    \ and Foerster, Jakob and Rockt\xE4schel, Tim and Raileanu, Roberta},\n\tjournal={arXiv\
+    \ preprint arXiv:2402.16822v1},\n\tyear={2024} }"
+  pdfurl: http://arxiv.org/pdf/2402.16822v1
+  title: "Rainbow Teaming Open\u2013Ended Generation of Diverse Adversarial Prompts"
+  year: 2024
+
+- authors:
+  - Emma Stensby Norstein
+  - Frank Veenstra
+  - Kai Olav Ellefsen
+  - "T\xF8nnes Nygaard"
+  - Kyrre Glette
+  bibtex: " @inproceedings{Norstein_2023, series={ALIFE 2023}, title={Effects of compliant\
+    \ and structural parts in evolved modular robots}, url={http://dx.doi.org/10.1162/isal_a_00689},\
+    \ DOI={10.1162/isal_a_00689}, booktitle={The 2023 Conference on Artificial Life},\
+    \ publisher={MIT Press}, author={Norstein, Emma Stensby and Veenstra, Frank and\
+    \ Ellefsen, Kai Olav and Nygaard, T\xF8nnes and Glette, Kyrre}, year={2023}, collection={ALIFE\
+    \ 2023} }\n"
+  pdfurl: http://dx.doi.org/10.1162/isal_a_00689
+  title: Effects of compliant and structural parts in evolved modular robots
+  year: 2023
+
+- authors:
+  - Glanois Claire
+  - Shyam Sudhakaran
+  - Elias Najarro
+  - Sebastian Risi
+  bibtex: ' @inproceedings{Claire_2023, series={ALIFE 2023}, title={Open-Ended Library
+    Learning in Unsupervised Program Synthesis}, url={http://dx.doi.org/10.1162/isal_a_00685},
+    DOI={10.1162/isal_a_00685}, booktitle={The 2023 Conference on Artificial Life},
+    publisher={MIT Press}, author={Claire, Glanois and Sudhakaran, Shyam and Najarro,
+    Elias and Risi, Sebastian}, year={2023}, collection={ALIFE 2023} }
+
+    '
+  pdfurl: http://dx.doi.org/10.1162/isal_a_00685
+  title: "Open\u2013Ended Library Learning in Unsupervised Program Synthesis"
+  year: 2023
+
+- authors:
+  - Koki Usui
+  - Reiji Suzuki
+  - Takaya Arita
+  bibtex: ' @inproceedings{Usui_2023, series={ALIFE 2023}, title={Towards open-ended
+    evolution based on CVT-MAP-Elites with dynamic switching between feature spaces},
+    url={http://dx.doi.org/10.1162/isal_a_00617}, DOI={10.1162/isal_a_00617}, booktitle={The
+    2023 Conference on Artificial Life}, publisher={MIT Press}, author={Usui, Koki
+    and Suzuki, Reiji and Arita, Takaya}, year={2023}, collection={ALIFE 2023} }
+
+    '
+  pdfurl: http://dx.doi.org/10.1162/isal_a_00617
+  title: "Towards open\u2013ended evolution based on CVT\u2013MAP\u2013Elites with\
+    \ dynamic switching between feature spaces"
+  year: 2023
+
+- authors:
+  - Bryan Lim
+  - Manon Flageat
+  - Antoine Cully
+  bibtex: ' @inproceedings{Lim_2023, series={ALIFE 2023}, title={Efficient Exploration
+    using Model-Based Quality-Diversity with Gradients}, url={http://dx.doi.org/10.1162/isal_a_00566},
+    DOI={10.1162/isal_a_00566}, booktitle={The 2023 Conference on Artificial Life},
+    publisher={MIT Press}, author={Lim, Bryan and Flageat, Manon and Cully, Antoine},
+    year={2023}, collection={ALIFE 2023} }
+
+    '
+  pdfurl: http://dx.doi.org/10.1162/isal_a_00566
+  title: "Efficient Exploration using Model\u2013Based Quality\u2013Diversity with\
+    \ Gradients"
+  year: 2023
+
 - abstract: 'Despite recent advancements in AI for robotics, grasping remains a partially
 
     solved challenge, hindered by the lack of benchmarks and reproducibility
