@@ -1,5 +1,406 @@
 papers:
 
+- abstract: 'As large language models (LLMs) become increasingly prevalent across
+    many
+
+    real-world applications, understanding and enhancing their robustness to user
+
+    inputs is of paramount importance. Existing methods for identifying adversarial
+
+    prompts tend to focus on specific domains, lack diversity, or require extensive
+
+    human annotations. To address these limitations, we present Rainbow Teaming, a
+
+    novel approach for producing a diverse collection of adversarial prompts.
+
+    Rainbow Teaming casts adversarial prompt generation as a quality-diversity
+
+    problem, and uses open-ended search to generate prompts that are both effective
+
+    and diverse. It can uncover a model''s vulnerabilities across a broad range of
+
+    domains including, in this paper, safety, question answering, and
+
+    cybersecurity. We also demonstrate that fine-tuning on synthetic data generated
+
+    by Rainbow Teaming improves the safety of state-of-the-art LLMs without hurting
+
+    their general capabilities and helpfulness, paving the path to open-ended
+
+    self-improvement.'
+  authors:
+  - Mikayel Samvelyan
+  - Sharath Chandra Raparthy
+  - Andrei Lupu
+  - Eric Hambro
+  - Aram H. Markosyan
+  - Manish Bhatt
+  - Yuning Mao
+  - Minqi Jiang
+  - Jack Parker-Holder
+  - Jakob Foerster
+  - "Tim Rockt\xE4schel"
+  - Roberta Raileanu
+  bibtex: "@article{Samvelyan2024Rainbow,\n\ttitle={Rainbow Teaming Open-Ended\
+    \ Generation of Diverse Adversarial Prompts},\n\tauthor={Samvelyan, Mikayel and\
+    \ Chandra Raparthy, Sharath and Lupu, Andrei and Hambro, Eric and H. Markosyan,\
+    \ Aram and Bhatt, Manish and Mao, Yuning and Jiang, Minqi and Parker-Holder, Jack\
+    \ and Foerster, Jakob and Rockt\xE4schel, Tim and Raileanu, Roberta},\n\tjournal={arXiv\
+    \ preprint arXiv:2402.16822v1},\n\tyear={2024} }"
+  pdfurl: http://arxiv.org/pdf/2402.16822v1
+  title: "Rainbow Teaming Open\u2013Ended Generation of Diverse Adversarial Prompts"
+  year: 2024
+
+- authors:
+  - Emma Stensby Norstein
+  - Frank Veenstra
+  - Kai Olav Ellefsen
+  - "T\xF8nnes Nygaard"
+  - Kyrre Glette
+  bibtex: " @inproceedings{Norstein_2023, series={ALIFE 2023}, title={Effects of compliant\
+    \ and structural parts in evolved modular robots}, url={http://dx.doi.org/10.1162/isal_a_00689},\
+    \ DOI={10.1162/isal_a_00689}, booktitle={The 2023 Conference on Artificial Life},\
+    \ publisher={MIT Press}, author={Norstein, Emma Stensby and Veenstra, Frank and\
+    \ Ellefsen, Kai Olav and Nygaard, T\xF8nnes and Glette, Kyrre}, year={2023}, collection={ALIFE\
+    \ 2023} }\n"
+  pdfurl: http://dx.doi.org/10.1162/isal_a_00689
+  title: Effects of compliant and structural parts in evolved modular robots
+  year: 2023
+
+- authors:
+  - Glanois Claire
+  - Shyam Sudhakaran
+  - Elias Najarro
+  - Sebastian Risi
+  bibtex: ' @inproceedings{Claire_2023, series={ALIFE 2023}, title={Open-Ended Library
+    Learning in Unsupervised Program Synthesis}, url={http://dx.doi.org/10.1162/isal_a_00685},
+    DOI={10.1162/isal_a_00685}, booktitle={The 2023 Conference on Artificial Life},
+    publisher={MIT Press}, author={Claire, Glanois and Sudhakaran, Shyam and Najarro,
+    Elias and Risi, Sebastian}, year={2023}, collection={ALIFE 2023} }
+
+    '
+  pdfurl: http://dx.doi.org/10.1162/isal_a_00685
+  title: "Open\u2013Ended Library Learning in Unsupervised Program Synthesis"
+  year: 2023
+
+- authors:
+  - Koki Usui
+  - Reiji Suzuki
+  - Takaya Arita
+  bibtex: ' @inproceedings{Usui_2023, series={ALIFE 2023}, title={Towards open-ended
+    evolution based on CVT-MAP-Elites with dynamic switching between feature spaces},
+    url={http://dx.doi.org/10.1162/isal_a_00617}, DOI={10.1162/isal_a_00617}, booktitle={The
+    2023 Conference on Artificial Life}, publisher={MIT Press}, author={Usui, Koki
+    and Suzuki, Reiji and Arita, Takaya}, year={2023}, collection={ALIFE 2023} }
+
+    '
+  pdfurl: http://dx.doi.org/10.1162/isal_a_00617
+  title: "Towards open\u2013ended evolution based on CVT\u2013MAP\u2013Elites with\
+    \ dynamic switching between feature spaces"
+  year: 2023
+
+- authors:
+  - Bryan Lim
+  - Manon Flageat
+  - Antoine Cully
+  bibtex: ' @inproceedings{Lim_2023, series={ALIFE 2023}, title={Efficient Exploration
+    using Model-Based Quality-Diversity with Gradients}, url={http://dx.doi.org/10.1162/isal_a_00566},
+    DOI={10.1162/isal_a_00566}, booktitle={The 2023 Conference on Artificial Life},
+    publisher={MIT Press}, author={Lim, Bryan and Flageat, Manon and Cully, Antoine},
+    year={2023}, collection={ALIFE 2023} }
+
+    '
+  pdfurl: http://dx.doi.org/10.1162/isal_a_00566
+  title: "Efficient Exploration using Model\u2013Based Quality\u2013Diversity with\
+    \ Gradients"
+  year: 2023
+
+- abstract: 'Despite recent advancements in AI for robotics, grasping remains a partially
+
+    solved challenge, hindered by the lack of benchmarks and reproducibility
+
+    constraints. This paper introduces a vision-based grasping framework that can
+
+    easily be transferred across multiple manipulators. Leveraging
+
+    Quality-Diversity (QD) algorithms, the framework generates diverse repertoires
+
+    of open-loop grasping trajectories, enhancing adaptability while maintaining a
+
+    diversity of grasps. This framework addresses two main issues: the lack of an
+
+    off-the-shelf vision module for detecting object pose and the generalization of
+
+    QD trajectories to the whole robot operational space. The proposed solution
+
+    combines multiple vision modules for 6DoF object detection and tracking while
+
+    rigidly transforming QD-generated trajectories into the object frame.
+
+    Experiments on a Franka Research 3 arm and a UR5 arm with a SIH Schunk hand
+
+    demonstrate comparable performance when the real scene aligns with the
+
+    simulation used for grasp generation. This work represents a significant stride
+
+    toward building a reliable vision-based grasping module transferable to new
+
+    platforms, while being adaptable to diverse scenarios without further training
+
+    iterations.'
+  authors:
+  - "Fran\xE7ois H\xE9l\xE9non"
+  - Johann Huber
+  - "Fa\xEFz Ben Amar"
+  - "St\xE9phane Doncieux"
+  bibtex: "@article{H\xE9l\xE9non2023Toward,\n\ttitle={Toward a Plug\u2013and\u2013\
+    Play Vision\u2013Based Grasping Module for Robotics},\n\tauthor={H\xE9l\xE9non,\
+    \ Fran\xE7ois and Huber, Johann and Ben Amar, Fa\xEFz and Doncieux, St\xE9phane},\n\
+    \tjournal={arXiv preprint arXiv:2310.04349v2},\n\tyear={2023} }"
+  tags:
+  - robotics
+  pdfurl: http://arxiv.org/pdf/2310.04349v2
+  title: "Toward a Plug\u2013and\u2013Play Vision\u2013Based Grasping Module for Robotics"
+- abstract: 'Complex system design problems, such as those involved in aerospace
+
+    engineering, require the use of numerically costly simulation codes in order to
+
+    predict the performance of the system to be designed. In this context, these
+
+    codes are often embedded into an optimization process to provide the best
+
+    design while satisfying the design constraints. Recently, new approaches,
+
+    called Quality-Diversity, have been proposed in order to enhance the
+
+    exploration of the design space and to provide a set of optimal diversified
+
+    solutions with respect to some feature functions. These functions are
+
+    interesting to assess trade-offs. Furthermore, complex design problems often
+
+    involve mixed continuous, discrete, and categorical design variables allowing
+
+    to take into account technological choices in the optimization problem.
+
+    Existing Bayesian Quality-Diversity approaches suited for intensive
+
+    high-fidelity simulations are not adapted to mixed variables constrained
+
+    optimization problems. In order to overcome these limitations, a new
+
+    Quality-Diversity methodology based on mixed variables Bayesian optimization
+
+    strategy is proposed in the context of limited simulation budget. Using adapted
+
+    covariance models and dedicated enrichment strategy for the Gaussian processes
+
+    in Bayesian optimization, this approach allows to reduce the computational cost
+
+    up to two orders of magnitude, with respect to classical Quality-Diversity
+
+    approaches while dealing with discrete choices and the presence of constraints.
+
+    The performance of the proposed method is assessed on a benchmark of analytical
+
+    problems as well as on two aerospace system design problems highlighting its
+
+    efficiency in terms of speed of convergence. The proposed approach provides
+
+    valuable trade-offs for decision-markers for complex system design.'
+  authors:
+  - Loic Brevault
+  - Mathieu Balesdent
+  bibtex: " @article{Brevault_2024, title={Bayesian Quality-Diversity approaches for\
+    \ constrained optimization problems with mixed continuous, discrete and categorical\
+    \ variables}, volume={133}, ISSN={0952-1976}, url={http://dx.doi.org/10.1016/j.engappai.2024.108118},\
+    \ DOI={10.1016/j.engappai.2024.108118}, journal={Engineering Applications of Artificial\
+    \ Intelligence}, publisher={Elsevier BV}, author={Brevault, Lo\xEFc and Balesdent,\
+    \ Mathieu}, year={2024}, month=jul, pages={108118} }\n"
+  pdfurl: http://arxiv.org/pdf/2310.05955v3
+  title: "Bayesian Quality\u2013Diversity approaches for constrained optimization\
+    \ problems with mixed continuous, discrete and categorical variables"
+  year: 2023
+
+- abstract: 'Recent advances in AI have led to significant results in robotic learning,
+
+    including natural language-conditioned planning and efficient optimization of
+
+    controllers using generative models. However, the interaction data remains the
+
+    bottleneck for generalization. Getting data for grasping is a critical
+
+    challenge, as this skill is required to complete many manipulation tasks.
+
+    Quality-Diversity (QD) algorithms optimize a set of solutions to get diverse,
+
+    high-performing solutions to a given problem. This paper investigates how QD
+
+    can be combined with priors to speed up the generation of diverse grasps poses
+
+    in simulation compared to standard 6-DoF grasp sampling schemes. Experiments
+
+    conducted on 4 grippers with 2-to-5 fingers on standard objects show that QD
+
+    outperforms commonly used methods by a large margin. Further experiments show
+
+    that QD optimization automatically finds some efficient priors that are usually
+
+    hard coded. The deployment of generated grasps on a 2-finger gripper and an
+
+    Allegro hand shows that the diversity produced maintains sim-to-real
+
+    transferability. We believe these results to be a significant step toward the
+
+    generation of large datasets that can lead to robust and generalizing robotic
+
+    grasping policies.'
+  authors:
+  - Johann Huber
+  - "Fran\xE7ois H\xE9l\xE9non"
+  - Mathilde Kappel
+  - Elie Chelly
+  - Mahdi Khoramshahi
+  - "Fa\xEFz Ben Amar"
+  - "St\xE9phane Doncieux"
+  bibtex: "@article{Huber2024Speeding,\n\ttitle={Speeding up 6\u2013DoF Grasp Sampling\
+    \ with Quality\u2013Diversity},\n\tauthor={Huber, Johann and H\xE9l\xE9non, Fran\xE7\
+    ois and Kappel, Mathilde and Chelly, Elie and Khoramshahi, Mahdi and Ben Amar,\
+    \ Fa\xEFz and Doncieux, St\xE9phane},\n\tjournal={arXiv preprint arXiv:2403.06173v1},\n\
+    \tyear={2024} }"
+  tags:
+  - robotics
+  pdfurl: http://arxiv.org/pdf/2403.06173v1
+  title: "Speeding up 6\u2013DoF Grasp Sampling with Quality\u2013Diversity"
+  year: 2024
+
+- abstract: 'Robotic grasping refers to making a robotic system pick an object by
+    applying
+
+    forces and torques on its surface. Many recent studies use data-driven
+
+    approaches to address grasping, but the sparse reward nature of this task made
+
+    the learning process challenging to bootstrap. To avoid constraining the
+
+    operational space, an increasing number of works propose grasping datasets to
+
+    learn from. But most of them are limited to simulations. The present paper
+
+    investigates how automatically generated grasps can be exploited in the real
+
+    world. More than 7000 reach-and-grasp trajectories have been generated with
+
+    Quality-Diversity (QD) methods on 3 different arms and grippers, including
+
+    parallel fingers and a dexterous hand, and tested in the real world. Conducted
+
+    analysis on the collected measure shows correlations between several Domain
+
+    Randomization-based quality criteria and sim-to-real transferability. Key
+
+    challenges regarding the reality gap for grasping have been identified,
+
+    stressing matters on which researchers on grasping should focus in the future.
+
+    A QD approach has finally been proposed for making grasps more robust to domain
+
+    randomization, resulting in a transfer ratio of 84% on the Franka Research 3
+
+    arm.'
+  authors:
+  - Johann Huber
+  - "Fran\xE7ois H\xE9l\xE9non"
+  - Hippolyte Watrelot
+  - Faiz Ben Amar
+  - "St\xE9phane Doncieux"
+  bibtex: "@article{Huber2023Domain,\n\ttitle={Domain Randomization for Sim2real Transfer\
+    \ of Automatically Generated Grasping Datasets},\n\tauthor={Huber, Johann and\
+    \ H\xE9l\xE9non, Fran\xE7ois and Watrelot, Hippolyte and Ben Amar, Faiz and Doncieux,\
+    \ St\xE9phane},\n\tjournal={arXiv preprint arXiv:2310.04517v1},\n\tyear={2023}\
+    \ }"
+  tags:
+  - robotics
+  pdfurl: http://arxiv.org/pdf/2310.04517v1
+  title: Domain Randomization for Sim2real Transfer of Automatically Generated Grasping
+    Datasets
+  year: 2023
+
+- abstract: 'Quality-Diversity (QD) methods are algorithms that aim to generate a
+    set of
+
+    diverse and high-performing solutions to a given problem. Originally developed
+
+    for evolutionary robotics, most QD studies are conducted on a limited set of
+
+    domains - mainly applied to locomotion, where the fitness and the behavior
+
+    signal are dense. Grasping is a crucial task for manipulation in robotics.
+
+    Despite the efforts of many research communities, this task is yet to be
+
+    solved. Grasping cumulates unprecedented challenges in QD literature: it
+
+    suffers from reward sparsity, behavioral sparsity, and behavior space
+
+    misalignment. The present work studies how QD can address grasping. Experiments
+
+    have been conducted on 15 different methods on 10 grasping domains,
+
+    corresponding to 2 different robot-gripper setups and 5 standard objects. An
+
+    evaluation framework that distinguishes the evaluation of an algorithm from its
+
+    internal components has also been proposed for a fair comparison. The obtained
+
+    results show that MAP-Elites variants that select successful solutions in
+
+    priority outperform all the compared methods on the studied metrics by a large
+
+    margin. We also found experimental evidence that sparse interaction can lead to
+
+    deceptive novelty. To our knowledge, the ability to efficiently produce
+
+    examples of grasping trajectories demonstrated in this work has no precedent in
+
+    the literature.'
+  authors:
+  - Johann Huber
+  - "Fran\xE7ois H\xE9l\xE9non"
+  - Miranda Coninx
+  - Faiz Ben Amar
+  - "St\xE9phane Doncieux"
+  bibtex: "@article{Huber2023Quality,\n\ttitle={Quality Diversity under Sparse Reward\
+    \ and Sparse Interaction Application to Grasping in Robotics},\n\tauthor={Huber,\
+    \ J. and H\xE9l\xE9non, F. and Coninx, M. and Ben Amar, F. and Doncieux, S.},\n\
+    \tjournal={arXiv preprint arXiv:2308.05483v2},\n\tyear={2023} }"
+  tags:
+  - robotics
+  pdfurl: http://arxiv.org/pdf/2308.05483v2
+  title: Quality Diversity under Sparse Reward and Sparse Interaction Application
+    to Grasping in Robotics
+  year: 2023
+
+- title: "Mix-ME: Quality-Diversity for Multi-Agent Learning"
+  authors:
+  - Garðar Ingvarsson
+  - Mikayel Samvelyan
+  - Bryan Lim
+  - Manon Flageat
+  - Antoine Cully
+  - Tim Rocktäschel
+  year: 2023
+  pdfurl: "https://arxiv.org/pdf/2311.01829.pdf"
+  bibtex: |
+          "@article{ingvarsson2023mixme,
+          title={Mix-ME: Quality-Diversity for Multi-Agent Learning},
+          author={Gar{\dh}ar Ingvarsson and Mikayel Samvelyan and Bryan Lim and Manon Flageat and Antoine Cully and Tim Rockt{\"a}schel},
+          journal={arXiv preprint arXiv:2311.01829},
+          year={2023} }"
+  tags:
+  - robotics
+  abstract: "In many real-world systems, such as adaptive robotics, achieving a single, optimised solution may be insufficient. Instead, a diverse set of high-performing solutions is often required to adapt to varying contexts and requirements. This is the realm of Quality-Diversity (QD), which aims to discover a collection of high-performing solutions, each with their own unique characteristics. QD methods have recently seen success in many domains, including robotics, where they have been used to discover damage-adaptive locomotion controllers. However, most existing work has focused on single-agent settings, despite many tasks of interest being multi-agent. To this end, we introduce Mix-ME, a novel multi-agent variant of the popular MAP-Elites algorithm that forms new solutions using a crossover-like operator by mixing together agents from different teams. We evaluate the proposed methods on a variety of partially observable continuous control tasks. Our evaluation shows that these multi-agent variants obtained by Mix-ME not only compete with single-agent baselines but also often outperform them in multi-agent settings under partial observability."
+
 - title: "Diversity Preservation in Minimal Criterion Coevolution through Resource Limitation."
   authors:
   - Jonathan C. Brant
