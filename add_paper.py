@@ -24,7 +24,7 @@ for i in range(1, len(sys.argv)):
     paper_title = sys.argv[i].replace(":", "")
     print(f"\033[93mprocessing: {paper_title}\033[0m")
     paper_title_nospace = urllib.parse.quote_plus(paper_title)
-    paper_title_nospace = paper_title_nospace.replace("-", " ")
+    paper_title_nospace = paper_title_nospace.replace("-", "+")
     #print(paper_title_nospace)
     # URLs to get info from arxiv and crossref
     urlarxiv = f'http://export.arxiv.org/api/query?search_query=ti:{paper_title_nospace}&start=0&max_results=1&sortBy=relevance&sortOrder=ascending'
