@@ -1,5 +1,58 @@
 papers:
 
+- abstract: 'Crystal structures are indispensable across various domains, from 
+
+    batteries to solar cells, and extensive research has been dedicated to 
+    
+    predicting their properties based on their atomic configurations.
+    
+    However, prevailing Crystal Structure Prediction methods focus on identifying 
+    
+    the most stable solutions that lie at the global minimum of the energy function.
+    
+    This approach overlooks other potentially interesting materials that lie in
+    
+    neighbouring local minima and have different material properties such as 
+    
+    conductivity or resistance to deformation. By contrast, Quality-Diversity 
+    
+    algorithms provide a promising avenue for Crystal Structure Prediction as 
+    
+    they aim to find a collection of high-performing solutions that have diverse
+    
+    characteristics. However, it may also be valuable to optimise for the
+    
+    stability of crystal structures alongside other objectives such as magnetism
+    
+    or thermoelectric efficiency. Therefore, in this work, we harness the power
+    
+    of Multi-Objective Quality-Diversity algorithms in order to find crystal
+    
+    structures which have diverse features and achieve different trade-offs of
+    
+    objectives. We analyse our approach on 5 crystal systems and demonstrate
+    
+    that it is not only able to re-discover known real-life structures, but also
+    
+    find promising new ones. Moreover, we propose a method for illuminating the
+    
+    objective space to gain an understanding of what trade-offs can be achieved.'
+  
+  authors:
+  - Hannah Janmohamed
+  - Marta Wolinska
+  - Shikha Surana
+  - Thomas Pierrot
+  - Aron Walsh
+  - Antoine Cully
+  bibtex: "@article{janmohamed2024multi, \n\ttitle={Multi-Objective Quality-Diversity\
+    \ for Crystal Structure Prediction}, \n\tauthor={Janmohamed, Hannah and Wolinska,\
+    \ Marta and Surana, Shikha and Pierrot, Thomas and Walsh, Aron and Cully,\
+    \ Antoine},\n\tjournal={arXiv preprint arXiv:2403.17164},\n\tyear={2024}}"
+  pdfurl: https://arxiv.org/pdf/2403.17164
+  title: "Multi\u2013Objective Quality\u2013Diversity for Crystal Structure Prediction"
+  year: 2024
+  
 - abstract: 'As large language models (LLMs) become increasingly prevalent across
     many
 
