@@ -1,5 +1,6 @@
 papers:
 
+
 - abstract: 'Crystal structures are indispensable across various domains, from 
 
     batteries to solar cells, and extensive research has been dedicated to 
@@ -51,6 +52,42 @@ papers:
     \ Antoine},\n\tjournal={arXiv preprint arXiv:2403.17164},\n\tyear={2024}}"
   pdfurl: https://arxiv.org/pdf/2403.17164
   title: "Multi\u2013Objective Quality\u2013Diversity for Crystal Structure Prediction"
+  year: 2024
+  
+- abstract: 'In recent years, there have been considerable academic and industrial 
+
+research efforts to develop novel generative models for high-performing, small molecules. 
+
+Traditional, rules-based algorithms such as genetic algorithms [Jensen, Chem. Sci., 2019, 
+
+12, 3567-3572] have, however, been shown to rival deep learning approaches in terms of both 
+
+efficiency and potency. In previous work, we showed that the addition of a quality-diversity 
+
+archive to a genetic algorithm resolves stagnation issues and substantially increases search 
+
+efficiency [Verhellen, Chem. Sci., 2020, 42, 11485-11491]. In this work, we expand on these insights 
+
+and leverage the availability of bespoke kernels for small molecules [Griffiths, Adv. Neural. Inf. 
+
+Process. Syst., 2024, 36] to integrate Bayesian optimisation into the quality-diversity process. 
+
+This novel generative model, which we call Bayesian Illumination, produces a larger diversity of 
+
+high-performing molecules than standard quality-diversity optimisation methods. In addition, 
+
+we show that Bayesian Illumination further improves search efficiency com- pared to previous 
+
+generative models for small molecules, including deep learning approaches, genetic algorithms, 
+
+and standard quality-diversity methods.'
+  authors:
+  - Jonas Verhellen
+  bibtex: "@article{Samvelyan2024Rainbow,\n\ttitle={Bayesian Illumination: Inference and 
+    \ Quality-Diversity Accelerate Generative Molecular Models},\n\tauthor={Verhellen, 
+    \ Jonas},\n\tyear={2024} }"
+  pdfurl: https://chemrxiv.org/engage/chemrxiv/article-details/667c2bdd5101a2ffa88fae63
+  title: "Bayesian Illumination: Inference and Quality-Diversity Accelerate Generative Molecular Models"
   year: 2024
   
 - abstract: 'As large language models (LLMs) become increasingly prevalent across
