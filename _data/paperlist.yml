@@ -1,5 +1,49 @@
 papers:
 
+- abstract: 'Improving open-ended learning capabilities is a promising approach to
+    enable
+
+    robots to face the unbounded complexity of the real-world. Among existing
+
+    methods, the ability of Quality-Diversity algorithms to generate large
+
+    collections of diverse and high-performing skills is instrumental in this
+
+    context. However, most of those algorithms rely on a hand-coded behavioural
+
+    descriptor to characterise the diversity, hence requiring prior knowledge about
+
+    the considered tasks. In this work, we propose an additional analysis of
+
+    Autonomous Robots Realising their Abilities; a Quality-Diversity algorithm that
+
+    autonomously finds behavioural characterisations. We evaluate this approach on
+
+    a simulated robotic environment, where the robot has to autonomously discover
+
+    its abilities from its full-state trajectories. All algorithms were applied to
+
+    three tasks: navigation, moving forward with a high velocity, and performing
+
+    half-rolls. The experimental results show that the algorithm under study
+
+    discovers autonomously collections of solutions that are diverse with respect
+
+    to all tasks. More specifically, the analysed approach autonomously finds
+
+    policies that make the robot move to diverse positions, but also utilise its
+
+    legs in diverse ways, and even perform half-rolls.'
+  authors:
+  - Luca Grillotti
+  - Antoine Cully
+  bibtex: "@article{Grillotti2022Discovering,\n\ttitle={Discovering Unsupervised Behaviours\
+    \ from Full\u2013State Trajectories},\n\tauthor={Grillotti, Luca and Cully, Antoine},\n\
+    \tjournal={arXiv preprint arXiv:2211.15451v1},\n\tyear={2022} }"
+  pdfurl: http://arxiv.org/pdf/2211.15451v1
+  title: "Discovering Unsupervised Behaviours from Full\u2013State Trajectories"
+  year: 2022
+
 - abstract: 'QDax is an open-source library with a streamlined and modular API for
 
     Quality-Diversity (QD) optimization algorithms in Jax. The library serves as a
