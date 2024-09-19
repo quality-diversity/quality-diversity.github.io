@@ -1,5 +1,52 @@
 papers:
 
+- abstract: 'Quality-Diversity algorithms provide efficient mechanisms to generate
+    large
+
+    collections of diverse and high-performing solutions, which have shown to be
+
+    instrumental for solving downstream tasks. However, most of those algorithms
+
+    rely on a behavioural descriptor to characterise the diversity that is
+
+    hand-coded, hence requiring prior knowledge about the considered tasks. In this
+
+    work, we introduce Relevance-guided Unsupervised Discovery of Abilities; a
+
+    Quality-Diversity algorithm that autonomously finds a behavioural
+
+    characterisation tailored to the task at hand. In particular, our method
+
+    introduces a custom diversity metric that leads to higher densities of
+
+    solutions near the areas of interest in the learnt behavioural descriptor
+
+    space. We evaluate our approach on a simulated robotic environment, where the
+
+    robot has to autonomously discover its abilities based on its full sensory
+
+    data. We evaluated the algorithms on three tasks: navigation to random targets,
+
+    moving forward with a high velocity, and performing half-rolls. The
+
+    experimental results show that our method manages to discover collections of
+
+    solutions that are not only diverse, but also well-adapted to the considered
+
+    downstream task.'
+  authors:
+  - Luca Grillotti
+  - Antoine Cully
+  bibtex: " @inproceedings{Grillotti_2022, series={GECCO \u201922}, title={Relevance-guided\
+    \ unsupervised discovery of abilities with quality-diversity algorithms}, url={http://dx.doi.org/10.1145/3512290.3528837},\
+    \ DOI={10.1145/3512290.3528837}, booktitle={Proceedings of the Genetic and Evolutionary\
+    \ Computation Conference}, publisher={ACM}, author={Grillotti, Luca and Cully,\
+    \ Antoine}, year={2022}, month=jul, collection={GECCO \u201922} }\n"
+  pdfurl: http://arxiv.org/pdf/2204.09828v1
+  title: "Relevance\u2013guided Unsupervised Discovery of Abilities with Quality\u2013\
+    Diversity Algorithms"
+  year: 2022
+
 - abstract: 'Evolution Strategies (ES) are effective gradient-free optimization methods
 
     that can be competitive with gradient-based approaches for policy search. ES
