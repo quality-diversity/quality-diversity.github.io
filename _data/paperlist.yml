@@ -1,5 +1,48 @@
 papers:
 
+- abstract: 'QDax is an open-source library with a streamlined and modular API for
+
+    Quality-Diversity (QD) optimization algorithms in Jax. The library serves as a
+
+    versatile tool for optimization purposes, ranging from black-box optimization
+
+    to continuous control. QDax offers implementations of popular QD,
+
+    Neuroevolution, and Reinforcement Learning (RL) algorithms, supported by
+
+    various examples. All the implementations can be just-in-time compiled with
+
+    Jax, facilitating efficient execution across multiple accelerators, including
+
+    GPUs and TPUs. These implementations effectively demonstrate the framework''s
+
+    flexibility and user-friendliness, easing experimentation for research
+
+    purposes. Furthermore, the library is thoroughly documented and tested with
+
+    95\% coverage.'
+  authors:
+  - Felix Chalumeau
+  - Bryan Lim
+  - Raphael Boige
+  - Maxime Allard
+  - Luca Grillotti
+  - Manon Flageat
+  - "Valentin Mac\xE9"
+  - Arthur Flajolet
+  - Thomas Pierrot
+  - Antoine Cully
+  bibtex: "@article{Chalumeau2023QDax:,\n\ttitle={QDax A Library for Quality\u2013\
+    Diversity and Population\u2013based Algorithms with Hardware Acceleration},\n\t\
+    author={Chalumeau, Felix and Lim, Bryan and Boige, Raphael and Allard, Maxime\
+    \ and Grillotti, Luca and Flageat, Manon and Mac\xE9, Valentin and Flajolet, Arthur\
+    \ and Pierrot, Thomas and Cully, Antoine},\n\tjournal={arXiv preprint arXiv:2308.03665v1},\n\
+    \tyear={2023} }"
+  pdfurl: http://arxiv.org/pdf/2308.03665v1
+  title: "QDax A Library for Quality\u2013Diversity and Population\u2013based Algorithms\
+    \ with Hardware Acceleration"
+  year: 2023
+
 - abstract: 'Quality-Diversity algorithms provide efficient mechanisms to generate
     large
 
