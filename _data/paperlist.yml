@@ -1,5 +1,54 @@
 papers:
 
+- abstract: 'Evolution Strategies (ES) are effective gradient-free optimization methods
+
+    that can be competitive with gradient-based approaches for policy search. ES
+
+    only rely on the total episodic scores of solutions in their population, from
+
+    which they estimate fitness gradients for their update with no access to true
+
+    gradient information. However this makes them sensitive to deceptive fitness
+
+    landscapes, and they tend to only explore one way to solve a problem.
+
+    Quality-Diversity methods such as MAP-Elites introduced additional information
+
+    with behavior descriptors (BD) to return a population of diverse solutions,
+
+    which helps exploration but leads to a large part of the evaluation budget not
+
+    being focused on finding the best performing solution. Here we show that
+
+    behavior information can also be leveraged to find the best policy by
+
+    identifying promising search areas which can then be efficiently explored with
+
+    ES. We introduce the framework of Quality with Just Enough Diversity (JEDi)
+
+    which learns the relationship between behavior and fitness to focus evaluations
+
+    on solutions that matter. When trying to reach higher fitness values, JEDi
+
+    outperforms both QD and ES methods on hard exploration tasks like mazes and on
+
+    complex control problems with large policies.'
+  authors:
+  - Paul Templier
+  - Luca Grillotti
+  - Emmanuel Rachelson
+  - Dennis G. Wilson
+  - Antoine Cully
+  bibtex: " @inproceedings{Templier_2024, series={GECCO \u201924}, title={Quality\
+    \ with Just Enough Diversity in Evolutionary Policy Search}, url={http://dx.doi.org/10.1145/3638529.3654047},\
+    \ DOI={10.1145/3638529.3654047}, booktitle={Proceedings of the Genetic and Evolutionary\
+    \ Computation Conference}, publisher={ACM}, author={Templier, Paul and Grillotti,\
+    \ Luca and Rachelson, Emmanuel and Wilson, Dennis and Cully, Antoine}, year={2024},\
+    \ month=jul, pages={105\u2013113}, collection={GECCO \u201924} }\n"
+  pdfurl: http://arxiv.org/pdf/2405.04308v1
+  title: Quality with Just Enough Diversity in Evolutionary Policy Search
+  year: 2024
+
 - abstract: 'A key aspect of intelligence is the ability to demonstrate a broad spectrum
 
     of behaviors for adapting to unexpected situations. Over the past decade,
