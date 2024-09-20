@@ -1,5 +1,234 @@
 papers:
 
+- abstract: 'Improving open-ended learning capabilities is a promising approach to
+    enable
+
+    robots to face the unbounded complexity of the real-world. Among existing
+
+    methods, the ability of Quality-Diversity algorithms to generate large
+
+    collections of diverse and high-performing skills is instrumental in this
+
+    context. However, most of those algorithms rely on a hand-coded behavioural
+
+    descriptor to characterise the diversity, hence requiring prior knowledge about
+
+    the considered tasks. In this work, we propose an additional analysis of
+
+    Autonomous Robots Realising their Abilities; a Quality-Diversity algorithm that
+
+    autonomously finds behavioural characterisations. We evaluate this approach on
+
+    a simulated robotic environment, where the robot has to autonomously discover
+
+    its abilities from its full-state trajectories. All algorithms were applied to
+
+    three tasks: navigation, moving forward with a high velocity, and performing
+
+    half-rolls. The experimental results show that the algorithm under study
+
+    discovers autonomously collections of solutions that are diverse with respect
+
+    to all tasks. More specifically, the analysed approach autonomously finds
+
+    policies that make the robot move to diverse positions, but also utilise its
+
+    legs in diverse ways, and even perform half-rolls.'
+  authors:
+  - Luca Grillotti
+  - Antoine Cully
+  bibtex: "@article{Grillotti2022Discovering,\n\ttitle={Discovering Unsupervised Behaviours\
+    \ from Full\u2013State Trajectories},\n\tauthor={Grillotti, Luca and Cully, Antoine},\n\
+    \tjournal={arXiv preprint arXiv:2211.15451v1},\n\tyear={2022} }"
+  pdfurl: http://arxiv.org/pdf/2211.15451v1
+  title: "Discovering Unsupervised Behaviours from Full\u2013State Trajectories"
+  year: 2022
+
+- abstract: 'QDax is an open-source library with a streamlined and modular API for
+
+    Quality-Diversity (QD) optimization algorithms in Jax. The library serves as a
+
+    versatile tool for optimization purposes, ranging from black-box optimization
+
+    to continuous control. QDax offers implementations of popular QD,
+
+    Neuroevolution, and Reinforcement Learning (RL) algorithms, supported by
+
+    various examples. All the implementations can be just-in-time compiled with
+
+    Jax, facilitating efficient execution across multiple accelerators, including
+
+    GPUs and TPUs. These implementations effectively demonstrate the framework''s
+
+    flexibility and user-friendliness, easing experimentation for research
+
+    purposes. Furthermore, the library is thoroughly documented and tested with
+
+    95\% coverage.'
+  authors:
+  - Felix Chalumeau
+  - Bryan Lim
+  - Raphael Boige
+  - Maxime Allard
+  - Luca Grillotti
+  - Manon Flageat
+  - "Valentin Mac\xE9"
+  - Arthur Flajolet
+  - Thomas Pierrot
+  - Antoine Cully
+  bibtex: "@article{Chalumeau2023QDax:,\n\ttitle={QDax A Library for Quality\u2013\
+    Diversity and Population\u2013based Algorithms with Hardware Acceleration},\n\t\
+    author={Chalumeau, Felix and Lim, Bryan and Boige, Raphael and Allard, Maxime\
+    \ and Grillotti, Luca and Flageat, Manon and Mac\xE9, Valentin and Flajolet, Arthur\
+    \ and Pierrot, Thomas and Cully, Antoine},\n\tjournal={arXiv preprint arXiv:2308.03665v1},\n\
+    \tyear={2023} }"
+  pdfurl: http://arxiv.org/pdf/2308.03665v1
+  title: "QDax A Library for Quality\u2013Diversity and Population\u2013based Algorithms\
+    \ with Hardware Acceleration"
+  year: 2023
+
+- abstract: 'Quality-Diversity algorithms provide efficient mechanisms to generate
+    large
+
+    collections of diverse and high-performing solutions, which have shown to be
+
+    instrumental for solving downstream tasks. However, most of those algorithms
+
+    rely on a behavioural descriptor to characterise the diversity that is
+
+    hand-coded, hence requiring prior knowledge about the considered tasks. In this
+
+    work, we introduce Relevance-guided Unsupervised Discovery of Abilities; a
+
+    Quality-Diversity algorithm that autonomously finds a behavioural
+
+    characterisation tailored to the task at hand. In particular, our method
+
+    introduces a custom diversity metric that leads to higher densities of
+
+    solutions near the areas of interest in the learnt behavioural descriptor
+
+    space. We evaluate our approach on a simulated robotic environment, where the
+
+    robot has to autonomously discover its abilities based on its full sensory
+
+    data. We evaluated the algorithms on three tasks: navigation to random targets,
+
+    moving forward with a high velocity, and performing half-rolls. The
+
+    experimental results show that our method manages to discover collections of
+
+    solutions that are not only diverse, but also well-adapted to the considered
+
+    downstream task.'
+  authors:
+  - Luca Grillotti
+  - Antoine Cully
+  bibtex: " @inproceedings{Grillotti_2022, series={GECCO \u201922}, title={Relevance-guided\
+    \ unsupervised discovery of abilities with quality-diversity algorithms}, url={http://dx.doi.org/10.1145/3512290.3528837},\
+    \ DOI={10.1145/3512290.3528837}, booktitle={Proceedings of the Genetic and Evolutionary\
+    \ Computation Conference}, publisher={ACM}, author={Grillotti, Luca and Cully,\
+    \ Antoine}, year={2022}, month=jul, collection={GECCO \u201922} }\n"
+  pdfurl: http://arxiv.org/pdf/2204.09828v1
+  title: "Relevance\u2013guided Unsupervised Discovery of Abilities with Quality\u2013\
+    Diversity Algorithms"
+  year: 2022
+
+- abstract: 'Evolution Strategies (ES) are effective gradient-free optimization methods
+
+    that can be competitive with gradient-based approaches for policy search. ES
+
+    only rely on the total episodic scores of solutions in their population, from
+
+    which they estimate fitness gradients for their update with no access to true
+
+    gradient information. However this makes them sensitive to deceptive fitness
+
+    landscapes, and they tend to only explore one way to solve a problem.
+
+    Quality-Diversity methods such as MAP-Elites introduced additional information
+
+    with behavior descriptors (BD) to return a population of diverse solutions,
+
+    which helps exploration but leads to a large part of the evaluation budget not
+
+    being focused on finding the best performing solution. Here we show that
+
+    behavior information can also be leveraged to find the best policy by
+
+    identifying promising search areas which can then be efficiently explored with
+
+    ES. We introduce the framework of Quality with Just Enough Diversity (JEDi)
+
+    which learns the relationship between behavior and fitness to focus evaluations
+
+    on solutions that matter. When trying to reach higher fitness values, JEDi
+
+    outperforms both QD and ES methods on hard exploration tasks like mazes and on
+
+    complex control problems with large policies.'
+  authors:
+  - Paul Templier
+  - Luca Grillotti
+  - Emmanuel Rachelson
+  - Dennis G. Wilson
+  - Antoine Cully
+  bibtex: " @inproceedings{Templier_2024, series={GECCO \u201924}, title={Quality\
+    \ with Just Enough Diversity in Evolutionary Policy Search}, url={http://dx.doi.org/10.1145/3638529.3654047},\
+    \ DOI={10.1145/3638529.3654047}, booktitle={Proceedings of the Genetic and Evolutionary\
+    \ Computation Conference}, publisher={ACM}, author={Templier, Paul and Grillotti,\
+    \ Luca and Rachelson, Emmanuel and Wilson, Dennis and Cully, Antoine}, year={2024},\
+    \ month=jul, pages={105\u2013113}, collection={GECCO \u201924} }\n"
+  pdfurl: http://arxiv.org/pdf/2405.04308v1
+  title: Quality with Just Enough Diversity in Evolutionary Policy Search
+  year: 2024
+
+- abstract: 'A key aspect of intelligence is the ability to demonstrate a broad spectrum
+
+    of behaviors for adapting to unexpected situations. Over the past decade,
+
+    advancements in deep reinforcement learning have led to groundbreaking
+
+    achievements to solve complex continuous control tasks. However, most
+
+    approaches return only one solution specialized for a specific problem. We
+
+    introduce Quality-Diversity Actor-Critic (QDAC), an off-policy actor-critic
+
+    deep reinforcement learning algorithm that leverages a value function critic
+
+    and a successor features critic to learn high-performing and diverse behaviors.
+
+    In this framework, the actor optimizes an objective that seamlessly unifies
+
+    both critics using constrained optimization to (1) maximize return, while (2)
+
+    executing diverse skills. Compared with other Quality-Diversity methods, QDAC
+
+    achieves significantly higher performance and more diverse behaviors on six
+
+    challenging continuous control locomotion tasks. We also demonstrate that we
+
+    can harness the learned skills to adapt better than other baselines to five
+
+    perturbed environments. Finally, qualitative analyses showcase a range of
+
+    remarkable behaviors: adaptive-intelligent-robotics.github.io/QDAC.'
+  authors:
+  - Luca Grillotti
+  - Maxence Faldor
+  - "Borja G. Le\xF3n"
+  - Antoine Cully
+  bibtex: "@article{Grillotti2024Quality-Diversity,\n\ttitle={Quality\u2013Diversity\
+    \ Actor\u2013Critic Learning High\u2013Performing and Diverse Behaviors via Value\
+    \ and Successor Features Critics},\n\tauthor={Grillotti, Luca and Faldor, Maxence\
+    \ and G. Le\xF3n, Borja and Cully, Antoine},\n\tjournal={arXiv preprint arXiv:2403.09930v3},\n\
+    \tyear={2024} }"
+  pdfurl: http://arxiv.org/pdf/2403.09930v3
+  title: "Quality\u2013Diversity Actor\u2013Critic Learning High\u2013Performing and\
+    \ Diverse Behaviors via Value and Successor Features Critics"
+  year: 2024
+
 
 - abstract: 'Crystal structures are indispensable across various domains, from 
 
