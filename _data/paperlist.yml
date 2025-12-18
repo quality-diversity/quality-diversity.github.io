@@ -1,5 +1,37 @@
 papers:
 
+- abstract: Large language models (LLMs) are increasingly used to evolve programs
+    and multi-agent systems, yet most existing approaches rely on overwrite-based
+    mutations that maintain only a single candidate at a time. Such methods discard
+    useful variants, suffer from destructive edits, and explore a brittle search space
+    prone to structural failure. We introduce EvoLattice, a framework that represents
+    an entire population of candidate programs or agent behaviors within a single
+    directed acyclic graph. Each node stores multiple persistent alternatives, and
+    every valid path through the graph defines a distinct executable candidate, yielding
+    a large combinatorial search space without duplicating structure. EvoLattice enables
+    fine-grained alternative-level evaluation by scoring each alternative across all
+    paths in which it appears, producing statistics that reveal how local design choices
+    affect global performance. These statistics provide a dense, data-driven feedback
+    signal for LLM-guided mutation, recombination, and pruning, while preserving successful
+    components. Structural correctness is guaranteed by a deterministic self-repair
+    mechanism that enforces acyclicity and dependency consistency independently of
+    the LLM. EvoLattice naturally extends to agent evolution by interpreting alternatives
+    as prompt fragments or sub-agent behaviors. Across program synthesis (proxy and
+    optimizer meta-learning), EvoLattice yields more stable evolution, greater expressivity,
+    and stronger improvement trajectories than prior LLM-guided methods. The resulting
+    dynamics resemble quality-diversity optimization, emerging implicitly from EvoLattice's
+    internal multi-alternative representation rather than an explicit external archive.
+  authors:
+  - Kamer Ali Yuksel
+  bibtex: "@article{Yuksel2025,\n  title={ EvoLattice Persistent Internal-Population\
+    \ Evolution through Multi-Alternative Quality-Diversity Graph Representations\
+    \ for LLM-Guided Program Discovery },\n  author={ Ali Yuksel, Kamer },\n  journal={arXiv\
+    \ preprint arXiv:2512.13857v2},\n  year={ 2025 }\n}"
+  pdfurl: https://arxiv.org/pdf/2512.13857v2
+  title: EvoLattice Persistent Internal-Population Evolution through Multi-Alternative
+    Quality-Diversity Graph Representations for LLM-Guided Program Discovery
+  year: 2025
+
 - abstract: 'The preliminary design and optimization of aerospace systems often 
 
   requires to make architectural and technological choices and to perform computationally
