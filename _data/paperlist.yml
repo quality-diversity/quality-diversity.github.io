@@ -6152,3 +6152,20 @@ and standard quality-diversity methods.'
           year={2026},
           url={https://openreview.net/forum?id=FNnJIf4ymV}
         }
+
+- title: "Soft Quality-Diversity Optimization"
+  authors:
+    - Saeed Hedayatian
+    - Stefanos Nikolaidis
+  year: 2026
+  pdfurl: "https://openreview.net/pdf?id=LCKixyFShR"
+  abstract: "Quality-Diversity (QD) algorithms constitute a branch of optimization that is concerned with discovering a diverse and high-quality set of solutions to an optimization problem. Current QD methods commonly maintain diversity by dividing the behavior space into discrete regions, ensuring that solutions are distributed across different parts of the space. The QD problem is then solved by searching for the best solution in each region. This approach to QD optimization poses challenges in large solution spaces, where storing many solutions is impractical, and in high-dimensional behavior spaces, where discretization becomes ineffective due to the curse of dimensionality. We present an alternative framing of the QD problem, called \emph{Soft QD}, that sidesteps the need for discretizations. We validate this formulation by demonstrating its desirable properties, such as monotonicity, and by relating its limiting behavior to the widely used QD Score metric. Furthermore, we leverage it to derive a novel differentiable QD algorithm, \emph{Soft QD Using Approximated Diversity (SQUAD)}, and demonstrate empirically that it is competitive with current state of the art methods on standard benchmarks while offering better scalability to higher dimensional problems."
+  bibtex: |
+        @inproceedings{
+          hedayatian2026soft,
+          title={Soft Quality-Diversity Optimization},
+          author={Saeed Hedayatian and Stefanos Nikolaidis},
+          booktitle={The Fourteenth International Conference on Learning Representations},
+          year={2026},
+          url={https://openreview.net/forum?id=LCKixyFShR}
+        }
