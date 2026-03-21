@@ -6135,3 +6135,22 @@ and standard quality-diversity methods.'
             location = {Melbourne, VIC, Australia},
             series = {GECCO '24 Companion}
         }
+
+- title: "Discount Model Search for Quality Diversity Optimization in High-Dimensional Measure Spaces"
+  authors:
+    - Bryon Tjanaka
+    - Henry Chen
+    - Matthew C. Fontaine
+    - Stefanos Nikolaidis
+  year: 2026
+  pdfurl: "https://openreview.net/forum?id=m6Hv0yZO3n"
+  abstract: "Quality diversity (QD) optimization searches for a collection of solutions that optimize an objective while attaining diverse outputs of a user-specified, vector-valued measure function. Contemporary QD algorithms are typically limited to low-dimensional measures because high-dimensional measures are prone to distortion, where many solutions found by the QD algorithm map to similar measures. For example, the state-of-the-art CMA-MAE algorithm guides measure space exploration with a histogram in measure space that records so-called discount values. However, CMA-MAE stagnates in domains with high-dimensional measure spaces because solutions with similar measures fall into the same histogram cell and hence receive the same discount value. To address these limitations, we propose Discount Model Search (DMS), which guides exploration with a model that provides a smooth, continuous representation of discount values. In high-dimensional measure spaces, this model enables DMS to distinguish between solutions with similar measures and thus continue exploration. We show that DMS facilitates new capabilities for QD algorithms by introducing two new domains where the measure space is the high-dimensional space of images, which enables users to specify their desired measures by providing a dataset of images rather than hand-designing the measure function. Results in these domains and on high-dimensional benchmarks show that DMS outperforms CMA-MAE and other existing black-box QD algorithms."
+  bibtex: |
+        @inproceedings{
+          tjanaka2026discount,
+          title={Discount Model Search for Quality Diversity Optimization in High-Dimensional Measure Spaces},
+          author={Bryon Tjanaka and Henry Chen and Matthew C. Fontaine and Stefanos Nikolaidis},
+          booktitle={The Fourteenth International Conference on Learning Representations},
+          year={2026},
+          url={https://openreview.net/forum?id=m6Hv0yZO3n}
+        }
