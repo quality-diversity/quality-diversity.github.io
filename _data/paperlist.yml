@@ -1,5 +1,22 @@
 papers:
 
+
+- abstract: Wheel-slip in planetary rovers creates localization error, wasted power, worn tires and occasionally, mission failure. While wheel-slip estimation and sensing has advanced, active online compensation for wheel-slip has received less attention. Existing approaches use real-time terrain measurements or respond to proprioceptive feedback with only adjusted wheel speeds and torques. Therefore, there is potential to improve proprioceptive-only strategies by not only leveraging wheel speeds, but also potentially steering angles and active suspension, to actively respond to slip. A solution which uses these additional inputs is not confined to conventional driving and can consider unconventional gaits such as “walking” or “inch worm” style locomotion. Unconventional gaits can increase the range of navigable slopes beyond limits established by previous rovers. Despite their improved performance, unconventional gaits still rely on terrain parameter knowledge. Existing physics-based simulation models also require knowledge of the soil properties of the navigated terrain. A proposed two-stage offline then online learning solution generates wheel-slip compensation controllers that are not confined to conventional gaits and iterates until a controller is identified to be high-performing on the terrain considered without directly sensing the terrain parameters. Preliminary results of this adaptation successfully converge on controllers that perform well on the simulated terrain, without directly sensing the terrain. Additionally, unconventional gait solutions were observed in initial archives of elites indicating their performance and uniqueness. The contribution includes a software framework to evaluate and validate rover wheel-slip compensation solutions on realistic deformable terrain. Future work will trial this system on a rover model in real terrain.
+
+  authors:
+    - Jasper Grant
+    - Mae Seto
+    - Paul Grouchy
+  bibtex: " @inproceedings{Grant_2026, title={Terrain-Adaptive Strategies to Prevent\
+    \ and Recover from Rover Wheel-Slip}, url={http://dx.doi.org/10.1109/aero66936.2026.11519932},\
+    \ DOI={10.1109/aero66936.2026.11519932}, booktitle={2026 IEEE Aerospace Conference},\
+    \ publisher={IEEE}, author={Grant, Jasper and Seto, Mae and Grouchy, Paul}, year={2026},\
+    \ month=Mar, pages={1\u201310} }\n"
+  pdfurl: https://doi.org/10.1109/aero66936.2026.11519932
+  title: "Terrain\u2013Adaptive Strategies to Prevent and Recover from Rover Wheel\u2013\
+    Slip"
+  year: 2026
+
 - abstract: 'The preliminary design and optimization of aerospace systems often 
 
   requires to make architectural and technological choices and to perform computationally
